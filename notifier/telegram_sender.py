@@ -168,7 +168,6 @@ You are now connected to a real-time Cyber Threat Intelligence monitoring system
 
 Stay alert. Stay secure. 🔒"""
 
-    return self.send_message(chat_id, message)
 
         data = {
             "chat_id": chat_id,
