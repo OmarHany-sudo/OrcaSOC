@@ -62,28 +62,34 @@ class DuplicateDetector:
         duplicates_removed = 0
 
         for alert in alerts:
-            is_dup, similarity = self.is_duplicate(alert)
-            if is_dup:
-                duplicates_removed += 1
-                # Check if this is a higher-severity duplicate
-                existing = self._find_existing_similar(alert)
-                if existing and alert.get("severity", 0) > existing.get("severity", 0):
-                    # Replace with higher severity version
-matching_idx = next(
-    (
-        i for i, item in enumerate(unique_alerts)
-        if item.get("hash_id") == existing.get("hash_id")
-    ),
-    None
-)
+    is_dup, similarity = self.is_duplicate(alert)
 
-if matching_idx is not None:
-    unique_alerts[matching_idx] = alert
-                continue
+    if is_dup:
+        duplicates_removed += 1
 
-            unique_alerts.append(alert)
-            # Cache the alert text
-            self._cache_alert(alert)
+        # Check if this is a higher-severity duplicate
+        existing = self._find_existing_similar(alert)
+
+        if existing and alert.get("severity", 0) > existing.get("severity", 0):
+
+            # Replace with higher severity version
+            matching_idx = next(
+                (
+                    i for i, item in enumerate(unique_alerts)
+                    if item.get("hash_id") == existing.get("hash_id")
+                ),
+                None
+            )
+
+            if matching_idx is not None:
+                unique_alerts[matching_idx] = alert
+
+        continue
+
+    unique_alerts.append(alert)
+
+    # Cache the alert text
+    self._cache_alert(alert)
 
         if duplicates_removed > 0:
             logger.info(f"Removed {duplicates_removed} duplicate alerts")
