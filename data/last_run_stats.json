@@ -1,9 +1,9 @@
 {
   "total_subscribers": 1,
   "alerts_24h": 15,
-  "total_alerts": 15,
+  "total_alerts": 30,
   "sources_count": 10,
-  "last_run": null,
+  "last_run": "2026-05-28T15:24:23.900495",
   "cves_24h": 11,
   "exploits_24h": 3,
   "breaches_24h": 0,
