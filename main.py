@@ -90,7 +90,7 @@ class CTIBot:
 
     def _init_collectors(self):
         """Initialize all data collectors."""
-        ai_config = {"gemini_api_key": config.GEMINI_API_KEY}
+    
 
         collectors = {
             "rss": RSSCollector(
