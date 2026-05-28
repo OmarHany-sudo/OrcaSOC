@@ -90,7 +90,7 @@ class CTIBot:
 
     def _init_collectors(self):
         """Initialize all data collectors."""
-        ai_config = {"gemini_api_key": config.OPENAI_API_KEY}
+        ai_config = {"gemini_api_key": config.GEMINI_API_KEY}
 
         collectors = {
             "rss": RSSCollector(
@@ -149,10 +149,10 @@ class CTIBot:
     def _init_ai_components(self):
         """Initialize AI processing components."""
         ai_config = {
-            "openai_api_key": config.OPENAI_API_KEY,
-            "model": config.OPENAI_MODEL,
-            "ai_enabled": config.AI_ENABLED,
-        }
+    "gemini_api_key": config.GEMINI_API_KEY,
+    "model": config.GEMINI_MODEL,
+    "ai_enabled": config.AI_ENABLED,
+}
 
         components = {
             "classifier": ThreatClassifier(config=ai_config),
