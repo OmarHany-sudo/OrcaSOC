@@ -69,8 +69,16 @@ class DuplicateDetector:
                 existing = self._find_existing_similar(alert)
                 if existing and alert.get("severity", 0) > existing.get("severity", 0):
                     # Replace with higher severity version
-                    idx = unique_alerts.index(existing)
-                    unique_alerts[idx] = alert
+matching_idx = next(
+    (
+        i for i, item in enumerate(unique_alerts)
+        if item.get("hash_id") == existing.get("hash_id")
+    ),
+    None
+)
+
+if matching_idx is not None:
+    unique_alerts[matching_idx] = alert
                 continue
 
             unique_alerts.append(alert)
