@@ -54,47 +54,48 @@ class DuplicateDetector:
         return False, 0.0
 
     def filter_duplicates(self, alerts: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """
-        Filter out duplicates from a list of alerts.
-        Keeps the highest severity version of duplicates.
-        """
-        unique_alerts = []
-        duplicates_removed = 0
+    """
+    Filter out duplicates from a list of alerts.
+    Keeps the highest severity version of duplicates.
+    """
 
-        for alert in alerts:
-    is_dup, similarity = self.is_duplicate(alert)
+    unique_alerts = []
+    duplicates_removed = 0
 
-    if is_dup:
-        duplicates_removed += 1
+    for alert in alerts:
 
-        # Check if this is a higher-severity duplicate
-        existing = self._find_existing_similar(alert)
+        is_dup, similarity = self.is_duplicate(alert)
 
-        if existing and alert.get("severity", 0) > existing.get("severity", 0):
+        if is_dup:
+            duplicates_removed += 1
 
-            # Replace with higher severity version
-            matching_idx = next(
-                (
-                    i for i, item in enumerate(unique_alerts)
-                    if item.get("hash_id") == existing.get("hash_id")
-                ),
-                None
-            )
+            # Check if this is a higher-severity duplicate
+            existing = self._find_existing_similar(alert)
 
-            if matching_idx is not None:
-                unique_alerts[matching_idx] = alert
+            if existing and alert.get("severity", 0) > existing.get("severity", 0):
 
-        continue
+                matching_idx = next(
+                    (
+                        i for i, item in enumerate(unique_alerts)
+                        if item.get("hash_id") == existing.get("hash_id")
+                    ),
+                    None
+                )
 
-    unique_alerts.append(alert)
+                if matching_idx is not None:
+                    unique_alerts[matching_idx] = alert
 
-    # Cache the alert text
-    self._cache_alert(alert)
+            continue
 
-        if duplicates_removed > 0:
-            logger.info(f"Removed {duplicates_removed} duplicate alerts")
+        unique_alerts.append(alert)
 
-        return unique_alerts
+        # Cache the alert text
+        self._cache_alert(alert)
+
+    if duplicates_removed > 0:
+        logger.info(f"Removed {duplicates_removed} duplicate alerts")
+
+    return unique_alerts
 
     def find_similar_alerts(self, alert: Dict[str, Any],
                             alert_pool: List[Dict[str, Any]],
