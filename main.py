@@ -90,13 +90,16 @@ class CTIBot:
 
     def _init_collectors(self):
         """Initialize all data collectors."""
-        ai_config = {"openai_api_key": config.OPENAI_API_KEY}
+        ai_config = {"gemini_api_key": config.OPENAI_API_KEY}
 
         collectors = {
-            "rss": RSSCollector(config=config.SOURCES.get("rss", {}).get("feeds"), config={
-                "lookback_hours": config.LOOKBACK_HOURS,
-                "max_items_per_feed": config.MAX_ITEMS_PER_SOURCE,
-            }),
+            "rss": RSSCollector(
+    feeds=config.SOURCES.get("rss", {}).get("feeds", []),
+    config={
+        "lookback_hours": config.LOOKBACK_HOURS,
+        "max_items_per_feed": config.MAX_ITEMS_PER_SOURCE,
+    }
+),
             "github": GitHubCollector(config={
                 "github_token": os.getenv("GITHUB_TOKEN"),
                 "lookback_hours": config.LOOKBACK_HOURS,
