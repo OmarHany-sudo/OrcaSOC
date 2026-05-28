@@ -129,26 +129,46 @@ class TelegramSender:
         return results
 
     def send_welcome_message(self, chat_id: int, username: str = None) -> bool:
-        """Send welcome message to new subscriber."""
-        name = username or "there"
-        message = f"""👋 <b>Welcome to the Cyber Threat Intelligence Bot!</b>
+    """Send welcome message to new subscriber."""
 
-Hello {name},
+    name = username or "Operator"
 
-You'll now receive real-time threat intelligence alerts including:
-• 🛡️ CVE disclosures and vulnerability alerts
-• 💥 Exploit releases and PoC tools
-• 🦠 Malware and ransomware tracking
-• 💔 Data breach notifications
-• 🤖 AI security tools and research
-• 📊 Threat reports and analysis
+    message = f"""🛡️ <b>OrcaSOC Threat Intelligence Network</b>
 
-<b>Commands:</b>
-/stop - Unsubscribe from alerts
-/status - View bot statistics
-/help - Show all commands
+Welcome, <b>{name}</b>.
 
-Stay secure! 🔒"""
+You are now connected to a real-time Cyber Threat Intelligence monitoring system powered by AI.
+
+━━━━━━━━━━━━━━━
+🚨 <b>Threat Coverage</b>
+
+• Critical CVEs & Zero-Day vulnerabilities
+• Exploits, PoCs & Red Team tools
+• Malware & Ransomware activity
+• Data leaks & breach monitoring
+• AI security tools & threat research
+• GitHub offensive security projects
+• Dark web intelligence feeds
+
+━━━━━━━━━━━━━━━
+⚡ <b>System Features</b>
+
+• AI-powered threat analysis
+• Severity prioritization
+• Duplicate filtering
+• Real-time intelligence feeds
+• Automated SOC-style alerting
+
+━━━━━━━━━━━━━━━
+📌 <b>Commands</b>
+
+/status — System statistics
+/help — Available commands
+/stop — Disable alerts
+
+Stay alert. Stay secure. 🔒"""
+
+    return self.send_message(chat_id, message)
 
         data = {
             "chat_id": chat_id,
