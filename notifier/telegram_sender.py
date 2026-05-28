@@ -168,15 +168,15 @@ You are now connected to a real-time Cyber Threat Intelligence monitoring system
 
 Stay alert. Stay secure. 🔒"""
 
+    data = {
+        "chat_id": chat_id,
+        "text": message,
+        "parse_mode": self.parse_mode,
+    }
 
-        data = {
-            "chat_id": chat_id,
-            "text": message,
-            "parse_mode": self.parse_mode,
-        }
+    result = self._api_call("sendMessage", data)
 
-        result = self._api_call("sendMessage", data)
-        return result is not None
+    return result is not None
 
     def send_goodbye_message(self, chat_id: int) -> bool:
         """Send goodbye message to unsubscribing user."""
