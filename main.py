@@ -321,22 +321,6 @@ class CTIBot:
         if new_users > 0 or removed_users > 0:
             logger.info(f"User changes: +{new_users} new, -{removed_users} removed")
 
-    self.alerts_collected = len(all_alerts)
-
-logger.info("=" * 50)
-logger.info(f"RAW ALERTS COLLECTED: {len(all_alerts)}")
-
-for name, key in collectors_to_run:
-    try:
-        collector = self.collectors.get(key)
-        if collector:
-            logger.info(f"Collector Active: {name}")
-    except Exception:
-        pass
-
-logger.info("=" * 50)
-
-return all_alerts
 
     def _process_alerts(self, alerts: list) -> list:
         """Process and filter collected alerts."""
