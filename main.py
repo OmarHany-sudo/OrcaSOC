@@ -321,37 +321,22 @@ class CTIBot:
         if new_users > 0 or removed_users > 0:
             logger.info(f"User changes: +{new_users} new, -{removed_users} removed")
 
-    def _collect_data(self) -> list:
-        """Collect data from all sources."""
-        all_alerts = []
+    self.alerts_collected = len(all_alerts)
 
-        collectors_to_run = [
-            ("CVE", "cve"),
-            ("ExploitDB", "exploitdb"),
-            ("GitHub", "github"),
-            ("RSS", "rss"),
-            ("HuggingFace", "huggingface"),
-            ("Reddit", "reddit"),
-            ("Ransomware", "ransomware"),
-            ("Leak Monitor", "leak"),
-            ("DarkWeb", "darkweb"),
-        ]
+logger.info("=" * 50)
+logger.info(f"RAW ALERTS COLLECTED: {len(all_alerts)}")
 
-        for name, key in collectors_to_run:
-            try:
-                logger.info(f"Collecting from {name}...")
-                collector = self.collectors.get(key)
-                if collector:
-                    alerts = collector.collect()
-                    logger.info(f"  {name}: {len(alerts)} alerts")
-                    all_alerts.extend(alerts)
-                    self.state.set_last_check_time(key.lower())
-            except Exception as e:
-                logger.error(f"Collector {name} failed: {e}")
+for name, key in collectors_to_run:
+    try:
+        collector = self.collectors.get(key)
+        if collector:
+            logger.info(f"Collector Active: {name}")
+    except Exception:
+        pass
 
-        self.alerts_collected = len(all_alerts)
-        logger.info(f"Total raw alerts collected: {len(all_alerts)}")
-        return all_alerts
+logger.info("=" * 50)
+
+return all_alerts
 
     def _process_alerts(self, alerts: list) -> list:
         """Process and filter collected alerts."""
