@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-05-30T23:16:16.090341",
+  "last_run": "2026-05-31T00:16:44.236529",
   "last_update_id": 753263056,
   "processed_urls": [],
   "processed_hashes": [
@@ -182,22 +182,23 @@
     "6897fab7ba80b145",
     "fd49df929713b1f9",
     "8eabe6e10c750a22",
-    "e6cb3d6f8648a245"
+    "e6cb3d6f8648a245",
+    "4e35b9ad6f4480bd"
   ],
-  "last_cve_check": "2026-05-30T23:15:55.680621",
+  "last_cve_check": "2026-05-31T00:16:24.274531",
   "last_exploit_check": null,
-  "last_github_check": "2026-05-30T23:15:57.002517",
-  "last_huggingface_check": "2026-05-30T23:16:04.162996",
-  "last_reddit_check": "2026-05-30T23:16:04.459961",
-  "last_rss_check": "2026-05-30T23:15:59.738350",
-  "last_ransomware_check": "2026-05-30T23:16:05.237643",
-  "last_leak_check": "2026-05-30T23:16:05.371933",
+  "last_github_check": "2026-05-31T00:16:25.618771",
+  "last_huggingface_check": "2026-05-31T00:16:31.936795",
+  "last_reddit_check": "2026-05-31T00:16:32.262602",
+  "last_rss_check": "2026-05-31T00:16:27.997527",
+  "last_ransomware_check": "2026-05-31T00:16:33.679020",
+  "last_leak_check": "2026-05-31T00:16:33.800460",
   "daily_counts": {},
   "total_alerts_sent": 60,
   "total_users_ever": 0,
   "version": "1.0.0",
-  "runs_today": 15,
-  "last_run_date": "2026-05-30",
-  "last_exploitdb_check": "2026-05-30T23:15:56.120630",
-  "last_darkweb_check": "2026-05-30T23:16:05.426061"
+  "runs_today": 1,
+  "last_run_date": "2026-05-31",
+  "last_exploitdb_check": "2026-05-31T00:16:24.719431",
+  "last_darkweb_check": "2026-05-31T00:16:33.848223"
 }
