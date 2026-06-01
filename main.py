@@ -7,8 +7,12 @@ import logging
 import os
 import sys
 import time
+import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
+
+import requests
 
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent))
@@ -29,6 +33,10 @@ from collectors.telegram_collector import TelegramCollector
 from collectors.leak_monitor import LeakMonitor
 from collectors.ransomware_monitor import RansomwareMonitor
 from collectors.darkweb_monitor import DarkWebMonitor
+from collectors.cisa_kev_collector import CISAKEVCollector
+from collectors.projectdiscovery_collector import ProjectDiscoveryCollector
+from collectors.bugbounty_collector import BugBountyDisclosureCollector
+from collectors.security_papers_collector import SecurityPapersCollector
 
 from ai.classifier import ThreatClassifier
 from ai.summarizer import ThreatSummarizer
@@ -38,6 +46,7 @@ from ai.duplicate_detector import DuplicateDetector
 from ai.download_extractor import DownloadExtractor
 from ai.threat_ranker import ThreatRanker
 from ai.ai_threat_analyst import AIThreatAnalyst
+from ai.threat_scorer import ThreatScorer
 
 from notifier.telegram_sender import TelegramSender
 
@@ -57,13 +66,47 @@ def setup_logging():
 logger = setup_logging()
 
 
+SOURCE_ALIASES = {
+    "all": None,
+    "run": None,
+    "cves": ["cve", "cisa"],
+    "cve": ["cve", "cisa"],
+    "exploits": ["exploitdb", "github_poc", "projectdiscovery"],
+    "exploit": ["exploitdb", "github_poc", "projectdiscovery"],
+    "leaks": ["leak", "bugbounty"],
+    "ransomware": ["ransomware"],
+    "ai": ["huggingface", "papers"],
+    "darkweb": ["darkweb"],
+    "github": ["github", "github_poc"],
+    "osint": ["osint"],
+    "redteam": ["redteam"],
+    "red_team": ["redteam"],
+    "papers": ["papers"],
+    "projectdiscovery": ["projectdiscovery"],
+    "bugbounty": ["bugbounty"],
+}
+
+MANUAL_COMMAND_SOURCES = {
+    "/run": "all",
+    "/cves": "cves",
+    "/exploits": "exploits",
+    "/leaks": "leaks",
+    "/ransomware": "ransomware",
+    "/ai": "ai",
+    "/darkweb": "darkweb",
+    "/github": "github",
+    "/osint": "osint",
+    "/redteam": "redteam",
+}
+
+
 class CTIBot:
     """
     Main Cyber Threat Intelligence Bot class.
     Orchestrates collection, analysis, and notification of threat intelligence.
     """
 
-    def __init__(self):
+    def __init__(self, source: str = None, process_updates: bool = None):
         logger.info("=" * 60)
         logger.info("🛡️ AI-Powered Cyber Threat Intelligence Bot Starting")
         logger.info("=" * 60)
@@ -87,6 +130,10 @@ class CTIBot:
         self.start_time = time.time()
         self.alerts_collected = 0
         self.alerts_sent = 0
+        self.source = (source or config.SOURCE or "all").lower()
+        self.process_updates = (
+            not config.SKIP_TELEGRAM_UPDATES if process_updates is None else process_updates
+        )
 
     def _init_collectors(self):
         """Initialize all data collectors."""
@@ -104,18 +151,55 @@ class CTIBot:
                 "max_results": config.MAX_ITEMS_PER_SOURCE,
                 "queries": config.SOURCES.get("github", {}).get("security_repos", []),
             }),
+            "github_poc": GitHubCollector(config={
+                "github_token": os.getenv("GITHUB_TOKEN"),
+                "lookback_hours": config.LOOKBACK_HOURS,
+                "max_results": config.MAX_ITEMS_PER_SOURCE,
+                "queries": [
+                    "CVE RCE PoC",
+                    "CVE exploit proof of concept",
+                    "0day exploit PoC",
+                    "auth bypass CVE PoC",
+                    "SQLi exploit PoC",
+                    "XSS exploit PoC",
+                    "deserialization exploit PoC",
+                ],
+            }),
+            "osint": GitHubCollector(config={
+                "github_token": os.getenv("GITHUB_TOKEN"),
+                "lookback_hours": config.LOOKBACK_HOURS,
+                "max_results": config.MAX_ITEMS_PER_SOURCE,
+                "queries": config.SOURCES.get("github", {}).get("osint_queries", []),
+            }),
+            "redteam": GitHubCollector(config={
+                "github_token": os.getenv("GITHUB_TOKEN"),
+                "lookback_hours": config.LOOKBACK_HOURS,
+                "max_results": config.MAX_ITEMS_PER_SOURCE,
+                "queries": config.SOURCES.get("github", {}).get("redteam_queries", []),
+            }),
             "cve": CVECollector(config={
                 "lookback_hours": config.LOOKBACK_HOURS,
                 "max_results": config.MAX_ITEMS_PER_SOURCE,
                 "min_cvss_score": config.MIN_SEVERITY_TO_ALERT,
                 "nvd_api_key": os.getenv("NVD_API_KEY"),
             }),
+            "cisa": CISAKEVCollector(config={
+                "lookback_hours": config.LOOKBACK_HOURS,
+                "max_items": config.MAX_ITEMS_PER_SOURCE,
+            }),
             "exploitdb": ExploitDBCollector(config={
+                "max_items": config.MAX_ITEMS_PER_SOURCE,
+            }),
+            "projectdiscovery": ProjectDiscoveryCollector(config={
+                "github_token": os.getenv("GITHUB_TOKEN"),
                 "max_items": config.MAX_ITEMS_PER_SOURCE,
             }),
             "huggingface": HuggingFaceCollector(config={
                 "lookback_hours": config.LOOKBACK_HOURS,
                 "max_results": config.MAX_ITEMS_PER_SOURCE,
+            }),
+            "papers": SecurityPapersCollector(config={
+                "max_items": config.MAX_ITEMS_PER_SOURCE,
             }),
             "reddit": RedditCollector(config={
                 "subreddits": config.SOURCES.get("reddit", {}).get("subreddits", []),
@@ -129,6 +213,9 @@ class CTIBot:
             "leak": LeakMonitor(config={
                 "hibp_api_key": os.getenv("HIBP_API_KEY"),
                 "lookback_hours": config.LOOKBACK_HOURS,
+                "max_items": config.MAX_ITEMS_PER_SOURCE,
+            }),
+            "bugbounty": BugBountyDisclosureCollector(config={
                 "max_items": config.MAX_ITEMS_PER_SOURCE,
             }),
             "ransomware": RansomwareMonitor(config={
@@ -169,6 +256,7 @@ class CTIBot:
                 }
             ),
             "downloads": DownloadExtractor(),
+            "scorer": ThreatScorer(),
             "ranker": ThreatRanker(config={
                 "max_alerts_per_run": config.MAX_ALERTS_PER_RUN,
             }),
@@ -197,14 +285,17 @@ class CTIBot:
 
     def run(self):
         """Execute one complete bot cycle."""
-        logger.info("Starting bot run cycle...")
+        logger.info("Starting bot run cycle for source='%s'...", self.source)
 
         try:
             # Step 1: Process Telegram updates (user management)
-            self._process_telegram_updates()
+            if self.process_updates:
+                self._process_telegram_updates()
+            else:
+                logger.info("Skipping Telegram update processing for this run")
 
             # Step 2: Collect threat intelligence
-            raw_alerts = self._collect_data()
+            raw_alerts = self._collect_data(self.source)
 
             # Step 3: Process and filter alerts
             processed_alerts = self._process_alerts(raw_alerts)
@@ -252,14 +343,30 @@ class CTIBot:
                 update_id = update.get("update_id", 0)
                 self.state.set_last_update_id(update_id)
 
-                # Handle messages
+                callback_query = update.get("callback_query", {})
+                callback_id = callback_query.get("id")
+                callback_data = callback_query.get("data", "")
+
                 message = update.get("message", {})
                 if not message:
-                    message = update.get("callback_query", {}).get("message", {})
+                    message = callback_query.get("message", {})
 
                 chat = message.get("chat", {})
                 chat_id = chat.get("id")
                 text = message.get("text", "")
+
+                if callback_data:
+                    source = callback_data.replace("run:", "", 1)
+                    if source == "top":
+                        sender.answer_callback_query(callback_id, "Loading top alerts...")
+                        self._send_saved_alerts_to_chat(
+                            chat_id,
+                            self.db.get_top_alerts(hours=24, limit=10),
+                            "Top Alerts",
+                        )
+                    else:
+                        self._handle_manual_scan_request(chat_id, source, sender, callback_id)
+                    continue
 
                 if not chat_id or not text:
                     continue
@@ -301,6 +408,22 @@ class CTIBot:
                     stats = self._get_bot_stats()
                     sender.send_status(chat_id, stats)
 
+                elif command == "/dashboard":
+                    sender.send_dashboard(chat_id, self._get_dashboard_stats())
+
+                elif command == "/latest":
+                    self._send_saved_alerts_to_chat(chat_id, self.db.get_latest_alerts(limit=10), "Latest Alerts")
+
+                elif command == "/top":
+                    self._send_saved_alerts_to_chat(chat_id, self.db.get_top_alerts(hours=24, limit=10), "Top Alerts")
+
+                elif command in MANUAL_COMMAND_SOURCES:
+                    self._handle_manual_scan_request(
+                        chat_id,
+                        MANUAL_COMMAND_SOURCES[command],
+                        sender,
+                    )
+
                 elif command in {"/stats", "/admin"}:
                     if self.db.is_admin(chat_id):
                         stats = self._get_admin_stats()
@@ -318,6 +441,7 @@ class CTIBot:
                         "chat_id": chat_id,
                         "text": help_text,
                         "parse_mode": "HTML",
+                        "reply_markup": sender.build_command_keyboard(),
                     })
 
             except Exception as e:
@@ -328,13 +452,112 @@ class CTIBot:
                 self.db.update_daily_stats(new_users=new_users)
             logger.info(f"User changes: +{new_users} new, -{removed_users} removed")
 
-    def _collect_data(self) -> list:
+    def _handle_manual_scan_request(self, chat_id: int, source: str, sender, callback_id: str = None):
+        """Dispatch a manual GitHub Actions run for a requested source."""
+        source = (source or "all").lower()
+        if source not in SOURCE_ALIASES:
+            sender.send_text(chat_id, f"Unknown source: <code>{source}</code>")
+            return
+        if callback_id:
+            sender.answer_callback_query(callback_id, f"Starting {source} scan...")
+
+        if not self._can_run_manual_command(chat_id):
+            sender.send_text(chat_id, "⛔ Manual scans require admin access.")
+            return
+
+        ok, message = self._dispatch_manual_workflow(source, chat_id)
+        if ok:
+            sender.send_text(
+                chat_id,
+                f"✅ Manual OrcaSOC scan queued.\n\nSource: <b>{source}</b>\nWorkflow: <code>{config.GITHUB_WORKFLOW_FILE}</code>",
+                reply_markup=sender.build_command_keyboard(),
+            )
+        else:
+            sender.send_text(chat_id, f"❌ Could not queue manual scan.\n\n{message}")
+
+    def _can_run_manual_command(self, chat_id: int) -> bool:
+        """Allow manual scan commands for admins, or everyone when no admin list is configured."""
+        if not config.TELEGRAM_MANUAL_COMMANDS_ADMIN_ONLY:
+            return True
+        if not config.TELEGRAM_ADMIN_IDS:
+            return True
+        return chat_id in config.TELEGRAM_ADMIN_IDS or self.db.is_admin(chat_id)
+
+    def _dispatch_manual_workflow(self, source: str, chat_id: int) -> tuple:
+        """Trigger the manual_run.yml workflow through GitHub Actions Workflow Dispatch API."""
+        token = os.getenv("GITHUB_TOKEN", "")
+        repository = config.GITHUB_REPOSITORY or os.getenv("GITHUB_REPOSITORY", "")
+        if not token or not repository:
+            return False, "GITHUB_TOKEN/GITHUB_REPOSITORY are not available in this runtime."
+
+        url = f"https://api.github.com/repos/{repository}/actions/workflows/{config.GITHUB_WORKFLOW_FILE}/dispatches"
+        payload = {
+            "ref": config.GITHUB_REF_NAME,
+            "inputs": {
+                "source": source,
+                "requested_by": str(chat_id),
+            },
+        }
+        headers = {
+            "Accept": "application/vnd.github+json",
+            "Authorization": f"Bearer {token}",
+            "X-GitHub-Api-Version": "2022-11-28",
+        }
+
+        try:
+            response = requests.post(url, json=payload, headers=headers, timeout=20)
+            if response.status_code in {200, 201, 204}:
+                logger.info("Dispatched manual workflow for source=%s chat_id=%s", source, chat_id)
+                return True, "queued"
+            return False, f"GitHub API returned {response.status_code}: {response.text[:300]}"
+        except Exception as e:
+            logger.error("Manual workflow dispatch failed: %s", e)
+            return False, str(e)
+
+    def _send_saved_alerts_to_chat(self, chat_id: int, alerts: list, title: str):
+        """Send saved alerts from the database to one Telegram chat."""
+        if "telegram" not in self.notifiers:
+            return
+        sender = self.notifiers["telegram"]
+        if not alerts:
+            sender.send_text(chat_id, f"No saved alerts found for <b>{title}</b>.")
+            return
+        sender.send_text(chat_id, f"📌 <b>{title}</b>\nSending {len(alerts)} saved alerts...")
+        sender.send_alerts(chat_id, alerts)
+
+    def _get_dashboard_stats(self) -> dict:
+        """Build dashboard statistics for Telegram."""
+        stats = self.db.get_alert_stats(hours=24)
+        categories = stats.get("by_category", {})
+        return {
+            "alerts_24h": stats.get("total", 0),
+            "cves": categories.get("cve", 0),
+            "exploits": categories.get("exploit", 0) + categories.get("github_poc", 0),
+            "leaks": categories.get("data_breach", 0),
+            "ai_models": categories.get("ai_model", 0) + categories.get("ai_tool", 0),
+            "github_pocs": categories.get("github_poc", 0),
+            "ransomware": categories.get("ransomware", 0),
+            "subscribers": self.db.get_user_count(),
+            "sources_count": len(self.collectors),
+        }
+
+    def _resolve_collector_names(self, source: str) -> list:
+        """Resolve a source alias to collector names."""
+        normalized = (source or "all").lower()
+        selected = SOURCE_ALIASES.get(normalized)
+        if selected is None:
+            return list(self.collectors.keys())
+        return [name for name in selected if name in self.collectors]
+
+    def _collect_data(self, source: str = None) -> list:
         """Collect threat intelligence from all configured collectors."""
-        logger.info("Collecting threat intelligence...")
+        selected_names = self._resolve_collector_names(source or self.source)
+        logger.info("Collecting threat intelligence from %s collectors: %s", len(selected_names), ", ".join(selected_names))
         all_alerts = []
         source_counts = {}
 
-        for name, collector in self.collectors.items():
+        def run_collector(name: str):
+            collector = self.collectors[name]
             try:
                 logger.info(f"  Collector '{name}' starting...")
                 alerts = collector.collect()
@@ -359,13 +582,22 @@ class CTIBot:
                     )
 
                 source_counts[name] = len(valid_alerts)
-                all_alerts.extend(valid_alerts)
                 self.state.set_last_check_time(name)
                 logger.info(f"  Collector '{name}' collected {len(valid_alerts)} items")
+                return name, valid_alerts
 
             except Exception as e:
                 source_counts[name] = 0
                 logger.exception(f"  Collector '{name}' failed: {e}")
+                return name, []
+
+        workers = min(max(config.COLLECTOR_WORKERS, 1), max(len(selected_names), 1))
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = {executor.submit(run_collector, name): name for name in selected_names}
+            for future in as_completed(futures):
+                name, alerts = future.result()
+                source_counts[name] = len(alerts)
+                all_alerts.extend(alerts)
 
         self.alerts_collected = len(all_alerts)
         logger.info("Collection complete: %s total items", self.alerts_collected)
@@ -442,16 +674,20 @@ class CTIBot:
         alerts = [a for a in alerts if a.get("severity", 0) >= config.MIN_SEVERITY_TO_ALERT]
         logger.info(f"  After severity filter: {len(alerts)}")
 
-        # Step 7: Score relevance
+        # Step 7: Calculate CTI threat score
+        logger.info("  Calculating threat scores...")
+        alerts = self.ai_components["scorer"].score_batch(alerts)
+
+        # Step 8: Score relevance
         logger.info("  Scoring relevance...")
         alerts = self.ai_components["relevance"].filter_alerts(alerts)
         logger.info(f"  After relevance filter: {len(alerts)}")
 
-        # Step 8: Generate summaries
+        # Step 9: Generate summaries
         logger.info("  Generating summaries...")
         alerts = self.ai_components["summarizer"].summarize_batch(alerts)
 
-        # Step 9: AI analysis
+        # Step 10: AI analysis
         if config.AI_ENABLED:
             logger.info("  Running AI analysis...")
             for alert in alerts[:5]:  # Only analyze top alerts
@@ -461,11 +697,11 @@ class CTIBot:
                 except Exception as e:
                     logger.error(f"AI analysis failed for alert: {e}")
 
-        # Step 10: Rank alerts
+        # Step 11: Rank alerts
         logger.info("  Ranking alerts...")
         alerts = self.ai_components["ranker"].get_top_alerts(alerts, config.MAX_ALERTS_PER_RUN)
 
-        # Step 11: Save to database
+        # Step 12: Save to database
         for alert in alerts:
             try:
                 saved = self.db.save_alert(alert)
@@ -507,10 +743,21 @@ class CTIBot:
             total_sent = sum(results.values())
             self.alerts_sent = total_sent
             self.state.increment_alert_count(total_sent)
+            cve_count = sum(1 for a in alerts if a.get("category") == "cve")
+            exploit_count = sum(1 for a in alerts if a.get("category") in {"exploit", "github_poc"})
+            github_count = sum(1 for a in alerts if a.get("source") == "GitHub" or a.get("category") == "github_poc")
+            ai_count = sum(1 for a in alerts if a.get("category") in {"ai_tool", "ai_model", "prompt_injection", "jailbreak"})
             self.db.update_daily_stats(
                 total_alerts=len(alerts),
                 critical_count=sum(1 for a in alerts if a.get("severity_label") == "CRITICAL"),
                 high_count=sum(1 for a in alerts if a.get("severity_label") == "HIGH"),
+                medium_count=sum(1 for a in alerts if a.get("severity_label") == "MEDIUM"),
+                low_count=sum(1 for a in alerts if a.get("severity_label") == "LOW"),
+                cve_count=cve_count,
+                exploit_count=exploit_count,
+                github_count=github_count,
+                ai_count=ai_count,
+                other_count=max(len(alerts) - cve_count - exploit_count - ai_count, 0),
                 notifications_sent=total_sent,
             )
 
@@ -594,20 +841,36 @@ class CTIBot:
     @staticmethod
     def _get_help_text() -> str:
         """Get help text for bot commands."""
-        return """🛡️ <b>Cyber Threat Intelligence Bot</b>
+        return """🛡️ <b>OrcaSOC v2 Cyber Threat Intelligence</b>
 
 <b>Available Commands:</b>
 
 /start - Subscribe to threat intelligence alerts
 /stop - Unsubscribe from alerts
 /status - View bot statistics and status
+/dashboard - View CTI dashboard
+/latest - Send latest 10 saved alerts
+/top - Send top 10 alerts from the last 24h
 /help - Show this help message
 
-<b>Admin Commands:</b>
+<b>Manual Scans:</b>
+/run - Run all collectors now
+/cves - Run CVE and CISA KEV intelligence
+/exploits - Run ExploitDB, GitHub PoCs, and ProjectDiscovery
+/leaks - Run breach and bug bounty disclosures
+/ransomware - Run ransomware intelligence
+/ai - Run AI security and paper intelligence
+/darkweb - Run dark web intelligence
+/github - Run GitHub intelligence
+/osint - Run OSINT tool intelligence
+/redteam - Run Red Team tool intelligence
+
+<b>Admin:</b>
 /stats or /admin - View admin dashboard
 
 <b>What you'll receive:</b>
 • CVE disclosures and vulnerability alerts
+• CISA KEV exploited vulnerabilities
 • Exploit releases and PoC tools
 • Malware and ransomware tracking
 • Data breach notifications
@@ -617,9 +880,23 @@ class CTIBot:
 Stay secure! 🔒"""
 
 
+def parse_args():
+    """Parse CLI arguments."""
+    parser = argparse.ArgumentParser(description="Run OrcaSOC CTI bot")
+    parser.add_argument("--source", default=os.getenv("SOURCE", "all"), help="Source alias to collect")
+    parser.add_argument(
+        "--skip-updates",
+        action="store_true",
+        default=config.SKIP_TELEGRAM_UPDATES,
+        help="Skip Telegram update processing",
+    )
+    return parser.parse_args()
+
+
 def main():
     """Main entry point."""
-    bot = CTIBot()
+    args = parse_args()
+    bot = CTIBot(source=args.source, process_updates=not args.skip_updates)
     bot.run()
 
 

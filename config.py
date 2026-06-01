@@ -13,6 +13,7 @@ DATA_DIR.mkdir(exist_ok=True)
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 TELEGRAM_ADMIN_IDS = list(map(int, os.getenv("TELEGRAM_ADMIN_IDS", "").split(","))) if os.getenv("TELEGRAM_ADMIN_IDS") else []
+TELEGRAM_MANUAL_COMMANDS_ADMIN_ONLY = os.getenv("TELEGRAM_MANUAL_COMMANDS_ADMIN_ONLY", "true").lower() == "true"
 
 # === Discord Configuration (Optional) ===
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "")
@@ -37,6 +38,14 @@ MAX_ALERTS_PER_RUN = int(os.getenv("MAX_ALERTS_PER_RUN", "10"))
 MAX_ITEMS_PER_SOURCE = int(os.getenv("MAX_ITEMS_PER_SOURCE", "20"))
 SUMMARY_MAX_LENGTH = int(os.getenv("SUMMARY_MAX_LENGTH", "2000"))
 LOOKBACK_HOURS = int(os.getenv("LOOKBACK_HOURS", "24"))
+COLLECTOR_WORKERS = int(os.getenv("COLLECTOR_WORKERS", "6"))
+SOURCE = os.getenv("SOURCE", "all")
+SKIP_TELEGRAM_UPDATES = os.getenv("SKIP_TELEGRAM_UPDATES", "false").lower() == "true"
+
+# === GitHub Actions Dispatch ===
+GITHUB_REPOSITORY = os.getenv("GITHUB_REPOSITORY", "")
+GITHUB_REF_NAME = os.getenv("GITHUB_REF_NAME", "main")
+GITHUB_WORKFLOW_FILE = os.getenv("GITHUB_WORKFLOW_FILE", "manual_run.yml")
 
 # === Duplicate Detection ===
 DUPLICATE_SIMILARITY_THRESHOLD = float(os.getenv("DUPLICATE_SIMILARITY_THRESHOLD", "0.85"))
@@ -51,8 +60,19 @@ COMMANDS = {
     "stop": "Unsubscribe from alerts",
     "status": "Get bot status and statistics",
     "stats": "Get threat statistics (admin only)",
-    "force_run": "Force a collection run (admin only)",
-    "broadcast": "Broadcast a message to all users (admin only)",
+    "dashboard": "View CTI dashboard",
+    "run": "Run all collectors now",
+    "cves": "Run CVE intelligence now",
+    "exploits": "Run exploit and PoC intelligence now",
+    "leaks": "Run leak intelligence now",
+    "ransomware": "Run ransomware intelligence now",
+    "ai": "Run AI security intelligence now",
+    "darkweb": "Run dark web intelligence now",
+    "github": "Run GitHub intelligence now",
+    "osint": "Run OSINT tool intelligence now",
+    "redteam": "Run red team tool intelligence now",
+    "latest": "Show latest saved alerts",
+    "top": "Show top alerts from the last 24 hours",
     "help": "Show available commands",
 }
 
@@ -75,13 +95,52 @@ SOURCES = {
     "github": {
         "poc_search_url": "https://api.github.com/search/repositories",
         "security_repos": [
-            "PoC-in-GitHub",
-            "nomi-sec",
-            "/trickest",
+            "CVE RCE PoC",
+            "CVE exploit proof of concept",
+            "0day exploit PoC",
+            "auth bypass CVE PoC",
+            "SQLi exploit PoC",
+            "XSS exploit PoC",
+            "deserialization exploit PoC",
+        ],
+        "osint_queries": [
+            "OSINT tool security",
+            "threat intelligence OSINT",
+            "reconnaissance tool",
+            "subdomain enumeration tool",
+            "attack surface management open source",
+        ],
+        "redteam_queries": [
+            "red team tool",
+            "offensive security tool",
+            "post exploitation framework",
+            "lateral movement tool",
+            "c2 framework",
         ],
     },
     "ai": {
         "huggingface_api": "https://huggingface.co/api/models",
+        "paperswithcode": "https://paperswithcode.com/api/v1/papers/",
+        "security_queries": [
+            "prompt injection",
+            "jailbreak research",
+            "AI red teaming",
+            "LLM security",
+        ],
+    },
+    "cisa": {
+        "kev_json": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    },
+    "projectdiscovery": {
+        "nuclei_releases": "https://api.github.com/repos/projectdiscovery/nuclei-templates/releases",
+        "blog_rss": "https://projectdiscovery.io/blog/rss.xml",
+    },
+    "bug_bounty": {
+        "hackerone_hacktivity": "https://api.hackerone.com/v1/hackers/hacktivity",
+        "bugcrowd_crowdstream": "https://bugcrowd.com/crowdstream",
+    },
+    "papers": {
+        "arxiv_api": "https://export.arxiv.org/api/query",
         "paperswithcode": "https://paperswithcode.com/api/v1/papers/",
     },
     "reddit": {

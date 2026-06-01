@@ -21,7 +21,8 @@ class DownloadExtractor:
             r'https?://raw\.githubusercontent\.com/[\w-]+/[\w.-]+',
         ],
         "huggingface": [
-            r'https?://huggingface\.co/[\w-]+/[\w.-]+',
+            r'https?://huggingface\.co/datasets/[\w-]+/[\w.-]+',
+            r'https?://huggingface\.co/(?!datasets/)[\w-]+/[\w.-]+',
         ],
         "docker": [
             r'https?://hub\.docker\.com/r/[\w-]+/[\w-]+',
@@ -100,6 +101,14 @@ class DownloadExtractor:
 
         # Update alert
         alert["download_links"] = unique_links
+        alert["github_urls"] = [link for link in unique_links if "github.com" in link]
+        alert["release_urls"] = [link for link in unique_links if "/releases" in link or "/releases/download/" in link]
+        alert["model_urls"] = [link for link in unique_links if "huggingface.co/" in link and "/datasets/" not in link]
+        alert["dataset_urls"] = [link for link in unique_links if "huggingface.co/datasets/" in link]
+        alert["tool_urls"] = [
+            link for link in unique_links
+            if any(host in link for host in ["github.com", "pypi.org", "npmjs.com", "hub.docker.com"])
+        ]
         alert["download_count"] = len(unique_links)
 
         return unique_links

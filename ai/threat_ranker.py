@@ -59,12 +59,20 @@ class ThreatRanker:
             alert["rank_score"] = score
 
         # Sort by rank score descending
-        ranked = sorted(alerts, key=lambda x: x.get("rank_score", 0), reverse=True)
+        ranked = sorted(
+            alerts,
+            key=lambda x: (x.get("threat_score", 0), x.get("rank_score", 0)),
+            reverse=True,
+        )
 
         # Log ranking summary
         if ranked:
-            logger.info(f"Top ranked alert: {ranked[0].get('title', 'N/A')} "
-                       f"(score: {ranked[0].get('rank_score', 0):.2f})")
+            logger.info(
+                "Top ranked alert: %s (threat_score: %s, rank_score: %.2f)",
+                ranked[0].get("title", "N/A"),
+                ranked[0].get("threat_score", 0),
+                ranked[0].get("rank_score", 0),
+            )
 
         return ranked
 
@@ -78,31 +86,34 @@ class ThreatRanker:
         """Calculate a composite rank score for an alert."""
         scores = []
 
+        if alert.get("threat_score") is not None:
+            scores.append((float(alert.get("threat_score", 0)) / 100.0) * 0.35)
+
         # Severity score (0-10, normalized to 0-1)
         severity = alert.get("severity", 5.0)
-        scores.append((severity / 10.0) * 0.30)
+        scores.append((severity / 10.0) * 0.20)
 
         # Category weight
         category = alert.get("category", "general")
         cat_weight = self.CATEGORY_WEIGHTS.get(category, 0.5)
-        scores.append(cat_weight * 0.20)
+        scores.append(cat_weight * 0.15)
 
         # Source credibility
         source = alert.get("source", "")
         src_weight = self.SOURCE_WEIGHTS.get(source, 0.5)
-        scores.append(src_weight * 0.15)
+        scores.append(src_weight * 0.10)
 
         # Relevance score (already 0-1)
         relevance = alert.get("relevance_score", 0.5)
-        scores.append(relevance * 0.15)
+        scores.append(relevance * 0.10)
 
         # Has exploit/PoC available
         has_poc = bool(alert.get("download_links"))
-        scores.append(0.1 if has_poc else 0.0)
+        scores.append(0.05 if has_poc else 0.0)
 
         # Timeliness bonus
         timeliness = self._calculate_timeliness(alert)
-        scores.append(timeliness * 0.1)
+        scores.append(timeliness * 0.05)
 
         total_score = sum(scores)
         return round(total_score, 3)

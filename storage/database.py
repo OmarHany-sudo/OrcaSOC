@@ -77,9 +77,12 @@ class DatabaseManager:
                     published_at TEXT,
                     collected_at TEXT NOT NULL,
                     notified INTEGER DEFAULT 0,
-                    relevance_score REAL
+                    relevance_score REAL,
+                    threat_score INTEGER DEFAULT 0
                 )
             """)
+
+            self._ensure_column(conn, "alerts", "threat_score", "INTEGER DEFAULT 0")
 
             conn.execute("""
                 CREATE TABLE IF NOT EXISTS collected_urls (
@@ -109,6 +112,13 @@ class DatabaseManager:
                     unsubscribed_users INTEGER DEFAULT 0
                 )
             """)
+
+    def _ensure_column(self, conn, table: str, column: str, definition: str):
+        """Add a column to an existing SQLite table if it is missing."""
+        cursor = conn.execute(f"PRAGMA table_info({table})")
+        columns = {row[1] for row in cursor.fetchall()}
+        if column not in columns:
+            conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {definition}")
 
     # === Users Management ===
 
@@ -179,8 +189,8 @@ class DatabaseManager:
                     INSERT OR IGNORE INTO alerts
                     (title, url, source, category, severity, severity_label, summary,
                      ai_analysis, download_links, raw_content, hash_id, published_at,
-                     collected_at, relevance_score)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                     collected_at, relevance_score, threat_score)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """, (
                     alert.get("title", ""),
                     alert.get("url", ""),
@@ -195,7 +205,8 @@ class DatabaseManager:
                     alert["hash_id"],
                     alert.get("published_at"),
                     datetime.utcnow().isoformat(),
-                    alert.get("relevance_score", 0.0)
+                    alert.get("relevance_score", 0.0),
+                    int(alert.get("threat_score", 0) or 0),
                 ))
                 return conn.total_changes > 0
         except Exception as e:
@@ -228,7 +239,32 @@ class DatabaseManager:
 
         with self._get_connection(self.news_db_path) as conn:
             cursor = conn.execute(query, params)
-            return [dict(row) for row in cursor.fetchall()]
+            return [self._decode_alert_row(row) for row in cursor.fetchall()]
+
+    def get_latest_alerts(self, limit: int = 10) -> List[Dict]:
+        """Get the latest saved alerts."""
+        with self._get_connection(self.news_db_path) as conn:
+            cursor = conn.execute(
+                "SELECT * FROM alerts ORDER BY collected_at DESC LIMIT ?",
+                (limit,)
+            )
+            return [self._decode_alert_row(row) for row in cursor.fetchall()]
+
+    def get_top_alerts(self, hours: int = 24, limit: int = 10) -> List[Dict]:
+        """Get highest-priority alerts for a time window."""
+        cutoff = datetime.utcnow().timestamp() - (hours * 3600)
+        cutoff_iso = datetime.fromtimestamp(cutoff).isoformat()
+        with self._get_connection(self.news_db_path) as conn:
+            cursor = conn.execute(
+                """
+                SELECT * FROM alerts
+                WHERE collected_at > ?
+                ORDER BY threat_score DESC, severity DESC, relevance_score DESC, collected_at DESC
+                LIMIT ?
+                """,
+                (cutoff_iso, limit)
+            )
+            return [self._decode_alert_row(row) for row in cursor.fetchall()]
 
     def mark_alert_notified(self, alert_id: int):
         """Mark an alert as notified."""
@@ -242,7 +278,7 @@ class DatabaseManager:
                 "SELECT * FROM alerts WHERE notified = 0 ORDER BY severity DESC, collected_at DESC LIMIT ?",
                 (limit,)
             )
-            return [dict(row) for row in cursor.fetchall()]
+            return [self._decode_alert_row(row) for row in cursor.fetchall()]
 
     def get_alert_stats(self, hours: int = 24) -> Dict:
         """Get alert statistics."""
@@ -273,6 +309,17 @@ class DatabaseManager:
                 "by_category": category_counts,
                 "hours": hours
             }
+
+    def _decode_alert_row(self, row) -> Dict[str, Any]:
+        """Convert a SQLite row into an alert dict with decoded JSON fields."""
+        alert = dict(row)
+        links = alert.get("download_links")
+        if isinstance(links, str):
+            try:
+                alert["download_links"] = json.loads(links) if links else []
+            except Exception:
+                alert["download_links"] = [links] if links else []
+        return alert
 
     # === URL Tracking ===
 

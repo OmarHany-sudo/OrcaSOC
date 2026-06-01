@@ -3,6 +3,7 @@ Telegram Sender - Sends alerts via Telegram Bot API
 """
 import logging
 import time
+import json
 from typing import Dict, Any, List, Optional
 
 import requests
@@ -56,10 +57,13 @@ class TelegramSender:
     def _api_call(self, method: str, data: Dict[str, Any]) -> Optional[Dict]:
         """Make an API call to Telegram."""
         url = self.TELEGRAM_API.format(token=self.bot_token, method=method)
+        payload = data.copy()
+        if isinstance(payload.get("reply_markup"), dict):
+            payload["reply_markup"] = json.dumps(payload["reply_markup"])
 
         for attempt in range(self.max_retries):
             try:
-                response = requests.post(url, data=data, timeout=30)
+                response = requests.post(url, data=payload, timeout=30)
                 result = response.json()
 
                 if result.get("ok"):
@@ -81,6 +85,50 @@ class TelegramSender:
                     time.sleep(2 ** attempt)
 
         return None
+
+    def send_text(self, chat_id: int, text: str, reply_markup: Dict[str, Any] = None) -> bool:
+        """Send a plain Telegram message."""
+        data = {
+            "chat_id": chat_id,
+            "text": text,
+            "parse_mode": self.parse_mode,
+            "disable_web_page_preview": True,
+        }
+        if reply_markup:
+            data["reply_markup"] = reply_markup
+        return self._api_call("sendMessage", data) is not None
+
+    def answer_callback_query(self, callback_query_id: str, text: str = "") -> bool:
+        """Acknowledge an inline button callback."""
+        if not callback_query_id:
+            return False
+        return self._api_call("answerCallbackQuery", {
+            "callback_query_id": callback_query_id,
+            "text": text[:200],
+            "show_alert": False,
+        }) is not None
+
+    def build_command_keyboard(self) -> Dict[str, Any]:
+        """Build inline keyboard for manual CTI actions."""
+        return {
+            "inline_keyboard": [
+                [
+                    {"text": "🔄 Run Scan", "callback_data": "run:all"},
+                    {"text": "🛡 CVEs", "callback_data": "run:cves"},
+                ],
+                [
+                    {"text": "💥 Exploits", "callback_data": "run:exploits"},
+                    {"text": "💔 Leaks", "callback_data": "run:leaks"},
+                ],
+                [
+                    {"text": "🤖 AI", "callback_data": "run:ai"},
+                    {"text": "🌐 GitHub", "callback_data": "run:github"},
+                ],
+                [
+                    {"text": "📊 Top Alerts", "callback_data": "run:top"},
+                ],
+            ]
+        }
 
     def send_alert(self, chat_id: int, alert: Dict[str, Any]) -> bool:
         """Send a single alert to a Telegram chat."""
@@ -172,6 +220,7 @@ Stay alert. Stay secure. 🔒"""
             "chat_id": chat_id,
             "text": message,
             "parse_mode": self.parse_mode,
+            "reply_markup": self.build_command_keyboard(),
         }
 
         result = self._api_call("sendMessage", data)
@@ -194,6 +243,24 @@ Stay safe! 🛡️"""
 
         result = self._api_call("sendMessage", data)
         return result is not None
+
+    def send_dashboard(self, chat_id: int, stats: Dict[str, Any]) -> bool:
+        """Send CTI dashboard statistics."""
+        message = f"""📊 <b>OrcaSOC CTI Dashboard</b>
+
+<b>Last 24h Intelligence:</b>
+• CVEs: {stats.get('cves', 0)}
+• Exploits / PoCs: {stats.get('exploits', 0)}
+• Leaks: {stats.get('leaks', 0)}
+• AI Models / AI Security: {stats.get('ai_models', 0)}
+• GitHub PoCs: {stats.get('github_pocs', 0)}
+• Ransomware: {stats.get('ransomware', 0)}
+
+<b>Total Alerts 24h:</b> {stats.get('alerts_24h', 0)}
+<b>Subscribers:</b> {stats.get('subscribers', 0)}
+<b>Sources:</b> {stats.get('sources_count', 0)}"""
+
+        return self.send_text(chat_id, message, reply_markup=self.build_command_keyboard())
 
     def send_status(self, chat_id: int, stats: Dict[str, Any]) -> bool:
         """Send bot status to a user."""
@@ -289,6 +356,8 @@ Version: {stats.get('version', '1.0.0')}"""
         # Severity detail
         severity_score = alert.get("severity", 5.0)
         severity_section = f"\n<b>Severity:</b> {severity_score}/10 {severity}"
+        if alert.get("threat_score") is not None:
+            severity_section += f"\n<b>Threat Score:</b> {alert.get('threat_score')}/100"
 
         # Summary
         summary = alert.get("summary", "")
@@ -305,10 +374,11 @@ Version: {stats.get('version', '1.0.0')}"""
             for link in download_links:
                 # Truncate long URLs for display
                 display = link[:50] + "..." if len(link) > 50 else link
+                label = self._download_label(link)
                 download_texts.append(
-                    f"• <a href='{self._escape_html(str(link))}'>{self._escape_html(display)}</a>"
+                    f"• {label}: <a href='{self._escape_html(str(link))}'>{self._escape_html(display)}</a>"
                 )
-            downloads = "\n\n<b>Downloads:</b>\n" + "\n".join(download_texts)
+            downloads = "\n\n<b>Download Intelligence:</b>\n" + "\n".join(download_texts)
 
         # AI Analysis
         ai_analysis = ""
@@ -360,6 +430,23 @@ Version: {stats.get('version', '1.0.0')}"""
                 )
 
         return message
+
+    def _download_label(self, link: str) -> str:
+        """Return a compact label for a download/resource URL."""
+        link_lower = str(link).lower()
+        if "github.com" in link_lower and "/releases" in link_lower:
+            return "Release"
+        if "github.com" in link_lower:
+            return "GitHub"
+        if "huggingface.co/datasets/" in link_lower:
+            return "Dataset"
+        if "huggingface.co/" in link_lower:
+            return "Model"
+        if any(ext in link_lower for ext in [".zip", ".tar.gz", ".rar", ".7z", ".exe", ".deb", ".rpm"]):
+            return "Download"
+        if "pypi.org" in link_lower or "npmjs.com" in link_lower or "hub.docker.com" in link_lower:
+            return "Tool"
+        return "Resource"
 
     def _escape_html(self, text: str) -> str:
         """Escape HTML special characters."""
