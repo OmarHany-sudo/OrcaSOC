@@ -36,7 +36,7 @@ class DownloadExtractor:
             r'https?://[\w.-]+/[\w/-]+/releases/download/[\w/.-]+',
         ],
         "direct_download": [
-            r'https?://[\w.-]+/[\w/._-]+\.(zip|tar\.gz|tar\.bz2|rar|7z|deb|rpm|exe|msi|apk|dmg)',
+            r'https?://[\w.-]+/[\w/._-]+\.(?:zip|tar\.gz|tar\.bz2|rar|7z|deb|rpm|exe|msi|apk|dmg)',
         ],
     }
 

@@ -84,6 +84,9 @@ class LeakMonitor(BaseCollector):
                     else:
                         continue
 
+                if breach_date.tzinfo is not None:
+                    breach_date = breach_date.replace(tzinfo=None)
+
                 if breach_date < cutoff:
                     continue
 

@@ -2,12 +2,11 @@
 RSS Collector - Aggregates security news from RSS feeds
 """
 import logging
+import re
 from datetime import datetime
 from typing import List, Dict, Any
 
 import feedparser
-import requests
-from bs4 import BeautifulSoup
 
 from collectors.base_collector import BaseCollector
 

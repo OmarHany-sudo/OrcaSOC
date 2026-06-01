@@ -90,16 +90,14 @@ class CTIBot:
 
     def _init_collectors(self):
         """Initialize all data collectors."""
-    
-
         collectors = {
             "rss": RSSCollector(
-    feeds=config.SOURCES.get("rss", {}).get("feeds", []),
-    config={
-        "lookback_hours": config.LOOKBACK_HOURS,
-        "max_items_per_feed": config.MAX_ITEMS_PER_SOURCE,
-    }
-),
+                feeds=config.SOURCES.get("rss", {}).get("feeds", []),
+                config={
+                    "lookback_hours": config.LOOKBACK_HOURS,
+                    "max_items_per_feed": config.MAX_ITEMS_PER_SOURCE,
+                }
+            ),
             "github": GitHubCollector(config={
                 "github_token": os.getenv("GITHUB_TOKEN"),
                 "lookback_hours": config.LOOKBACK_HOURS,
@@ -149,10 +147,10 @@ class CTIBot:
     def _init_ai_components(self):
         """Initialize AI processing components."""
         ai_config = {
-    "gemini_api_key": config.GEMINI_API_KEY,
-    "model": config.GEMINI_MODEL,
-    "ai_enabled": config.AI_ENABLED,
-}
+            "gemini_api_key": config.GEMINI_API_KEY,
+            "model": config.GEMINI_MODEL,
+            "ai_enabled": config.AI_ENABLED,
+        }
 
         components = {
             "classifier": ThreatClassifier(config=ai_config),
@@ -270,8 +268,10 @@ class CTIBot:
                 first_name = message.get("from", {}).get("first_name", "")
                 last_name = message.get("from", {}).get("last_name", "")
 
+                command = text.split()[0].split("@")[0].lower()
+
                 # Process commands
-                if text == "/start":
+                if command == "/start":
                     added = self.db.add_user(
                         chat_id=chat_id,
                         username=username,
@@ -281,22 +281,27 @@ class CTIBot:
                     )
                     if added:
                         new_users += 1
+                        self.state.set(
+                            "total_users_ever",
+                            self.state.get("total_users_ever", 0) + 1,
+                        )
                         self.persistence.save_json(f"user_{chat_id}.json", {
                             "joined": datetime.utcnow().isoformat(),
                             "username": username,
                         })
                     sender.send_welcome_message(chat_id, username or first_name)
 
-                elif text == "/stop":
+                elif command == "/stop":
                     self.db.remove_user(chat_id)
                     removed_users += 1
+                    self.db.update_daily_stats(unsubscribed_users=1)
                     sender.send_goodbye_message(chat_id)
 
-                elif text == "/status":
+                elif command == "/status":
                     stats = self._get_bot_stats()
                     sender.send_status(chat_id, stats)
 
-                elif text == "/stats" or text == "/admin":
+                elif command in {"/stats", "/admin"}:
                     if self.db.is_admin(chat_id):
                         stats = self._get_admin_stats()
                         sender.send_admin_stats(chat_id, stats)
@@ -307,7 +312,7 @@ class CTIBot:
                             "parse_mode": "HTML",
                         })
 
-                elif text == "/help":
+                elif command == "/help":
                     help_text = self._get_help_text()
                     sender._api_call("sendMessage", {
                         "chat_id": chat_id,
@@ -319,8 +324,89 @@ class CTIBot:
                 logger.error(f"Error processing update: {e}")
 
         if new_users > 0 or removed_users > 0:
+            if new_users:
+                self.db.update_daily_stats(new_users=new_users)
             logger.info(f"User changes: +{new_users} new, -{removed_users} removed")
 
+    def _collect_data(self) -> list:
+        """Collect threat intelligence from all configured collectors."""
+        logger.info("Collecting threat intelligence...")
+        all_alerts = []
+        source_counts = {}
+
+        for name, collector in self.collectors.items():
+            try:
+                logger.info(f"  Collector '{name}' starting...")
+                alerts = collector.collect()
+
+                if alerts is None:
+                    alerts = []
+                if not isinstance(alerts, list):
+                    logger.warning(
+                        "  Collector '%s' returned %s instead of list; skipping",
+                        name,
+                        type(alerts).__name__,
+                    )
+                    alerts = []
+
+                valid_alerts = [alert for alert in alerts if isinstance(alert, dict)]
+                invalid_count = len(alerts) - len(valid_alerts)
+                if invalid_count:
+                    logger.warning(
+                        "  Collector '%s' returned %s invalid items; skipped",
+                        name,
+                        invalid_count,
+                    )
+
+                source_counts[name] = len(valid_alerts)
+                all_alerts.extend(valid_alerts)
+                self.state.set_last_check_time(name)
+                logger.info(f"  Collector '{name}' collected {len(valid_alerts)} items")
+
+            except Exception as e:
+                source_counts[name] = 0
+                logger.exception(f"  Collector '{name}' failed: {e}")
+
+        self.alerts_collected = len(all_alerts)
+        logger.info("Collection complete: %s total items", self.alerts_collected)
+        for name, count in source_counts.items():
+            logger.info("  Collection count - %s: %s", name, count)
+
+        return all_alerts
+
+    def _filter_previously_processed(self, alerts: list) -> list:
+        """Remove alerts already processed in prior runs."""
+        unique_alerts = []
+        seen_hashes = set()
+        duplicates_removed = 0
+
+        for alert in alerts:
+            hash_id = alert.get("hash_id")
+            url = alert.get("url")
+
+            if not hash_id:
+                logger.warning("Skipping alert without hash_id: %s", alert.get("title", "N/A"))
+                duplicates_removed += 1
+                continue
+
+            already_seen = (
+                hash_id in seen_hashes
+                or self.state.is_hash_processed(hash_id)
+                or self.db.alert_exists(hash_id)
+                or (url and (self.state.is_url_processed(url) or self.db.is_url_collected(url)))
+            )
+
+            if already_seen:
+                duplicates_removed += 1
+                continue
+
+            seen_hashes.add(hash_id)
+            unique_alerts.append(alert)
+
+        if duplicates_removed:
+            logger.info("  Previously processed duplicates removed: %s", duplicates_removed)
+
+        return unique_alerts
 
     def _process_alerts(self, alerts: list) -> list:
         """Process and filter collected alerts."""
@@ -328,6 +414,7 @@ class CTIBot:
             return []
 
         logger.info("Processing alerts...")
+        logger.info(f"  Raw collected alerts: {len(alerts)}")
 
         # Step 1: Classify
         logger.info("  Classifying alerts...")
@@ -343,8 +430,9 @@ class CTIBot:
 
         # Step 4: Filter duplicates
         logger.info("  Filtering duplicates...")
+        alerts = self._filter_previously_processed(alerts)
         alerts = self.ai_components["duplicate"].filter_duplicates(alerts)
-        logger.info(f"  After dedup: {len(alerts)}")
+        logger.info(f"  After duplicate filter: {len(alerts)}")
 
         # Step 5: Analyze severity
         logger.info("  Analyzing severity...")
@@ -380,12 +468,23 @@ class CTIBot:
         # Step 11: Save to database
         for alert in alerts:
             try:
-                self.db.save_alert(alert)
+                saved = self.db.save_alert(alert)
                 self.state.add_processed_hash(alert["hash_id"])
+                if alert.get("url"):
+                    self.state.add_processed_url(alert["url"])
+                    self.db.add_collected_url(alert["url"], alert["hash_id"])
+                if saved:
+                    self.state.increment_daily_count()
+                    alert_text = " ".join([
+                        alert.get("title", ""),
+                        alert.get("summary", ""),
+                        alert.get("raw_content", "")[:500],
+                    ])
+                    self.embeddings.store_embedding(alert["hash_id"], alert_text)
             except Exception as e:
                 logger.error(f"Error saving alert: {e}")
 
-        logger.info(f"Final alerts to send: {len(alerts)}")
+        logger.info(f"  Final alerts to send: {len(alerts)}")
         return alerts
 
     def _send_alerts(self, alerts: list):
@@ -408,8 +507,14 @@ class CTIBot:
             total_sent = sum(results.values())
             self.alerts_sent = total_sent
             self.state.increment_alert_count(total_sent)
+            self.db.update_daily_stats(
+                total_alerts=len(alerts),
+                critical_count=sum(1 for a in alerts if a.get("severity_label") == "CRITICAL"),
+                high_count=sum(1 for a in alerts if a.get("severity_label") == "HIGH"),
+                notifications_sent=total_sent,
+            )
 
-            logger.info(f"Sent {total_sent} alert messages via Telegram")
+            logger.info(f"Final alerts sent: {len(alerts)} alerts, {total_sent} Telegram messages")
 
     def _save_state(self):
         """Save bot state."""

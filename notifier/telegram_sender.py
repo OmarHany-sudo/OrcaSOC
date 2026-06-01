@@ -131,7 +131,7 @@ class TelegramSender:
     def send_welcome_message(self, chat_id: int, username: str = None) -> bool:
         """Send welcome message to new subscriber."""
 
-        name = username or "Operator"
+        name = self._escape_html(username or "Operator")
 
         message = f"""🛡️ <b>OrcaSOC Threat Intelligence Network</b>
 
@@ -278,12 +278,13 @@ Version: {stats.get('version', '1.0.0')}"""
 
         # URL
         url = alert.get("url", "")
-        url_section = f"\n🔗 <a href='{url}'>View Source</a>" if url else ""
+        url_section = f"\n🔗 <a href='{self._escape_html(str(url))}'>View Source</a>" if url else ""
 
         # Affected
         affected = ""
         if alert.get("tags"):
-            affected = f"\n\n<b>Affected:</b> {', '.join(alert['tags'][:5])}"
+            affected_tags = [self._escape_html(str(tag)) for tag in alert["tags"][:5]]
+            affected = f"\n\n<b>Affected:</b> {', '.join(affected_tags)}"
 
         # Severity detail
         severity_score = alert.get("severity", 5.0)
@@ -304,7 +305,9 @@ Version: {stats.get('version', '1.0.0')}"""
             for link in download_links:
                 # Truncate long URLs for display
                 display = link[:50] + "..." if len(link) > 50 else link
-                download_texts.append(f"• <a href='{link}'>{self._escape_html(display)}</a>")
+                download_texts.append(
+                    f"• <a href='{self._escape_html(str(link))}'>{self._escape_html(display)}</a>"
+                )
             downloads = "\n\n<b>Downloads:</b>\n" + "\n".join(download_texts)
 
         # AI Analysis
@@ -366,7 +369,8 @@ Version: {stats.get('version', '1.0.0')}"""
                 .replace("&", "&amp;")
                 .replace("<", "&lt;")
                 .replace(">", "&gt;")
-                .replace('"', "&quot;"))
+                .replace('"', "&quot;")
+                .replace("'", "&#x27;"))
 
     def get_updates(self, offset: int = 0, limit: int = 100) -> List[Dict]:
         """Get updates from Telegram (for user management)."""

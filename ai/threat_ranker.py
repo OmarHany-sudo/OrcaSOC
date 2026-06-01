@@ -109,7 +109,7 @@ class ThreatRanker:
 
     def _calculate_timeliness(self, alert: Dict[str, Any]) -> float:
         """Calculate timeliness score."""
-        from datetime import datetime
+        from datetime import datetime, timezone
 
         published = alert.get("published_at")
         if not published:
@@ -117,7 +117,9 @@ class ThreatRanker:
 
         try:
             pub_date = datetime.fromisoformat(published.replace("Z", "+00:00"))
-            hours_old = (datetime.utcnow() - pub_date).total_seconds() / 3600
+            if pub_date.tzinfo is None:
+                pub_date = pub_date.replace(tzinfo=timezone.utc)
+            hours_old = (datetime.now(timezone.utc) - pub_date).total_seconds() / 3600
 
             if hours_old < 1:
                 return 1.0

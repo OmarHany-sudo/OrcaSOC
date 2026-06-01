@@ -128,26 +128,38 @@ class RelevanceEngine:
     def _score_timeliness(self, alert: Dict[str, Any]) -> float:
         """Score based on how recent the alert is."""
         from datetime import datetime, timezone
+
         published = alert.get("published_at")
         if not published:
             return 0.5
         try:
             pub_date = datetime.fromisoformat(published.replace("Z", "+00:00"))
+            if pub_date.tzinfo is None:
+                pub_date = pub_date.replace(tzinfo=timezone.utc)
             hours_old = (datetime.now(timezone.utc) - pub_date).total_seconds() / 3600
-            if hours_old < 1: return 1.0
-            elif hours_old < 6: return 0.9
-            elif hours_old < 24: return 0.8
-            elif hours_old < 72: return 0.6
-            else: return 0.4
-        except:
+            if hours_old < 1:
+                return 1.0
+            elif hours_old < 6:
+                return 0.9
+            elif hours_old < 24:
+                return 0.8
+            elif hours_old < 72:
+                return 0.6
+            else:
+                return 0.4
+        except Exception:
             return 0.5
 
     def _score_actionability(self, alert: Dict[str, Any]) -> float:
         """Score based on how actionable the alert is."""
         score = 0.5
-        if alert.get("download_links"): score += 0.2
+        if alert.get("download_links"):
+            score += 0.2
         title = alert.get("title", "").lower()
-        if "cve-" in title: score += 0.15
-        if any(kw in title for kw in ["exploit", "poc", "tool"]): score += 0.1
-        if alert.get("severity", 0) >= 8: score += 0.15
+        if "cve-" in title:
+            score += 0.15
+        if any(kw in title for kw in ["exploit", "poc", "tool"]):
+            score += 0.1
+        if alert.get("severity", 0) >= 8:
+            score += 0.15
         return min(score, 1.0)

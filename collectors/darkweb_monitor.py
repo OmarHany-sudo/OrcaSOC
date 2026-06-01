@@ -2,10 +2,9 @@
 DarkWeb Monitor - Monitors publicly indexed dark web feeds
 """
 import logging
+import re
 from datetime import datetime, timedelta
 from typing import List, Dict, Any
-
-import requests
 
 from collectors.base_collector import BaseCollector
 

@@ -103,6 +103,8 @@ class BaseCollector(ABC):
         try:
             date = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
             cutoff = datetime.utcnow() - timedelta(hours=hours)
+            if date.tzinfo is not None:
+                cutoff = cutoff.replace(tzinfo=date.tzinfo)
             return date >= cutoff
         except Exception:
             return True  # If we can't parse, assume it's recent
