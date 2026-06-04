@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-04T06:57:14.276186",
+  "last_run": "2026-06-04T10:35:42.727091",
   "last_update_id": 753263064,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -270,7 +270,12 @@
     "https://certvde.com/de/advisories/VDE-2026-060/",
     "https://huggingface.co/rezaduty/gemma4-e2b-privesc-windows",
     "https://huggingface.co/rezaduty/gemma4-e2b-active-directory-ttps",
-    "https://huggingface.co/deadbydawn101/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-GGUF"
+    "https://huggingface.co/deadbydawn101/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-GGUF",
+    "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html",
+    "https://github.com/MrDe6u9/MrDe6u9-recon",
+    "https://github.com/fun-beep/CVEs",
+    "https://huggingface.co/rezaduty/gemma4-e2b-privesc-macos",
+    "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -753,35 +758,40 @@
     "1f2164bb23cef81b",
     "97fdd22799bdd051",
     "2d365cc824a21a9b",
-    "288b642b4200fa32"
+    "288b642b4200fa32",
+    "21e617270244ff71",
+    "8f8822de0be576b2",
+    "fd08295e2eff18ad",
+    "3bbad5ae8329df20",
+    "86aeba9aa0e1c17a"
   ],
-  "last_cve_check": "2026-06-04T06:56:28.725657",
+  "last_cve_check": "2026-06-04T10:34:43.902740",
   "last_exploit_check": null,
-  "last_github_check": "2026-06-04T06:56:30.500146",
-  "last_huggingface_check": "2026-06-04T06:56:36.193348",
-  "last_reddit_check": "2026-06-04T06:56:31.118573",
-  "last_rss_check": "2026-06-04T06:56:31.145539",
-  "last_ransomware_check": "2026-06-04T06:56:31.910745",
-  "last_leak_check": "2026-06-04T06:56:31.310125",
+  "last_github_check": "2026-06-04T10:34:46.034323",
+  "last_huggingface_check": "2026-06-04T10:34:50.816138",
+  "last_reddit_check": "2026-06-04T10:34:46.312822",
+  "last_rss_check": "2026-06-04T10:34:46.092373",
+  "last_ransomware_check": "2026-06-04T10:34:47.204614",
+  "last_leak_check": "2026-06-04T10:34:46.235426",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
     "2026-06-03": 94,
-    "2026-06-04": 11
+    "2026-06-04": 16
   },
   "total_alerts_sent": 90,
   "total_users_ever": 2,
   "version": "1.0.0",
-  "runs_today": 2,
+  "runs_today": 3,
   "last_run_date": "2026-06-04",
-  "last_exploitdb_check": "2026-06-04T06:56:29.420430",
-  "last_darkweb_check": "2026-06-04T06:56:31.225573",
-  "last_cisa_check": "2026-06-04T06:56:28.916207",
-  "last_osint_check": "2026-06-04T06:56:30.162126",
-  "last_redteam_check": "2026-06-04T06:56:29.955804",
-  "last_github_poc_check": "2026-06-04T06:56:30.580164",
-  "last_projectdiscovery_check": "2026-06-04T06:56:31.058971",
-  "last_telegram_check": "2026-06-04T06:56:31.071871",
-  "last_papers_check": "2026-06-04T06:56:47.467900",
-  "last_bugbounty_check": "2026-06-04T06:56:34.691119"
+  "last_exploitdb_check": "2026-06-04T10:34:44.272115",
+  "last_darkweb_check": "2026-06-04T10:34:46.359631",
+  "last_cisa_check": "2026-06-04T10:34:43.996431",
+  "last_osint_check": "2026-06-04T10:34:45.827496",
+  "last_redteam_check": "2026-06-04T10:34:45.430548",
+  "last_github_poc_check": "2026-06-04T10:34:46.106788",
+  "last_projectdiscovery_check": "2026-06-04T10:34:45.968435",
+  "last_telegram_check": "2026-06-04T10:34:46.554150",
+  "last_papers_check": "2026-06-04T10:35:17.165814",
+  "last_bugbounty_check": "2026-06-04T10:34:49.553819"
 }
