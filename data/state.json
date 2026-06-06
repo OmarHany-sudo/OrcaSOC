@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-05T22:59:15.482568",
+  "last_run": "2026-06-06T00:04:33.378154",
   "last_update_id": 753263064,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -402,7 +402,11 @@
     "https://github.com/dfir-iris/iris-web/security/advisories/GHSA-g588-5gmf-p5cx",
     "https://www.arista.com/en/support/advisories-notices/security-advisory/19908-security-advisory-0102",
     "https://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop.html",
-    "https://www.arista.com/en/support/advisories-notices/security-advisory/19917-security-advisory-0103"
+    "https://www.arista.com/en/support/advisories-notices/security-advisory/19917-security-advisory-0103",
+    "https://medium.com/@hemantrajbhati5555/sql-injection-in-authentication-mechanism-leads-to-authentication-bypass-65177ce7a41c",
+    "https://medium.com/@hemantrajbhati5555/missing-authorization-in-sourcecodester-ship-ferry-ticket-reservation-system-leads-to-unauthorized-7783134d6596",
+    "https://github.com/7u7777/Dlink/blob/DWR-M920/formSmsManage.md",
+    "https://plugins.trac.wordpress.org/browser/essential-blocks/tags/6.1.3/includes/Integrations/AI/AI.php#L171"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -1023,36 +1027,41 @@
     "cc7b0b9e90533db8",
     "df3adb2261d00eb8",
     "7ea05fdc2ed8c400",
-    "cdcdd18249341843"
+    "cdcdd18249341843",
+    "15c150e567118a20",
+    "523475db3a431dd2",
+    "35995c352046a0f6",
+    "830a9156cc841bc7"
   ],
-  "last_cve_check": "2026-06-05T22:58:50.325181",
+  "last_cve_check": "2026-06-06T00:03:50.795118",
   "last_exploit_check": null,
-  "last_github_check": "2026-06-05T22:58:51.728757",
-  "last_huggingface_check": "2026-06-05T22:58:53.653853",
-  "last_reddit_check": "2026-06-05T22:58:51.939173",
-  "last_rss_check": "2026-06-05T22:58:52.568025",
-  "last_ransomware_check": "2026-06-05T22:58:52.671163",
-  "last_leak_check": "2026-06-05T22:58:52.153271",
+  "last_github_check": "2026-06-06T00:03:49.098306",
+  "last_huggingface_check": "2026-06-06T00:03:51.340825",
+  "last_reddit_check": "2026-06-06T00:03:49.474631",
+  "last_rss_check": "2026-06-06T00:03:50.036233",
+  "last_ransomware_check": "2026-06-06T00:03:50.513484",
+  "last_leak_check": "2026-06-06T00:03:50.051336",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
     "2026-06-03": 94,
     "2026-06-04": 68,
-    "2026-06-05": 81
+    "2026-06-05": 81,
+    "2026-06-06": 4
   },
   "total_alerts_sent": 90,
   "total_users_ever": 2,
   "version": "1.0.0",
-  "runs_today": 9,
-  "last_run_date": "2026-06-05",
-  "last_exploitdb_check": "2026-06-05T22:58:50.805739",
-  "last_darkweb_check": "2026-06-05T22:58:52.203071",
-  "last_cisa_check": "2026-06-05T22:58:50.603183",
-  "last_osint_check": "2026-06-05T22:58:51.465891",
-  "last_redteam_check": "2026-06-05T22:58:51.549550",
-  "last_github_poc_check": "2026-06-05T22:58:51.665141",
-  "last_projectdiscovery_check": "2026-06-05T22:58:52.104417",
-  "last_telegram_check": "2026-06-05T22:58:52.063865",
-  "last_papers_check": "2026-06-05T22:58:52.988949",
-  "last_bugbounty_check": "2026-06-05T22:58:55.373640"
+  "runs_today": 1,
+  "last_run_date": "2026-06-06",
+  "last_exploitdb_check": "2026-06-06T00:03:48.997090",
+  "last_darkweb_check": "2026-06-06T00:03:50.139007",
+  "last_cisa_check": "2026-06-06T00:03:48.890837",
+  "last_osint_check": "2026-06-06T00:03:48.775492",
+  "last_redteam_check": "2026-06-06T00:03:48.750250",
+  "last_github_poc_check": "2026-06-06T00:03:49.224524",
+  "last_projectdiscovery_check": "2026-06-06T00:03:50.094750",
+  "last_telegram_check": "2026-06-06T00:03:49.814252",
+  "last_papers_check": "2026-06-06T00:04:15.682359",
+  "last_bugbounty_check": "2026-06-06T00:03:53.328728"
 }
