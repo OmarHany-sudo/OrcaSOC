@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-14T06:58:00.858688",
+  "last_run": "2026-06-14T10:22:24.939951",
   "last_update_id": 753263069,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -931,7 +931,9 @@
     "https://bukts.ru/repo-bukts-current",
     "https://blog.litespeedtech.com/2026/06/01/security-update-for-litespeed-cpanel-plugin-2/",
     "https://huggingface.co/vxkyyy/vyber-security-7b-gguf",
-    "https://bugs.launchpad.net/ironic/+bug/2155049"
+    "https://bugs.launchpad.net/ironic/+bug/2155049",
+    "https://github.com/pratikrathore200/TechMyst-Toolkit",
+    "https://hackerone.com/reports/3712279"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -2137,16 +2139,18 @@
     "8edc74b4509ae817",
     "addc6ff4fb201dcb",
     "f9d0e717177261c4",
-    "907c2870bbbff508"
+    "907c2870bbbff508",
+    "b8bc451c8527e417",
+    "d889f740b23ffc17"
   ],
-  "last_cve_check": "2026-06-14T06:57:34.333385",
+  "last_cve_check": "2026-06-14T10:22:01.168652",
   "last_exploit_check": null,
-  "last_github_check": "2026-06-14T06:57:35.747313",
-  "last_huggingface_check": "2026-06-14T06:57:36.681610",
-  "last_reddit_check": "2026-06-14T06:57:36.095200",
-  "last_rss_check": "2026-06-14T06:57:36.303232",
-  "last_ransomware_check": "2026-06-14T06:57:36.561328",
-  "last_leak_check": "2026-06-14T06:57:36.066047",
+  "last_github_check": "2026-06-14T10:22:03.020035",
+  "last_huggingface_check": "2026-06-14T10:22:07.758914",
+  "last_reddit_check": "2026-06-14T10:22:03.413116",
+  "last_rss_check": "2026-06-14T10:22:02.838142",
+  "last_ransomware_check": "2026-06-14T10:22:04.271615",
+  "last_leak_check": "2026-06-14T10:22:03.339257",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -2161,21 +2165,21 @@
     "2026-06-11": 89,
     "2026-06-12": 92,
     "2026-06-13": 79,
-    "2026-06-14": 6
+    "2026-06-14": 8
   },
   "total_alerts_sent": 90,
   "total_users_ever": 2,
   "version": "1.0.0",
-  "runs_today": 2,
+  "runs_today": 3,
   "last_run_date": "2026-06-14",
-  "last_exploitdb_check": "2026-06-14T06:57:34.831702",
-  "last_darkweb_check": "2026-06-14T06:57:36.180109",
-  "last_cisa_check": "2026-06-14T06:57:34.427611",
-  "last_osint_check": "2026-06-14T06:57:35.201968",
-  "last_redteam_check": "2026-06-14T06:57:35.420824",
-  "last_github_poc_check": "2026-06-14T06:57:35.682184",
-  "last_projectdiscovery_check": "2026-06-14T06:57:35.939159",
-  "last_telegram_check": "2026-06-14T06:57:36.067658",
-  "last_papers_check": "2026-06-14T06:57:36.627853",
-  "last_bugbounty_check": "2026-06-14T06:57:40.837141"
+  "last_exploitdb_check": "2026-06-14T10:22:01.735742",
+  "last_darkweb_check": "2026-06-14T10:22:03.573136",
+  "last_cisa_check": "2026-06-14T10:22:01.355304",
+  "last_osint_check": "2026-06-14T10:22:02.356740",
+  "last_redteam_check": "2026-06-14T10:22:02.492436",
+  "last_github_poc_check": "2026-06-14T10:22:03.078388",
+  "last_projectdiscovery_check": "2026-06-14T10:22:03.476949",
+  "last_telegram_check": "2026-06-14T10:22:03.501254",
+  "last_papers_check": "2026-06-14T10:22:04.301812",
+  "last_bugbounty_check": "2026-06-14T10:22:06.751192"
 }
