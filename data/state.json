@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-14T19:00:27.941507",
+  "last_run": "2026-06-14T20:18:10.741962",
   "last_update_id": 753263069,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -946,7 +946,8 @@
     "https://github.com/clanmalefique/WiFiFortress",
     "https://huggingface.co/hlyn-labs/prompt-injection-judge-deberta-70m",
     "https://cwe.mitre.org/data/definitions/193.html",
-    "https://cwe.mitre.org/data/definitions/125.html"
+    "https://cwe.mitre.org/data/definitions/125.html",
+    "https://github.com/clanmalefique/GeneWiMordaFi"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -2168,16 +2169,17 @@
     "0411933c1f703cb2",
     "2240622437a2bea6",
     "ccb7792bf2530c83",
-    "3d569ff84814af73"
+    "3d569ff84814af73",
+    "2107cc342b07d46c"
   ],
-  "last_cve_check": "2026-06-14T18:59:51.066175",
+  "last_cve_check": "2026-06-14T20:17:40.624181",
   "last_exploit_check": null,
-  "last_github_check": "2026-06-14T18:59:53.103598",
-  "last_huggingface_check": "2026-06-14T18:59:57.253644",
-  "last_reddit_check": "2026-06-14T18:59:53.449694",
-  "last_rss_check": "2026-06-14T18:59:53.623894",
-  "last_ransomware_check": "2026-06-14T18:59:54.080873",
-  "last_leak_check": "2026-06-14T18:59:53.312805",
+  "last_github_check": "2026-06-14T20:17:41.941081",
+  "last_huggingface_check": "2026-06-14T20:17:44.073972",
+  "last_reddit_check": "2026-06-14T20:17:42.692009",
+  "last_rss_check": "2026-06-14T20:17:42.468325",
+  "last_ransomware_check": "2026-06-14T20:17:42.948373",
+  "last_leak_check": "2026-06-14T20:17:42.446416",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -2192,21 +2194,21 @@
     "2026-06-11": 89,
     "2026-06-12": 92,
     "2026-06-13": 79,
-    "2026-06-14": 22
+    "2026-06-14": 23
   },
   "total_alerts_sent": 90,
   "total_users_ever": 2,
   "version": "1.0.0",
-  "runs_today": 8,
+  "runs_today": 9,
   "last_run_date": "2026-06-14",
-  "last_exploitdb_check": "2026-06-14T18:59:51.524021",
-  "last_darkweb_check": "2026-06-14T18:59:53.684479",
-  "last_cisa_check": "2026-06-14T18:59:51.177479",
-  "last_osint_check": "2026-06-14T18:59:52.588674",
-  "last_redteam_check": "2026-06-14T18:59:52.458800",
-  "last_github_poc_check": "2026-06-14T18:59:53.036497",
-  "last_projectdiscovery_check": "2026-06-14T18:59:53.145801",
-  "last_telegram_check": "2026-06-14T18:59:53.616256",
-  "last_papers_check": "2026-06-14T18:59:54.437751",
-  "last_bugbounty_check": "2026-06-14T18:59:56.451740"
+  "last_exploitdb_check": "2026-06-14T20:17:41.012621",
+  "last_darkweb_check": "2026-06-14T20:17:42.585536",
+  "last_cisa_check": "2026-06-14T20:17:40.823588",
+  "last_osint_check": "2026-06-14T20:17:41.893029",
+  "last_redteam_check": "2026-06-14T20:17:41.744174",
+  "last_github_poc_check": "2026-06-14T20:17:42.136279",
+  "last_projectdiscovery_check": "2026-06-14T20:17:42.282776",
+  "last_telegram_check": "2026-06-14T20:17:42.472151",
+  "last_papers_check": "2026-06-14T20:17:43.506942",
+  "last_bugbounty_check": "2026-06-14T20:17:45.864610"
 }
