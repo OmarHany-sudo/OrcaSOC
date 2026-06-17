@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-17T11:29:00.833888",
+  "last_run": "2026-06-17T14:38:36.607670",
   "last_update_id": 753263071,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -1076,7 +1076,9 @@
     "https://github.com/johnbazika/road-to-cpent",
     "https://patchstack.com/database/wordpress/theme/kids-online-store/vulnerability/wordpress-kids-online-store-theme-0-8-9-arbitrary-file-upload-vulnerability?_s_id=cve",
     "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
-    "https://arxiv.org/abs/2606.18193v1"
+    "https://arxiv.org/abs/2606.18193v1",
+    "https://github.com/pandey-saket/osint-recon-hub",
+    "https://hackerone.com/reports/3694007"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -2433,16 +2435,18 @@
     "c60f0834b9090455",
     "bc2a069173adbf5f",
     "87a59f02b8b230f7",
-    "2967bc405435f93a"
+    "2967bc405435f93a",
+    "9d22382a676c2bf4",
+    "b2bf7d66268a06f9"
   ],
-  "last_cve_check": "2026-06-17T11:28:31.858797",
+  "last_cve_check": "2026-06-17T14:38:12.489446",
   "last_exploit_check": null,
-  "last_github_check": "2026-06-17T11:28:33.597857",
-  "last_huggingface_check": "2026-06-17T11:28:34.623977",
-  "last_reddit_check": "2026-06-17T11:28:33.977470",
-  "last_rss_check": "2026-06-17T11:28:33.819105",
-  "last_ransomware_check": "2026-06-17T11:28:34.314531",
-  "last_leak_check": "2026-06-17T11:28:33.755725",
+  "last_github_check": "2026-06-17T14:38:14.558191",
+  "last_huggingface_check": "2026-06-17T14:38:14.462344",
+  "last_reddit_check": "2026-06-17T14:38:15.351883",
+  "last_rss_check": "2026-06-17T14:38:14.896754",
+  "last_ransomware_check": "2026-06-17T14:38:15.603830",
+  "last_leak_check": "2026-06-17T14:38:15.183515",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -2460,21 +2464,21 @@
     "2026-06-14": 26,
     "2026-06-15": 31,
     "2026-06-16": 62,
-    "2026-06-17": 38
+    "2026-06-17": 40
   },
   "total_alerts_sent": 91,
   "total_users_ever": 3,
   "version": "1.0.0",
-  "runs_today": 3,
+  "runs_today": 4,
   "last_run_date": "2026-06-17",
-  "last_exploitdb_check": "2026-06-17T11:28:32.156319",
-  "last_darkweb_check": "2026-06-17T11:28:33.949729",
-  "last_cisa_check": "2026-06-17T11:28:31.956159",
-  "last_osint_check": "2026-06-17T11:28:33.076807",
-  "last_redteam_check": "2026-06-17T11:28:33.239041",
-  "last_github_poc_check": "2026-06-17T11:28:33.602976",
-  "last_projectdiscovery_check": "2026-06-17T11:28:33.525658",
-  "last_telegram_check": "2026-06-17T11:28:33.897006",
-  "last_papers_check": "2026-06-17T11:28:34.360225",
-  "last_bugbounty_check": "2026-06-17T11:28:37.177840"
+  "last_exploitdb_check": "2026-06-17T14:38:13.144530",
+  "last_darkweb_check": "2026-06-17T14:38:15.186351",
+  "last_cisa_check": "2026-06-17T14:38:12.777509",
+  "last_osint_check": "2026-06-17T14:38:14.151665",
+  "last_redteam_check": "2026-06-17T14:38:14.340561",
+  "last_github_poc_check": "2026-06-17T14:38:14.903405",
+  "last_projectdiscovery_check": "2026-06-17T14:38:15.053360",
+  "last_telegram_check": "2026-06-17T14:38:14.976375",
+  "last_papers_check": "2026-06-17T14:38:15.405059",
+  "last_bugbounty_check": "2026-06-17T14:38:18.527584"
 }
