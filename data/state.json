@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-18T11:06:28.875100",
+  "last_run": "2026-06-18T14:22:46.568902",
   "last_update_id": 753263071,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -1103,7 +1103,11 @@
     "https://arxiv.org/abs/2606.19305v1",
     "https://arxiv.org/abs/2606.19242v1",
     "https://arxiv.org/abs/2606.19235v1",
-    "https://github.com/SWATH-AI-Powered-Bug-Hunting-Framework/SWATH"
+    "https://github.com/SWATH-AI-Powered-Bug-Hunting-Framework/SWATH",
+    "https://github.com/gentleman567/POC",
+    "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
+    "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+    "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -2497,16 +2501,20 @@
     "464788b4b3aa8f88",
     "343e3b16afb435a7",
     "23df2a09925a83c7",
-    "ece8036abeb73e25"
+    "ece8036abeb73e25",
+    "2a95708067b2803f",
+    "a61ee77782be37b2",
+    "930beeb42eee741c",
+    "2f20fb043eef33e9"
   ],
-  "last_cve_check": "2026-06-18T11:06:04.862632",
+  "last_cve_check": "2026-06-18T14:22:20.919557",
   "last_exploit_check": null,
-  "last_github_check": "2026-06-18T11:06:06.488992",
-  "last_huggingface_check": "2026-06-18T11:06:07.783565",
-  "last_reddit_check": "2026-06-18T11:06:06.917741",
-  "last_rss_check": "2026-06-18T11:06:06.845860",
-  "last_ransomware_check": "2026-06-18T11:06:07.491202",
-  "last_leak_check": "2026-06-18T11:06:06.886282",
+  "last_github_check": "2026-06-18T14:21:52.755856",
+  "last_huggingface_check": "2026-06-18T14:21:53.866169",
+  "last_reddit_check": "2026-06-18T14:21:53.226818",
+  "last_rss_check": "2026-06-18T14:21:54.472715",
+  "last_ransomware_check": "2026-06-18T14:21:54.672595",
+  "last_leak_check": "2026-06-18T14:21:54.139916",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -2525,21 +2533,21 @@
     "2026-06-15": 31,
     "2026-06-16": 62,
     "2026-06-17": 69,
-    "2026-06-18": 6
+    "2026-06-18": 10
   },
   "total_alerts_sent": 91,
   "total_users_ever": 3,
   "version": "1.0.0",
-  "runs_today": 3,
+  "runs_today": 4,
   "last_run_date": "2026-06-18",
-  "last_exploitdb_check": "2026-06-18T11:06:05.251827",
-  "last_darkweb_check": "2026-06-18T11:06:06.961452",
-  "last_cisa_check": "2026-06-18T11:06:05.044814",
-  "last_osint_check": "2026-06-18T11:06:06.228090",
-  "last_redteam_check": "2026-06-18T11:06:06.150577",
-  "last_github_poc_check": "2026-06-18T11:06:06.653095",
-  "last_projectdiscovery_check": "2026-06-18T11:06:06.591082",
-  "last_telegram_check": "2026-06-18T11:06:06.921033",
-  "last_papers_check": "2026-06-18T11:06:07.643593",
-  "last_bugbounty_check": "2026-06-18T11:06:10.443463"
+  "last_exploitdb_check": "2026-06-18T14:21:52.601377",
+  "last_darkweb_check": "2026-06-18T14:21:54.241766",
+  "last_cisa_check": "2026-06-18T14:21:52.423730",
+  "last_osint_check": "2026-06-18T14:21:52.764574",
+  "last_redteam_check": "2026-06-18T14:21:52.235552",
+  "last_github_poc_check": "2026-06-18T14:21:52.716189",
+  "last_projectdiscovery_check": "2026-06-18T14:21:54.113534",
+  "last_telegram_check": "2026-06-18T14:21:53.529796",
+  "last_papers_check": "2026-06-18T14:21:54.533383",
+  "last_bugbounty_check": "2026-06-18T14:21:57.217022"
 }
