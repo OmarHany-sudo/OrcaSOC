@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-19T14:41:41.801020",
+  "last_run": "2026-06-19T17:05:09.750228",
   "last_update_id": 753263071,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -1147,7 +1147,13 @@
     "https://github.com/geoserver/geoserver/releases/tag/2.27.0",
     "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
     "https://github.com/geoserver/geoserver/pull/8584",
-    "https://github.com/geoserver/geoserver/pull/8622"
+    "https://github.com/geoserver/geoserver/pull/8622",
+    "https://github.com/abdurazzoqovjavohir700-dev/security-disclosures-2026",
+    "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
+    "https://epds.gao.gov/",
+    "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
+    "https://github.com/haproxy/haproxy/commit/5985276735777634d8c85f1d73bb7764aab0d6dd",
+    "https://github.com/haproxy/haproxy/commit/9a6d1fe3f00d86ab4ea6ea6ea0a5d48fc058a513"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -2585,16 +2591,23 @@
     "a3f0fa314ace5237",
     "49d36932b8d5aebf",
     "78412c4ead177f2b",
-    "b979d36c8ecf2ab5"
+    "b979d36c8ecf2ab5",
+    "31bfd44227d95f1c",
+    "1acf8e09d853130d",
+    "c69fbff288a0f02f",
+    "471a2156261fa5fa",
+    "bd33b07716c1aaef",
+    "158e58ca70993a84",
+    "ac01793f05e48f46"
   ],
-  "last_cve_check": "2026-06-19T14:41:19.798904",
+  "last_cve_check": "2026-06-19T17:04:48.561840",
   "last_exploit_check": null,
-  "last_github_check": "2026-06-19T14:41:16.691081",
-  "last_huggingface_check": "2026-06-19T14:41:18.407073",
-  "last_reddit_check": "2026-06-19T14:41:17.026845",
-  "last_rss_check": "2026-06-19T14:41:17.058028",
-  "last_ransomware_check": "2026-06-19T14:41:17.788851",
-  "last_leak_check": "2026-06-19T14:41:17.210530",
+  "last_github_check": "2026-06-19T17:04:38.845727",
+  "last_huggingface_check": "2026-06-19T17:04:40.234820",
+  "last_reddit_check": "2026-06-19T17:04:39.198221",
+  "last_rss_check": "2026-06-19T17:04:38.897219",
+  "last_ransomware_check": "2026-06-19T17:04:40.354412",
+  "last_leak_check": "2026-06-19T17:04:39.346997",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -2614,21 +2627,21 @@
     "2026-06-16": 62,
     "2026-06-17": 69,
     "2026-06-18": 21,
-    "2026-06-19": 29
+    "2026-06-19": 36
   },
   "total_alerts_sent": 91,
   "total_users_ever": 3,
   "version": "1.0.0",
-  "runs_today": 4,
+  "runs_today": 5,
   "last_run_date": "2026-06-19",
-  "last_exploitdb_check": "2026-06-19T14:41:16.527946",
-  "last_darkweb_check": "2026-06-19T14:41:17.897389",
-  "last_cisa_check": "2026-06-19T14:41:16.422106",
-  "last_osint_check": "2026-06-19T14:41:16.307036",
-  "last_redteam_check": "2026-06-19T14:41:16.281642",
-  "last_github_poc_check": "2026-06-19T14:41:16.556437",
-  "last_projectdiscovery_check": "2026-06-19T14:41:17.848161",
-  "last_telegram_check": "2026-06-19T14:41:17.341306",
-  "last_papers_check": "2026-06-19T14:41:18.215410",
-  "last_bugbounty_check": "2026-06-19T14:41:20.584387"
+  "last_exploitdb_check": "2026-06-19T17:04:38.276600",
+  "last_darkweb_check": "2026-06-19T17:04:39.505771",
+  "last_cisa_check": "2026-06-19T17:04:38.130341",
+  "last_osint_check": "2026-06-19T17:04:37.875805",
+  "last_redteam_check": "2026-06-19T17:04:38.226261",
+  "last_github_poc_check": "2026-06-19T17:04:38.435671",
+  "last_projectdiscovery_check": "2026-06-19T17:04:39.455750",
+  "last_telegram_check": "2026-06-19T17:04:39.219381",
+  "last_papers_check": "2026-06-19T17:04:39.947438",
+  "last_bugbounty_check": "2026-06-19T17:04:42.509328"
 }
