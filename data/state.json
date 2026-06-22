@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-22T18:32:42.248422",
+  "last_run": "2026-06-22T21:24:54.335885",
   "last_update_id": 753263071,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -1285,7 +1285,10 @@
     "https://github.com/joshuavanderpoll/CVE-2026-54806",
     "https://github.com/credkellar-boop/0p3n-s3sam3",
     "https://huggingface.co/phucngodev/Qwen3.5-9B-MTP",
-    "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html"
+    "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+    "https://github.com/joshuavanderpoll/CVE-2026-49772",
+    "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+    "https://huggingface.co/senthil-kumar/qwen-cyber-lora"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -2871,16 +2874,19 @@
     "64c71b1555ef0ac5",
     "e62e1999ec6abb09",
     "7983da98ed315b2d",
-    "9a4c1ec075b4619a"
+    "9a4c1ec075b4619a",
+    "3bd5fb53a458d3be",
+    "fadea84b8cc3f4d3",
+    "6f69531ba38ee291"
   ],
-  "last_cve_check": "2026-06-22T18:32:10.572212",
+  "last_cve_check": "2026-06-22T21:24:28.918973",
   "last_exploit_check": null,
-  "last_github_check": "2026-06-22T18:32:11.911296",
-  "last_huggingface_check": "2026-06-22T18:32:12.617846",
-  "last_reddit_check": "2026-06-22T18:32:12.359561",
-  "last_rss_check": "2026-06-22T18:32:11.873906",
-  "last_ransomware_check": "2026-06-22T18:32:12.682183",
-  "last_leak_check": "2026-06-22T18:32:12.072992",
+  "last_github_check": "2026-06-22T21:24:30.920873",
+  "last_huggingface_check": "2026-06-22T21:24:32.834018",
+  "last_reddit_check": "2026-06-22T21:24:31.170944",
+  "last_rss_check": "2026-06-22T21:24:31.010999",
+  "last_ransomware_check": "2026-06-22T21:24:31.837329",
+  "last_leak_check": "2026-06-22T21:24:31.149871",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -2903,21 +2909,21 @@
     "2026-06-19": 71,
     "2026-06-20": 65,
     "2026-06-21": 29,
-    "2026-06-22": 12
+    "2026-06-22": 15
   },
   "total_alerts_sent": 91,
   "total_users_ever": 3,
   "version": "1.0.0",
-  "runs_today": 4,
+  "runs_today": 5,
   "last_run_date": "2026-06-22",
-  "last_exploitdb_check": "2026-06-22T18:32:10.904569",
-  "last_darkweb_check": "2026-06-22T18:32:12.454609",
-  "last_cisa_check": "2026-06-22T18:32:10.723688",
-  "last_osint_check": "2026-06-22T18:32:11.865432",
-  "last_redteam_check": "2026-06-22T18:32:11.405899",
-  "last_github_poc_check": "2026-06-22T18:32:11.923055",
-  "last_projectdiscovery_check": "2026-06-22T18:32:12.384856",
-  "last_telegram_check": "2026-06-22T18:32:12.202730",
-  "last_papers_check": "2026-06-22T18:32:13.324256",
-  "last_bugbounty_check": "2026-06-22T18:32:15.790035"
+  "last_exploitdb_check": "2026-06-22T21:24:29.372491",
+  "last_darkweb_check": "2026-06-22T21:24:31.217488",
+  "last_cisa_check": "2026-06-22T21:24:29.038464",
+  "last_osint_check": "2026-06-22T21:24:30.674217",
+  "last_redteam_check": "2026-06-22T21:24:30.442331",
+  "last_github_poc_check": "2026-06-22T21:24:30.925227",
+  "last_projectdiscovery_check": "2026-06-22T21:24:30.734273",
+  "last_telegram_check": "2026-06-22T21:24:31.257978",
+  "last_papers_check": "2026-06-22T21:24:32.346304",
+  "last_bugbounty_check": "2026-06-22T21:24:34.338883"
 }
