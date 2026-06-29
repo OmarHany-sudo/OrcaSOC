@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-29T17:49:42.534237",
+  "last_run": "2026-06-29T19:43:40.224959",
   "last_update_id": 753263071,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -1819,7 +1819,12 @@
     "https://github.com/xiaoxuxu233/myCVE/issues/2",
     "https://github.com/DaveUseGitHub/NexusOSINT",
     "https://huggingface.co/V12nm/Qwythos-9B-Claude-Mythos-5-1M",
-    "https://hackerone.com/reports/876530"
+    "https://hackerone.com/reports/876530",
+    "https://github.com/Tehreem-Iqbal/API-security-testing-workflow",
+    "https://github.com/yuanyuandechen/vul/issues/2",
+    "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
+    "https://huggingface.co/hacnho/openvino-pad-allocation-dos-poc",
+    "https://huggingface.co/eadx/Qwythos-9B-Claude-Mythos-5-1M"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -3972,16 +3977,21 @@
     "84b205afbaed7ca6",
     "cabde08e5e84f1e5",
     "8ba88f1f59703117",
-    "22f360d46cc4c03c"
+    "22f360d46cc4c03c",
+    "27345dadbe72edbf",
+    "8a771f257542e54a",
+    "2a1f0e0fe8ce3874",
+    "ef52f20504f143f1",
+    "ed0299dc16291372"
   ],
-  "last_cve_check": "2026-06-29T17:49:21.706798",
+  "last_cve_check": "2026-06-29T19:43:07.070287",
   "last_exploit_check": null,
-  "last_github_check": "2026-06-29T17:49:21.361164",
-  "last_huggingface_check": "2026-06-29T17:49:26.127420",
-  "last_reddit_check": "2026-06-29T17:49:21.876057",
-  "last_rss_check": "2026-06-29T17:49:21.310253",
-  "last_ransomware_check": "2026-06-29T17:49:22.737528",
-  "last_leak_check": "2026-06-29T17:49:21.936602",
+  "last_github_check": "2026-06-29T19:43:09.010072",
+  "last_huggingface_check": "2026-06-29T19:43:12.375179",
+  "last_reddit_check": "2026-06-29T19:43:09.976775",
+  "last_rss_check": "2026-06-29T19:43:09.267322",
+  "last_ransomware_check": "2026-06-29T19:43:10.222740",
+  "last_leak_check": "2026-06-29T19:43:09.640731",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -4011,21 +4021,21 @@
     "2026-06-26": 116,
     "2026-06-27": 114,
     "2026-06-28": 40,
-    "2026-06-29": 39
+    "2026-06-29": 44
   },
   "total_alerts_sent": 91,
   "total_users_ever": 3,
   "version": "1.0.0",
-  "runs_today": 5,
+  "runs_today": 6,
   "last_run_date": "2026-06-29",
-  "last_exploitdb_check": "2026-06-29T17:49:21.260131",
-  "last_darkweb_check": "2026-06-29T17:49:22.033511",
-  "last_cisa_check": "2026-06-29T17:49:20.951710",
-  "last_osint_check": "2026-06-29T17:49:21.092910",
-  "last_redteam_check": "2026-06-29T17:49:20.710202",
-  "last_github_poc_check": "2026-06-29T17:49:21.203317",
-  "last_projectdiscovery_check": "2026-06-29T17:49:23.138282",
-  "last_telegram_check": "2026-06-29T17:49:21.802472",
-  "last_papers_check": "2026-06-29T17:49:23.349264",
-  "last_bugbounty_check": "2026-06-29T17:49:25.361025"
+  "last_exploitdb_check": "2026-06-29T19:43:07.711702",
+  "last_darkweb_check": "2026-06-29T19:43:09.793903",
+  "last_cisa_check": "2026-06-29T19:43:07.372645",
+  "last_osint_check": "2026-06-29T19:43:09.109353",
+  "last_redteam_check": "2026-06-29T19:43:08.438112",
+  "last_github_poc_check": "2026-06-29T19:43:09.345416",
+  "last_projectdiscovery_check": "2026-06-29T19:43:09.372987",
+  "last_telegram_check": "2026-06-29T19:43:09.650009",
+  "last_papers_check": "2026-06-29T19:43:10.865612",
+  "last_bugbounty_check": "2026-06-29T19:43:13.068594"
 }
