@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-05T18:46:35.117486",
+  "last_run": "2026-07-05T20:00:32.808963",
   "last_update_id": 753263071,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -2306,7 +2306,8 @@
     "https://huggingface.co/reduxv1/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
     "https://github.com/endgamec2framework/endgame",
     "https://huggingface.co/Nemesispro/Mythoseek",
-    "https://github.com/ltranquility/vuln_submit/issues/21"
+    "https://github.com/ltranquility/vuln_submit/issues/21",
+    "https://github.com/geminipolo1991-vampire/CVE---Web/issues/1"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -4966,16 +4967,17 @@
     "3731360124f527cf",
     "8764396723721a0a",
     "26f30b59ec84c0b5",
-    "b032b627f1ed08e2"
+    "b032b627f1ed08e2",
+    "636ec312210db970"
   ],
-  "last_cve_check": "2026-07-05T18:46:04.774462",
+  "last_cve_check": "2026-07-05T19:59:58.955279",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-05T18:46:06.333204",
-  "last_huggingface_check": "2026-07-05T18:46:07.834886",
-  "last_reddit_check": "2026-07-05T18:46:06.798252",
-  "last_rss_check": "2026-07-05T18:46:06.263263",
-  "last_ransomware_check": "2026-07-05T18:46:06.865703",
-  "last_leak_check": "2026-07-05T18:46:06.445754",
+  "last_github_check": "2026-07-05T20:00:00.514484",
+  "last_huggingface_check": "2026-07-05T20:00:03.726894",
+  "last_reddit_check": "2026-07-05T20:00:01.478073",
+  "last_rss_check": "2026-07-05T20:00:00.884764",
+  "last_ransomware_check": "2026-07-05T20:00:01.762778",
+  "last_leak_check": "2026-07-05T20:00:01.158828",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -5011,21 +5013,21 @@
     "2026-07-02": 94,
     "2026-07-03": 83,
     "2026-07-04": 65,
-    "2026-07-05": 30
+    "2026-07-05": 31
   },
   "total_alerts_sent": 91,
   "total_users_ever": 3,
   "version": "1.0.0",
-  "runs_today": 10,
+  "runs_today": 11,
   "last_run_date": "2026-07-05",
-  "last_exploitdb_check": "2026-07-05T18:46:05.062465",
-  "last_darkweb_check": "2026-07-05T18:46:06.635765",
-  "last_cisa_check": "2026-07-05T18:46:04.971846",
-  "last_osint_check": "2026-07-05T18:46:05.974718",
-  "last_redteam_check": "2026-07-05T18:46:05.878014",
-  "last_github_poc_check": "2026-07-05T18:46:06.215892",
-  "last_projectdiscovery_check": "2026-07-05T18:46:06.168727",
-  "last_telegram_check": "2026-07-05T18:46:06.521202",
-  "last_papers_check": "2026-07-05T18:46:07.232905",
-  "last_bugbounty_check": "2026-07-05T18:46:12.138456"
+  "last_exploitdb_check": "2026-07-05T19:59:59.469058",
+  "last_darkweb_check": "2026-07-05T20:00:01.473844",
+  "last_cisa_check": "2026-07-05T19:59:59.214533",
+  "last_osint_check": "2026-07-05T20:00:00.297596",
+  "last_redteam_check": "2026-07-05T20:00:00.155011",
+  "last_github_poc_check": "2026-07-05T20:00:00.583430",
+  "last_projectdiscovery_check": "2026-07-05T20:00:01.300228",
+  "last_telegram_check": "2026-07-05T20:00:00.974931",
+  "last_papers_check": "2026-07-05T20:00:02.278429",
+  "last_bugbounty_check": "2026-07-05T20:00:05.288901"
 }
