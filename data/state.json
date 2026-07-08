@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-08T09:37:41.016982",
+  "last_run": "2026-07-08T11:30:22.807671",
   "last_update_id": 753263071,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -2519,7 +2519,10 @@
     "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
     "https://www.dell.com/support/kbdoc/en-us/000481268/dsa-2026-278-security-update-for-dell-powerprotect-data-domain-multiple-vulnerabilities",
     "https://blogs.perl.org/users/michael_g_schwern/2011/10/how-not-to-load-a-module-or-bad-interfaces-make-good-people-do-bad-things.html",
-    "https://bugzilla.suse.com/show_bug.cgi?id=CVE-2026-44938"
+    "https://bugzilla.suse.com/show_bug.cgi?id=CVE-2026-44938",
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
+    "https://plugins.trac.wordpress.org/browser/accelerated-mobile-pages/tags/1.1.12/accelerated-moblie-pages.php#L1616",
+    "https://www.digi.com/resources/security"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -5405,16 +5408,19 @@
     "245c062ba44db600",
     "cdf28d2a5a2f2cbd",
     "b8e99e15254df1ac",
-    "6e29611018f147fc"
+    "6e29611018f147fc",
+    "3b475511a90f78d8",
+    "99ac31d50cc6d185",
+    "2128e4e34f1c29f2"
   ],
-  "last_cve_check": "2026-07-08T09:37:08.681428",
+  "last_cve_check": "2026-07-08T11:29:55.075696",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-08T09:37:10.403007",
-  "last_huggingface_check": "2026-07-08T09:37:11.197257",
-  "last_reddit_check": "2026-07-08T09:37:10.752324",
-  "last_rss_check": "2026-07-08T09:37:10.477573",
-  "last_ransomware_check": "2026-07-08T09:37:10.954508",
-  "last_leak_check": "2026-07-08T09:37:10.635996",
+  "last_github_check": "2026-07-08T11:29:56.434865",
+  "last_huggingface_check": "2026-07-08T11:29:57.100141",
+  "last_reddit_check": "2026-07-08T11:29:56.763627",
+  "last_rss_check": "2026-07-08T11:29:56.321681",
+  "last_ransomware_check": "2026-07-08T11:29:57.050863",
+  "last_leak_check": "2026-07-08T11:29:56.661092",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -5453,21 +5459,21 @@
     "2026-07-05": 42,
     "2026-07-06": 64,
     "2026-07-07": 113,
-    "2026-07-08": 37
+    "2026-07-08": 40
   },
   "total_alerts_sent": 91,
   "total_users_ever": 3,
   "version": "1.0.0",
-  "runs_today": 4,
+  "runs_today": 5,
   "last_run_date": "2026-07-08",
-  "last_exploitdb_check": "2026-07-08T09:37:09.029824",
-  "last_darkweb_check": "2026-07-08T09:37:10.704910",
-  "last_cisa_check": "2026-07-08T09:37:08.862127",
-  "last_osint_check": "2026-07-08T09:37:09.909826",
-  "last_redteam_check": "2026-07-08T09:37:09.807289",
-  "last_github_poc_check": "2026-07-08T09:37:10.256956",
-  "last_projectdiscovery_check": "2026-07-08T09:37:10.115338",
-  "last_telegram_check": "2026-07-08T09:37:10.551123",
-  "last_papers_check": "2026-07-08T09:37:11.233953",
-  "last_bugbounty_check": "2026-07-08T09:37:13.767669"
+  "last_exploitdb_check": "2026-07-08T11:29:55.294620",
+  "last_darkweb_check": "2026-07-08T11:29:56.752869",
+  "last_cisa_check": "2026-07-08T11:29:55.212340",
+  "last_osint_check": "2026-07-08T11:29:56.214930",
+  "last_redteam_check": "2026-07-08T11:29:55.922170",
+  "last_github_poc_check": "2026-07-08T11:29:56.407904",
+  "last_projectdiscovery_check": "2026-07-08T11:29:56.581835",
+  "last_telegram_check": "2026-07-08T11:29:56.695648",
+  "last_papers_check": "2026-07-08T11:29:57.488500",
+  "last_bugbounty_check": "2026-07-08T11:29:59.835438"
 }
