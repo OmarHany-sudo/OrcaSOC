@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-07T23:47:32.787635",
+  "last_run": "2026-07-08T01:14:19.562450",
   "last_update_id": 753263071,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -2483,7 +2483,13 @@
     "https://github.com/coollabsio/coolify/commit/ad95d65aca064f49b38f73f88d61f842737d5463",
     "https://github.com/coollabsio/coolify/commit/25d424c743d5134d4a005a6d8f754bb3235b632c",
     "https://github.com/Bixilon/Minosoft/blob/3a608abe2d0999e4e702cc1b2d28366884c7f31e/src/main/java/de/bixilon/minosoft/protocol/protocol/encryption/CryptManager.kt#L72",
-    "https://github.com/coollabsio/coolify/commit/98569e4edbfc316877c9e0d27ea89fab3c49e3bd"
+    "https://github.com/coollabsio/coolify/commit/98569e4edbfc316877c9e0d27ea89fab3c49e3bd",
+    "https://huggingface.co/ahmedandaloes/CyberStrike-OffSec-35B-MLX-8bit",
+    "https://github.com/amnsecurity/CVE-2026-49777-WooCommerce-RCE",
+    "https://github.com/amnsecurity/CVE-2026-0257-GlobalProtect-Bypass",
+    "https://huggingface.co/ahmedandaloes/CyberStrike-OffSec-35B-GGUF",
+    "https://github.com/coollabsio/coolify/commit/1cf6c7d0aef8e0edb800ae43f44ded102397cb13",
+    "https://arxiv.org/abs/2607.06371v1"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -5332,16 +5338,22 @@
     "d936356c6470d72d",
     "3a8087b08c9df6f1",
     "05934486efd04d34",
-    "8c9f5214f651879a"
+    "8c9f5214f651879a",
+    "35419069591a136d",
+    "23713ddea761c9ae",
+    "6ca766efc3cd8f04",
+    "7f068eb1ddf8e995",
+    "f69ed038efc7d12d",
+    "480e3643e17bcc47"
   ],
-  "last_cve_check": "2026-07-07T23:46:58.342025",
+  "last_cve_check": "2026-07-08T01:13:52.226915",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-07T23:46:59.722777",
-  "last_huggingface_check": "2026-07-07T23:47:03.514105",
-  "last_reddit_check": "2026-07-07T23:46:59.953017",
-  "last_rss_check": "2026-07-07T23:46:59.565809",
-  "last_ransomware_check": "2026-07-07T23:47:00.807266",
-  "last_leak_check": "2026-07-07T23:47:00.042131",
+  "last_github_check": "2026-07-08T01:13:53.821043",
+  "last_huggingface_check": "2026-07-08T01:13:54.658307",
+  "last_reddit_check": "2026-07-08T01:13:54.413291",
+  "last_rss_check": "2026-07-08T01:13:54.065717",
+  "last_ransomware_check": "2026-07-08T01:13:54.442959",
+  "last_leak_check": "2026-07-08T01:13:54.031363",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -5379,21 +5391,22 @@
     "2026-07-04": 65,
     "2026-07-05": 42,
     "2026-07-06": 64,
-    "2026-07-07": 113
+    "2026-07-07": 113,
+    "2026-07-08": 6
   },
   "total_alerts_sent": 91,
   "total_users_ever": 3,
   "version": "1.0.0",
-  "runs_today": 11,
-  "last_run_date": "2026-07-07",
-  "last_exploitdb_check": "2026-07-07T23:46:58.541043",
-  "last_darkweb_check": "2026-07-07T23:47:00.190211",
-  "last_cisa_check": "2026-07-07T23:46:58.479297",
-  "last_osint_check": "2026-07-07T23:46:59.579777",
-  "last_redteam_check": "2026-07-07T23:46:59.399725",
-  "last_github_poc_check": "2026-07-07T23:46:59.903135",
-  "last_projectdiscovery_check": "2026-07-07T23:47:00.134163",
-  "last_telegram_check": "2026-07-07T23:47:00.231782",
-  "last_papers_check": "2026-07-07T23:47:00.993201",
-  "last_bugbounty_check": "2026-07-07T23:47:03.329014"
+  "runs_today": 1,
+  "last_run_date": "2026-07-08",
+  "last_exploitdb_check": "2026-07-08T01:13:52.571425",
+  "last_darkweb_check": "2026-07-08T01:13:54.208154",
+  "last_cisa_check": "2026-07-08T01:13:52.349405",
+  "last_osint_check": "2026-07-08T01:13:53.181253",
+  "last_redteam_check": "2026-07-08T01:13:53.207212",
+  "last_github_poc_check": "2026-07-08T01:13:53.714220",
+  "last_projectdiscovery_check": "2026-07-08T01:13:53.798867",
+  "last_telegram_check": "2026-07-08T01:13:54.099867",
+  "last_papers_check": "2026-07-08T01:13:54.714767",
+  "last_bugbounty_check": "2026-07-08T01:13:57.648796"
 }
