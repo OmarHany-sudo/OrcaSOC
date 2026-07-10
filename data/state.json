@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-10T22:32:01.373270",
+  "last_run": "2026-07-10T23:31:39.393871",
   "last_update_id": 753263071,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -2781,7 +2781,13 @@
     "https://github.com/vim/vim/commit/6b611b0d15603c52ebdad17172b0232b4f65704e",
     "https://github.com/QuantumNous/new-api/commit/20399d3c8fcb4e3649d53163eb11940fd6763743",
     "https://github.com/langroid/langroid/commit/56e2756ecab70a70a7e6edbee2f2187b8484683e",
-    "https://github.com/vim/vim/commit/d22ff1c955ff87e8273210eae125aab0e85b6c30"
+    "https://github.com/vim/vim/commit/d22ff1c955ff87e8273210eae125aab0e85b6c30",
+    "https://github.com/RensTillmann/super-forms/commit/c5838f5877c72b738c54ed970935c77ae6830c3a",
+    "https://plugins.trac.wordpress.org/browser/salon-booking-system/tags/10.30.32/src/SLN/Action/Ajax/SetCustomText.php#L17",
+    "https://github.com/langroid/langroid/security/advisories/GHSA-q9p7-wqxg-mrhc",
+    "https://plugins.trac.wordpress.org/browser/post-export-import-with-media/tags/1.13.1/includes/class-media-handler.php#L268",
+    "https://plugins.trac.wordpress.org/browser/wp-cafe/tags/3.0.13/vendor/themewinter/email-notification-sdk/src/Flow/FlowAPI.php#L102",
+    "https://github.com/langroid/langroid/security/advisories/GHSA-gjgq-w2m6-wr5q"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -5951,16 +5957,22 @@
     "67e65b20f6d1d656",
     "25f215fa029b1d98",
     "e985ab19edb2c18b",
-    "e4d8480feb5faeb5"
+    "e4d8480feb5faeb5",
+    "b8f9f6e8512c14fc",
+    "0f3bb37164dcd916",
+    "c04207aa9b39ffb1",
+    "b98fab75d28d39dc",
+    "98c8b0d3a4cabab5",
+    "bd43020950f22e95"
   ],
-  "last_cve_check": "2026-07-10T22:31:27.542734",
+  "last_cve_check": "2026-07-10T23:31:09.888796",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-10T22:31:28.658521",
-  "last_huggingface_check": "2026-07-10T22:31:30.142940",
-  "last_reddit_check": "2026-07-10T22:31:29.409451",
-  "last_rss_check": "2026-07-10T22:31:28.979558",
-  "last_ransomware_check": "2026-07-10T22:31:29.634139",
-  "last_leak_check": "2026-07-10T22:31:29.201196",
+  "last_github_check": "2026-07-10T23:31:11.280988",
+  "last_huggingface_check": "2026-07-10T23:31:12.335654",
+  "last_reddit_check": "2026-07-10T23:31:11.765007",
+  "last_rss_check": "2026-07-10T23:31:11.734336",
+  "last_ransomware_check": "2026-07-10T23:31:12.092442",
+  "last_leak_check": "2026-07-10T23:31:11.624592",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -6001,21 +6013,21 @@
     "2026-07-07": 113,
     "2026-07-08": 97,
     "2026-07-09": 107,
-    "2026-07-10": 117
+    "2026-07-10": 123
   },
   "total_alerts_sent": 91,
   "total_users_ever": 3,
   "version": "1.0.0",
-  "runs_today": 11,
+  "runs_today": 12,
   "last_run_date": "2026-07-10",
-  "last_exploitdb_check": "2026-07-10T22:31:27.918795",
-  "last_darkweb_check": "2026-07-10T22:31:29.302312",
-  "last_cisa_check": "2026-07-10T22:31:27.685783",
-  "last_osint_check": "2026-07-10T22:31:28.636274",
-  "last_redteam_check": "2026-07-10T22:31:28.683339",
-  "last_github_poc_check": "2026-07-10T22:31:28.854638",
-  "last_projectdiscovery_check": "2026-07-10T22:31:29.057403",
-  "last_telegram_check": "2026-07-10T22:31:29.162330",
-  "last_papers_check": "2026-07-10T22:31:30.080890",
-  "last_bugbounty_check": "2026-07-10T22:31:32.979910"
+  "last_exploitdb_check": "2026-07-10T23:31:10.173178",
+  "last_darkweb_check": "2026-07-10T23:31:11.788598",
+  "last_cisa_check": "2026-07-10T23:31:10.000659",
+  "last_osint_check": "2026-07-10T23:31:11.201221",
+  "last_redteam_check": "2026-07-10T23:31:11.194097",
+  "last_github_poc_check": "2026-07-10T23:31:11.432880",
+  "last_projectdiscovery_check": "2026-07-10T23:31:11.258594",
+  "last_telegram_check": "2026-07-10T23:31:11.586935",
+  "last_papers_check": "2026-07-10T23:31:12.075381",
+  "last_bugbounty_check": "2026-07-10T23:31:14.737828"
 }
