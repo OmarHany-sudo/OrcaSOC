@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-11T00:59:00.677459",
+  "last_run": "2026-07-11T04:10:13.393880",
   "last_update_id": 753263071,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -2793,7 +2793,10 @@
     "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=3071359%40buddypress-media%2Ftrunk&old=3022114%40buddypress-media%2Ftrunk&sfp_email=&sfph_mail=",
     "https://plugins.trac.wordpress.org/browser/king-addons/tags/51.1.61/includes/widgets/Form_Builder/helpers/Create_Submission.php#L68",
     "https://plugins.trac.wordpress.org/browser/the-plus-addons-for-elementor-page-builder/tags/6.4.10/modules/helper-function.php#L65",
-    "https://bugs.launchpad.net/ironic/+bug/2150458"
+    "https://bugs.launchpad.net/ironic/+bug/2150458",
+    "https://plugins.trac.wordpress.org/browser/ultimate-member/tags/2.10.1/includes/core/class-member-directory.php#L1710",
+    "https://plugins.trac.wordpress.org/changeset/3427656/sureforms/tags/2.2.2/inc/payments/front-end.php",
+    "https://huggingface.co/shamsghi/Qwen-9B-Claude-Fable-5-1M-MLX-8bit"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -5975,16 +5978,19 @@
     "f0514ac881c7c3cc",
     "74f4e5dfc71b393b",
     "4c2ecdb1365fb360",
-    "a1316493deb7fe30"
+    "a1316493deb7fe30",
+    "5fd41edbbb2d63f3",
+    "f4e9725eaca67a05",
+    "c82a9d9122822fd2"
   ],
-  "last_cve_check": "2026-07-11T00:58:34.381231",
+  "last_cve_check": "2026-07-11T04:09:47.529609",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-11T00:58:35.574589",
-  "last_huggingface_check": "2026-07-11T00:58:36.832142",
-  "last_reddit_check": "2026-07-11T00:58:36.124918",
-  "last_rss_check": "2026-07-11T00:58:36.116636",
-  "last_ransomware_check": "2026-07-11T00:58:37.355900",
-  "last_leak_check": "2026-07-11T00:58:36.260462",
+  "last_github_check": "2026-07-11T04:09:48.707902",
+  "last_huggingface_check": "2026-07-11T04:09:50.492866",
+  "last_reddit_check": "2026-07-11T04:09:49.122359",
+  "last_rss_check": "2026-07-11T04:09:49.298640",
+  "last_ransomware_check": "2026-07-11T04:09:49.632064",
+  "last_leak_check": "2026-07-11T04:09:49.318351",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -6026,21 +6032,21 @@
     "2026-07-08": 97,
     "2026-07-09": 107,
     "2026-07-10": 123,
-    "2026-07-11": 6
+    "2026-07-11": 9
   },
   "total_alerts_sent": 91,
   "total_users_ever": 3,
   "version": "1.0.0",
-  "runs_today": 1,
+  "runs_today": 2,
   "last_run_date": "2026-07-11",
-  "last_exploitdb_check": "2026-07-11T00:58:35.746381",
-  "last_darkweb_check": "2026-07-11T00:58:36.326950",
-  "last_cisa_check": "2026-07-11T00:58:34.522491",
-  "last_osint_check": "2026-07-11T00:58:35.325501",
-  "last_redteam_check": "2026-07-11T00:58:35.239127",
-  "last_github_poc_check": "2026-07-11T00:58:35.632349",
-  "last_projectdiscovery_check": "2026-07-11T00:58:36.506790",
-  "last_telegram_check": "2026-07-11T00:58:36.059004",
-  "last_papers_check": "2026-07-11T00:58:36.900015",
-  "last_bugbounty_check": "2026-07-11T00:58:39.359810"
+  "last_exploitdb_check": "2026-07-11T04:09:47.874541",
+  "last_darkweb_check": "2026-07-11T04:09:49.378046",
+  "last_cisa_check": "2026-07-11T04:09:47.659159",
+  "last_osint_check": "2026-07-11T04:09:48.258249",
+  "last_redteam_check": "2026-07-11T04:09:48.255947",
+  "last_github_poc_check": "2026-07-11T04:09:48.829943",
+  "last_projectdiscovery_check": "2026-07-11T04:09:49.750674",
+  "last_telegram_check": "2026-07-11T04:09:49.161487",
+  "last_papers_check": "2026-07-11T04:09:49.758143",
+  "last_bugbounty_check": "2026-07-11T04:09:52.848836"
 }
