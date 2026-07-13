@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-13T21:34:48.151266",
+  "last_run": "2026-07-13T22:35:48.641782",
   "last_update_id": 753263071,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -3032,7 +3032,8 @@
     "https://github.com/imrantheexploithunter/Portfolio",
     "https://github.com/Samsung/rlottie/pull/595",
     "https://github.com/mahnoor548109/Ai-recon-tool",
-    "https://hackerone.com/reports/3780695"
+    "https://hackerone.com/reports/3780695",
+    "https://github.com/kLOsk/adloop/"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -6459,16 +6460,17 @@
     "57f1f6115cb61c13",
     "3ba403c83190612b",
     "d57a26157ae2b53c",
-    "ddd8a6112d8e632e"
+    "ddd8a6112d8e632e",
+    "5dfdfeaa72bfe0ba"
   ],
-  "last_cve_check": "2026-07-13T21:34:20.262021",
+  "last_cve_check": "2026-07-13T22:35:16.878144",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-13T21:34:21.283910",
-  "last_huggingface_check": "2026-07-13T21:34:22.490788",
-  "last_reddit_check": "2026-07-13T21:34:21.767218",
-  "last_rss_check": "2026-07-13T21:34:21.971500",
-  "last_ransomware_check": "2026-07-13T21:34:22.161219",
-  "last_leak_check": "2026-07-13T21:34:21.814338",
+  "last_github_check": "2026-07-13T22:35:17.882408",
+  "last_huggingface_check": "2026-07-13T22:35:19.568299",
+  "last_reddit_check": "2026-07-13T22:35:18.506901",
+  "last_rss_check": "2026-07-13T22:35:18.536327",
+  "last_ransomware_check": "2026-07-13T22:35:18.902278",
+  "last_leak_check": "2026-07-13T22:35:18.490283",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -6512,21 +6514,21 @@
     "2026-07-10": 123,
     "2026-07-11": 131,
     "2026-07-12": 69,
-    "2026-07-13": 51
+    "2026-07-13": 52
   },
   "total_alerts_sent": 91,
   "total_users_ever": 3,
   "version": "1.0.0",
-  "runs_today": 10,
+  "runs_today": 11,
   "last_run_date": "2026-07-13",
-  "last_exploitdb_check": "2026-07-13T21:34:20.583920",
-  "last_darkweb_check": "2026-07-13T21:34:21.870438",
-  "last_cisa_check": "2026-07-13T21:34:20.363437",
-  "last_osint_check": "2026-07-13T21:34:21.088840",
-  "last_redteam_check": "2026-07-13T21:34:21.204208",
-  "last_github_poc_check": "2026-07-13T21:34:21.326202",
-  "last_projectdiscovery_check": "2026-07-13T21:34:21.685880",
-  "last_telegram_check": "2026-07-13T21:34:21.623071",
-  "last_papers_check": "2026-07-13T21:34:22.543283",
-  "last_bugbounty_check": "2026-07-13T21:34:25.035544"
+  "last_exploitdb_check": "2026-07-13T22:35:17.200465",
+  "last_darkweb_check": "2026-07-13T22:35:18.638736",
+  "last_cisa_check": "2026-07-13T22:35:17.039020",
+  "last_osint_check": "2026-07-13T22:35:17.799238",
+  "last_redteam_check": "2026-07-13T22:35:17.935395",
+  "last_github_poc_check": "2026-07-13T22:35:17.899526",
+  "last_projectdiscovery_check": "2026-07-13T22:35:18.625529",
+  "last_telegram_check": "2026-07-13T22:35:18.239181",
+  "last_papers_check": "2026-07-13T22:35:19.232947",
+  "last_bugbounty_check": "2026-07-13T22:35:21.865488"
 }
