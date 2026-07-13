@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-13T15:36:40.606896",
+  "last_run": "2026-07-13T17:36:55.284280",
   "last_update_id": 753263071,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -3028,7 +3028,9 @@
     "https://github.com/Mello2099/offensive-security-portfolio",
     "https://github.com/weini587/CVE/issues/1",
     "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
-    "https://github.com/zephyrproject-rtos/zephyr/commit/6d8bb28dc9064e05e52b5a00b2998ecc663e38cb"
+    "https://github.com/zephyrproject-rtos/zephyr/commit/6d8bb28dc9064e05e52b5a00b2998ecc663e38cb",
+    "https://github.com/imrantheexploithunter/Portfolio",
+    "https://github.com/Samsung/rlottie/pull/595"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -6451,16 +6453,18 @@
     "fda01e59e327610e",
     "31f4601ae071bc08",
     "b3017b7b2ab441b4",
-    "3920d547f483a091"
+    "3920d547f483a091",
+    "57f1f6115cb61c13",
+    "3ba403c83190612b"
   ],
-  "last_cve_check": "2026-07-13T15:36:06.181083",
+  "last_cve_check": "2026-07-13T17:36:22.598604",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-13T15:36:07.571675",
-  "last_huggingface_check": "2026-07-13T15:36:10.341895",
-  "last_reddit_check": "2026-07-13T15:36:08.223550",
-  "last_rss_check": "2026-07-13T15:36:07.877443",
-  "last_ransomware_check": "2026-07-13T15:36:08.762930",
-  "last_leak_check": "2026-07-13T15:36:08.116416",
+  "last_github_check": "2026-07-13T17:36:23.566542",
+  "last_huggingface_check": "2026-07-13T17:36:26.502563",
+  "last_reddit_check": "2026-07-13T17:36:24.214063",
+  "last_rss_check": "2026-07-13T17:36:24.086952",
+  "last_ransomware_check": "2026-07-13T17:36:24.764074",
+  "last_leak_check": "2026-07-13T17:36:24.194262",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -6504,21 +6508,21 @@
     "2026-07-10": 123,
     "2026-07-11": 131,
     "2026-07-12": 69,
-    "2026-07-13": 47
+    "2026-07-13": 49
   },
   "total_alerts_sent": 91,
   "total_users_ever": 3,
   "version": "1.0.0",
-  "runs_today": 6,
+  "runs_today": 7,
   "last_run_date": "2026-07-13",
-  "last_exploitdb_check": "2026-07-13T15:36:06.838409",
-  "last_darkweb_check": "2026-07-13T15:36:08.338033",
-  "last_cisa_check": "2026-07-13T15:36:06.475575",
-  "last_osint_check": "2026-07-13T15:36:07.094984",
-  "last_redteam_check": "2026-07-13T15:36:07.258838",
-  "last_github_poc_check": "2026-07-13T15:36:07.604473",
-  "last_projectdiscovery_check": "2026-07-13T15:36:08.574556",
-  "last_telegram_check": "2026-07-13T15:36:07.957641",
-  "last_papers_check": "2026-07-13T15:36:09.666235",
-  "last_bugbounty_check": "2026-07-13T15:36:11.530536"
+  "last_exploitdb_check": "2026-07-13T17:36:23.112309",
+  "last_darkweb_check": "2026-07-13T17:36:24.318243",
+  "last_cisa_check": "2026-07-13T17:36:22.888502",
+  "last_osint_check": "2026-07-13T17:36:23.293323",
+  "last_redteam_check": "2026-07-13T17:36:23.473647",
+  "last_github_poc_check": "2026-07-13T17:36:23.522657",
+  "last_projectdiscovery_check": "2026-07-13T17:36:24.645276",
+  "last_telegram_check": "2026-07-13T17:36:23.944081",
+  "last_papers_check": "2026-07-13T17:36:25.073315",
+  "last_bugbounty_check": "2026-07-13T17:36:27.918055"
 }
