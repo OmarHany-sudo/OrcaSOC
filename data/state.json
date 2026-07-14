@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-13T23:34:39.989461",
+  "last_run": "2026-07-14T01:04:43.785714",
   "last_update_id": 753263071,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -3035,7 +3035,9 @@
     "https://hackerone.com/reports/3780695",
     "https://github.com/kLOsk/adloop/",
     "https://github.com/yzhao062/pyod/",
-    "https://www.twcert.org.tw/en/cp-139-11032-460c2-2.html"
+    "https://www.twcert.org.tw/en/cp-139-11032-460c2-2.html",
+    "https://github.com/winfsp/winfsp/releases/tag/v2.2B2",
+    "https://www.twcert.org.tw/en/cp-139-11034-f7f2f-2.html"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -6465,16 +6467,18 @@
     "ddd8a6112d8e632e",
     "5dfdfeaa72bfe0ba",
     "01a71dd82bf00d08",
-    "47ea76493d6b2788"
+    "47ea76493d6b2788",
+    "60d121d835df4c13",
+    "4eddb941c01fab0b"
   ],
-  "last_cve_check": "2026-07-13T23:34:08.971905",
+  "last_cve_check": "2026-07-14T01:03:45.522035",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-13T23:34:09.786949",
-  "last_huggingface_check": "2026-07-13T23:34:12.656350",
-  "last_reddit_check": "2026-07-13T23:34:10.318464",
-  "last_rss_check": "2026-07-13T23:34:11.031312",
-  "last_ransomware_check": "2026-07-13T23:34:11.033276",
-  "last_leak_check": "2026-07-13T23:34:10.442893",
+  "last_github_check": "2026-07-14T01:03:46.928523",
+  "last_huggingface_check": "2026-07-14T01:03:50.658365",
+  "last_reddit_check": "2026-07-14T01:03:47.055698",
+  "last_rss_check": "2026-07-14T01:03:46.746470",
+  "last_ransomware_check": "2026-07-14T01:03:47.779112",
+  "last_leak_check": "2026-07-14T01:03:47.168964",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -6518,21 +6522,22 @@
     "2026-07-10": 123,
     "2026-07-11": 131,
     "2026-07-12": 69,
-    "2026-07-13": 54
+    "2026-07-13": 54,
+    "2026-07-14": 2
   },
   "total_alerts_sent": 91,
   "total_users_ever": 3,
   "version": "1.0.0",
-  "runs_today": 12,
-  "last_run_date": "2026-07-13",
-  "last_exploitdb_check": "2026-07-13T23:34:09.499969",
-  "last_darkweb_check": "2026-07-13T23:34:11.147819",
-  "last_cisa_check": "2026-07-13T23:34:09.170129",
-  "last_osint_check": "2026-07-13T23:34:09.473611",
-  "last_redteam_check": "2026-07-13T23:34:09.561313",
-  "last_github_poc_check": "2026-07-13T23:34:09.554571",
-  "last_projectdiscovery_check": "2026-07-13T23:34:11.146520",
-  "last_telegram_check": "2026-07-13T23:34:10.143861",
-  "last_papers_check": "2026-07-13T23:34:11.106615",
-  "last_bugbounty_check": "2026-07-13T23:34:14.206254"
+  "runs_today": 1,
+  "last_run_date": "2026-07-14",
+  "last_exploitdb_check": "2026-07-14T01:03:45.737798",
+  "last_darkweb_check": "2026-07-14T01:03:47.310157",
+  "last_cisa_check": "2026-07-14T01:03:45.667699",
+  "last_osint_check": "2026-07-14T01:03:46.366994",
+  "last_redteam_check": "2026-07-14T01:03:46.261186",
+  "last_github_poc_check": "2026-07-14T01:03:47.046744",
+  "last_projectdiscovery_check": "2026-07-14T01:03:47.260716",
+  "last_telegram_check": "2026-07-14T01:03:47.408021",
+  "last_papers_check": "2026-07-14T01:04:17.641256",
+  "last_bugbounty_check": "2026-07-14T01:03:51.007367"
 }
