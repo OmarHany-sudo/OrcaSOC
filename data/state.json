@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-14T21:15:37.323912",
+  "last_run": "2026-07-14T22:13:16.598939",
   "last_update_id": 753263072,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -3107,7 +3107,14 @@
     "https://gist.github.com/MrAlaskan/8156ca3acd6754a9f66efede0a1351f2",
     "https://gist.github.com/MrAlaskan/f22dcf01a5dd90da1b191fcee9043a32",
     "https://www.darkreading.com/perimeter/6-ghz-wi-fi-flaws-disrupt-critical-systems",
-    "https://mikrotik.com/supportsec"
+    "https://mikrotik.com/supportsec",
+    "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
+    "https://github.com/sign9981/CVE/issues/2",
+    "https://gist.github.com/MrAlaskan/5e0c2af7f4a1d188814c7fa8f812c8da",
+    "https://codeberg.org/zuhri/advisory#recent-poc",
+    "https://gist.github.com/MrAlaskan/705c680856e48c535148265c0899ad4b",
+    "https://github.com/ChurchCRM/CRM/security/advisories/GHSA-p6j6-vrpg-4pp8",
+    "https://www.openwall.com/lists/oss-security/2026/07/12/1"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -6614,16 +6621,23 @@
     "a5a289b9a0a77158",
     "9759128098ec61cd",
     "4e60be688b2c499b",
-    "f8b41ee8a5e3b970"
+    "f8b41ee8a5e3b970",
+    "dbd3e01fbc30d0b8",
+    "4d138da145e59f76",
+    "633e4af522e464a9",
+    "33c6c4d267a418a6",
+    "39081cd77ee70447",
+    "6943d59eaca105cb",
+    "b26e368cf08f3d69"
   ],
-  "last_cve_check": "2026-07-14T21:15:10.954086",
+  "last_cve_check": "2026-07-14T22:12:48.532799",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-14T21:15:12.328971",
-  "last_huggingface_check": "2026-07-14T21:15:18.073266",
-  "last_reddit_check": "2026-07-14T21:15:12.901057",
-  "last_rss_check": "2026-07-14T21:15:13.331840",
-  "last_ransomware_check": "2026-07-14T21:15:13.846224",
-  "last_leak_check": "2026-07-14T21:15:13.106092",
+  "last_github_check": "2026-07-14T22:12:49.828304",
+  "last_huggingface_check": "2026-07-14T22:12:51.211641",
+  "last_reddit_check": "2026-07-14T22:12:50.335290",
+  "last_rss_check": "2026-07-14T22:12:50.015737",
+  "last_ransomware_check": "2026-07-14T22:12:50.628817",
+  "last_leak_check": "2026-07-14T22:12:50.169380",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -6668,21 +6682,21 @@
     "2026-07-11": 131,
     "2026-07-12": 69,
     "2026-07-13": 54,
-    "2026-07-14": 77
+    "2026-07-14": 84
   },
   "total_alerts_sent": 93,
   "total_users_ever": 4,
   "version": "1.0.0",
-  "runs_today": 13,
+  "runs_today": 14,
   "last_run_date": "2026-07-14",
-  "last_exploitdb_check": "2026-07-14T21:15:11.604205",
-  "last_darkweb_check": "2026-07-14T21:15:13.427864",
-  "last_cisa_check": "2026-07-14T21:15:11.126155",
-  "last_osint_check": "2026-07-14T21:15:12.027675",
-  "last_redteam_check": "2026-07-14T21:15:12.043321",
-  "last_github_poc_check": "2026-07-14T21:15:12.407702",
-  "last_projectdiscovery_check": "2026-07-14T21:15:13.688667",
-  "last_telegram_check": "2026-07-14T21:15:12.842866",
-  "last_papers_check": "2026-07-14T21:15:15.296254",
-  "last_bugbounty_check": "2026-07-14T21:15:16.730480"
+  "last_exploitdb_check": "2026-07-14T22:12:48.839816",
+  "last_darkweb_check": "2026-07-14T22:12:50.297123",
+  "last_cisa_check": "2026-07-14T22:12:48.687619",
+  "last_osint_check": "2026-07-14T22:12:49.724841",
+  "last_redteam_check": "2026-07-14T22:12:49.775331",
+  "last_github_poc_check": "2026-07-14T22:12:49.959664",
+  "last_projectdiscovery_check": "2026-07-14T22:12:49.900902",
+  "last_telegram_check": "2026-07-14T22:12:50.235001",
+  "last_papers_check": "2026-07-14T22:12:50.628131",
+  "last_bugbounty_check": "2026-07-14T22:12:53.374019"
 }
