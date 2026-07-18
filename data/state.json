@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-18T16:11:26.798353",
+  "last_run": "2026-07-18T17:13:21.889062",
   "last_update_id": 753263072,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -3569,7 +3569,10 @@
     "https://github.com/geo-chen/oss/blob/main/maybe.md",
     "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0573",
     "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0574",
-    "https://github.com/geo-chen/oss/blob/main/TheHive.md#finding-1-get-apistatus-exposes-attachment-protection-password-without-authentication"
+    "https://github.com/geo-chen/oss/blob/main/TheHive.md#finding-1-get-apistatus-exposes-attachment-protection-password-without-authentication",
+    "https://github.com/Muker0x/webgrep-tool",
+    "https://github.com/danifus/pyzipper/commit/93ce88e7dfd1635443197dab3fb8d477cff579ae",
+    "https://access.redhat.com/security/cve/CVE-2026-16093"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -7560,16 +7563,19 @@
     "5498bbab8e092640",
     "8bb5ce22e471cce4",
     "b3bd98dc1c5f9a0b",
-    "3842af607a9a3a39"
+    "3842af607a9a3a39",
+    "5168dabc3784221f",
+    "6b706695b6de14bf",
+    "623d80ffe8daebc8"
   ],
-  "last_cve_check": "2026-07-18T16:10:49.995630",
+  "last_cve_check": "2026-07-18T17:12:52.845165",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-18T16:10:51.605920",
-  "last_huggingface_check": "2026-07-18T16:10:54.668639",
-  "last_reddit_check": "2026-07-18T16:10:51.943880",
-  "last_rss_check": "2026-07-18T16:10:51.607449",
-  "last_ransomware_check": "2026-07-18T16:10:52.432097",
-  "last_leak_check": "2026-07-18T16:10:51.728277",
+  "last_github_check": "2026-07-18T17:12:53.994714",
+  "last_huggingface_check": "2026-07-18T17:12:54.884457",
+  "last_reddit_check": "2026-07-18T17:12:54.589014",
+  "last_rss_check": "2026-07-18T17:12:54.954722",
+  "last_ransomware_check": "2026-07-18T17:12:55.478992",
+  "last_leak_check": "2026-07-18T17:12:54.448243",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -7618,21 +7624,21 @@
     "2026-07-15": 142,
     "2026-07-16": 141,
     "2026-07-17": 134,
-    "2026-07-18": 46
+    "2026-07-18": 49
   },
   "total_alerts_sent": 93,
   "total_users_ever": 4,
   "version": "1.0.0",
-  "runs_today": 11,
+  "runs_today": 12,
   "last_run_date": "2026-07-18",
-  "last_exploitdb_check": "2026-07-18T16:10:50.175431",
-  "last_darkweb_check": "2026-07-18T16:10:51.991765",
-  "last_cisa_check": "2026-07-18T16:10:50.116980",
-  "last_osint_check": "2026-07-18T16:10:51.351514",
-  "last_redteam_check": "2026-07-18T16:10:51.111184",
-  "last_github_poc_check": "2026-07-18T16:10:51.525900",
-  "last_projectdiscovery_check": "2026-07-18T16:10:51.790307",
-  "last_telegram_check": "2026-07-18T16:10:52.082101",
-  "last_papers_check": "2026-07-18T16:10:59.809663",
-  "last_bugbounty_check": "2026-07-18T16:10:54.904780"
+  "last_exploitdb_check": "2026-07-18T17:12:53.172545",
+  "last_darkweb_check": "2026-07-18T17:12:54.680549",
+  "last_cisa_check": "2026-07-18T17:12:52.987023",
+  "last_osint_check": "2026-07-18T17:12:53.848090",
+  "last_redteam_check": "2026-07-18T17:12:53.763481",
+  "last_github_poc_check": "2026-07-18T17:12:53.925697",
+  "last_projectdiscovery_check": "2026-07-18T17:12:54.294962",
+  "last_telegram_check": "2026-07-18T17:12:54.297169",
+  "last_papers_check": "2026-07-18T17:12:55.745888",
+  "last_bugbounty_check": "2026-07-18T17:12:57.541255"
 }
