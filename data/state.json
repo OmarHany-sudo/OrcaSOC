@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-19T14:47:47.596250",
+  "last_run": "2026-07-19T15:46:50.113238",
   "last_update_id": 753263072,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -3655,7 +3655,8 @@
     "https://github.com/proftpd/proftpd",
     "https://huntr.com/bounties/25623635-5ceb-4062-8289-02089e6d97c1",
     "https://github.com/RobinHerbots/Inputmask/",
-    "https://github.com/CartoDB/carto-api-client/"
+    "https://github.com/CartoDB/carto-api-client/",
+    "https://github.com/zhayujie/CowAgent/"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -7735,16 +7736,17 @@
     "a63f0cc27f77c526",
     "411fda67e37b2e4d",
     "13c7452f57c835f2",
-    "6f19d5de1c87f6f1"
+    "6f19d5de1c87f6f1",
+    "c33cd0b457f2d350"
   ],
-  "last_cve_check": "2026-07-19T14:47:21.406981",
+  "last_cve_check": "2026-07-19T15:46:25.065624",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-19T14:47:22.606279",
-  "last_huggingface_check": "2026-07-19T14:47:23.400275",
-  "last_reddit_check": "2026-07-19T14:47:23.166210",
-  "last_rss_check": "2026-07-19T14:47:23.441638",
-  "last_ransomware_check": "2026-07-19T14:47:23.442393",
-  "last_leak_check": "2026-07-19T14:47:23.055343",
+  "last_github_check": "2026-07-19T15:46:26.223488",
+  "last_huggingface_check": "2026-07-19T15:46:27.783107",
+  "last_reddit_check": "2026-07-19T15:46:26.741245",
+  "last_rss_check": "2026-07-19T15:46:26.510786",
+  "last_ransomware_check": "2026-07-19T15:46:27.029775",
+  "last_leak_check": "2026-07-19T15:46:26.557420",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -7794,21 +7796,21 @@
     "2026-07-16": 141,
     "2026-07-17": 134,
     "2026-07-18": 103,
-    "2026-07-19": 32
+    "2026-07-19": 33
   },
   "total_alerts_sent": 93,
   "total_users_ever": 4,
   "version": "1.0.0",
-  "runs_today": 9,
+  "runs_today": 10,
   "last_run_date": "2026-07-19",
-  "last_exploitdb_check": "2026-07-19T14:47:21.807020",
-  "last_darkweb_check": "2026-07-19T14:47:23.217933",
-  "last_cisa_check": "2026-07-19T14:47:21.627912",
-  "last_osint_check": "2026-07-19T14:47:22.249624",
-  "last_redteam_check": "2026-07-19T14:47:22.306647",
-  "last_github_poc_check": "2026-07-19T14:47:22.604190",
-  "last_projectdiscovery_check": "2026-07-19T14:47:22.920076",
-  "last_telegram_check": "2026-07-19T14:47:22.922767",
-  "last_papers_check": "2026-07-19T14:47:23.476665",
-  "last_bugbounty_check": "2026-07-19T14:47:26.125682"
+  "last_exploitdb_check": "2026-07-19T15:46:25.417865",
+  "last_darkweb_check": "2026-07-19T15:46:26.654139",
+  "last_cisa_check": "2026-07-19T15:46:25.201423",
+  "last_osint_check": "2026-07-19T15:46:25.921847",
+  "last_redteam_check": "2026-07-19T15:46:25.936524",
+  "last_github_poc_check": "2026-07-19T15:46:26.156210",
+  "last_projectdiscovery_check": "2026-07-19T15:46:26.434530",
+  "last_telegram_check": "2026-07-19T15:46:26.518766",
+  "last_papers_check": "2026-07-19T15:46:27.993984",
+  "last_bugbounty_check": "2026-07-19T15:46:29.782143"
 }
