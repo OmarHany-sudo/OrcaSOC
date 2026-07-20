@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-20T21:23:59.411727",
+  "last_run": "2026-07-20T22:30:36.113791",
   "last_update_id": 753263072,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -3709,7 +3709,9 @@
     "https://huggingface.co/Draichi/pytorch-pickle-rce-poc",
     "https://huggingface.co/pzryathzsdhc/cti-ner-roberta-large",
     "https://huggingface.co/pzryathzsdhc/cti-ner-securebert",
-    "https://metacpan.org/release/DRSTEVE/Crypt-Password-0.28/source/lib/Crypt/Password.pm#L306-309"
+    "https://metacpan.org/release/DRSTEVE/Crypt-Password-0.28/source/lib/Crypt/Password.pm#L306-309",
+    "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover",
+    "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -7845,16 +7847,18 @@
     "1a3f6873fbbf4e86",
     "91748f654de47341",
     "e71aecb375560043",
-    "7dec04fac52b497a"
+    "7dec04fac52b497a",
+    "b915afbf6a7e8b3f",
+    "5d4d596e5bf85681"
   ],
-  "last_cve_check": "2026-07-20T21:23:27.690789",
+  "last_cve_check": "2026-07-20T22:30:07.955815",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-20T21:23:29.138452",
-  "last_huggingface_check": "2026-07-20T21:23:35.895353",
-  "last_reddit_check": "2026-07-20T21:23:29.447216",
-  "last_rss_check": "2026-07-20T21:23:30.291770",
-  "last_ransomware_check": "2026-07-20T21:23:30.139158",
-  "last_leak_check": "2026-07-20T21:23:29.665871",
+  "last_github_check": "2026-07-20T22:30:09.080240",
+  "last_huggingface_check": "2026-07-20T22:30:10.920336",
+  "last_reddit_check": "2026-07-20T22:30:09.636431",
+  "last_rss_check": "2026-07-20T22:30:09.792057",
+  "last_ransomware_check": "2026-07-20T22:30:10.040198",
+  "last_leak_check": "2026-07-20T22:30:09.684060",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -7905,21 +7909,21 @@
     "2026-07-17": 134,
     "2026-07-18": 103,
     "2026-07-19": 45,
-    "2026-07-20": 43
+    "2026-07-20": 45
   },
   "total_alerts_sent": 93,
   "total_users_ever": 4,
   "version": "1.0.0",
-  "runs_today": 10,
+  "runs_today": 11,
   "last_run_date": "2026-07-20",
-  "last_exploitdb_check": "2026-07-20T21:23:28.112848",
-  "last_darkweb_check": "2026-07-20T21:23:29.715434",
-  "last_cisa_check": "2026-07-20T21:23:27.810233",
-  "last_osint_check": "2026-07-20T21:23:29.011223",
-  "last_redteam_check": "2026-07-20T21:23:28.760909",
-  "last_github_poc_check": "2026-07-20T21:23:29.179640",
-  "last_projectdiscovery_check": "2026-07-20T21:23:29.549830",
-  "last_telegram_check": "2026-07-20T21:23:29.500221",
-  "last_papers_check": "2026-07-20T21:23:30.410606",
-  "last_bugbounty_check": "2026-07-20T21:23:33.030094"
+  "last_exploitdb_check": "2026-07-20T22:30:08.230678",
+  "last_darkweb_check": "2026-07-20T22:30:09.794200",
+  "last_cisa_check": "2026-07-20T22:30:08.073652",
+  "last_osint_check": "2026-07-20T22:30:09.084447",
+  "last_redteam_check": "2026-07-20T22:30:08.857588",
+  "last_github_poc_check": "2026-07-20T22:30:09.279008",
+  "last_projectdiscovery_check": "2026-07-20T22:30:09.456940",
+  "last_telegram_check": "2026-07-20T22:30:09.628792",
+  "last_papers_check": "2026-07-20T22:30:10.568610",
+  "last_bugbounty_check": "2026-07-20T22:30:13.367233"
 }
