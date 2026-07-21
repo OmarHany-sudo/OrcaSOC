@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-21T09:17:09.313417",
+  "last_run": "2026-07-21T11:21:16.360065",
   "last_update_id": 753263072,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -3732,7 +3732,14 @@
     "https://github.com/surrealdb/surrealdb/security/advisories/GHSA-vjjx-rfw4-rmfc",
     "https://www.bizerba.com/downloads/global/information-security/2026/bizerba-sa-2026-0003.pdf",
     "https://github.com/surrealdb/surrealdb/security/advisories/GHSA-848m-r628-vrxw",
-    "https://github.com/surrealdb/surrealdb/security/advisories/GHSA-cc8f-fcx3-gpjr"
+    "https://github.com/surrealdb/surrealdb/security/advisories/GHSA-cc8f-fcx3-gpjr",
+    "https://github.com/BardLaudian/CVE-2025-64512",
+    "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
+    "https://github.com/asatilloalusherov03-droid/Cefrcenter",
+    "https://access.redhat.com/errata/RHSA-2026:39985",
+    "https://github.com/surrealdb/surrealdb/security/advisories/GHSA-jv2j-mqmw-xvv5",
+    "https://github.com/surrealdb/surrealdb/security/advisories/GHSA-wp87-mgvq-5j93",
+    "https://github.com/surrealdb/surrealdb/security/advisories/GHSA-97vg-427p-8hx5"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -7892,16 +7899,23 @@
     "29b49f23e8431a92",
     "9d20f2920995eefa",
     "5789ddef5347b7de",
-    "40218547c9dea087"
+    "40218547c9dea087",
+    "7dc2132193322e5b",
+    "3868f3dc51f92a4e",
+    "4113acecaecc2223",
+    "73912d390ad2b556",
+    "fc0953f5a35f9770",
+    "46c9d0475ca7cf88",
+    "defc86b8b1014ac0"
   ],
-  "last_cve_check": "2026-07-21T09:16:39.993895",
+  "last_cve_check": "2026-07-21T11:20:52.000275",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-21T09:16:41.152161",
-  "last_huggingface_check": "2026-07-21T09:16:44.727435",
-  "last_reddit_check": "2026-07-21T09:16:41.439130",
-  "last_rss_check": "2026-07-21T09:16:41.892178",
-  "last_ransomware_check": "2026-07-21T09:16:41.935868",
-  "last_leak_check": "2026-07-21T09:16:41.628451",
+  "last_github_check": "2026-07-21T11:20:52.079937",
+  "last_huggingface_check": "2026-07-21T11:20:56.709343",
+  "last_reddit_check": "2026-07-21T11:20:52.417470",
+  "last_rss_check": "2026-07-21T11:20:52.878877",
+  "last_ransomware_check": "2026-07-21T11:20:53.222524",
+  "last_leak_check": "2026-07-21T11:20:52.602797",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -7953,21 +7967,21 @@
     "2026-07-18": 103,
     "2026-07-19": 45,
     "2026-07-20": 46,
-    "2026-07-21": 21
+    "2026-07-21": 28
   },
   "total_alerts_sent": 93,
   "total_users_ever": 4,
   "version": "1.0.0",
-  "runs_today": 4,
+  "runs_today": 5,
   "last_run_date": "2026-07-21",
-  "last_exploitdb_check": "2026-07-21T09:16:40.329890",
-  "last_darkweb_check": "2026-07-21T09:16:41.676272",
-  "last_cisa_check": "2026-07-21T09:16:40.105870",
-  "last_osint_check": "2026-07-21T09:16:40.999492",
-  "last_redteam_check": "2026-07-21T09:16:40.977219",
-  "last_github_poc_check": "2026-07-21T09:16:41.175996",
-  "last_projectdiscovery_check": "2026-07-21T09:16:41.552147",
-  "last_telegram_check": "2026-07-21T09:16:41.501426",
-  "last_papers_check": "2026-07-21T09:16:42.490464",
-  "last_bugbounty_check": "2026-07-21T09:16:44.850618"
+  "last_exploitdb_check": "2026-07-21T11:20:52.135524",
+  "last_darkweb_check": "2026-07-21T11:20:52.927473",
+  "last_cisa_check": "2026-07-21T11:20:51.847472",
+  "last_osint_check": "2026-07-21T11:20:51.836806",
+  "last_redteam_check": "2026-07-21T11:20:51.721526",
+  "last_github_poc_check": "2026-07-21T11:20:52.038139",
+  "last_projectdiscovery_check": "2026-07-21T11:20:53.001682",
+  "last_telegram_check": "2026-07-21T11:20:52.466915",
+  "last_papers_check": "2026-07-21T11:20:53.568669",
+  "last_bugbounty_check": "2026-07-21T11:20:56.331104"
 }
