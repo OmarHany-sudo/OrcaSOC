@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-21T22:36:37.632256",
+  "last_run": "2026-07-21T23:40:09.293350",
   "last_update_id": 753263072,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -3821,7 +3821,9 @@
     "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-post-authentication-command-injection-vulnerability-in-certain-dsl-ethernet-cpe-fiber-onts-and-wireless-extenders-07-21-2026",
     "https://hackerone.com/reports/3588801",
     "https://fatihhcelik.github.io/posts/evince-synctex-heap-use-after-free/",
-    "https://fatihhcelik.github.io/posts/gitleaks-abusing-sprig-for-exfiltration/#the-fix"
+    "https://fatihhcelik.github.io/posts/gitleaks-abusing-sprig-for-exfiltration/#the-fix",
+    "https://plugins.trac.wordpress.org/browser/easy-form-builder/trunk/includes/class-Emsfb-public.php#L1587",
+    "https://plugins.trac.wordpress.org/browser/essential-addons-for-elementor-lite/tags/6.6.10/includes/Classes/Bootstrap.php#L145"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -8074,16 +8076,18 @@
     "0b64bbaa8a0d45b1",
     "3a94806a4dcee241",
     "31fd567b25609f4e",
-    "67db0b5601d4882f"
+    "67db0b5601d4882f",
+    "b842451b38f9cbd3",
+    "31e1e8290b0f98bc"
   ],
-  "last_cve_check": "2026-07-21T22:35:57.034620",
+  "last_cve_check": "2026-07-21T23:39:42.357072",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-21T22:35:59.253663",
-  "last_huggingface_check": "2026-07-21T22:36:03.291615",
-  "last_reddit_check": "2026-07-21T22:35:59.169921",
-  "last_rss_check": "2026-07-21T22:35:58.836820",
-  "last_ransomware_check": "2026-07-21T22:35:59.751845",
-  "last_leak_check": "2026-07-21T22:35:59.278798",
+  "last_github_check": "2026-07-21T23:39:43.799412",
+  "last_huggingface_check": "2026-07-21T23:39:46.028220",
+  "last_reddit_check": "2026-07-21T23:39:43.996997",
+  "last_rss_check": "2026-07-21T23:39:44.635514",
+  "last_ransomware_check": "2026-07-21T23:39:44.638258",
+  "last_leak_check": "2026-07-21T23:39:44.173225",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -8135,21 +8139,21 @@
     "2026-07-18": 103,
     "2026-07-19": 45,
     "2026-07-20": 46,
-    "2026-07-21": 114
+    "2026-07-21": 116
   },
   "total_alerts_sent": 93,
   "total_users_ever": 4,
   "version": "1.0.0",
-  "runs_today": 13,
+  "runs_today": 14,
   "last_run_date": "2026-07-21",
-  "last_exploitdb_check": "2026-07-21T22:35:57.394123",
-  "last_darkweb_check": "2026-07-21T22:35:59.328892",
-  "last_cisa_check": "2026-07-21T22:35:57.153257",
-  "last_osint_check": "2026-07-21T22:35:58.682853",
-  "last_redteam_check": "2026-07-21T22:35:58.538835",
-  "last_github_poc_check": "2026-07-21T22:35:59.190585",
-  "last_projectdiscovery_check": "2026-07-21T22:35:59.027387",
-  "last_telegram_check": "2026-07-21T22:35:59.493653",
-  "last_papers_check": "2026-07-21T22:36:00.567835",
-  "last_bugbounty_check": "2026-07-21T22:36:02.558320"
+  "last_exploitdb_check": "2026-07-21T23:39:42.813456",
+  "last_darkweb_check": "2026-07-21T23:39:44.222768",
+  "last_cisa_check": "2026-07-21T23:39:42.576323",
+  "last_osint_check": "2026-07-21T23:39:43.392457",
+  "last_redteam_check": "2026-07-21T23:39:43.381998",
+  "last_github_poc_check": "2026-07-21T23:39:43.610357",
+  "last_projectdiscovery_check": "2026-07-21T23:39:43.994039",
+  "last_telegram_check": "2026-07-21T23:39:44.135912",
+  "last_papers_check": "2026-07-21T23:39:44.865789",
+  "last_bugbounty_check": "2026-07-21T23:39:47.394910"
 }
