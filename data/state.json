@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-24T12:54:36.343669",
+  "last_run": "2026-07-24T14:44:49.362019",
   "last_update_id": 753263072,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -4052,7 +4052,13 @@
     "https://github.com/release-it/conventional-changelog/",
     "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
     "https://github.com/juliangruber/brace-expansion",
-    "https://github.com/cure53/DOMPurify/security/advisories/GHSA-cmwh-pvxp-8882"
+    "https://github.com/cure53/DOMPurify/security/advisories/GHSA-cmwh-pvxp-8882",
+    "https://github.com/socwitholiver/vex-offensive-toolkit",
+    "https://huggingface.co/Ezmcyber890/wraithwall-core-v3",
+    "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+    "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+    "https://aws.amazon.com/security/security-bulletins/2026-063-aws/",
+    "https://github.com/apple/swift-crypto/security/advisories/GHSA-8q93-f6xh-4f6f"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -8555,16 +8561,22 @@
     "dd0621269a848987",
     "1d1bf374d8a5eb76",
     "7eba4877354b675a",
-    "9d548c4d0bc902e9"
+    "9d548c4d0bc902e9",
+    "3492b8b1b4475c02",
+    "6bfba2a62810e1bd",
+    "d2e9aca481d1e83b",
+    "14275d3ff44289b0",
+    "61fc435a3c2a82da",
+    "52ce37a037dd0540"
   ],
-  "last_cve_check": "2026-07-24T12:53:55.534728",
+  "last_cve_check": "2026-07-24T14:44:20.681077",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-24T12:53:56.602047",
-  "last_huggingface_check": "2026-07-24T12:53:59.839486",
-  "last_reddit_check": "2026-07-24T12:53:57.543497",
-  "last_rss_check": "2026-07-24T12:53:57.594490",
-  "last_ransomware_check": "2026-07-24T12:53:58.036003",
-  "last_leak_check": "2026-07-24T12:53:57.299034",
+  "last_github_check": "2026-07-24T14:44:21.907281",
+  "last_huggingface_check": "2026-07-24T14:44:22.867611",
+  "last_reddit_check": "2026-07-24T14:44:22.240848",
+  "last_rss_check": "2026-07-24T14:44:22.564532",
+  "last_ransomware_check": "2026-07-24T14:44:22.516140",
+  "last_leak_check": "2026-07-24T14:44:22.119556",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -8619,21 +8631,21 @@
     "2026-07-21": 116,
     "2026-07-22": 112,
     "2026-07-23": 92,
-    "2026-07-24": 44
+    "2026-07-24": 50
   },
   "total_alerts_sent": 93,
   "total_users_ever": 4,
   "version": "1.0.0",
-  "runs_today": 6,
+  "runs_today": 7,
   "last_run_date": "2026-07-24",
-  "last_exploitdb_check": "2026-07-24T12:53:56.194190",
-  "last_darkweb_check": "2026-07-24T12:53:57.719830",
-  "last_cisa_check": "2026-07-24T12:53:55.787554",
-  "last_osint_check": "2026-07-24T12:53:56.296761",
-  "last_redteam_check": "2026-07-24T12:53:56.434242",
-  "last_github_poc_check": "2026-07-24T12:53:56.618787",
-  "last_projectdiscovery_check": "2026-07-24T12:53:58.302104",
-  "last_telegram_check": "2026-07-24T12:53:57.002827",
-  "last_papers_check": "2026-07-24T12:53:58.037740",
-  "last_bugbounty_check": "2026-07-24T12:54:01.148999"
+  "last_exploitdb_check": "2026-07-24T14:44:20.913591",
+  "last_darkweb_check": "2026-07-24T14:44:22.289869",
+  "last_cisa_check": "2026-07-24T14:44:20.866429",
+  "last_osint_check": "2026-07-24T14:44:21.601815",
+  "last_redteam_check": "2026-07-24T14:44:21.694688",
+  "last_github_poc_check": "2026-07-24T14:44:21.866806",
+  "last_projectdiscovery_check": "2026-07-24T14:44:21.893006",
+  "last_telegram_check": "2026-07-24T14:44:22.211792",
+  "last_papers_check": "2026-07-24T14:44:23.448747",
+  "last_bugbounty_check": "2026-07-24T14:44:25.902620"
 }
