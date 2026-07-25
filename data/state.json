@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-25T08:38:48.238090",
+  "last_run": "2026-07-25T10:16:41.599203",
   "last_update_id": 753263072,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -4142,7 +4142,14 @@
     "https://huggingface.co/ShauryaBhushan/castorred-v0.1-4b-instruct-merged",
     "https://plugins.trac.wordpress.org/browser/vikbooking/tags/1.8.12/admin/views/editorder/tmpl/default.php#L1405",
     "https://plugins.trac.wordpress.org/browser/eventon-action-user/trunk/includes/admin/class-admin-ajax.php#L243",
-    "https://plugins.trac.wordpress.org/browser/suredash/tags/1.10.0/core/blocks/interactivity/build/Profile/view.php#L23"
+    "https://plugins.trac.wordpress.org/browser/suredash/tags/1.10.0/core/blocks/interactivity/build/Profile/view.php#L23",
+    "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+    "https://github.com/apache/mynewt-nimble/commit/dcc4e4f026109eecd507de9479bb5019306a4a41",
+    "https://github.com/apache/mynewt-nimble/pull/2232",
+    "https://github.com/apache/mynewt-nimble/commit/fae6a4874309ba0175d2c444e20f8a6bde007425",
+    "https://github.com/apache/mynewt-nimble/commit/9448c5f495eb55018121b24a9dab5305c9222ea1",
+    "https://lists.apache.org/thread/fomwtwt4pzzhxn4fyn3skykto913vfzt",
+    "https://github.com/apache/mynewt-nimble/commit/605c7585408bc3674818eeb7b6f478a8aefe9746"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -8742,16 +8749,23 @@
     "0d5b794714e04531",
     "b7760e9c5d6d41d7",
     "21a1d2e041998b0f",
-    "b17eead45e5016b6"
+    "b17eead45e5016b6",
+    "84e1adf396e1e761",
+    "6b4561279a648cc7",
+    "aa35ef7097aac40d",
+    "e6d1e57233e3e6e5",
+    "9db8d3dc55c3b34f",
+    "7d03eb25f7555903",
+    "1abee9243730e853"
   ],
-  "last_cve_check": "2026-07-25T08:38:25.476489",
+  "last_cve_check": "2026-07-25T10:16:12.014254",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-25T08:38:27.042907",
-  "last_huggingface_check": "2026-07-25T08:38:30.544204",
-  "last_reddit_check": "2026-07-25T08:38:27.639625",
-  "last_rss_check": "2026-07-25T08:38:28.210292",
-  "last_ransomware_check": "2026-07-25T08:38:28.468749",
-  "last_leak_check": "2026-07-25T08:38:27.812986",
+  "last_github_check": "2026-07-25T10:16:13.216810",
+  "last_huggingface_check": "2026-07-25T10:16:14.756918",
+  "last_reddit_check": "2026-07-25T10:16:13.602236",
+  "last_rss_check": "2026-07-25T10:16:13.967191",
+  "last_ransomware_check": "2026-07-25T10:16:14.213188",
+  "last_leak_check": "2026-07-25T10:16:13.690071",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -8807,21 +8821,21 @@
     "2026-07-22": 112,
     "2026-07-23": 92,
     "2026-07-24": 118,
-    "2026-07-25": 23
+    "2026-07-25": 30
   },
   "total_alerts_sent": 93,
   "total_users_ever": 4,
   "version": "1.0.0",
-  "runs_today": 4,
+  "runs_today": 5,
   "last_run_date": "2026-07-25",
-  "last_exploitdb_check": "2026-07-25T08:38:25.964186",
-  "last_darkweb_check": "2026-07-25T08:38:28.166040",
-  "last_cisa_check": "2026-07-25T08:38:25.650839",
-  "last_osint_check": "2026-07-25T08:38:26.767348",
-  "last_redteam_check": "2026-07-25T08:38:26.686100",
-  "last_github_poc_check": "2026-07-25T08:38:27.068601",
-  "last_projectdiscovery_check": "2026-07-25T08:38:28.055734",
-  "last_telegram_check": "2026-07-25T08:38:27.555781",
-  "last_papers_check": "2026-07-25T08:38:28.736590",
-  "last_bugbounty_check": "2026-07-25T08:38:31.347788"
+  "last_exploitdb_check": "2026-07-25T10:16:12.365416",
+  "last_darkweb_check": "2026-07-25T10:16:13.871545",
+  "last_cisa_check": "2026-07-25T10:16:12.193580",
+  "last_osint_check": "2026-07-25T10:16:12.881756",
+  "last_redteam_check": "2026-07-25T10:16:12.869083",
+  "last_github_poc_check": "2026-07-25T10:16:13.116628",
+  "last_projectdiscovery_check": "2026-07-25T10:16:13.808419",
+  "last_telegram_check": "2026-07-25T10:16:13.510245",
+  "last_papers_check": "2026-07-25T10:16:14.321835",
+  "last_bugbounty_check": "2026-07-25T10:16:16.561693"
 }
