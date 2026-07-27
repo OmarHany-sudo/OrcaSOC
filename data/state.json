@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-27T22:18:50.874825",
+  "last_run": "2026-07-27T23:33:49.394538",
   "last_update_id": 753263073,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -4267,7 +4267,8 @@
     "https://huggingface.co/xmd14/tensorizer-torch-compat-rce-poc",
     "https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown",
     "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
-    "https://github.com/wjhcd145/redis-recon-pro"
+    "https://github.com/wjhcd145/redis-recon-pro",
+    "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -8999,16 +9000,17 @@
     "f9ab0420f787848e",
     "3ed65e16dd4b53ce",
     "2adab2da55905497",
-    "b25c0429750d3528"
+    "b25c0429750d3528",
+    "d085ee32c703dcf5"
   ],
-  "last_cve_check": "2026-07-27T22:18:12.732859",
+  "last_cve_check": "2026-07-27T23:33:13.778768",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-27T22:18:14.287771",
-  "last_huggingface_check": "2026-07-27T22:18:17.899888",
-  "last_reddit_check": "2026-07-27T22:18:15.264545",
-  "last_rss_check": "2026-07-27T22:18:15.868376",
-  "last_ransomware_check": "2026-07-27T22:18:15.869242",
-  "last_leak_check": "2026-07-27T22:18:15.008702",
+  "last_github_check": "2026-07-27T23:33:15.053373",
+  "last_huggingface_check": "2026-07-27T23:33:19.675600",
+  "last_reddit_check": "2026-07-27T23:33:15.552431",
+  "last_rss_check": "2026-07-27T23:33:15.829484",
+  "last_ransomware_check": "2026-07-27T23:33:16.520426",
+  "last_leak_check": "2026-07-27T23:33:15.791815",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -9066,21 +9068,21 @@
     "2026-07-24": 118,
     "2026-07-25": 93,
     "2026-07-26": 23,
-    "2026-07-27": 39
+    "2026-07-27": 40
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 10,
+  "runs_today": 11,
   "last_run_date": "2026-07-27",
-  "last_exploitdb_check": "2026-07-27T22:18:13.497588",
-  "last_darkweb_check": "2026-07-27T22:18:15.584207",
-  "last_cisa_check": "2026-07-27T22:18:13.074783",
-  "last_osint_check": "2026-07-27T22:18:14.042390",
-  "last_redteam_check": "2026-07-27T22:18:13.928075",
-  "last_github_poc_check": "2026-07-27T22:18:14.346494",
-  "last_projectdiscovery_check": "2026-07-27T22:18:15.430149",
-  "last_telegram_check": "2026-07-27T22:18:14.729356",
-  "last_papers_check": "2026-07-27T22:18:16.097028",
-  "last_bugbounty_check": "2026-07-27T22:18:18.683381"
+  "last_exploitdb_check": "2026-07-27T23:33:14.086063",
+  "last_darkweb_check": "2026-07-27T23:33:15.889211",
+  "last_cisa_check": "2026-07-27T23:33:13.943451",
+  "last_osint_check": "2026-07-27T23:33:14.823724",
+  "last_redteam_check": "2026-07-27T23:33:14.716015",
+  "last_github_poc_check": "2026-07-27T23:33:15.155122",
+  "last_projectdiscovery_check": "2026-07-27T23:33:15.770077",
+  "last_telegram_check": "2026-07-27T23:33:15.625880",
+  "last_papers_check": "2026-07-27T23:33:17.760337",
+  "last_bugbounty_check": "2026-07-27T23:33:19.126330"
 }
