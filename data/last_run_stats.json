@@ -1,13 +1,13 @@
 {
   "total_subscribers": 0,
-  "alerts_24h": 2,
+  "alerts_24h": 4,
   "total_alerts": 100,
   "sources_count": 17,
-  "last_run": "2026-07-27T18:13:44.135980",
-  "cves_24h": 1,
+  "last_run": "2026-07-27T19:55:17.916661",
+  "cves_24h": 2,
   "exploits_24h": 0,
   "breaches_24h": 0,
-  "ransomware_24h": 0,
+  "ransomware_24h": 1,
   "ai_enabled": true,
   "embeddings_active": true,
   "version": "OrcaSOC"
