@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-27T18:13:44.135980",
+  "last_run": "2026-07-27T19:55:17.916661",
   "last_update_id": 753263073,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -4260,7 +4260,9 @@
     "https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook",
     "https://wpscan.com/vulnerability/b9f3f6d8-b56f-4d0e-9102-c69e6756ab74/",
     "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
-    "https://huggingface.co/K1shan/Chitti"
+    "https://huggingface.co/K1shan/Chitti",
+    "https://huggingface.co/SixpertAI/SixpertK2",
+    "https://wpscan.com/vulnerability/9634b51c-59a1-45f6-8b09-421d6bfd0204/"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -8985,16 +8987,18 @@
     "30239df2a2f78871",
     "a5dca5886406d28f",
     "5617a092ee9ad892",
-    "848f288a1c48c884"
+    "848f288a1c48c884",
+    "cf338bd69c9ae98f",
+    "f7cd2bb835e8edc6"
   ],
-  "last_cve_check": "2026-07-27T18:13:16.814204",
+  "last_cve_check": "2026-07-27T19:54:42.594182",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-27T18:13:18.118838",
-  "last_huggingface_check": "2026-07-27T18:13:20.922553",
-  "last_reddit_check": "2026-07-27T18:13:18.443981",
-  "last_rss_check": "2026-07-27T18:13:19.407744",
-  "last_ransomware_check": "2026-07-27T18:13:19.227213",
-  "last_leak_check": "2026-07-27T18:13:18.599248",
+  "last_github_check": "2026-07-27T19:54:44.023352",
+  "last_huggingface_check": "2026-07-27T19:54:47.905428",
+  "last_reddit_check": "2026-07-27T19:54:44.369327",
+  "last_rss_check": "2026-07-27T19:54:44.270350",
+  "last_ransomware_check": "2026-07-27T19:54:44.903198",
+  "last_leak_check": "2026-07-27T19:54:44.402721",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -9052,21 +9056,21 @@
     "2026-07-24": 118,
     "2026-07-25": 93,
     "2026-07-26": 23,
-    "2026-07-27": 32
+    "2026-07-27": 34
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 7,
+  "runs_today": 8,
   "last_run_date": "2026-07-27",
-  "last_exploitdb_check": "2026-07-27T18:13:17.612365",
-  "last_darkweb_check": "2026-07-27T18:13:19.274959",
-  "last_cisa_check": "2026-07-27T18:13:16.956563",
-  "last_osint_check": "2026-07-27T18:13:18.087295",
-  "last_redteam_check": "2026-07-27T18:13:17.993614",
-  "last_github_poc_check": "2026-07-27T18:13:18.120837",
-  "last_projectdiscovery_check": "2026-07-27T18:13:20.436544",
-  "last_telegram_check": "2026-07-27T18:13:18.451990",
-  "last_papers_check": "2026-07-27T18:13:19.647006",
-  "last_bugbounty_check": "2026-07-27T18:13:22.235229"
+  "last_exploitdb_check": "2026-07-27T19:54:42.821402",
+  "last_darkweb_check": "2026-07-27T19:54:44.569044",
+  "last_cisa_check": "2026-07-27T19:54:42.725052",
+  "last_osint_check": "2026-07-27T19:54:43.874466",
+  "last_redteam_check": "2026-07-27T19:54:43.542288",
+  "last_github_poc_check": "2026-07-27T19:54:44.022984",
+  "last_projectdiscovery_check": "2026-07-27T19:54:44.519546",
+  "last_telegram_check": "2026-07-27T19:54:44.519766",
+  "last_papers_check": "2026-07-27T19:54:46.001114",
+  "last_bugbounty_check": "2026-07-27T19:54:47.852281"
 }
