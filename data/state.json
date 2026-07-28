@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-28T04:28:54.081634",
+  "last_run": "2026-07-28T07:08:47.949302",
   "last_update_id": 753263073,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -4276,7 +4276,8 @@
     "https://wpscan.com/vulnerability/f08365f6-57d2-475a-82c8-c4d27286569e/",
     "https://github.com/000unknownooo5-ship-it/fake-scan-larp-tool-very-tuff",
     "https://wpscan.com/vulnerability/dcbc2a0c-6fa6-4266-9292-0a1f3418da08/",
-    "https://arxiv.org/abs/2607.24625v1"
+    "https://arxiv.org/abs/2607.24625v1",
+    "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -9017,16 +9018,17 @@
     "9d450d98172ce449",
     "4c14a514e874aa21",
     "3275811e1c46214d",
-    "30a75b8940b7216f"
+    "30a75b8940b7216f",
+    "577e8f2e8e304352"
   ],
-  "last_cve_check": "2026-07-28T04:26:08.799253",
+  "last_cve_check": "2026-07-28T07:08:22.833520",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-28T04:26:09.843188",
-  "last_huggingface_check": "2026-07-28T04:26:12.766732",
-  "last_reddit_check": "2026-07-28T04:26:10.745090",
-  "last_rss_check": "2026-07-28T04:26:10.998230",
-  "last_ransomware_check": "2026-07-28T04:26:11.848428",
-  "last_leak_check": "2026-07-28T04:26:11.278155",
+  "last_github_check": "2026-07-28T07:08:23.989108",
+  "last_huggingface_check": "2026-07-28T07:08:25.145377",
+  "last_reddit_check": "2026-07-28T07:08:24.462204",
+  "last_rss_check": "2026-07-28T07:08:24.193152",
+  "last_ransomware_check": "2026-07-28T07:08:24.643777",
+  "last_leak_check": "2026-07-28T07:08:24.347921",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -9085,21 +9087,21 @@
     "2026-07-25": 93,
     "2026-07-26": 23,
     "2026-07-27": 40,
-    "2026-07-28": 8
+    "2026-07-28": 9
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 2,
+  "runs_today": 3,
   "last_run_date": "2026-07-28",
-  "last_exploitdb_check": "2026-07-28T04:28:24.469930",
-  "last_darkweb_check": "2026-07-28T04:26:11.670753",
-  "last_cisa_check": "2026-07-28T04:26:09.069039",
-  "last_osint_check": "2026-07-28T04:26:09.371723",
-  "last_redteam_check": "2026-07-28T04:26:09.529635",
-  "last_github_poc_check": "2026-07-28T04:26:09.873948",
-  "last_projectdiscovery_check": "2026-07-28T04:26:11.518737",
-  "last_telegram_check": "2026-07-28T04:26:11.141254",
-  "last_papers_check": "2026-07-28T04:26:12.250178",
-  "last_bugbounty_check": "2026-07-28T04:26:14.519255"
+  "last_exploitdb_check": "2026-07-28T07:08:23.144254",
+  "last_darkweb_check": "2026-07-28T07:08:24.413004",
+  "last_cisa_check": "2026-07-28T07:08:22.975908",
+  "last_osint_check": "2026-07-28T07:08:23.701623",
+  "last_redteam_check": "2026-07-28T07:08:23.519868",
+  "last_github_poc_check": "2026-07-28T07:08:23.962715",
+  "last_projectdiscovery_check": "2026-07-28T07:08:24.326421",
+  "last_telegram_check": "2026-07-28T07:08:24.328479",
+  "last_papers_check": "2026-07-28T07:08:27.588088",
+  "last_bugbounty_check": "2026-07-28T07:08:27.530819"
 }
