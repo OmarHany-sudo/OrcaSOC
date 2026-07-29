@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-29T01:08:40.930600",
+  "last_run": "2026-07-29T04:29:54.159679",
   "last_update_id": 753263073,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -4361,7 +4361,9 @@
     "https://plugins.trac.wordpress.org/browser/fulltext-search/tags/1.79.274/fulltext-search.php#L453",
     "https://wpscan.com/vulnerability/6cbb9796-5f9b-44b4-b814-176ed225b184/",
     "https://wpscan.com/vulnerability/d574b78c-df04-4dab-bd33-e3a22ff51918/",
-    "https://plugins.trac.wordpress.org/browser/chaty-pro/tags/3.5.0/admin/class-admin-base.php#L3623"
+    "https://plugins.trac.wordpress.org/browser/chaty-pro/tags/3.5.0/admin/class-admin-base.php#L3623",
+    "https://arxiv.org/abs/2607.25936v1",
+    "https://hackerone.com/reports/3473145"
   ],
   "processed_hashes": [
     "d82f19826989eab6",
@@ -9196,16 +9198,18 @@
     "56a736777b71cd46",
     "5dc7f9ef61b6862a",
     "6a3f8ecaf208fb65",
-    "f4312273bc64519b"
+    "f4312273bc64519b",
+    "4f36ba9cda8b7b3e",
+    "9c3d695af6baed59"
   ],
-  "last_cve_check": "2026-07-29T01:08:09.681321",
+  "last_cve_check": "2026-07-29T04:29:21.906891",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-29T01:08:10.791812",
-  "last_huggingface_check": "2026-07-29T01:08:14.732020",
-  "last_reddit_check": "2026-07-29T01:08:11.169760",
-  "last_rss_check": "2026-07-29T01:08:11.132960",
-  "last_ransomware_check": "2026-07-29T01:08:11.859993",
-  "last_leak_check": "2026-07-29T01:08:11.289417",
+  "last_github_check": "2026-07-29T04:29:23.243236",
+  "last_huggingface_check": "2026-07-29T04:29:27.981734",
+  "last_reddit_check": "2026-07-29T04:29:23.624236",
+  "last_rss_check": "2026-07-29T04:29:23.911460",
+  "last_ransomware_check": "2026-07-29T04:29:24.494682",
+  "last_leak_check": "2026-07-29T04:29:23.964295",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -9264,21 +9268,22 @@
     "2026-07-25": 93,
     "2026-07-26": 23,
     "2026-07-27": 40,
-    "2026-07-28": 102
+    "2026-07-28": 102,
+    "2026-07-29": 2
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 1,
+  "runs_today": 2,
   "last_run_date": "2026-07-29",
-  "last_exploitdb_check": "2026-07-29T01:08:09.954119",
-  "last_darkweb_check": "2026-07-29T01:08:11.394153",
-  "last_cisa_check": "2026-07-29T01:08:09.862641",
-  "last_osint_check": "2026-07-29T01:08:10.236265",
-  "last_redteam_check": "2026-07-29T01:08:10.219160",
-  "last_github_poc_check": "2026-07-29T01:08:10.858262",
-  "last_projectdiscovery_check": "2026-07-29T01:08:11.678161",
-  "last_telegram_check": "2026-07-29T01:08:11.333919",
-  "last_papers_check": "2026-07-29T01:08:11.719055",
-  "last_bugbounty_check": "2026-07-29T01:08:17.410180"
+  "last_exploitdb_check": "2026-07-29T04:29:22.255888",
+  "last_darkweb_check": "2026-07-29T04:29:23.978555",
+  "last_cisa_check": "2026-07-29T04:29:22.065304",
+  "last_osint_check": "2026-07-29T04:29:22.606802",
+  "last_redteam_check": "2026-07-29T04:29:22.440659",
+  "last_github_poc_check": "2026-07-29T04:29:23.096888",
+  "last_projectdiscovery_check": "2026-07-29T04:29:23.826487",
+  "last_telegram_check": "2026-07-29T04:29:23.853959",
+  "last_papers_check": "2026-07-29T04:29:24.702349",
+  "last_bugbounty_check": "2026-07-29T04:29:27.529672"
 }
