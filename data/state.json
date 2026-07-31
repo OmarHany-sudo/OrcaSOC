@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-31T21:20:56.520606",
+  "last_run": "2026-07-31T22:32:38.573993",
   "last_update_id": 753263073,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -4676,12 +4676,12 @@
     "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-06.json",
     "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-10.json",
     "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-211-11.json",
-    "https://access.redhat.com/security/cve/CVE-2026-68562"
+    "https://access.redhat.com/security/cve/CVE-2026-68562",
+    "https://github.com/Ylianst/MeshCentral",
+    "https://github.com/theopaid/Stored-Cross-Site-Scripting-Via-Agent-Messages-Leading-To-Session-Token-Theft-openclaw-dashboard-",
+    "https://huggingface.co/iBossonline/RegesCore-1.0-9B-GGUF"
   ],
   "processed_hashes": [
-    "2aef48f59491f023",
-    "a839d51c77a4783e",
-    "7906df285b2581c9",
     "eff5360fb0cb4f8b",
     "5b59e76b504a553d",
     "729f1998abdc7353",
@@ -9678,16 +9678,19 @@
     "8a777e9a61a09f23",
     "a53395e2375190a9",
     "30258d3261f481de",
-    "2302837192092ef5"
+    "2302837192092ef5",
+    "e85927261ed7451c",
+    "2850e336d2352bd7",
+    "4e2b079649a98c3c"
   ],
-  "last_cve_check": "2026-07-31T21:20:19.211240",
+  "last_cve_check": "2026-07-31T22:32:06.761940",
   "last_exploit_check": null,
-  "last_github_check": "2026-07-31T21:20:20.655417",
-  "last_huggingface_check": "2026-07-31T21:20:23.816268",
-  "last_reddit_check": "2026-07-31T21:20:21.262528",
-  "last_rss_check": "2026-07-31T21:20:21.731914",
-  "last_ransomware_check": "2026-07-31T21:20:22.217305",
-  "last_leak_check": "2026-07-31T21:20:21.497892",
+  "last_github_check": "2026-07-31T22:32:08.352813",
+  "last_huggingface_check": "2026-07-31T22:32:12.378203",
+  "last_reddit_check": "2026-07-31T22:32:08.745090",
+  "last_rss_check": "2026-07-31T22:32:08.485258",
+  "last_ransomware_check": "2026-07-31T22:32:09.220209",
+  "last_leak_check": "2026-07-31T22:32:08.640376",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -9749,21 +9752,21 @@
     "2026-07-28": 102,
     "2026-07-29": 142,
     "2026-07-30": 108,
-    "2026-07-31": 121
+    "2026-07-31": 124
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 11,
+  "runs_today": 12,
   "last_run_date": "2026-07-31",
-  "last_exploitdb_check": "2026-07-31T21:20:19.795423",
-  "last_darkweb_check": "2026-07-31T21:20:21.849295",
-  "last_cisa_check": "2026-07-31T21:20:19.415490",
-  "last_osint_check": "2026-07-31T21:20:20.320535",
-  "last_redteam_check": "2026-07-31T21:20:20.108233",
-  "last_github_poc_check": "2026-07-31T21:20:20.413771",
-  "last_projectdiscovery_check": "2026-07-31T21:20:22.216883",
-  "last_telegram_check": "2026-07-31T21:20:21.050656",
-  "last_papers_check": "2026-07-31T21:20:22.237377",
-  "last_bugbounty_check": "2026-07-31T21:20:25.394672"
+  "last_exploitdb_check": "2026-07-31T22:32:06.971181",
+  "last_darkweb_check": "2026-07-31T22:32:08.808481",
+  "last_cisa_check": "2026-07-31T22:32:06.892036",
+  "last_osint_check": "2026-07-31T22:32:07.933126",
+  "last_redteam_check": "2026-07-31T22:32:07.996077",
+  "last_github_poc_check": "2026-07-31T22:32:08.272062",
+  "last_projectdiscovery_check": "2026-07-31T22:32:08.740914",
+  "last_telegram_check": "2026-07-31T22:32:08.857425",
+  "last_papers_check": "2026-07-31T22:32:09.806343",
+  "last_bugbounty_check": "2026-07-31T22:32:12.057359"
 }
