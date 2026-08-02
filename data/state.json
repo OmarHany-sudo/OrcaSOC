@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-02T12:57:28.981712",
+  "last_run": "2026-08-02T14:24:41.817805",
   "last_update_id": 753263073,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -4783,13 +4783,13 @@
     "https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-2c6r-4pr4-9x8m",
     "https://github.com/zephyrproject-rtos/zephyr/commit/c3386f92fe81bd10dc23e6a115e6a80a7d863546",
     "https://github.com/FreeRDP/FreeRDP/commit/5370fb26fbf034ecd11d3026b6ad639b5fff493f",
-    "https://github.com/better-auth/better-auth/security/advisories/GHSA-vp58-j275-797x"
+    "https://github.com/better-auth/better-auth/security/advisories/GHSA-vp58-j275-797x",
+    "https://plugins.trac.wordpress.org/browser/cubewp-framework/tags/1.1.30/cube/functions/admin-functions.php#L1170",
+    "https://github.com/keras-team/keras/commit/23370f16b0ab9a200f7550a34e54a3ceab74ba0e",
+    "https://codecanyon.net/item/social-login-wordpress-woocommerce-plugin/8495883",
+    "https://plugins.trac.wordpress.org/browser/user-access-manager/tags/2.3.14/src/Controller/BaseControllerTrait.php%3A22-50"
   ],
   "processed_hashes": [
-    "ec5d98818be3a3ce",
-    "6228013a4beee4bc",
-    "165230084705ddaa",
-    "f8099bc41006e32b",
     "d2065962411a2343",
     "850eb1b9959321b5",
     "e50fe0b2f7419142",
@@ -9785,16 +9785,20 @@
     "c1e787d975e13b05",
     "c0ded421256fc65c",
     "3cf0a5112e64e8e2",
-    "c48a59a74b839c3e"
+    "c48a59a74b839c3e",
+    "38f25b8fbd27e039",
+    "4981b26ddf7459a3",
+    "d20fe7e74d8447a2",
+    "101a3f6ab4a5252b"
   ],
-  "last_cve_check": "2026-08-02T12:56:59.277694",
+  "last_cve_check": "2026-08-02T14:24:15.138633",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-02T12:57:00.514278",
-  "last_huggingface_check": "2026-08-02T12:57:01.597366",
-  "last_reddit_check": "2026-08-02T12:57:01.240351",
-  "last_rss_check": "2026-08-02T12:57:01.178156",
-  "last_ransomware_check": "2026-08-02T12:57:01.238647",
-  "last_leak_check": "2026-08-02T12:57:00.786092",
+  "last_github_check": "2026-08-02T14:24:16.415978",
+  "last_huggingface_check": "2026-08-02T14:24:17.342600",
+  "last_reddit_check": "2026-08-02T14:24:16.736335",
+  "last_rss_check": "2026-08-02T14:24:16.880793",
+  "last_ransomware_check": "2026-08-02T14:24:17.104934",
+  "last_leak_check": "2026-08-02T14:24:16.684818",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -9858,21 +9862,21 @@
     "2026-07-30": 108,
     "2026-07-31": 129,
     "2026-08-01": 78,
-    "2026-08-02": 26
+    "2026-08-02": 30
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 7,
+  "runs_today": 8,
   "last_run_date": "2026-08-02",
-  "last_exploitdb_check": "2026-08-02T12:56:59.638701",
-  "last_darkweb_check": "2026-08-02T12:57:01.278474",
-  "last_cisa_check": "2026-08-02T12:56:59.438398",
-  "last_osint_check": "2026-08-02T12:57:00.226974",
-  "last_redteam_check": "2026-08-02T12:57:00.275033",
-  "last_github_poc_check": "2026-08-02T12:57:00.496254",
-  "last_projectdiscovery_check": "2026-08-02T12:57:00.625566",
-  "last_telegram_check": "2026-08-02T12:57:00.838278",
-  "last_papers_check": "2026-08-02T12:57:01.536766",
-  "last_bugbounty_check": "2026-08-02T12:57:04.469065"
+  "last_exploitdb_check": "2026-08-02T14:24:15.539617",
+  "last_darkweb_check": "2026-08-02T14:24:16.783933",
+  "last_cisa_check": "2026-08-02T14:24:15.326563",
+  "last_osint_check": "2026-08-02T14:24:16.032202",
+  "last_redteam_check": "2026-08-02T14:24:15.968066",
+  "last_github_poc_check": "2026-08-02T14:24:16.254442",
+  "last_projectdiscovery_check": "2026-08-02T14:24:16.488109",
+  "last_telegram_check": "2026-08-02T14:24:16.713100",
+  "last_papers_check": "2026-08-02T14:24:17.563535",
+  "last_bugbounty_check": "2026-08-02T14:24:20.391239"
 }
