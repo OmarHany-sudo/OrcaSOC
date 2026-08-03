@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-03T20:09:07.747694",
+  "last_run": "2026-08-03T21:20:54.079630",
   "last_update_id": 753263073,
   "processed_urls": [
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.4",
@@ -4842,10 +4842,10 @@
     "https://huggingface.co/guardion/ModernGuard-1",
     "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
     "https://huggingface.co/WedusGibas/ravenx-cybersecurity-clean",
-    "https://github.com/sam00/CVE-2026-56158-.NET-Framework-RCE-PoC-Exploit"
+    "https://github.com/sam00/CVE-2026-56158-.NET-Framework-RCE-PoC-Exploit",
+    "https://www.darkreading.com/cyber-risk/new-tool-advances-ai-generated-video-detection"
   ],
   "processed_hashes": [
-    "80fe3dcaa6e47510",
     "40e248064f1af9e1",
     "8701c3bfdc662cca",
     "eedf3f4403ad4646",
@@ -9844,16 +9844,17 @@
     "d1e3307ba23952bd",
     "2542ef43d22eec33",
     "9cf792bfc5600145",
-    "557339e823379fc6"
+    "557339e823379fc6",
+    "66a0c02987854297"
   ],
-  "last_cve_check": "2026-08-03T20:08:38.468051",
+  "last_cve_check": "2026-08-03T21:20:22.116080",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-03T20:08:39.914889",
-  "last_huggingface_check": "2026-08-03T20:08:41.920855",
-  "last_reddit_check": "2026-08-03T20:08:40.429162",
-  "last_rss_check": "2026-08-03T20:08:40.387912",
-  "last_ransomware_check": "2026-08-03T20:08:41.114982",
-  "last_leak_check": "2026-08-03T20:08:40.344450",
+  "last_github_check": "2026-08-03T21:20:23.821850",
+  "last_huggingface_check": "2026-08-03T21:20:24.723487",
+  "last_reddit_check": "2026-08-03T21:20:23.996520",
+  "last_rss_check": "2026-08-03T21:20:23.720889",
+  "last_ransomware_check": "2026-08-03T21:20:24.393059",
+  "last_leak_check": "2026-08-03T21:20:24.033942",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -9918,21 +9919,21 @@
     "2026-07-31": 129,
     "2026-08-01": 78,
     "2026-08-02": 35,
-    "2026-08-03": 50
+    "2026-08-03": 51
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 8,
+  "runs_today": 9,
   "last_run_date": "2026-08-03",
-  "last_exploitdb_check": "2026-08-03T20:08:38.869560",
-  "last_darkweb_check": "2026-08-03T20:08:40.480419",
-  "last_cisa_check": "2026-08-03T20:08:38.721506",
-  "last_osint_check": "2026-08-03T20:08:39.663212",
-  "last_redteam_check": "2026-08-03T20:08:39.546457",
-  "last_github_poc_check": "2026-08-03T20:08:40.115526",
-  "last_projectdiscovery_check": "2026-08-03T20:08:40.090367",
-  "last_telegram_check": "2026-08-03T20:08:40.431048",
-  "last_papers_check": "2026-08-03T20:08:40.962367",
-  "last_bugbounty_check": "2026-08-03T20:08:43.938203"
+  "last_exploitdb_check": "2026-08-03T21:20:22.388986",
+  "last_darkweb_check": "2026-08-03T21:20:24.066031",
+  "last_cisa_check": "2026-08-03T21:20:22.247031",
+  "last_osint_check": "2026-08-03T21:20:23.613634",
+  "last_redteam_check": "2026-08-03T21:20:23.420757",
+  "last_github_poc_check": "2026-08-03T21:20:23.823853",
+  "last_projectdiscovery_check": "2026-08-03T21:20:23.607064",
+  "last_telegram_check": "2026-08-03T21:20:24.000955",
+  "last_papers_check": "2026-08-03T21:20:24.956142",
+  "last_bugbounty_check": "2026-08-03T21:20:27.469221"
 }
