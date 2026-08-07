@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-07T11:32:17.215768",
+  "last_run": "2026-08-07T12:11:32.905759",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/",
-    "https://github.com/aakriti17/DoH-C2-Tunneling",
     "https://github.com/ytang-sec/automated-recon-framework",
     "https://patchstack.com/database/wordpress/plugin/eventprime-event-calendar-management/vulnerability/wordpress-eventprime-plugin-4-3-2-0-broken-access-control-vulnerability?_s_id=cve",
     "https://patchstack.com/database/wordpress/plugin/restaurant-reservations/vulnerability/wordpress-five-star-restaurant-reservations-plugin-2-7-14-payment-bypass-vulnerability?_s_id=cve",
@@ -5001,11 +4999,11 @@
     "https://gitee.com/WH-YHUST/tomato-rc-qos-ppp-cve/blob/master/advisories/en/03-sub_40F88C-pppd.md",
     "https://patchstack.com/database/wordpress/plugin/breakdance/vulnerability/wordpress-breakdance-plugin-2-6-1-broken-access-control-vulnerability?_s_id=cve",
     "https://github.com/KinoThe-Kafkaesque/ssh-mcp-server/issues/3",
-    "https://github.com/MonomythDevelopment/la-forge-mcp/"
+    "https://github.com/MonomythDevelopment/la-forge-mcp/",
+    "https://github.com/unrealsrabon/easyrecon_go_edition",
+    "https://thehackernews.com/2026/08/growing-up-hard-way.html"
   ],
   "processed_hashes": [
-    "b9344dd3b88c21c1",
-    "40b1aaabc9dcd9c3",
     "e5477584c599f336",
     "550e8c3a15d6bcaa",
     "1c3ffa50ad3c0ae8",
@@ -10003,16 +10001,18 @@
     "f383355922e43cf6",
     "519c334455816bb6",
     "31e5acd01651f0bb",
-    "a63e508724614e71"
+    "a63e508724614e71",
+    "e1c8e5089abcc0b2",
+    "381a25c64265a602"
   ],
-  "last_cve_check": "2026-08-07T11:31:48.117555",
+  "last_cve_check": "2026-08-07T12:11:03.510020",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-07T11:31:49.143703",
-  "last_huggingface_check": "2026-08-07T11:31:51.115036",
-  "last_reddit_check": "2026-08-07T11:31:49.952049",
-  "last_rss_check": "2026-08-07T11:31:50.227412",
-  "last_ransomware_check": "2026-08-07T11:31:50.519567",
-  "last_leak_check": "2026-08-07T11:31:49.969669",
+  "last_github_check": "2026-08-07T12:11:04.844920",
+  "last_huggingface_check": "2026-08-07T12:11:06.552193",
+  "last_reddit_check": "2026-08-07T12:11:05.407861",
+  "last_rss_check": "2026-08-07T12:11:05.643556",
+  "last_ransomware_check": "2026-08-07T12:11:05.935008",
+  "last_leak_check": "2026-08-07T12:11:05.619778",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10081,21 +10081,21 @@
     "2026-08-04": 105,
     "2026-08-05": 143,
     "2026-08-06": 67,
-    "2026-08-07": 68
+    "2026-08-07": 70
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 9,
+  "runs_today": 10,
   "last_run_date": "2026-08-07",
-  "last_exploitdb_check": "2026-08-07T11:31:48.632753",
-  "last_darkweb_check": "2026-08-07T11:31:50.127158",
-  "last_cisa_check": "2026-08-07T11:31:48.319973",
-  "last_osint_check": "2026-08-07T11:31:48.920419",
-  "last_redteam_check": "2026-08-07T11:31:49.002677",
-  "last_github_poc_check": "2026-08-07T11:31:49.205915",
-  "last_projectdiscovery_check": "2026-08-07T11:31:50.017774",
-  "last_telegram_check": "2026-08-07T11:31:49.579499",
-  "last_papers_check": "2026-08-07T11:31:50.447591",
-  "last_bugbounty_check": "2026-08-07T11:31:53.608655"
+  "last_exploitdb_check": "2026-08-07T12:11:04.210093",
+  "last_darkweb_check": "2026-08-07T12:11:05.745810",
+  "last_cisa_check": "2026-08-07T12:11:03.782611",
+  "last_osint_check": "2026-08-07T12:11:04.378506",
+  "last_redteam_check": "2026-08-07T12:11:04.430251",
+  "last_github_poc_check": "2026-08-07T12:11:04.613015",
+  "last_projectdiscovery_check": "2026-08-07T12:11:05.744911",
+  "last_telegram_check": "2026-08-07T12:11:05.233789",
+  "last_papers_check": "2026-08-07T12:11:05.508424",
+  "last_bugbounty_check": "2026-08-07T12:11:08.867824"
 }
