@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-07T20:57:41.578173",
+  "last_run": "2026-08-07T21:29:58.688163",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://static.draeger.com/security/download/PSA-24-110-1-gSOAP-Product-Security-Advisory.pdf",
     "https://static.draeger.com/security/download/PSA-19-255-03_Product-Security-Advisory-IACS.pdf",
     "https://github.com/mlflow/mlflow/commit/4a3f2f720cb4f058c9e0c5b883e0acc9ab64a7f3",
     "https://github.com/nuiifornet/A033/blob/main/pizzafy-vulnerability.md",
@@ -5001,10 +5000,10 @@
     "https://huggingface.co/nico248000000000/Gemma-4-12B-OBLITERATED-cyber",
     "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
     "https://github.com/archerciaron/ciaron-security-projects",
-    "https://github.com/foux9/ax-tools"
+    "https://github.com/foux9/ax-tools",
+    "https://github.com/EzraMansor/CVE-2025-32432-PoC"
   ],
   "processed_hashes": [
-    "46648a06c5ad78ba",
     "8e74a7b354288221",
     "510d60d11cae7016",
     "d8d587d87d5a48a6",
@@ -10003,16 +10002,17 @@
     "cc161ac1a89b0bdb",
     "84f4227b1bf4a894",
     "1aa5e2ffb15d53c1",
-    "27e6fc81baf5624e"
+    "27e6fc81baf5624e",
+    "dd5fbe6b50dca2dc"
   ],
-  "last_cve_check": "2026-08-07T20:57:11.108783",
+  "last_cve_check": "2026-08-07T21:29:09.832572",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-07T20:57:12.387579",
-  "last_huggingface_check": "2026-08-07T20:57:14.635378",
-  "last_reddit_check": "2026-08-07T20:57:12.769899",
-  "last_rss_check": "2026-08-07T20:57:12.647812",
-  "last_ransomware_check": "2026-08-07T20:57:13.272527",
-  "last_leak_check": "2026-08-07T20:57:12.827360",
+  "last_github_check": "2026-08-07T21:29:11.780412",
+  "last_huggingface_check": "2026-08-07T21:29:15.005555",
+  "last_reddit_check": "2026-08-07T21:29:12.156085",
+  "last_rss_check": "2026-08-07T21:29:11.712636",
+  "last_ransomware_check": "2026-08-07T21:29:12.597117",
+  "last_leak_check": "2026-08-07T21:29:11.968733",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10081,21 +10081,21 @@
     "2026-08-04": 105,
     "2026-08-05": 143,
     "2026-08-06": 67,
-    "2026-08-07": 122
+    "2026-08-07": 123
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 19,
+  "runs_today": 20,
   "last_run_date": "2026-08-07",
-  "last_exploitdb_check": "2026-08-07T20:57:11.389624",
-  "last_darkweb_check": "2026-08-07T20:57:12.976977",
-  "last_cisa_check": "2026-08-07T20:57:11.229947",
-  "last_osint_check": "2026-08-07T20:57:12.336125",
-  "last_redteam_check": "2026-08-07T20:57:12.235740",
-  "last_github_poc_check": "2026-08-07T20:57:12.534409",
-  "last_projectdiscovery_check": "2026-08-07T20:57:12.975476",
-  "last_telegram_check": "2026-08-07T20:57:12.883295",
-  "last_papers_check": "2026-08-07T20:57:13.867863",
-  "last_bugbounty_check": "2026-08-07T20:57:16.135033"
+  "last_exploitdb_check": "2026-08-07T21:29:10.275292",
+  "last_darkweb_check": "2026-08-07T21:29:12.204584",
+  "last_cisa_check": "2026-08-07T21:29:09.942055",
+  "last_osint_check": "2026-08-07T21:29:11.328493",
+  "last_redteam_check": "2026-08-07T21:29:11.295336",
+  "last_github_poc_check": "2026-08-07T21:29:11.714834",
+  "last_projectdiscovery_check": "2026-08-07T21:29:11.875981",
+  "last_telegram_check": "2026-08-07T21:29:12.209301",
+  "last_papers_check": "2026-08-07T21:29:13.092186",
+  "last_bugbounty_check": "2026-08-07T21:29:15.393921"
 }
