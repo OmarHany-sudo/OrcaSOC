@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-07T18:30:20.424854",
+  "last_run": "2026-08-07T19:29:30.531934",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
-    "https://github.com/danny-avila/LibreChat/security/advisories/GHSA-4pcc-j6m6-wcwx",
     "https://github.com/danny-avila/LibreChat/security/advisories/GHSA-5jcj-rh68-cgj7",
     "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/",
     "https://static.draeger.com/security/download/PSA-21-347-1-SCG-Security-Advisory.pdf",
@@ -5001,11 +4999,11 @@
     "https://security.docs.wso2.com/en/latest/security-announcements/security-advisories/2026/WSO2-2024-3520/",
     "https://github.com/686f6c61/POC-WP-XSS2Shell-CVE-2026-64638",
     "https://github.com/Boreas37/CVE-2026-64638-PoC",
-    "https://huggingface.co/nico248000000000/Qwen2.5-14B-Instruct-fast-cyber"
+    "https://huggingface.co/nico248000000000/Qwen2.5-14B-Instruct-fast-cyber",
+    "https://github.com/wordsec/XSS2Shell",
+    "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html"
   ],
   "processed_hashes": [
-    "8ae0ea172964c6cf",
-    "4103b7c01dda25df",
     "48ae61459e85c5b4",
     "3380476800dd0268",
     "e96e273e5d234126",
@@ -10003,16 +10001,18 @@
     "47e83d1a1d9fa441",
     "9d89782bb2b6c6d2",
     "2b87b18ded5386cd",
-    "9a20604c43208eaf"
+    "9a20604c43208eaf",
+    "25c642b69680a9c4",
+    "6d41a2211e77df35"
   ],
-  "last_cve_check": "2026-08-07T18:29:38.874037",
+  "last_cve_check": "2026-08-07T19:29:00.735829",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-07T18:29:39.829744",
-  "last_huggingface_check": "2026-08-07T18:29:43.500802",
-  "last_reddit_check": "2026-08-07T18:29:40.727684",
-  "last_rss_check": "2026-08-07T18:29:41.385102",
-  "last_ransomware_check": "2026-08-07T18:29:41.893480",
-  "last_leak_check": "2026-08-07T18:29:41.396205",
+  "last_github_check": "2026-08-07T19:29:02.398137",
+  "last_huggingface_check": "2026-08-07T19:29:03.843838",
+  "last_reddit_check": "2026-08-07T19:29:02.775456",
+  "last_rss_check": "2026-08-07T19:29:02.560839",
+  "last_ransomware_check": "2026-08-07T19:29:03.195480",
+  "last_leak_check": "2026-08-07T19:29:02.735404",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10081,21 +10081,21 @@
     "2026-08-04": 105,
     "2026-08-05": 143,
     "2026-08-06": 67,
-    "2026-08-07": 116
+    "2026-08-07": 118
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 16,
+  "runs_today": 17,
   "last_run_date": "2026-08-07",
-  "last_exploitdb_check": "2026-08-07T18:29:39.485295",
-  "last_darkweb_check": "2026-08-07T18:29:41.516060",
-  "last_cisa_check": "2026-08-07T18:29:39.112759",
-  "last_osint_check": "2026-08-07T18:29:39.751677",
-  "last_redteam_check": "2026-08-07T18:29:39.705379",
-  "last_github_poc_check": "2026-08-07T18:29:40.033976",
-  "last_projectdiscovery_check": "2026-08-07T18:29:41.288427",
-  "last_telegram_check": "2026-08-07T18:29:40.431994",
-  "last_papers_check": "2026-08-07T18:29:41.397939",
-  "last_bugbounty_check": "2026-08-07T18:29:45.068335"
+  "last_exploitdb_check": "2026-08-07T19:29:01.129853",
+  "last_darkweb_check": "2026-08-07T19:29:02.825205",
+  "last_cisa_check": "2026-08-07T19:29:00.886429",
+  "last_osint_check": "2026-08-07T19:29:01.937558",
+  "last_redteam_check": "2026-08-07T19:29:01.842246",
+  "last_github_poc_check": "2026-08-07T19:29:02.315230",
+  "last_projectdiscovery_check": "2026-08-07T19:29:02.478363",
+  "last_telegram_check": "2026-08-07T19:29:02.769417",
+  "last_papers_check": "2026-08-07T19:29:03.362281",
+  "last_bugbounty_check": "2026-08-07T19:29:07.550796"
 }
