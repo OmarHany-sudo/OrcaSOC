@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-07T19:29:30.531934",
+  "last_run": "2026-08-07T20:06:03.856814",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/danny-avila/LibreChat/security/advisories/GHSA-5jcj-rh68-cgj7",
     "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/",
     "https://static.draeger.com/security/download/PSA-21-347-1-SCG-Security-Advisory.pdf",
     "https://github.com/alfio-event/alf.io/security/advisories/GHSA-3w8f-mcf6-cm7h",
@@ -5001,10 +5000,10 @@
     "https://github.com/Boreas37/CVE-2026-64638-PoC",
     "https://huggingface.co/nico248000000000/Qwen2.5-14B-Instruct-fast-cyber",
     "https://github.com/wordsec/XSS2Shell",
-    "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html"
+    "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+    "https://huggingface.co/nico248000000000/Gemma-4-12B-OBLITERATED-cyber"
   ],
   "processed_hashes": [
-    "48ae61459e85c5b4",
     "3380476800dd0268",
     "e96e273e5d234126",
     "1e21669070996568",
@@ -10003,16 +10002,17 @@
     "2b87b18ded5386cd",
     "9a20604c43208eaf",
     "25c642b69680a9c4",
-    "6d41a2211e77df35"
+    "6d41a2211e77df35",
+    "cc161ac1a89b0bdb"
   ],
-  "last_cve_check": "2026-08-07T19:29:00.735829",
+  "last_cve_check": "2026-08-07T20:05:30.059441",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-07T19:29:02.398137",
-  "last_huggingface_check": "2026-08-07T19:29:03.843838",
-  "last_reddit_check": "2026-08-07T19:29:02.775456",
-  "last_rss_check": "2026-08-07T19:29:02.560839",
-  "last_ransomware_check": "2026-08-07T19:29:03.195480",
-  "last_leak_check": "2026-08-07T19:29:02.735404",
+  "last_github_check": "2026-08-07T20:05:31.462365",
+  "last_huggingface_check": "2026-08-07T20:05:32.495342",
+  "last_reddit_check": "2026-08-07T20:05:31.716813",
+  "last_rss_check": "2026-08-07T20:05:31.931257",
+  "last_ransomware_check": "2026-08-07T20:05:32.002953",
+  "last_leak_check": "2026-08-07T20:05:31.679741",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10081,21 +10081,21 @@
     "2026-08-04": 105,
     "2026-08-05": 143,
     "2026-08-06": 67,
-    "2026-08-07": 118
+    "2026-08-07": 119
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 17,
+  "runs_today": 18,
   "last_run_date": "2026-08-07",
-  "last_exploitdb_check": "2026-08-07T19:29:01.129853",
-  "last_darkweb_check": "2026-08-07T19:29:02.825205",
-  "last_cisa_check": "2026-08-07T19:29:00.886429",
-  "last_osint_check": "2026-08-07T19:29:01.937558",
-  "last_redteam_check": "2026-08-07T19:29:01.842246",
-  "last_github_poc_check": "2026-08-07T19:29:02.315230",
-  "last_projectdiscovery_check": "2026-08-07T19:29:02.478363",
-  "last_telegram_check": "2026-08-07T19:29:02.769417",
-  "last_papers_check": "2026-08-07T19:29:03.362281",
-  "last_bugbounty_check": "2026-08-07T19:29:07.550796"
+  "last_exploitdb_check": "2026-08-07T20:05:30.236111",
+  "last_darkweb_check": "2026-08-07T20:05:31.796047",
+  "last_cisa_check": "2026-08-07T20:05:30.175064",
+  "last_osint_check": "2026-08-07T20:05:31.129517",
+  "last_redteam_check": "2026-08-07T20:05:31.008941",
+  "last_github_poc_check": "2026-08-07T20:05:31.352146",
+  "last_projectdiscovery_check": "2026-08-07T20:05:31.285415",
+  "last_telegram_check": "2026-08-07T20:05:31.665806",
+  "last_papers_check": "2026-08-07T20:05:32.203301",
+  "last_bugbounty_check": "2026-08-07T20:05:38.452918"
 }
