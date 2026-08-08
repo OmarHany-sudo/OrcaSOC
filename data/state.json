@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-08T04:05:06.558353",
+  "last_run": "2026-08-08T05:10:09.896400",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://www.synology.com/en-global/releaseNote/HyperBackupExplorer",
     "https://github.com/gkostka/lwext4/issues/91",
     "https://github.com/danilo-dellorco/CVE-2026-6815",
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-ssrf-cXPnHcW",
@@ -5001,10 +5000,10 @@
     "https://github.com/imbas007/CVE-2026-64638-POC",
     "https://github.com/JuttSahib1999/AI-IOC-Investigator-v1",
     "https://wpscan.com/vulnerability/3fa62b23-a0a7-4b42-b8dd-0eb6e01972b2/",
-    "https://wpscan.com/vulnerability/d4749a25-f3fa-4908-9532-3ae7c1c38a58/"
+    "https://wpscan.com/vulnerability/d4749a25-f3fa-4908-9532-3ae7c1c38a58/",
+    "https://wpscan.com/vulnerability/adf8ffe0-39a2-4d26-af11-1ac807800735/"
   ],
   "processed_hashes": [
-    "6e6fd44498b706bb",
     "4cdc4c19c23b7edf",
     "b095b444993d3299",
     "a082bbd32d0c269d",
@@ -10003,16 +10002,17 @@
     "09b355bb6c4dec6a",
     "d1471a7bd581a3f4",
     "9a3389c51ada16b6",
-    "2414f7c99bfb0c0a"
+    "2414f7c99bfb0c0a",
+    "332ad002fc127063"
   ],
-  "last_cve_check": "2026-08-08T04:04:29.649773",
+  "last_cve_check": "2026-08-08T05:09:46.132885",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-08T04:04:31.004528",
-  "last_huggingface_check": "2026-08-08T04:04:31.723405",
-  "last_reddit_check": "2026-08-08T04:04:31.470023",
-  "last_rss_check": "2026-08-08T04:04:31.617791",
-  "last_ransomware_check": "2026-08-08T04:04:41.672785",
-  "last_leak_check": "2026-08-08T04:04:31.392330",
+  "last_github_check": "2026-08-08T05:09:47.245229",
+  "last_huggingface_check": "2026-08-08T05:09:49.407455",
+  "last_reddit_check": "2026-08-08T05:09:47.592675",
+  "last_rss_check": "2026-08-08T05:09:48.034423",
+  "last_ransomware_check": "2026-08-08T05:09:48.199899",
+  "last_leak_check": "2026-08-08T05:09:47.754297",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10082,21 +10082,21 @@
     "2026-08-05": 143,
     "2026-08-06": 67,
     "2026-08-07": 143,
-    "2026-08-08": 16
+    "2026-08-08": 17
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 3,
+  "runs_today": 4,
   "last_run_date": "2026-08-08",
-  "last_exploitdb_check": "2026-08-08T04:04:30.030569",
-  "last_darkweb_check": "2026-08-08T04:04:31.567034",
-  "last_cisa_check": "2026-08-08T04:04:29.794063",
-  "last_osint_check": "2026-08-08T04:04:30.524882",
-  "last_redteam_check": "2026-08-08T04:04:30.401998",
-  "last_github_poc_check": "2026-08-08T04:04:30.775673",
-  "last_projectdiscovery_check": "2026-08-08T04:04:31.214647",
-  "last_telegram_check": "2026-08-08T04:04:31.310445",
-  "last_papers_check": "2026-08-08T04:04:32.424923",
-  "last_bugbounty_check": "2026-08-08T04:04:37.906319"
+  "last_exploitdb_check": "2026-08-08T05:09:46.587329",
+  "last_darkweb_check": "2026-08-08T05:09:47.851763",
+  "last_cisa_check": "2026-08-08T05:09:46.272602",
+  "last_osint_check": "2026-08-08T05:09:47.032338",
+  "last_redteam_check": "2026-08-08T05:09:46.877494",
+  "last_github_poc_check": "2026-08-08T05:09:47.357131",
+  "last_projectdiscovery_check": "2026-08-08T05:09:47.735301",
+  "last_telegram_check": "2026-08-08T05:09:47.680615",
+  "last_papers_check": "2026-08-08T05:09:48.699612",
+  "last_bugbounty_check": "2026-08-08T05:09:51.133066"
 }
