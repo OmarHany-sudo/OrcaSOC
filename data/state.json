@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-08T11:52:57.844734",
+  "last_run": "2026-08-08T12:25:41.047860",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/ealpha072/Student-Management-System/",
     "https://github.com/openstack/mistral/tags",
     "https://plugins.trac.wordpress.org/browser/sp-client-document-manager/trunk/ajax.php#L155",
     "https://www.cloudfoundry.org/blog/cve-2026-41860-missing-tls-verify-on-bosh-monitor/",
@@ -5001,10 +5000,10 @@
     "https://gadvisory.org/advisories/PSA-2026-TH12B7",
     "https://github.com/sadhanazy/ThreatIntel-SOAR-Automation",
     "https://github.com/dartiss/code-embed/commit/399752029c62fea82a9bc13fd156713fb4d50ea8",
-    "https://access.redhat.com/security/cve/CVE-2026-15816"
+    "https://access.redhat.com/security/cve/CVE-2026-15816",
+    "https://github.com/0xtrishul/offensive-way"
   ],
   "processed_hashes": [
-    "212ba69481d83c4e",
     "fd29f1a6a817e153",
     "3827aa3dc9d142c4",
     "9d32508aca573f6b",
@@ -10003,16 +10002,17 @@
     "793511492444f0e4",
     "b21f68c622169cce",
     "f6605cc6977bf06a",
-    "76655f608bb3c638"
+    "76655f608bb3c638",
+    "41fbee88be7a7338"
   ],
-  "last_cve_check": "2026-08-08T11:52:27.366184",
+  "last_cve_check": "2026-08-08T12:25:05.688611",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-08T11:52:29.075958",
-  "last_huggingface_check": "2026-08-08T11:52:32.681290",
-  "last_reddit_check": "2026-08-08T11:52:29.437185",
-  "last_rss_check": "2026-08-08T11:52:29.180826",
-  "last_ransomware_check": "2026-08-08T11:52:29.950438",
-  "last_leak_check": "2026-08-08T11:52:29.306115",
+  "last_github_check": "2026-08-08T12:25:06.884483",
+  "last_huggingface_check": "2026-08-08T12:25:08.200274",
+  "last_reddit_check": "2026-08-08T12:25:07.259786",
+  "last_rss_check": "2026-08-08T12:25:07.562930",
+  "last_ransomware_check": "2026-08-08T12:25:07.564726",
+  "last_leak_check": "2026-08-08T12:25:07.035024",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10082,21 +10082,21 @@
     "2026-08-05": 143,
     "2026-08-06": 67,
     "2026-08-07": 143,
-    "2026-08-08": 42
+    "2026-08-08": 43
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 14,
+  "runs_today": 15,
   "last_run_date": "2026-08-08",
-  "last_exploitdb_check": "2026-08-08T11:52:27.546266",
-  "last_darkweb_check": "2026-08-08T11:52:29.487986",
-  "last_cisa_check": "2026-08-08T11:52:27.474423",
-  "last_osint_check": "2026-08-08T11:52:28.652930",
-  "last_redteam_check": "2026-08-08T11:52:28.592918",
-  "last_github_poc_check": "2026-08-08T11:52:29.347437",
-  "last_projectdiscovery_check": "2026-08-08T11:52:29.073709",
-  "last_telegram_check": "2026-08-08T11:52:29.551763",
-  "last_papers_check": "2026-08-08T11:52:30.064549",
-  "last_bugbounty_check": "2026-08-08T11:52:33.014037"
+  "last_exploitdb_check": "2026-08-08T12:25:05.898010",
+  "last_darkweb_check": "2026-08-08T12:25:07.354092",
+  "last_cisa_check": "2026-08-08T12:25:05.797039",
+  "last_osint_check": "2026-08-08T12:25:06.847378",
+  "last_redteam_check": "2026-08-08T12:25:06.621620",
+  "last_github_poc_check": "2026-08-08T12:25:06.909181",
+  "last_projectdiscovery_check": "2026-08-08T12:25:06.793015",
+  "last_telegram_check": "2026-08-08T12:25:07.164106",
+  "last_papers_check": "2026-08-08T12:25:08.013666",
+  "last_bugbounty_check": "2026-08-08T12:25:18.165345"
 }
