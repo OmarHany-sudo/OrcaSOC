@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-08T14:49:24.093465",
+  "last_run": "2026-08-08T15:20:18.419359",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://www.cve.org/CVERecord?id=CVE-2026-46719",
     "https://www.cloudfoundry.org/blog/cve-2026-41859-missing-tls-in-nats-sync/",
     "https://github.com/libwww-perl/HTML-Parser/commit/6922552b0778c90a9587a3894e248be4d3a25e1c.patch",
     "https://www.morsemicro.com/security-advisories/MM-SA-2026-003",
@@ -5001,10 +5000,10 @@
     "https://github.com/Inferiorcourtlakemalawi590/inferiorcourtlakemalawi590.github.io",
     "https://github.com/Inferiorcourtlakemalawi590/trustbin",
     "https://github.com/kagexai/kagexai",
-    "https://github.com/kagexai/.github"
+    "https://github.com/kagexai/.github",
+    "https://github.com/gensnext/cve/issues/3"
   ],
   "processed_hashes": [
-    "b4819cc383c91f85",
     "c79af0fd6826ade7",
     "c1b6a54b590c0609",
     "9c0dcb174f15b590",
@@ -10003,16 +10002,17 @@
     "37ae9365059ba0ae",
     "e1ee266d94f368bc",
     "f309bdaada9d34b9",
-    "db865e4363818b3e"
+    "db865e4363818b3e",
+    "fb052ce5bccb1bc6"
   ],
-  "last_cve_check": "2026-08-08T14:48:52.916545",
+  "last_cve_check": "2026-08-08T15:19:48.262476",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-08T14:48:54.152254",
-  "last_huggingface_check": "2026-08-08T14:48:56.373130",
-  "last_reddit_check": "2026-08-08T14:48:54.854717",
-  "last_rss_check": "2026-08-08T14:48:55.738880",
-  "last_ransomware_check": "2026-08-08T14:48:55.503095",
-  "last_leak_check": "2026-08-08T14:48:54.997529",
+  "last_github_check": "2026-08-08T15:19:49.574837",
+  "last_huggingface_check": "2026-08-08T15:19:50.799224",
+  "last_reddit_check": "2026-08-08T15:19:49.947587",
+  "last_rss_check": "2026-08-08T15:19:50.150186",
+  "last_ransomware_check": "2026-08-08T15:19:50.443666",
+  "last_leak_check": "2026-08-08T15:19:50.064268",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10082,21 +10082,21 @@
     "2026-08-05": 143,
     "2026-08-06": 67,
     "2026-08-07": 143,
-    "2026-08-08": 48
+    "2026-08-08": 49
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 18,
+  "runs_today": 19,
   "last_run_date": "2026-08-08",
-  "last_exploitdb_check": "2026-08-08T14:48:53.590537",
-  "last_darkweb_check": "2026-08-08T14:48:55.137280",
-  "last_cisa_check": "2026-08-08T14:48:53.202706",
-  "last_osint_check": "2026-08-08T14:48:53.903970",
-  "last_redteam_check": "2026-08-08T14:48:53.879905",
-  "last_github_poc_check": "2026-08-08T14:48:54.124956",
-  "last_projectdiscovery_check": "2026-08-08T14:48:54.965903",
-  "last_telegram_check": "2026-08-08T14:48:54.537507",
-  "last_papers_check": "2026-08-08T14:48:55.703975",
-  "last_bugbounty_check": "2026-08-08T14:48:58.817990"
+  "last_exploitdb_check": "2026-08-08T15:19:48.724284",
+  "last_darkweb_check": "2026-08-08T15:19:50.234309",
+  "last_cisa_check": "2026-08-08T15:19:48.510154",
+  "last_osint_check": "2026-08-08T15:19:49.354189",
+  "last_redteam_check": "2026-08-08T15:19:49.309271",
+  "last_github_poc_check": "2026-08-08T15:19:49.521830",
+  "last_projectdiscovery_check": "2026-08-08T15:19:50.227026",
+  "last_telegram_check": "2026-08-08T15:19:49.868969",
+  "last_papers_check": "2026-08-08T15:19:50.229690",
+  "last_bugbounty_check": "2026-08-08T15:19:53.142813"
 }
