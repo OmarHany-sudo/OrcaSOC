@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-08T19:43:54.313312",
+  "last_run": "2026-08-08T20:03:24.641480",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://access.redhat.com/security/cve/CVE-2026-10840",
     "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0309",
     "https://codecanyon.net/item/signer-create-digital-signatures-and-sign-pdf-documents-online/20737707",
     "https://support.forcepoint.com/s/article/Security-Advisory-Local-Privilege-Escalation-in-VPN-Client-for-Windows",
@@ -5001,10 +5000,10 @@
     "https://github.com/pipeboard-co/meta-ads-mcp/releases/tag/1.0.109",
     "https://github.com/hapifhir/org.hl7.fhir.core/commit/396f447500407693d6ae1e64db59782862ca7506",
     "https://discuss.hashicorp.com/t/hcsec-2026-25-multiple-vulnerabilities-impacting-hashicorp-consul/77629",
-    "https://github.com/gopacket/gopacket/commit/210f25fb9b3ca1af2eb649936f78ad6991b6c9c5"
+    "https://github.com/gopacket/gopacket/commit/210f25fb9b3ca1af2eb649936f78ad6991b6c9c5",
+    "https://huggingface.co/vikramdgx/injection-vulnerability-detector"
   ],
   "processed_hashes": [
-    "f49cecdfa2b1091b",
     "0ba7f0ac3136dbda",
     "bbfa323c7cf56519",
     "d6ddb53ba82e7695",
@@ -10003,16 +10002,17 @@
     "4bd3cea3992dbdfc",
     "dd7e3f9694285462",
     "6259ef2b4164344f",
-    "2ec26a6eee8b7b1b"
+    "2ec26a6eee8b7b1b",
+    "62a03fc1bba7c2a6"
   ],
-  "last_cve_check": "2026-08-08T19:43:24.244835",
+  "last_cve_check": "2026-08-08T20:03:01.563911",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-08T19:43:25.322457",
-  "last_huggingface_check": "2026-08-08T19:43:26.572640",
-  "last_reddit_check": "2026-08-08T19:43:25.728444",
-  "last_rss_check": "2026-08-08T19:43:26.146122",
-  "last_ransomware_check": "2026-08-08T19:43:26.101869",
-  "last_leak_check": "2026-08-08T19:43:25.507140",
+  "last_github_check": "2026-08-08T20:03:03.232543",
+  "last_huggingface_check": "2026-08-08T20:03:06.570342",
+  "last_reddit_check": "2026-08-08T20:03:03.789588",
+  "last_rss_check": "2026-08-08T20:03:03.681960",
+  "last_ransomware_check": "2026-08-08T20:03:04.336716",
+  "last_leak_check": "2026-08-08T20:03:03.805148",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10082,21 +10082,21 @@
     "2026-08-05": 143,
     "2026-08-06": 67,
     "2026-08-07": 143,
-    "2026-08-08": 77
+    "2026-08-08": 78
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 27,
+  "runs_today": 28,
   "last_run_date": "2026-08-08",
-  "last_exploitdb_check": "2026-08-08T19:43:24.558299",
-  "last_darkweb_check": "2026-08-08T19:43:25.793266",
-  "last_cisa_check": "2026-08-08T19:43:24.332381",
-  "last_osint_check": "2026-08-08T19:43:25.267142",
-  "last_redteam_check": "2026-08-08T19:43:25.092689",
-  "last_github_poc_check": "2026-08-08T19:43:25.368264",
-  "last_projectdiscovery_check": "2026-08-08T19:43:25.378620",
-  "last_telegram_check": "2026-08-08T19:43:25.655946",
-  "last_papers_check": "2026-08-08T19:43:26.472755",
-  "last_bugbounty_check": "2026-08-08T19:43:30.199443"
+  "last_exploitdb_check": "2026-08-08T20:03:01.957901",
+  "last_darkweb_check": "2026-08-08T20:03:03.889641",
+  "last_cisa_check": "2026-08-08T20:03:01.688623",
+  "last_osint_check": "2026-08-08T20:03:02.769305",
+  "last_redteam_check": "2026-08-08T20:03:02.839155",
+  "last_github_poc_check": "2026-08-08T20:03:03.148874",
+  "last_projectdiscovery_check": "2026-08-08T20:03:03.579607",
+  "last_telegram_check": "2026-08-08T20:03:03.698019",
+  "last_papers_check": "2026-08-08T20:03:04.527173",
+  "last_bugbounty_check": "2026-08-08T20:03:07.282668"
 }
