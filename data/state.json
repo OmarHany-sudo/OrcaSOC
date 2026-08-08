@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-08T07:35:54.243971",
+  "last_run": "2026-08-08T08:22:01.757981",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/Tymbark7372/MERCUSYS-AC12G/blob/master/advisories/CVE-2026-36610.md",
-    "https://github.com/Tymbark7372/MERCUSYS-AC12G/blob/master/advisories/CVE-2026-36606.md",
     "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
     "https://security-advisory.acronis.com/advisories/SEC-3083",
     "https://kb.cert.org/vuls/id/595768",
@@ -5001,11 +4999,11 @@
     "https://arenasdk.s3.us-west-2.amazonaws.com/ArenaSDK_ReleaseNotes_v1.0.85.11.txt",
     "https://wpscan.com/vulnerability/0653ccce-5427-4ffc-a34c-18b45710d9f3/",
     "https://support.zte.com.cn/zte-iccp-isupport-webui/bulletin/detail/460174866982035232",
-    "https://support.zte.com.cn/zte-iccp-isupport-webui/bulletin/detail/2171542593031803093"
+    "https://support.zte.com.cn/zte-iccp-isupport-webui/bulletin/detail/2171542593031803093",
+    "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+    "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html"
   ],
   "processed_hashes": [
-    "e435a39cc2ac1485",
-    "e03c5d65d9755127",
     "d412a4f0bf16bf84",
     "e2f7d69760ca91ee",
     "3f9cb0d7e1ba22d3",
@@ -10003,16 +10001,18 @@
     "ac25b6e4a2b7e1cb",
     "66f98f9edb779ad0",
     "b8ba95d7e32eb521",
-    "76a626261a0eeaf7"
+    "76a626261a0eeaf7",
+    "5f1ea0837a028127",
+    "13c0329930a6c51a"
   ],
-  "last_cve_check": "2026-08-08T07:35:31.823883",
+  "last_cve_check": "2026-08-08T08:21:29.866858",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-08T07:35:33.381835",
-  "last_huggingface_check": "2026-08-08T07:35:36.505917",
-  "last_reddit_check": "2026-08-08T07:35:33.933851",
-  "last_rss_check": "2026-08-08T07:35:33.601450",
-  "last_ransomware_check": "2026-08-08T07:35:34.440317",
-  "last_leak_check": "2026-08-08T07:35:33.800184",
+  "last_github_check": "2026-08-08T08:21:31.317731",
+  "last_huggingface_check": "2026-08-08T08:21:37.166271",
+  "last_reddit_check": "2026-08-08T08:21:31.925522",
+  "last_rss_check": "2026-08-08T08:21:32.057630",
+  "last_ransomware_check": "2026-08-08T08:21:32.378943",
+  "last_leak_check": "2026-08-08T08:21:31.748664",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10082,21 +10082,21 @@
     "2026-08-05": 143,
     "2026-08-06": 67,
     "2026-08-07": 143,
-    "2026-08-08": 31
+    "2026-08-08": 33
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 7,
+  "runs_today": 8,
   "last_run_date": "2026-08-08",
-  "last_exploitdb_check": "2026-08-08T07:35:32.101633",
-  "last_darkweb_check": "2026-08-08T07:35:33.950860",
-  "last_cisa_check": "2026-08-08T07:35:31.953525",
-  "last_osint_check": "2026-08-08T07:35:33.013904",
-  "last_redteam_check": "2026-08-08T07:35:32.893973",
-  "last_github_poc_check": "2026-08-08T07:35:33.441440",
-  "last_projectdiscovery_check": "2026-08-08T07:35:33.752784",
-  "last_telegram_check": "2026-08-08T07:35:33.878711",
-  "last_papers_check": "2026-08-08T07:35:35.130704",
-  "last_bugbounty_check": "2026-08-08T07:35:38.087742"
+  "last_exploitdb_check": "2026-08-08T08:21:30.183779",
+  "last_darkweb_check": "2026-08-08T08:21:31.996931",
+  "last_cisa_check": "2026-08-08T08:21:30.051425",
+  "last_osint_check": "2026-08-08T08:21:30.952197",
+  "last_redteam_check": "2026-08-08T08:21:30.783126",
+  "last_github_poc_check": "2026-08-08T08:21:31.315416",
+  "last_projectdiscovery_check": "2026-08-08T08:21:31.552993",
+  "last_telegram_check": "2026-08-08T08:21:31.873581",
+  "last_papers_check": "2026-08-08T08:21:32.325249",
+  "last_bugbounty_check": "2026-08-08T08:21:35.239978"
 }
