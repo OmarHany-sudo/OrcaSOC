@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-09T21:57:19.303990",
+  "last_run": "2026-08-09T22:20:17.095726",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://huggingface.co/Nathan-Maine/cmmc-expert-gemma4-31b-poc",
-    "https://github.com/coreshop/CoreShop/blob/5.1.0-beta.1/.github/workflows/static.yml#L14",
     "https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html",
     "https://github.com/froxlor/froxlor/releases/tag/2.3.7",
     "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-155-01.json",
@@ -5001,11 +4999,11 @@
     "https://github.com/jaden-mas1010/ics-attacking-plant1-case-study",
     "https://github.com/Boreas37/CVE-2026-34910-PoC",
     "https://github.com/gududezoumingqu/ObjectDB-JDOQL-Injection-RCE",
-    "https://github.com/Kingsoft0001/osintshield"
+    "https://github.com/Kingsoft0001/osintshield",
+    "https://github.com/preemware/langflow-exploit",
+    "https://github.com/parisneo/lollms/commit/9bc6431ae7b708da76d51e7626a7cf48ff2b1d24"
   ],
   "processed_hashes": [
-    "3cca56cd1f8cb08b",
-    "e69f6068938b2635",
     "1fbbc4154b847663",
     "472c2dba07527660",
     "fe694e20226b064f",
@@ -10003,16 +10001,18 @@
     "23ac8215d8fb2c0d",
     "ffa11862f62df322",
     "4780222a65e37da3",
-    "72db074e5c43cebf"
+    "72db074e5c43cebf",
+    "e0709851a916cd26",
+    "1bd5fa024cddf71e"
   ],
-  "last_cve_check": "2026-08-09T21:56:48.340036",
+  "last_cve_check": "2026-08-09T22:19:52.821737",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-09T21:56:49.633359",
-  "last_huggingface_check": "2026-08-09T21:56:50.212574",
-  "last_reddit_check": "2026-08-09T21:56:50.173079",
-  "last_rss_check": "2026-08-09T21:56:50.145831",
-  "last_ransomware_check": "2026-08-09T21:56:50.413988",
-  "last_leak_check": "2026-08-09T21:56:50.013805",
+  "last_github_check": "2026-08-09T22:19:54.213282",
+  "last_huggingface_check": "2026-08-09T22:19:57.070922",
+  "last_reddit_check": "2026-08-09T22:19:54.736724",
+  "last_rss_check": "2026-08-09T22:19:54.578799",
+  "last_ransomware_check": "2026-08-09T22:19:55.259781",
+  "last_leak_check": "2026-08-09T22:19:54.807588",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10083,21 +10083,21 @@
     "2026-08-06": 67,
     "2026-08-07": 143,
     "2026-08-08": 97,
-    "2026-08-09": 25
+    "2026-08-09": 27
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 29,
+  "runs_today": 30,
   "last_run_date": "2026-08-09",
-  "last_exploitdb_check": "2026-08-09T21:56:48.697525",
-  "last_darkweb_check": "2026-08-09T21:56:50.210632",
-  "last_cisa_check": "2026-08-09T21:56:48.483263",
-  "last_osint_check": "2026-08-09T21:56:49.490471",
-  "last_redteam_check": "2026-08-09T21:56:49.191205",
-  "last_github_poc_check": "2026-08-09T21:56:49.666300",
-  "last_projectdiscovery_check": "2026-08-09T21:56:49.793584",
-  "last_telegram_check": "2026-08-09T21:56:49.978128",
-  "last_papers_check": "2026-08-09T21:56:50.320337",
-  "last_bugbounty_check": "2026-08-09T21:56:56.112397"
+  "last_exploitdb_check": "2026-08-09T22:19:53.231738",
+  "last_darkweb_check": "2026-08-09T22:19:54.866429",
+  "last_cisa_check": "2026-08-09T22:19:52.964042",
+  "last_osint_check": "2026-08-09T22:19:54.082100",
+  "last_redteam_check": "2026-08-09T22:19:53.683157",
+  "last_github_poc_check": "2026-08-09T22:19:54.351981",
+  "last_projectdiscovery_check": "2026-08-09T22:19:54.778062",
+  "last_telegram_check": "2026-08-09T22:19:54.785044",
+  "last_papers_check": "2026-08-09T22:19:55.430901",
+  "last_bugbounty_check": "2026-08-09T22:19:57.926381"
 }
