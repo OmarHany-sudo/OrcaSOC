@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-09T11:22:04.465615",
+  "last_run": "2026-08-09T11:54:41.160573",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/fun-beep/CVEs/tree/main/CVE-2025-67447",
     "https://blog.blacklanternsecurity.com/p/cve-2026-10880-osnexus-quantastor",
     "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/",
     "https://github.com/fun-beep/CVEs/tree/main/CVE-2025-69755",
@@ -5001,10 +5000,10 @@
     "https://github.com/adolfosalasgomez3011/slidev-builder-mcp/",
     "https://github.com/MauricioMilano/coder-api/",
     "https://huggingface.co/bencodez/Cipheron",
-    "https://huggingface.co/uwuevie/qwen3-security-lora"
+    "https://huggingface.co/uwuevie/qwen3-security-lora",
+    "https://github.com/SOsintOps/elementary-CTI"
   ],
   "processed_hashes": [
-    "44302d1784e5f157",
     "38aaa2e22bf0b9c4",
     "fd66f4a0205d735f",
     "35d36c4ba4c0c780",
@@ -10003,16 +10002,17 @@
     "f9bbb0a92ab91566",
     "a6ccc64a278b2e06",
     "c9fb6954bcfb165e",
-    "032c4232d18d999c"
+    "032c4232d18d999c",
+    "ff5b92f1689c9ba0"
   ],
-  "last_cve_check": "2026-08-09T11:21:34.827545",
+  "last_cve_check": "2026-08-09T11:54:12.061084",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-09T11:21:36.532795",
-  "last_huggingface_check": "2026-08-09T11:21:39.183391",
-  "last_reddit_check": "2026-08-09T11:21:36.732134",
-  "last_rss_check": "2026-08-09T11:21:36.478262",
-  "last_ransomware_check": "2026-08-09T11:21:37.272725",
-  "last_leak_check": "2026-08-09T11:21:36.607413",
+  "last_github_check": "2026-08-09T11:54:13.480512",
+  "last_huggingface_check": "2026-08-09T11:54:16.720420",
+  "last_reddit_check": "2026-08-09T11:54:13.899050",
+  "last_rss_check": "2026-08-09T11:54:13.887945",
+  "last_ransomware_check": "2026-08-09T11:54:14.607978",
+  "last_leak_check": "2026-08-09T11:54:14.054341",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10083,21 +10083,21 @@
     "2026-08-06": 67,
     "2026-08-07": 143,
     "2026-08-08": 97,
-    "2026-08-09": 15
+    "2026-08-09": 16
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 12,
+  "runs_today": 13,
   "last_run_date": "2026-08-09",
-  "last_exploitdb_check": "2026-08-09T11:21:34.976115",
-  "last_darkweb_check": "2026-08-09T11:21:36.777446",
-  "last_cisa_check": "2026-08-09T11:21:34.916604",
-  "last_osint_check": "2026-08-09T11:21:36.158334",
-  "last_redteam_check": "2026-08-09T11:21:35.898185",
-  "last_github_poc_check": "2026-08-09T11:21:36.479833",
-  "last_projectdiscovery_check": "2026-08-09T11:21:36.411311",
-  "last_telegram_check": "2026-08-09T11:21:36.936649",
-  "last_papers_check": "2026-08-09T11:21:37.887522",
-  "last_bugbounty_check": "2026-08-09T11:21:39.908552"
+  "last_exploitdb_check": "2026-08-09T11:54:12.511289",
+  "last_darkweb_check": "2026-08-09T11:54:14.117266",
+  "last_cisa_check": "2026-08-09T11:54:12.231900",
+  "last_osint_check": "2026-08-09T11:54:12.883870",
+  "last_redteam_check": "2026-08-09T11:54:12.769770",
+  "last_github_poc_check": "2026-08-09T11:54:13.428407",
+  "last_projectdiscovery_check": "2026-08-09T11:54:14.378599",
+  "last_telegram_check": "2026-08-09T11:54:13.989786",
+  "last_papers_check": "2026-08-09T11:54:14.313884",
+  "last_bugbounty_check": "2026-08-09T11:54:17.371581"
 }
