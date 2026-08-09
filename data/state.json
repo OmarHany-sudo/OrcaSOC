@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-09T15:56:44.749756",
+  "last_run": "2026-08-09T16:22:39.088856",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/nvm-sh/nvm/commit/6d870d182cd5333647ffa16c0d7dbcd817ec27a8",
     "https://gitlab.freedesktop.org/libinput/libinput/-/commit/76f0d8a7f57e2868882864b4611281f12f704b55",
     "https://huggingface.co/Spaceballs/granite-4.1-8b-apostate-GGUF",
     "https://gitee.com/WH-YHUST/tomato-rc-nvram-cve/blob/master/gitee-cve-disclosure/advisories/en/02-start_6rd_tunnel.md",
@@ -5001,10 +5000,10 @@
     "https://us.msi.com/Networking/RadiX-AXE6600-WiFi-6E-Tri-Band-Gaming-Router/support",
     "https://github.com/amiralibaha/subdomainenum",
     "https://huggingface.co/reaperdoesntknow/Qwen3.5-2B-CyberSec",
-    "https://huggingface.co/reaperdoesntknow/Qwen3.5-2B-CyberSec-GGUF"
+    "https://huggingface.co/reaperdoesntknow/Qwen3.5-2B-CyberSec-GGUF",
+    "https://github.com/jaden-mas1010/ics-attacking-plant1-case-study"
   ],
   "processed_hashes": [
-    "7e21986746a4784d",
     "2f79e8ccba9f0fc7",
     "efb44d3fe08b7bf5",
     "b7fd7110068be8c3",
@@ -10003,16 +10002,17 @@
     "31669a487f24f586",
     "40ea8a0a2872bb70",
     "bb17d667188cd40a",
-    "9eeb7feedb20c39b"
+    "9eeb7feedb20c39b",
+    "23ac8215d8fb2c0d"
   ],
-  "last_cve_check": "2026-08-09T15:56:19.661661",
+  "last_cve_check": "2026-08-09T16:22:15.453780",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-09T15:56:20.866370",
-  "last_huggingface_check": "2026-08-09T15:56:23.828455",
-  "last_reddit_check": "2026-08-09T15:56:21.365054",
-  "last_rss_check": "2026-08-09T15:56:22.959852",
-  "last_ransomware_check": "2026-08-09T15:56:22.230029",
-  "last_leak_check": "2026-08-09T15:56:21.589330",
+  "last_github_check": "2026-08-09T16:22:17.056909",
+  "last_huggingface_check": "2026-08-09T16:22:19.876800",
+  "last_reddit_check": "2026-08-09T16:22:17.688453",
+  "last_rss_check": "2026-08-09T16:22:18.151366",
+  "last_ransomware_check": "2026-08-09T16:22:18.316710",
+  "last_leak_check": "2026-08-09T16:22:17.769893",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10083,21 +10083,21 @@
     "2026-08-06": 67,
     "2026-08-07": 143,
     "2026-08-08": 97,
-    "2026-08-09": 21
+    "2026-08-09": 22
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 19,
+  "runs_today": 20,
   "last_run_date": "2026-08-09",
-  "last_exploitdb_check": "2026-08-09T15:56:20.122847",
-  "last_darkweb_check": "2026-08-09T15:56:21.792668",
-  "last_cisa_check": "2026-08-09T15:56:19.801728",
-  "last_osint_check": "2026-08-09T15:56:20.706344",
-  "last_redteam_check": "2026-08-09T15:56:20.564151",
-  "last_github_poc_check": "2026-08-09T15:56:20.973872",
-  "last_projectdiscovery_check": "2026-08-09T15:56:21.706210",
-  "last_telegram_check": "2026-08-09T15:56:21.419749",
-  "last_papers_check": "2026-08-09T15:56:22.788182",
-  "last_bugbounty_check": "2026-08-09T15:56:26.538994"
+  "last_exploitdb_check": "2026-08-09T16:22:15.979862",
+  "last_darkweb_check": "2026-08-09T16:22:17.883337",
+  "last_cisa_check": "2026-08-09T16:22:15.589138",
+  "last_osint_check": "2026-08-09T16:22:16.619685",
+  "last_redteam_check": "2026-08-09T16:22:16.544570",
+  "last_github_poc_check": "2026-08-09T16:22:17.054983",
+  "last_projectdiscovery_check": "2026-08-09T16:22:17.641642",
+  "last_telegram_check": "2026-08-09T16:22:17.526399",
+  "last_papers_check": "2026-08-09T16:22:17.974446",
+  "last_bugbounty_check": "2026-08-09T16:22:22.033352"
 }
