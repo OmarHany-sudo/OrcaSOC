@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-09T14:07:56.664448",
+  "last_run": "2026-08-09T14:52:28.033926",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/",
     "https://github.com/fun-beep/CVEs/tree/main/CVE-2025-69755",
     "https://gist.github.com/VAMorales/dde5b1c0415a8505ccd6fafdb095a618",
     "https://metacpan.org/release/RRWO/Net-CIDR-Set-0.21/changes",
@@ -5001,10 +5000,10 @@
     "https://huggingface.co/bencodez/Cipheron",
     "https://huggingface.co/uwuevie/qwen3-security-lora",
     "https://github.com/SOsintOps/elementary-CTI",
-    "https://github.com/Karthik-paulraj/PenTesting_Toolkit"
+    "https://github.com/Karthik-paulraj/PenTesting_Toolkit",
+    "https://us.msi.com/Networking/RadiX-AXE6600-WiFi-6E-Tri-Band-Gaming-Router/support"
   ],
   "processed_hashes": [
-    "fd66f4a0205d735f",
     "35d36c4ba4c0c780",
     "b8cf34b70ada6de3",
     "00d20204e6623767",
@@ -10003,16 +10002,17 @@
     "c9fb6954bcfb165e",
     "032c4232d18d999c",
     "ff5b92f1689c9ba0",
-    "14550df44b12b3d1"
+    "14550df44b12b3d1",
+    "31669a487f24f586"
   ],
-  "last_cve_check": "2026-08-09T14:07:25.560372",
+  "last_cve_check": "2026-08-09T14:51:57.723530",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-09T14:07:26.834884",
-  "last_huggingface_check": "2026-08-09T14:07:27.605122",
-  "last_reddit_check": "2026-08-09T14:07:27.512100",
-  "last_rss_check": "2026-08-09T14:07:27.097939",
-  "last_ransomware_check": "2026-08-09T14:07:27.582320",
-  "last_leak_check": "2026-08-09T14:07:27.320860",
+  "last_github_check": "2026-08-09T14:51:58.998071",
+  "last_huggingface_check": "2026-08-09T14:52:01.025911",
+  "last_reddit_check": "2026-08-09T14:51:59.695236",
+  "last_rss_check": "2026-08-09T14:52:00.386615",
+  "last_ransomware_check": "2026-08-09T14:52:00.202431",
+  "last_leak_check": "2026-08-09T14:51:59.578625",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10083,21 +10083,21 @@
     "2026-08-06": 67,
     "2026-08-07": 143,
     "2026-08-08": 97,
-    "2026-08-09": 17
+    "2026-08-09": 18
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 16,
+  "runs_today": 17,
   "last_run_date": "2026-08-09",
-  "last_exploitdb_check": "2026-08-09T14:07:25.910993",
-  "last_darkweb_check": "2026-08-09T14:07:27.439817",
-  "last_cisa_check": "2026-08-09T14:07:25.726147",
-  "last_osint_check": "2026-08-09T14:07:26.599388",
-  "last_redteam_check": "2026-08-09T14:07:26.444734",
-  "last_github_poc_check": "2026-08-09T14:07:26.833016",
-  "last_projectdiscovery_check": "2026-08-09T14:07:27.161390",
-  "last_telegram_check": "2026-08-09T14:07:27.142878",
-  "last_papers_check": "2026-08-09T14:07:27.654380",
-  "last_bugbounty_check": "2026-08-09T14:07:31.000142"
+  "last_exploitdb_check": "2026-08-09T14:51:58.393536",
+  "last_darkweb_check": "2026-08-09T14:51:59.827165",
+  "last_cisa_check": "2026-08-09T14:51:58.030260",
+  "last_osint_check": "2026-08-09T14:51:58.753499",
+  "last_redteam_check": "2026-08-09T14:51:58.695336",
+  "last_github_poc_check": "2026-08-09T14:51:59.029330",
+  "last_projectdiscovery_check": "2026-08-09T14:51:59.737374",
+  "last_telegram_check": "2026-08-09T14:51:59.370043",
+  "last_papers_check": "2026-08-09T14:52:00.143618",
+  "last_bugbounty_check": "2026-08-09T14:52:03.603392"
 }
