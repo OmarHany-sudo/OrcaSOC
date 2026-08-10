@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-10T13:57:46.729963",
+  "last_run": "2026-08-10T14:51:54.628251",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/haideralio73/TypeScript-Security-Dashboard",
     "https://github.com/doany1/CVE-2026-24849",
     "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
     "https://huggingface.co/RealMythos/pocwriter-v1",
@@ -5001,10 +5000,10 @@
     "https://github.com/Nayana-vm/DrugShield_AI",
     "https://www.exploit-db.com/exploits/52630",
     "https://www.exploit-db.com/exploits/52632",
-    "https://www.exploit-db.com/exploits/52631"
+    "https://www.exploit-db.com/exploits/52631",
+    "https://www.exploit-db.com/exploits/52633"
   ],
   "processed_hashes": [
-    "8df08079ca3b1155",
     "8b603c065c230e34",
     "52ec3d7f893c1de9",
     "14c93d5f1754d34a",
@@ -10003,16 +10002,17 @@
     "c25c8c0371c4da47",
     "92f30946b0c9e4fc",
     "12df176ff8cef841",
-    "2e9a49597e09d99b"
+    "2e9a49597e09d99b",
+    "c1533f913521bf82"
   ],
-  "last_cve_check": "2026-08-10T13:57:18.819606",
+  "last_cve_check": "2026-08-10T14:51:23.512348",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-10T13:57:20.194573",
-  "last_huggingface_check": "2026-08-10T13:57:20.972165",
-  "last_reddit_check": "2026-08-10T13:57:20.718322",
-  "last_rss_check": "2026-08-10T13:57:20.527717",
-  "last_ransomware_check": "2026-08-10T13:57:20.909391",
-  "last_leak_check": "2026-08-10T13:57:20.489817",
+  "last_github_check": "2026-08-10T14:51:24.796242",
+  "last_huggingface_check": "2026-08-10T14:51:25.519638",
+  "last_reddit_check": "2026-08-10T14:51:25.265844",
+  "last_rss_check": "2026-08-10T14:51:24.931674",
+  "last_ransomware_check": "2026-08-10T14:51:25.572304",
+  "last_leak_check": "2026-08-10T14:51:25.128160",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10084,21 +10084,21 @@
     "2026-08-07": 143,
     "2026-08-08": 97,
     "2026-08-09": 28,
-    "2026-08-10": 36
+    "2026-08-10": 37
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 10,
+  "runs_today": 11,
   "last_run_date": "2026-08-10",
-  "last_exploitdb_check": "2026-08-10T13:57:19.066253",
-  "last_darkweb_check": "2026-08-10T13:57:20.636453",
-  "last_cisa_check": "2026-08-10T13:57:19.006767",
-  "last_osint_check": "2026-08-10T13:57:19.876294",
-  "last_redteam_check": "2026-08-10T13:57:19.937535",
-  "last_github_poc_check": "2026-08-10T13:57:20.060297",
-  "last_projectdiscovery_check": "2026-08-10T13:57:20.359382",
-  "last_telegram_check": "2026-08-10T13:57:20.552017",
-  "last_papers_check": "2026-08-10T13:57:21.281226",
-  "last_bugbounty_check": "2026-08-10T13:57:23.703379"
+  "last_exploitdb_check": "2026-08-10T14:51:23.775197",
+  "last_darkweb_check": "2026-08-10T14:51:25.205706",
+  "last_cisa_check": "2026-08-10T14:51:23.635173",
+  "last_osint_check": "2026-08-10T14:51:24.573761",
+  "last_redteam_check": "2026-08-10T14:51:24.476318",
+  "last_github_poc_check": "2026-08-10T14:51:24.782354",
+  "last_projectdiscovery_check": "2026-08-10T14:51:25.016982",
+  "last_telegram_check": "2026-08-10T14:51:25.108789",
+  "last_papers_check": "2026-08-10T14:51:25.755206",
+  "last_bugbounty_check": "2026-08-10T14:51:30.610116"
 }
