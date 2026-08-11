@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-11T06:34:50.750076",
+  "last_run": "2026-08-11T07:54:13.676574",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/Termix-SSH/Termix/security/advisories/GHSA-cx2r-843c-vww8",
-    "https://github.com/CloudburstMC/Network/security/advisories/GHSA-rh6x-g5c8-2rmf",
     "https://github.com/Termix-SSH/Termix/releases/tag/release-2.3.2-tag",
     "https://github.com/shd101wyy/vscode-markdown-preview-enhanced/releases/tag/0.8.28",
     "https://huggingface.co/ThreatMon/qwen36-secura",
@@ -5001,11 +4999,11 @@
     "https://arxiv.org/abs/2608.09867v1",
     "https://arxiv.org/abs/2608.09865v1",
     "https://huggingface.co/huihui-ai/Huihui-CyberStrike-OffSec-35B-abliterated-GGUF",
-    "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html"
+    "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
+    "https://jvn.jp/en/jp/JVN72334274/",
+    "https://jvn.jp/en/jp/JVN99975039/"
   ],
   "processed_hashes": [
-    "81d326c1388c6fb1",
-    "c0b35cecf7a3e6d8",
     "55e3249ca51bb6fa",
     "7880ca528b66d3e9",
     "237750a6fea20783",
@@ -10003,16 +10001,18 @@
     "2d600dc8d3b33b30",
     "c4ed9b83907ade49",
     "ca428a8f89e1e85e",
-    "e13eb9376e940326"
+    "e13eb9376e940326",
+    "d07342812411818a",
+    "5921e3cf17497165"
   ],
-  "last_cve_check": "2026-08-11T06:34:18.603181",
+  "last_cve_check": "2026-08-11T07:53:39.267133",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-11T06:34:19.849112",
-  "last_huggingface_check": "2026-08-11T06:34:22.214321",
-  "last_reddit_check": "2026-08-11T06:34:20.639292",
-  "last_rss_check": "2026-08-11T06:34:20.228205",
-  "last_ransomware_check": "2026-08-11T06:34:21.105462",
-  "last_leak_check": "2026-08-11T06:34:20.503220",
+  "last_github_check": "2026-08-11T07:53:40.664879",
+  "last_huggingface_check": "2026-08-11T07:53:43.279942",
+  "last_reddit_check": "2026-08-11T07:53:41.626763",
+  "last_rss_check": "2026-08-11T07:53:41.676094",
+  "last_ransomware_check": "2026-08-11T07:53:42.229873",
+  "last_leak_check": "2026-08-11T07:53:41.384465",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10085,21 +10085,21 @@
     "2026-08-08": 97,
     "2026-08-09": 28,
     "2026-08-10": 55,
-    "2026-08-11": 10
+    "2026-08-11": 12
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 5,
+  "runs_today": 6,
   "last_run_date": "2026-08-11",
-  "last_exploitdb_check": "2026-08-11T06:34:19.250089",
-  "last_darkweb_check": "2026-08-11T06:34:20.778733",
-  "last_cisa_check": "2026-08-11T06:34:18.860185",
-  "last_osint_check": "2026-08-11T06:34:19.444112",
-  "last_redteam_check": "2026-08-11T06:34:19.294581",
-  "last_github_poc_check": "2026-08-11T06:34:19.713109",
-  "last_projectdiscovery_check": "2026-08-11T06:34:21.089765",
-  "last_telegram_check": "2026-08-11T06:34:20.269130",
-  "last_papers_check": "2026-08-11T06:34:21.869557",
-  "last_bugbounty_check": "2026-08-11T06:34:24.352203"
+  "last_exploitdb_check": "2026-08-11T07:53:39.793763",
+  "last_darkweb_check": "2026-08-11T07:53:41.762292",
+  "last_cisa_check": "2026-08-11T07:53:39.531018",
+  "last_osint_check": "2026-08-11T07:53:40.334679",
+  "last_redteam_check": "2026-08-11T07:53:40.282340",
+  "last_github_poc_check": "2026-08-11T07:53:40.673170",
+  "last_projectdiscovery_check": "2026-08-11T07:53:41.628267",
+  "last_telegram_check": "2026-08-11T07:53:41.155117",
+  "last_papers_check": "2026-08-11T07:53:42.770018",
+  "last_bugbounty_check": "2026-08-11T07:53:44.737018"
 }
