@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-11T23:01:51.437874",
+  "last_run": "2026-08-11T23:41:38.172090",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/ssaaaa1234/cve/issues/3",
-    "https://github.com/ssaaaa1234/cve/issues/4",
     "https://github.com/ssaaaa1234/cve/issues/1",
     "https://anonymous.4open.science/r/beikeshop-4B75/second-order-sqli-report.md",
     "https://github.com/neovim/neovim/",
@@ -5001,11 +4999,11 @@
     "https://me.sap.com/notes/3759854",
     "https://me.sap.com/notes/3758910",
     "https://me.sap.com/notes/3758657",
-    "https://me.sap.com/notes/3786038"
+    "https://me.sap.com/notes/3786038",
+    "https://me.sap.com/notes/3772411",
+    "https://me.sap.com/notes/3753141"
   ],
   "processed_hashes": [
-    "73b9aa40d9695f9a",
-    "c188d06a4f713ad5",
     "3b9d0eaa932c1d94",
     "a2eee5373fdc3b11",
     "346f5e71e5faa9f8",
@@ -10003,16 +10001,18 @@
     "cab3586b58bb6f9c",
     "a674d330cb7f0b1a",
     "f294ceb78b802bb9",
-    "f584aac0f1b3bc74"
+    "f584aac0f1b3bc74",
+    "9af52d9de6c7d64f",
+    "414cbead5b051857"
   ],
-  "last_cve_check": "2026-08-11T23:01:25.024401",
+  "last_cve_check": "2026-08-11T23:41:02.754827",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-11T23:01:26.382287",
-  "last_huggingface_check": "2026-08-11T23:01:29.461073",
-  "last_reddit_check": "2026-08-11T23:01:26.823035",
-  "last_rss_check": "2026-08-11T23:01:26.992731",
-  "last_ransomware_check": "2026-08-11T23:01:27.618854",
-  "last_leak_check": "2026-08-11T23:01:27.132693",
+  "last_github_check": "2026-08-11T23:41:04.529453",
+  "last_huggingface_check": "2026-08-11T23:41:08.001093",
+  "last_reddit_check": "2026-08-11T23:41:05.039755",
+  "last_rss_check": "2026-08-11T23:41:05.027121",
+  "last_ransomware_check": "2026-08-11T23:41:05.640349",
+  "last_leak_check": "2026-08-11T23:41:04.750495",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10085,21 +10085,21 @@
     "2026-08-08": 97,
     "2026-08-09": 28,
     "2026-08-10": 55,
-    "2026-08-11": 127
+    "2026-08-11": 129
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 22,
+  "runs_today": 23,
   "last_run_date": "2026-08-11",
-  "last_exploitdb_check": "2026-08-11T23:01:25.443846",
-  "last_darkweb_check": "2026-08-11T23:01:27.251717",
-  "last_cisa_check": "2026-08-11T23:01:25.164299",
-  "last_osint_check": "2026-08-11T23:01:26.099839",
-  "last_redteam_check": "2026-08-11T23:01:26.006599",
-  "last_github_poc_check": "2026-08-11T23:01:26.327563",
-  "last_projectdiscovery_check": "2026-08-11T23:01:27.251621",
-  "last_telegram_check": "2026-08-11T23:01:26.815011",
-  "last_papers_check": "2026-08-11T23:01:29.419215",
-  "last_bugbounty_check": "2026-08-11T23:01:33.475597"
+  "last_exploitdb_check": "2026-08-11T23:41:03.114139",
+  "last_darkweb_check": "2026-08-11T23:41:05.108676",
+  "last_cisa_check": "2026-08-11T23:41:02.973318",
+  "last_osint_check": "2026-08-11T23:41:03.966141",
+  "last_redteam_check": "2026-08-11T23:41:03.858371",
+  "last_github_poc_check": "2026-08-11T23:41:04.378545",
+  "last_projectdiscovery_check": "2026-08-11T23:41:04.542257",
+  "last_telegram_check": "2026-08-11T23:41:05.087537",
+  "last_papers_check": "2026-08-11T23:41:05.777627",
+  "last_bugbounty_check": "2026-08-11T23:41:09.534065"
 }
