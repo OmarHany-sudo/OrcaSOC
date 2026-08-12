@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-12T03:11:12.968897",
+  "last_run": "2026-08-12T04:59:55.094634",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://hackerone.com/reports/3788506",
-    "https://access.redhat.com/security/cve/CVE-2026-3238",
     "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
     "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
     "https://github.com/ZiarenEASM/ziaren-easm",
@@ -5001,11 +4999,11 @@
     "https://plugins.trac.wordpress.org/changeset/3636487",
     "https://arxiv.org/abs/2608.11146v1",
     "https://arxiv.org/abs/2608.11153v1",
-    "https://www.twcert.org.tw/en/cp-139-11097-ee412-2.html"
+    "https://www.twcert.org.tw/en/cp-139-11097-ee412-2.html",
+    "https://www.manageengine.com/microsoft-365-management-reporting/CVE-2026-16053.html",
+    "https://access.redhat.com/security/cve/CVE-2026-19391"
   ],
   "processed_hashes": [
-    "4a19d9b5923081fd",
-    "ce8b5000d477b7b6",
     "c633d810e719e1f2",
     "abf3044a9cb70f30",
     "9105ddf01c447473",
@@ -10003,16 +10001,18 @@
     "d479497c247d2948",
     "90dc776fa45219fa",
     "0e47758c54c7a994",
-    "21d37425e362367e"
+    "21d37425e362367e",
+    "a428091ae4c7e96b",
+    "5307ad084b82eabc"
   ],
-  "last_cve_check": "2026-08-12T03:10:41.671146",
+  "last_cve_check": "2026-08-12T04:59:31.039002",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-12T03:10:43.130701",
-  "last_huggingface_check": "2026-08-12T03:10:46.556604",
-  "last_reddit_check": "2026-08-12T03:10:43.594424",
-  "last_rss_check": "2026-08-12T03:10:44.421525",
-  "last_ransomware_check": "2026-08-12T03:10:44.374634",
-  "last_leak_check": "2026-08-12T03:10:43.781999",
+  "last_github_check": "2026-08-12T04:59:32.157594",
+  "last_huggingface_check": "2026-08-12T04:59:32.932911",
+  "last_reddit_check": "2026-08-12T04:59:32.625424",
+  "last_rss_check": "2026-08-12T04:59:32.609571",
+  "last_ransomware_check": "2026-08-12T04:59:32.991258",
+  "last_leak_check": "2026-08-12T04:59:32.713023",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10086,21 +10086,21 @@
     "2026-08-09": 28,
     "2026-08-10": 55,
     "2026-08-11": 129,
-    "2026-08-12": 13
+    "2026-08-12": 15
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 2,
+  "runs_today": 3,
   "last_run_date": "2026-08-12",
-  "last_exploitdb_check": "2026-08-12T03:10:42.212744",
-  "last_darkweb_check": "2026-08-12T03:10:43.890929",
-  "last_cisa_check": "2026-08-12T03:10:41.834771",
-  "last_osint_check": "2026-08-12T03:10:42.708003",
-  "last_redteam_check": "2026-08-12T03:10:42.752363",
-  "last_github_poc_check": "2026-08-12T03:10:43.132967",
-  "last_projectdiscovery_check": "2026-08-12T03:10:43.750210",
-  "last_telegram_check": "2026-08-12T03:10:43.584611",
-  "last_papers_check": "2026-08-12T03:10:44.489139",
-  "last_bugbounty_check": "2026-08-12T03:10:46.979423"
+  "last_exploitdb_check": "2026-08-12T04:59:31.311811",
+  "last_darkweb_check": "2026-08-12T04:59:32.699544",
+  "last_cisa_check": "2026-08-12T04:59:31.140223",
+  "last_osint_check": "2026-08-12T04:59:31.667364",
+  "last_redteam_check": "2026-08-12T04:59:31.694057",
+  "last_github_poc_check": "2026-08-12T04:59:32.020309",
+  "last_projectdiscovery_check": "2026-08-12T04:59:32.543790",
+  "last_telegram_check": "2026-08-12T04:59:32.501545",
+  "last_papers_check": "2026-08-12T04:59:32.898513",
+  "last_bugbounty_check": "2026-08-12T04:59:36.704032"
 }
