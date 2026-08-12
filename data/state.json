@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-12T23:10:31.200851",
+  "last_run": "2026-08-12T23:57:51.079473",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://huggingface.co/Unplug-AI/unplug-tiny-v1",
     "https://github.com/don970/SuperSploit-Framework-v2",
     "https://sqlite.org/releaselog/3_53_2.html",
     "https://helpx.adobe.com/security/products/substance3d-sampler/apsb26-60.html",
@@ -5001,10 +5000,10 @@
     "https://github.com/notepad-plus-plus/notepad-plus-plus/commit/3764d5b72664ef95421bc53bcb204f9b977d346b",
     "https://git.kernel.org/stable/c/75050390151a14802be433c3856ddcb483cecd24",
     "https://git.kernel.org/stable/c/0842e9faab04f784d01125085195031252ff9695",
-    "https://github.com/SanathBansod/Metasploit-Bind-Reverse-Shell"
+    "https://github.com/SanathBansod/Metasploit-Bind-Reverse-Shell",
+    "https://github.com/aramosf/CVE-2026-24031"
   ],
   "processed_hashes": [
-    "786ef9306a3571b0",
     "a30b502459c96ae4",
     "4735f082ce5c1c98",
     "6328a59a5680d311",
@@ -10003,16 +10002,17 @@
     "ef69316fbc064a49",
     "49b0ef1f232a2f5a",
     "94f0eb320610511e",
-    "e3ca9f4012aee5de"
+    "e3ca9f4012aee5de",
+    "94e1aea570c51724"
   ],
-  "last_cve_check": "2026-08-12T23:10:02.544155",
+  "last_cve_check": "2026-08-12T23:57:21.878914",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-12T23:10:04.078333",
-  "last_huggingface_check": "2026-08-12T23:10:13.415942",
-  "last_reddit_check": "2026-08-12T23:10:04.699656",
-  "last_rss_check": "2026-08-12T23:10:04.734367",
-  "last_ransomware_check": "2026-08-12T23:10:05.384928",
-  "last_leak_check": "2026-08-12T23:10:04.788331",
+  "last_github_check": "2026-08-12T23:57:23.059350",
+  "last_huggingface_check": "2026-08-12T23:57:24.307388",
+  "last_reddit_check": "2026-08-12T23:57:23.757492",
+  "last_rss_check": "2026-08-12T23:57:23.606435",
+  "last_ransomware_check": "2026-08-12T23:57:23.865488",
+  "last_leak_check": "2026-08-12T23:57:23.555368",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10086,21 +10086,21 @@
     "2026-08-09": 28,
     "2026-08-10": 55,
     "2026-08-11": 129,
-    "2026-08-12": 130
+    "2026-08-12": 131
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 21,
+  "runs_today": 22,
   "last_run_date": "2026-08-12",
-  "last_exploitdb_check": "2026-08-12T23:10:02.846947",
-  "last_darkweb_check": "2026-08-12T23:10:04.830133",
-  "last_cisa_check": "2026-08-12T23:10:02.719411",
-  "last_osint_check": "2026-08-12T23:10:03.776522",
-  "last_redteam_check": "2026-08-12T23:10:03.785259",
-  "last_github_poc_check": "2026-08-12T23:10:04.107097",
-  "last_projectdiscovery_check": "2026-08-12T23:10:04.609114",
-  "last_telegram_check": "2026-08-12T23:10:04.544033",
-  "last_papers_check": "2026-08-12T23:10:06.487053",
-  "last_bugbounty_check": "2026-08-12T23:10:10.152667"
+  "last_exploitdb_check": "2026-08-12T23:57:22.217442",
+  "last_darkweb_check": "2026-08-12T23:57:23.696255",
+  "last_cisa_check": "2026-08-12T23:57:22.034702",
+  "last_osint_check": "2026-08-12T23:57:22.900153",
+  "last_redteam_check": "2026-08-12T23:57:22.920431",
+  "last_github_poc_check": "2026-08-12T23:57:23.121968",
+  "last_projectdiscovery_check": "2026-08-12T23:57:23.285633",
+  "last_telegram_check": "2026-08-12T23:57:23.456148",
+  "last_papers_check": "2026-08-12T23:57:23.890730",
+  "last_bugbounty_check": "2026-08-12T23:57:27.080757"
 }
