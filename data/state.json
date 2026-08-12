@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-12T14:14:39.656582",
+  "last_run": "2026-08-12T15:15:11.871203",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/",
-    "https://github.com/NginxProxyManager/nginx-proxy-manager/commit/a5db5ed156355e3088e7d1ceb0533d4bae922def",
     "https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html",
     "https://github.com/YesWiki/yeswiki/commit/dd2bd8fb099de0d21504bda8a810693b3fcb8e52",
     "https://aws.amazon.com/security/security-bulletins/2026-040-aws/",
@@ -5001,11 +4999,11 @@
     "https://github.com/FreeRDP/FreeRDP/security/advisories/GHSA-vv64-95pc-vj9v",
     "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition",
     "https://github.com/YesWiki/yeswiki/security/advisories/GHSA-jwvv-qr7q-cv8j",
-    "https://github.com/truelockmc/streambert/releases/tag/2.5.0"
+    "https://github.com/truelockmc/streambert/releases/tag/2.5.0",
+    "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
+    "https://github.com/mustafa-h-sakr/mustafa-h-sakr"
   ],
   "processed_hashes": [
-    "a0ff2f71763162b0",
-    "97a2d892760f48e6",
     "f79143f2eca3edc5",
     "8a95e2e3df8f59c0",
     "50fd17f63c3d0d64",
@@ -10003,16 +10001,18 @@
     "8f3ad827ae13e44f",
     "d92bc8bec3b8b266",
     "051507b51c095828",
-    "d13d54532ab01e79"
+    "d13d54532ab01e79",
+    "4fc41ee7f968c2e8",
+    "a4020dd4b8634b1e"
   ],
-  "last_cve_check": "2026-08-12T14:14:03.251658",
+  "last_cve_check": "2026-08-12T15:14:42.177975",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-12T14:14:03.134124",
-  "last_huggingface_check": "2026-08-12T14:14:07.013754",
-  "last_reddit_check": "2026-08-12T14:14:04.162595",
-  "last_rss_check": "2026-08-12T14:14:04.559237",
-  "last_ransomware_check": "2026-08-12T14:14:04.756090",
-  "last_leak_check": "2026-08-12T14:14:03.963061",
+  "last_github_check": "2026-08-12T15:14:44.231269",
+  "last_huggingface_check": "2026-08-12T15:14:47.968872",
+  "last_reddit_check": "2026-08-12T15:14:44.563422",
+  "last_rss_check": "2026-08-12T15:14:44.375136",
+  "last_ransomware_check": "2026-08-12T15:14:45.031734",
+  "last_leak_check": "2026-08-12T15:14:44.396425",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10086,21 +10086,21 @@
     "2026-08-09": 28,
     "2026-08-10": 55,
     "2026-08-11": 129,
-    "2026-08-12": 65
+    "2026-08-12": 67
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 11,
+  "runs_today": 12,
   "last_run_date": "2026-08-12",
-  "last_exploitdb_check": "2026-08-12T14:14:03.314911",
-  "last_darkweb_check": "2026-08-12T14:14:04.699194",
-  "last_cisa_check": "2026-08-12T14:14:03.216381",
-  "last_osint_check": "2026-08-12T14:14:02.916382",
-  "last_redteam_check": "2026-08-12T14:14:03.021227",
-  "last_github_poc_check": "2026-08-12T14:14:03.164867",
-  "last_projectdiscovery_check": "2026-08-12T14:14:05.134646",
-  "last_telegram_check": "2026-08-12T14:14:03.704795",
-  "last_papers_check": "2026-08-12T14:14:05.374987",
-  "last_bugbounty_check": "2026-08-12T14:14:10.292703"
+  "last_exploitdb_check": "2026-08-12T15:14:42.603076",
+  "last_darkweb_check": "2026-08-12T15:14:44.630128",
+  "last_cisa_check": "2026-08-12T15:14:42.387520",
+  "last_osint_check": "2026-08-12T15:14:43.544359",
+  "last_redteam_check": "2026-08-12T15:14:43.651587",
+  "last_github_poc_check": "2026-08-12T15:14:44.129160",
+  "last_projectdiscovery_check": "2026-08-12T15:14:44.077464",
+  "last_telegram_check": "2026-08-12T15:14:44.633739",
+  "last_papers_check": "2026-08-12T15:14:45.898452",
+  "last_bugbounty_check": "2026-08-12T15:14:48.129355"
 }
