@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-14T09:43:14.868211",
+  "last_run": "2026-08-14T10:40:35.811369",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/axios/axios/security/advisories/GHSA-777c-7fjr-54vf",
-    "https://www.ibm.com/support/pages/node/7275756",
     "https://github.com/axios/axios/security/advisories/GHSA-pjwm-pj3p-43mv",
     "https://github.com/raszi/node-tmp/security/advisories/GHSA-7c78-jf6q-g5cm",
     "https://github.com/PerryTS/perry/commit/95e1043df8081f67038bffce847dd9ddb3dae046",
@@ -5001,11 +4999,11 @@
     "https://github.com/ai-pj/Infra-Scanner-V-1.0",
     "https://github.com/lolw0/OpenSTA-Exploit",
     "https://huggingface.co/nesilabs/tosilos-128b",
-    "https://www.manageengine.com/products/passwordmanagerpro/advisory/cve-2026-12263.html"
+    "https://www.manageengine.com/products/passwordmanagerpro/advisory/cve-2026-12263.html",
+    "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-9cqf-hhrq-7v45",
+    "https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-rwrp-9823-p2xq"
   ],
   "processed_hashes": [
-    "989c34d0cee6a731",
-    "609912daf60723bc",
     "b264369e4421d8e4",
     "a394032b061e5352",
     "fb0cec14a3fefe32",
@@ -10003,16 +10001,18 @@
     "951e351bcf5dc934",
     "ee908a63b094cc20",
     "eefd3f67faab722b",
-    "fd797fec9f2a6b8c"
+    "fd797fec9f2a6b8c",
+    "27c6d82d46d8c2a7",
+    "a1fe934dec3424bf"
   ],
-  "last_cve_check": "2026-08-14T09:42:48.128150",
+  "last_cve_check": "2026-08-14T10:40:17.003970",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-14T09:42:49.454365",
-  "last_huggingface_check": "2026-08-14T09:42:50.473507",
-  "last_reddit_check": "2026-08-14T09:42:49.850560",
-  "last_rss_check": "2026-08-14T09:42:50.294823",
-  "last_ransomware_check": "2026-08-14T09:42:50.159872",
-  "last_leak_check": "2026-08-14T09:42:49.714096",
+  "last_github_check": "2026-08-14T10:40:17.434588",
+  "last_huggingface_check": "2026-08-14T10:40:21.132089",
+  "last_reddit_check": "2026-08-14T10:40:17.959263",
+  "last_rss_check": "2026-08-14T10:40:17.742604",
+  "last_ransomware_check": "2026-08-14T10:40:18.780575",
+  "last_leak_check": "2026-08-14T10:40:17.932340",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10088,21 +10088,21 @@
     "2026-08-11": 129,
     "2026-08-12": 131,
     "2026-08-13": 151,
-    "2026-08-14": 24
+    "2026-08-14": 26
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 7,
+  "runs_today": 8,
   "last_run_date": "2026-08-14",
-  "last_exploitdb_check": "2026-08-14T09:42:48.451679",
-  "last_darkweb_check": "2026-08-14T09:42:49.915446",
-  "last_cisa_check": "2026-08-14T09:42:48.276656",
-  "last_osint_check": "2026-08-14T09:42:49.188727",
-  "last_redteam_check": "2026-08-14T09:42:49.042909",
-  "last_github_poc_check": "2026-08-14T09:42:49.360030",
-  "last_projectdiscovery_check": "2026-08-14T09:42:49.551239",
-  "last_telegram_check": "2026-08-14T09:42:49.762993",
-  "last_papers_check": "2026-08-14T09:42:50.926879",
-  "last_bugbounty_check": "2026-08-14T09:42:53.418080"
+  "last_exploitdb_check": "2026-08-14T10:40:17.305630",
+  "last_darkweb_check": "2026-08-14T10:40:18.045904",
+  "last_cisa_check": "2026-08-14T10:40:17.124968",
+  "last_osint_check": "2026-08-14T10:40:17.042874",
+  "last_redteam_check": "2026-08-14T10:40:17.058812",
+  "last_github_poc_check": "2026-08-14T10:40:17.419824",
+  "last_projectdiscovery_check": "2026-08-14T10:40:18.690114",
+  "last_telegram_check": "2026-08-14T10:40:17.868143",
+  "last_papers_check": "2026-08-14T10:40:18.759937",
+  "last_bugbounty_check": "2026-08-14T10:40:21.212819"
 }
