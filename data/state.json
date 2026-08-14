@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-14T20:23:06.264350",
+  "last_run": "2026-08-14T20:54:52.152807",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/netty/netty/releases/tag/netty-4.1.135.Final",
     "https://github.com/HeshamASH/CVE-2026-11417-AWS-CDK-RCE",
     "https://github.com/byjanke/ghostlink",
     "https://github.com/abhaygupta-sec/NmapTool-Automated-Recon",
@@ -5001,10 +5000,10 @@
     "https://huggingface.co/trailio/QwenSec-38",
     "https://www.ibm.com/support/pages/node/7283484",
     "https://www.ibm.com/support/pages/node/7283295",
-    "https://www.ibm.com/support/pages/node/7283569"
+    "https://www.ibm.com/support/pages/node/7283569",
+    "https://www.ibm.com/support/pages/node/7283571"
   ],
   "processed_hashes": [
-    "156a991cc06e745f",
     "10d7cf70c0d2bbfc",
     "8e2fdf8d565b5d29",
     "175fea54094b3947",
@@ -10003,16 +10002,17 @@
     "6ba1cad893b95159",
     "4077bc7c365f127d",
     "97c033caaa16c1e2",
-    "966d0d2d57c15d5a"
+    "966d0d2d57c15d5a",
+    "170adbd8d293eb7f"
   ],
-  "last_cve_check": "2026-08-14T20:22:43.295040",
+  "last_cve_check": "2026-08-14T20:54:21.853552",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-14T20:22:45.061504",
-  "last_huggingface_check": "2026-08-14T20:22:48.522496",
-  "last_reddit_check": "2026-08-14T20:22:45.643262",
-  "last_rss_check": "2026-08-14T20:22:45.588701",
-  "last_ransomware_check": "2026-08-14T20:22:46.257940",
-  "last_leak_check": "2026-08-14T20:22:45.719010",
+  "last_github_check": "2026-08-14T20:54:23.424195",
+  "last_huggingface_check": "2026-08-14T20:54:27.805718",
+  "last_reddit_check": "2026-08-14T20:54:23.900093",
+  "last_rss_check": "2026-08-14T20:54:23.972798",
+  "last_ransomware_check": "2026-08-14T20:54:24.517344",
+  "last_leak_check": "2026-08-14T20:54:23.841426",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10088,21 +10088,21 @@
     "2026-08-11": 129,
     "2026-08-12": 131,
     "2026-08-13": 151,
-    "2026-08-14": 119
+    "2026-08-14": 120
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 19,
+  "runs_today": 20,
   "last_run_date": "2026-08-14",
-  "last_exploitdb_check": "2026-08-14T20:22:43.864372",
-  "last_darkweb_check": "2026-08-14T20:22:45.814287",
-  "last_cisa_check": "2026-08-14T20:22:43.578783",
-  "last_osint_check": "2026-08-14T20:22:44.861755",
-  "last_redteam_check": "2026-08-14T20:22:44.496450",
-  "last_github_poc_check": "2026-08-14T20:22:45.065067",
-  "last_projectdiscovery_check": "2026-08-14T20:22:45.861341",
-  "last_telegram_check": "2026-08-14T20:22:45.502374",
-  "last_papers_check": "2026-08-14T20:22:46.726619",
-  "last_bugbounty_check": "2026-08-14T20:22:49.084513"
+  "last_exploitdb_check": "2026-08-14T20:54:22.066626",
+  "last_darkweb_check": "2026-08-14T20:54:24.022987",
+  "last_cisa_check": "2026-08-14T20:54:22.007096",
+  "last_osint_check": "2026-08-14T20:54:23.090386",
+  "last_redteam_check": "2026-08-14T20:54:23.069715",
+  "last_github_poc_check": "2026-08-14T20:54:23.448273",
+  "last_projectdiscovery_check": "2026-08-14T20:54:23.663906",
+  "last_telegram_check": "2026-08-14T20:54:24.017195",
+  "last_papers_check": "2026-08-14T20:54:24.667415",
+  "last_bugbounty_check": "2026-08-14T20:54:27.555147"
 }
