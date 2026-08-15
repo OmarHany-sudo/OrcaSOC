@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-15T23:34:31.555800",
+  "last_run": "2026-08-15T23:56:42.238635",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://patchstack.com/database/wordpress/plugin/elizaibot-chatbots/vulnerability/wordpress-elizaibots-plugin-1-0-2-cross-site-scripting-xss-vulnerability?_s_id=cve",
     "https://github.com/clsmight/CVE-2026-41940-PoC",
     "https://github.com/EaEa0001/security-advisories/blob/main/CVE-2026-30120.md",
     "https://github.com/EaEa0001/security-advisories/blob/main/CVE-2026-30121.md",
@@ -5001,10 +5000,10 @@
     "https://plugins.trac.wordpress.org/browser/kivicare-clinic-management-system/tags/4.5.0/app/controllers/api/SettingsController/ListingData.php#L442",
     "https://plugins.trac.wordpress.org/browser/hydra-booking/trunk/admin/Controller/HostsController.php#L495",
     "https://plugins.trac.wordpress.org/browser/beaver-builder-lite-version/tags/2.10.1.5/classes/class-fl-builder-model.php#L4659",
-    "https://plugins.trac.wordpress.org/browser/contest-gallery/tags/30.0.6/ajax/ajax-functions-backend.php#L135"
+    "https://plugins.trac.wordpress.org/browser/contest-gallery/tags/30.0.6/ajax/ajax-functions-backend.php#L135",
+    "https://plugins.trac.wordpress.org/browser/image-uploader-for-welcart/tags/1.4.6/image-uploader-for-welcart.php#L26"
   ],
   "processed_hashes": [
-    "2cb85f9fa7b84b4a",
     "e9901f6350cf3bd2",
     "87919cb76848a316",
     "81ea62955ced05d8",
@@ -10003,16 +10002,17 @@
     "aa72ebd7a35210e4",
     "a58ac4d181b530e8",
     "5812c49fbc6ad332",
-    "874639192c4ee2ad"
+    "874639192c4ee2ad",
+    "a721b266a4027803"
   ],
-  "last_cve_check": "2026-08-15T23:34:06.606314",
+  "last_cve_check": "2026-08-15T23:56:12.584092",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-15T23:34:08.010166",
-  "last_huggingface_check": "2026-08-15T23:34:11.333216",
-  "last_reddit_check": "2026-08-15T23:34:08.795565",
-  "last_rss_check": "2026-08-15T23:34:08.580743",
-  "last_ransomware_check": "2026-08-15T23:34:09.140659",
-  "last_leak_check": "2026-08-15T23:34:08.873047",
+  "last_github_check": "2026-08-15T23:56:14.247292",
+  "last_huggingface_check": "2026-08-15T23:56:17.595243",
+  "last_reddit_check": "2026-08-15T23:56:14.501104",
+  "last_rss_check": "2026-08-15T23:56:14.186398",
+  "last_ransomware_check": "2026-08-15T23:56:15.133592",
+  "last_leak_check": "2026-08-15T23:56:14.512472",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10089,21 +10089,21 @@
     "2026-08-12": 131,
     "2026-08-13": 151,
     "2026-08-14": 155,
-    "2026-08-15": 104
+    "2026-08-15": 105
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 57,
+  "runs_today": 58,
   "last_run_date": "2026-08-15",
-  "last_exploitdb_check": "2026-08-15T23:34:07.015126",
-  "last_darkweb_check": "2026-08-15T23:34:08.881790",
-  "last_cisa_check": "2026-08-15T23:34:06.756437",
-  "last_osint_check": "2026-08-15T23:34:07.779614",
-  "last_redteam_check": "2026-08-15T23:34:07.830447",
-  "last_github_poc_check": "2026-08-15T23:34:08.196093",
-  "last_projectdiscovery_check": "2026-08-15T23:34:08.654188",
-  "last_telegram_check": "2026-08-15T23:34:08.655915",
-  "last_papers_check": "2026-08-15T23:34:09.525254",
-  "last_bugbounty_check": "2026-08-15T23:34:13.719498"
+  "last_exploitdb_check": "2026-08-15T23:56:12.738431",
+  "last_darkweb_check": "2026-08-15T23:56:14.552544",
+  "last_cisa_check": "2026-08-15T23:56:12.676778",
+  "last_osint_check": "2026-08-15T23:56:13.965648",
+  "last_redteam_check": "2026-08-15T23:56:13.764084",
+  "last_github_poc_check": "2026-08-15T23:56:14.386736",
+  "last_projectdiscovery_check": "2026-08-15T23:56:14.403056",
+  "last_telegram_check": "2026-08-15T23:56:14.729736",
+  "last_papers_check": "2026-08-15T23:56:15.598826",
+  "last_bugbounty_check": "2026-08-15T23:56:17.522272"
 }
