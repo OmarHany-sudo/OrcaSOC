@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-15T22:11:30.169895",
+  "last_run": "2026-08-15T22:37:24.792316",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/Rishant-Singh/CyberHawk",
-    "https://www.fortra.com/security/advisories/product-security/fi-2026-008",
     "https://github.com/mastodon/mastodon/commit/22203f8aeb03e8f14dc62e253e83db39825a5bcf",
     "https://hackerone.com/reports/3804525",
     "https://github.com/valhalla/valhalla/security/advisories/GHSA-85xx-39j8-r56x",
@@ -5001,11 +4999,11 @@
     "https://github.com/opaxial/CVE-2026-9830",
     "https://plugins.trac.wordpress.org/browser/6storage-rentals/tags/2.27.0/inc/Base/Six_Storage_DashboardController.php#L14",
     "https://plugins.trac.wordpress.org/browser/rapisafe-multi-file-cf7/trunk/src/RSMFCF7_Assets.php#L201",
-    "https://plugins.trac.wordpress.org/browser/propovoice/trunk/includes/Api/Type/Team.php#L169"
+    "https://plugins.trac.wordpress.org/browser/propovoice/trunk/includes/Api/Type/Team.php#L169",
+    "https://plugins.trac.wordpress.org/browser/user-session-synchronizer/tags/1.4.0/includes/class-user-session-synchronizer.php#L117",
+    "https://plugins.trac.wordpress.org/browser/maxupload-upload-larger-files-easily/tags/1.4.0/includes/uploader.php#L121"
   ],
   "processed_hashes": [
-    "b37d7bd87782efc6",
-    "8f8a846ae7e7e5df",
     "50d8dc997b1c924f",
     "57ff6c7f2bba7c86",
     "7c24fa609fee986c",
@@ -10003,16 +10001,18 @@
     "5d53693cdfb82d9a",
     "d352b8c9ffb23900",
     "7127db11b9f216d1",
-    "f29276bd0c13dd04"
+    "f29276bd0c13dd04",
+    "74ed1addeb4a02d7",
+    "7e8b46abb7f0d132"
   ],
-  "last_cve_check": "2026-08-15T22:11:08.737328",
+  "last_cve_check": "2026-08-15T22:37:00.404141",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-15T22:11:10.119554",
-  "last_huggingface_check": "2026-08-15T22:11:13.673898",
-  "last_reddit_check": "2026-08-15T22:11:10.761466",
-  "last_rss_check": "2026-08-15T22:11:10.302636",
-  "last_ransomware_check": "2026-08-15T22:11:11.282520",
-  "last_leak_check": "2026-08-15T22:11:10.625023",
+  "last_github_check": "2026-08-15T22:37:01.704656",
+  "last_huggingface_check": "2026-08-15T22:37:03.350537",
+  "last_reddit_check": "2026-08-15T22:37:02.261851",
+  "last_rss_check": "2026-08-15T22:37:04.408080",
+  "last_ransomware_check": "2026-08-15T22:37:02.650746",
+  "last_leak_check": "2026-08-15T22:37:02.209959",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10089,21 +10089,21 @@
     "2026-08-12": 131,
     "2026-08-13": 151,
     "2026-08-14": 155,
-    "2026-08-15": 97
+    "2026-08-15": 99
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 53,
+  "runs_today": 54,
   "last_run_date": "2026-08-15",
-  "last_exploitdb_check": "2026-08-15T22:11:09.000919",
-  "last_darkweb_check": "2026-08-15T22:11:10.708369",
-  "last_cisa_check": "2026-08-15T22:11:08.881787",
-  "last_osint_check": "2026-08-15T22:11:10.022952",
-  "last_redteam_check": "2026-08-15T22:11:09.771592",
-  "last_github_poc_check": "2026-08-15T22:11:10.198576",
-  "last_projectdiscovery_check": "2026-08-15T22:11:10.596652",
-  "last_telegram_check": "2026-08-15T22:11:10.625525",
-  "last_papers_check": "2026-08-15T22:11:11.602057",
-  "last_bugbounty_check": "2026-08-15T22:11:13.898853"
+  "last_exploitdb_check": "2026-08-15T22:37:00.781346",
+  "last_darkweb_check": "2026-08-15T22:37:02.312360",
+  "last_cisa_check": "2026-08-15T22:37:00.561130",
+  "last_osint_check": "2026-08-15T22:37:01.531473",
+  "last_redteam_check": "2026-08-15T22:37:01.285681",
+  "last_github_poc_check": "2026-08-15T22:37:01.719692",
+  "last_projectdiscovery_check": "2026-08-15T22:37:01.937954",
+  "last_telegram_check": "2026-08-15T22:37:02.037687",
+  "last_papers_check": "2026-08-15T22:37:02.527118",
+  "last_bugbounty_check": "2026-08-15T22:37:06.786335"
 }
