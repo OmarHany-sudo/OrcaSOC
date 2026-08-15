@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-15T14:13:26.838633",
+  "last_run": "2026-08-15T14:39:06.178693",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/Bwamburu/cybersecurity-projects",
-    "https://huggingface.co/yannsar/armnn-deserializer-oob-mfv-poc",
     "https://huggingface.co/k1ngtai/security-coding-gemma4-e2b-lora",
     "https://huggingface.co/yannsar/onnx-shape-inference-nullderef-mfv-poc",
     "https://github.com/yunyan05/MYCVE/tree/main/ShopXO/V6.7.1-Unauthenticated-Crontab-Trigger",
@@ -5001,11 +4999,11 @@
     "https://github.com/datavane/tis",
     "https://app.notion.com/p/TEW-816DRM-GURNC4-OT182B-C-TN-R1B028-US-EN-2018-05-16-38b1f5ba989080759a1ee701542f1935?source=copy_link",
     "https://access.redhat.com/security/cve/CVE-2026-53472",
-    "https://access.redhat.com/security/cve/CVE-2026-58224"
+    "https://access.redhat.com/security/cve/CVE-2026-58224",
+    "https://www.dell.com/support/kbdoc/en-us/000493271/dsa-2026-329-security-update-for-dell-wyse-management-suite-wms-for-multiple-vulnerabilities",
+    "https://github.com/lucasgelfond/zerobrew"
   ],
   "processed_hashes": [
-    "481d1feddf0ddf75",
-    "970f0932c94fd760",
     "cad88278c2a38101",
     "bd4c2d426dc60a44",
     "83ca0ece7a2601fa",
@@ -10003,16 +10001,18 @@
     "df7661c0b44d0a2b",
     "221aec0c4b4150cd",
     "860322bd3b883fa6",
-    "a7f78c11c7b8a279"
+    "a7f78c11c7b8a279",
+    "f074298cfc2e3d41",
+    "aa9278bfca303044"
   ],
-  "last_cve_check": "2026-08-15T14:13:03.245968",
+  "last_cve_check": "2026-08-15T14:38:28.813350",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-15T14:13:04.318658",
-  "last_huggingface_check": "2026-08-15T14:13:05.590524",
-  "last_reddit_check": "2026-08-15T14:13:04.773609",
-  "last_rss_check": "2026-08-15T14:13:04.883978",
-  "last_ransomware_check": "2026-08-15T14:13:05.175810",
-  "last_leak_check": "2026-08-15T14:13:04.824286",
+  "last_github_check": "2026-08-15T14:38:30.407513",
+  "last_huggingface_check": "2026-08-15T14:38:34.671160",
+  "last_reddit_check": "2026-08-15T14:38:31.179301",
+  "last_rss_check": "2026-08-15T14:38:31.112095",
+  "last_ransomware_check": "2026-08-15T14:38:31.582768",
+  "last_leak_check": "2026-08-15T14:38:31.050849",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10089,21 +10089,21 @@
     "2026-08-12": 131,
     "2026-08-13": 151,
     "2026-08-14": 155,
-    "2026-08-15": 43
+    "2026-08-15": 45
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 30,
+  "runs_today": 31,
   "last_run_date": "2026-08-15",
-  "last_exploitdb_check": "2026-08-15T14:13:03.446957",
-  "last_darkweb_check": "2026-08-15T14:13:04.918606",
-  "last_cisa_check": "2026-08-15T14:13:03.361066",
-  "last_osint_check": "2026-08-15T14:13:04.006395",
-  "last_redteam_check": "2026-08-15T14:13:03.937741",
-  "last_github_poc_check": "2026-08-15T14:13:04.269117",
-  "last_projectdiscovery_check": "2026-08-15T14:13:04.706421",
-  "last_telegram_check": "2026-08-15T14:13:04.663797",
-  "last_papers_check": "2026-08-15T14:13:05.174568",
-  "last_bugbounty_check": "2026-08-15T14:13:08.306616"
+  "last_exploitdb_check": "2026-08-15T14:38:29.471079",
+  "last_darkweb_check": "2026-08-15T14:38:31.365778",
+  "last_cisa_check": "2026-08-15T14:38:29.091609",
+  "last_osint_check": "2026-08-15T14:38:30.007469",
+  "last_redteam_check": "2026-08-15T14:38:30.055774",
+  "last_github_poc_check": "2026-08-15T14:38:30.232002",
+  "last_projectdiscovery_check": "2026-08-15T14:38:31.335780",
+  "last_telegram_check": "2026-08-15T14:38:30.787271",
+  "last_papers_check": "2026-08-15T14:38:32.170581",
+  "last_bugbounty_check": "2026-08-15T14:38:34.305625"
 }
