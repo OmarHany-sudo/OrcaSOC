@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-15T18:49:34.261965",
+  "last_run": "2026-08-15T19:15:59.749112",
   "last_update_id": 753263073,
   "processed_urls": [
-    "http://cdn2.v50to.cc/T46U/T46U_mod_webd_TFTPUploadIperf_system_exec.zip",
-    "https://wpscan.com/vulnerability/9bad9fc1-5032-45dc-983f-ba2dd7092385/",
     "https://www.foxit.com/support/security-bulletins.html",
     "https://wpscan.com/vulnerability/984cad38-6d01-4956-8bf1-29585258780b/",
     "https://access.redhat.com/errata/RHSA-2026:25928",
@@ -5001,11 +4999,11 @@
     "https://www.ibm.com/support/pages/node/7283359",
     "https://github.com/benoitc/erlang_quic/security/advisories/GHSA-2r8v-p65x-3663",
     "https://github.com/Netatalk/netatalk/releases/tag/netatalk-4-4-3",
-    "https://github.com/DevVaibhav07/VULN-POC/blob/main/ImpressCMSRCCE.md"
+    "https://github.com/DevVaibhav07/VULN-POC/blob/main/ImpressCMSRCCE.md",
+    "https://github.com/judgedbykira/CVE-2026-20896-Gitea-Authentication-Bypass",
+    "https://github.com/ethanx01-H/ThreatLens"
   ],
   "processed_hashes": [
-    "bcee36091fa7b08c",
-    "b6c523609ea3836b",
     "9d27b1107c0e55a3",
     "734132577c9000bb",
     "17cc86ee003a7670",
@@ -10003,16 +10001,18 @@
     "760552ac97a4698d",
     "18760bae4d7bf557",
     "f64a1008040660c5",
-    "be0e16cdab775dae"
+    "be0e16cdab775dae",
+    "2c68455f88bd701e",
+    "a4a61f2a7c2d538d"
   ],
-  "last_cve_check": "2026-08-15T18:49:09.949771",
+  "last_cve_check": "2026-08-15T19:15:37.064780",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-15T18:49:11.092141",
-  "last_huggingface_check": "2026-08-15T18:49:15.363878",
-  "last_reddit_check": "2026-08-15T18:49:11.600711",
-  "last_rss_check": "2026-08-15T18:49:12.506987",
-  "last_ransomware_check": "2026-08-15T18:49:12.527639",
-  "last_leak_check": "2026-08-15T18:49:11.765241",
+  "last_github_check": "2026-08-15T19:15:38.410817",
+  "last_huggingface_check": "2026-08-15T19:15:41.713364",
+  "last_reddit_check": "2026-08-15T19:15:39.049252",
+  "last_rss_check": "2026-08-15T19:15:38.772083",
+  "last_ransomware_check": "2026-08-15T19:15:39.658856",
+  "last_leak_check": "2026-08-15T19:15:39.000571",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10089,21 +10089,21 @@
     "2026-08-12": 131,
     "2026-08-13": 151,
     "2026-08-14": 155,
-    "2026-08-15": 77
+    "2026-08-15": 79
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 43,
+  "runs_today": 44,
   "last_run_date": "2026-08-15",
-  "last_exploitdb_check": "2026-08-15T18:49:10.353726",
-  "last_darkweb_check": "2026-08-15T18:49:12.289495",
-  "last_cisa_check": "2026-08-15T18:49:10.075626",
-  "last_osint_check": "2026-08-15T18:49:10.760291",
-  "last_redteam_check": "2026-08-15T18:49:10.837302",
-  "last_github_poc_check": "2026-08-15T18:49:11.023557",
-  "last_projectdiscovery_check": "2026-08-15T18:49:12.165004",
-  "last_telegram_check": "2026-08-15T18:49:11.512189",
-  "last_papers_check": "2026-08-15T18:49:12.602712",
-  "last_bugbounty_check": "2026-08-15T18:49:14.760300"
+  "last_exploitdb_check": "2026-08-15T19:15:37.478765",
+  "last_darkweb_check": "2026-08-15T19:15:39.157260",
+  "last_cisa_check": "2026-08-15T19:15:37.226112",
+  "last_osint_check": "2026-08-15T19:15:38.021788",
+  "last_redteam_check": "2026-08-15T19:15:38.019730",
+  "last_github_poc_check": "2026-08-15T19:15:38.364759",
+  "last_projectdiscovery_check": "2026-08-15T19:15:39.147085",
+  "last_telegram_check": "2026-08-15T19:15:38.913471",
+  "last_papers_check": "2026-08-15T19:15:39.466395",
+  "last_bugbounty_check": "2026-08-15T19:15:42.336418"
 }
