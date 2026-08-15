@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-15T16:40:04.535663",
+  "last_run": "2026-08-15T16:59:55.378855",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/abhijeet11yadav/bWAPP-Security-Assessment",
     "https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/",
     "https://huggingface.co/k1ngtai/security-coding-gemma4-e2b-full",
     "https://github.com/gola-leya/cve_submit/issues/1",
@@ -5001,10 +5000,10 @@
     "https://github.com/panda666-888/vuls/blob/main/totolink/a800r/setStaticDhcpConfig.md",
     "https://github.com/oscal-compass/compliance-trestle/commit/247fcce289f60103f3d8e28d8ec51a6986b94fb6",
     "https://go.dev/cl/793460",
-    "https://github.com/oscal-compass/compliance-trestle/commit/53de5e75332888ea54f5da41d4c7859bb1d608e1"
+    "https://github.com/oscal-compass/compliance-trestle/commit/53de5e75332888ea54f5da41d4c7859bb1d608e1",
+    "https://github.com/oguzylmzx/CVE-2025-64512-pdfminer-PoC"
   ],
   "processed_hashes": [
-    "07cc3023d8d266d4",
     "e6d7fb6490893b89",
     "c0a68440b8ce30f0",
     "24c19c7335b79a50",
@@ -10003,16 +10002,17 @@
     "3d57e5b9cda5b88d",
     "1330f9b6cff1f785",
     "2ee2fb103f8662d1",
-    "527a9886e7ae9257"
+    "527a9886e7ae9257",
+    "c23edede5c51faea"
   ],
-  "last_cve_check": "2026-08-15T16:39:35.456379",
+  "last_cve_check": "2026-08-15T16:59:26.330264",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-15T16:39:36.722408",
-  "last_huggingface_check": "2026-08-15T16:39:37.745209",
-  "last_reddit_check": "2026-08-15T16:39:37.182282",
-  "last_rss_check": "2026-08-15T16:39:37.935427",
-  "last_ransomware_check": "2026-08-15T16:39:37.569755",
-  "last_leak_check": "2026-08-15T16:39:37.150498",
+  "last_github_check": "2026-08-15T16:59:27.890079",
+  "last_huggingface_check": "2026-08-15T16:59:32.123316",
+  "last_reddit_check": "2026-08-15T16:59:28.257091",
+  "last_rss_check": "2026-08-15T16:59:29.109537",
+  "last_ransomware_check": "2026-08-15T16:59:28.839424",
+  "last_leak_check": "2026-08-15T16:59:28.491613",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10089,21 +10089,21 @@
     "2026-08-12": 131,
     "2026-08-13": 151,
     "2026-08-14": 155,
-    "2026-08-15": 53
+    "2026-08-15": 54
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 37,
+  "runs_today": 38,
   "last_run_date": "2026-08-15",
-  "last_exploitdb_check": "2026-08-15T16:39:35.823031",
-  "last_darkweb_check": "2026-08-15T16:39:37.244954",
-  "last_cisa_check": "2026-08-15T16:39:35.593157",
-  "last_osint_check": "2026-08-15T16:39:36.520259",
-  "last_redteam_check": "2026-08-15T16:39:36.387813",
-  "last_github_poc_check": "2026-08-15T16:39:36.677431",
-  "last_projectdiscovery_check": "2026-08-15T16:39:36.924995",
-  "last_telegram_check": "2026-08-15T16:39:37.028985",
-  "last_papers_check": "2026-08-15T16:39:37.654256",
-  "last_bugbounty_check": "2026-08-15T16:39:40.756695"
+  "last_exploitdb_check": "2026-08-15T16:59:26.807948",
+  "last_darkweb_check": "2026-08-15T16:59:28.566315",
+  "last_cisa_check": "2026-08-15T16:59:26.496570",
+  "last_osint_check": "2026-08-15T16:59:27.358939",
+  "last_redteam_check": "2026-08-15T16:59:27.435091",
+  "last_github_poc_check": "2026-08-15T16:59:27.771188",
+  "last_projectdiscovery_check": "2026-08-15T16:59:28.216115",
+  "last_telegram_check": "2026-08-15T16:59:28.355045",
+  "last_papers_check": "2026-08-15T16:59:29.220476",
+  "last_bugbounty_check": "2026-08-15T16:59:31.695600"
 }
