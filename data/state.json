@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-15T17:44:11.635298",
+  "last_run": "2026-08-15T17:58:18.872933",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://hackerone.com/reports/3687142",
     "https://github.com/SentinelXofficial/CVE-2025-55182",
     "https://jp.ricoh.com/security/products/vulnerabilities/vul?id=ricoh-2025-000002",
     "http://cdn2.v50to.cc/T46U/T46U_beforewifitest_stack_overflow.zip",
@@ -5001,10 +5000,10 @@
     "https://github.com/NCEAS/metacat/security/advisories/GHSA-6g6j-wh5h-77h5",
     "https://github.com/panda666-888/vuls/blob/main/totolink/a800r/setUrlFilterRules.md",
     "https://github.com/panda666-888/vuls/blob/main/totolink/a800r/setWiFiWpsConfig.md",
-    "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72970"
+    "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72970",
+    "https://github.com/mermehr/MouseServer-1.7.8.5-RCE"
   ],
   "processed_hashes": [
-    "086743ebf6dd8463",
     "3c27933befab62fd",
     "e8c4261969a15493",
     "a3a5aaf6e8713f7b",
@@ -10003,16 +10002,17 @@
     "931ec0adab0824ae",
     "f6b52b6b99e65f62",
     "6edb9866004a5ca6",
-    "d862da10bcf1a389"
+    "d862da10bcf1a389",
+    "3294d50419293f35"
   ],
-  "last_cve_check": "2026-08-15T17:43:41.888347",
+  "last_cve_check": "2026-08-15T17:57:48.848429",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-15T17:43:43.297338",
-  "last_huggingface_check": "2026-08-15T17:43:47.017381",
-  "last_reddit_check": "2026-08-15T17:43:43.697639",
-  "last_rss_check": "2026-08-15T17:43:44.412738",
-  "last_ransomware_check": "2026-08-15T17:43:44.168974",
-  "last_leak_check": "2026-08-15T17:43:43.569518",
+  "last_github_check": "2026-08-15T17:57:50.606153",
+  "last_huggingface_check": "2026-08-15T17:57:54.498131",
+  "last_reddit_check": "2026-08-15T17:57:50.846027",
+  "last_rss_check": "2026-08-15T17:57:51.961416",
+  "last_ransomware_check": "2026-08-15T17:57:51.676991",
+  "last_leak_check": "2026-08-15T17:57:51.050685",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10089,21 +10089,21 @@
     "2026-08-12": 131,
     "2026-08-13": 151,
     "2026-08-14": 155,
-    "2026-08-15": 62
+    "2026-08-15": 63
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 40,
+  "runs_today": 41,
   "last_run_date": "2026-08-15",
-  "last_exploitdb_check": "2026-08-15T17:43:42.167620",
-  "last_darkweb_check": "2026-08-15T17:43:43.994319",
-  "last_cisa_check": "2026-08-15T17:43:42.042897",
-  "last_osint_check": "2026-08-15T17:43:43.061287",
-  "last_redteam_check": "2026-08-15T17:43:42.954050",
-  "last_github_poc_check": "2026-08-15T17:43:43.422122",
-  "last_projectdiscovery_check": "2026-08-15T17:43:43.436062",
-  "last_telegram_check": "2026-08-15T17:43:43.916798",
-  "last_papers_check": "2026-08-15T17:43:44.549358",
-  "last_bugbounty_check": "2026-08-15T17:43:46.790602"
+  "last_exploitdb_check": "2026-08-15T17:57:49.319775",
+  "last_darkweb_check": "2026-08-15T17:57:51.148383",
+  "last_cisa_check": "2026-08-15T17:57:49.011822",
+  "last_osint_check": "2026-08-15T17:57:49.887464",
+  "last_redteam_check": "2026-08-15T17:57:49.749280",
+  "last_github_poc_check": "2026-08-15T17:57:50.403892",
+  "last_projectdiscovery_check": "2026-08-15T17:57:50.950397",
+  "last_telegram_check": "2026-08-15T17:57:51.077236",
+  "last_papers_check": "2026-08-15T17:57:51.399288",
+  "last_bugbounty_check": "2026-08-15T17:57:54.756401"
 }
