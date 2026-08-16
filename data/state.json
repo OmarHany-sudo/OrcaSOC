@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-16T18:14:50.181698",
+  "last_run": "2026-08-16T18:47:55.973443",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
-    "https://marketplace.atlassian.com/apps/1214491/secure-login-2fa-for-confluence",
     "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
     "https://github.com/mohamedriyaz-876/mini-vulnerability-scanner",
     "https://huggingface.co/thesamgodson/Gemma-4-12B-Hephaestus-GGUF",
@@ -5001,11 +4999,11 @@
     "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-m7cc-jh9q-wxg8",
     "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-g3jx-227v-x2x4",
     "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-vx5w-qrvp-mmcq",
-    "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-c8w8-3pqp-wr83"
+    "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-c8w8-3pqp-wr83",
+    "https://github.com/jenmar23rondon-ux/Bug_Bounty_toolkit",
+    "https://vuldb.com/cve/CVE-2026-19918"
   ],
   "processed_hashes": [
-    "88b6da56c076af76",
-    "6f0092582e4eb34d",
     "115530f83fdbe250",
     "68d378c307fe4db5",
     "48941d563d80d27f",
@@ -10003,16 +10001,18 @@
     "1d8a47a696e7c4f2",
     "ba2ebb6fcaf70717",
     "679cf6831b92fcc4",
-    "90f0251b5d7285f5"
+    "90f0251b5d7285f5",
+    "ce8437cca4f6ec90",
+    "8a2a64c75966825d"
   ],
-  "last_cve_check": "2026-08-16T18:14:16.971327",
+  "last_cve_check": "2026-08-16T18:47:25.369233",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-16T18:14:18.367201",
-  "last_huggingface_check": "2026-08-16T18:14:21.098447",
-  "last_reddit_check": "2026-08-16T18:14:19.089313",
-  "last_rss_check": "2026-08-16T18:14:19.390912",
-  "last_ransomware_check": "2026-08-16T18:14:19.628662",
-  "last_leak_check": "2026-08-16T18:14:19.072577",
+  "last_github_check": "2026-08-16T18:47:26.966326",
+  "last_huggingface_check": "2026-08-16T18:47:31.173102",
+  "last_reddit_check": "2026-08-16T18:47:27.407335",
+  "last_rss_check": "2026-08-16T18:47:27.349470",
+  "last_ransomware_check": "2026-08-16T18:47:28.027531",
+  "last_leak_check": "2026-08-16T18:47:27.385448",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10090,21 +10090,21 @@
     "2026-08-13": 151,
     "2026-08-14": 155,
     "2026-08-15": 105,
-    "2026-08-16": 49
+    "2026-08-16": 51
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 39,
+  "runs_today": 40,
   "last_run_date": "2026-08-16",
-  "last_exploitdb_check": "2026-08-16T18:14:17.508320",
-  "last_darkweb_check": "2026-08-16T18:14:19.208829",
-  "last_cisa_check": "2026-08-16T18:14:17.225987",
-  "last_osint_check": "2026-08-16T18:14:18.165970",
-  "last_redteam_check": "2026-08-16T18:14:18.099080",
-  "last_github_poc_check": "2026-08-16T18:14:18.216113",
-  "last_projectdiscovery_check": "2026-08-16T18:14:18.711846",
-  "last_telegram_check": "2026-08-16T18:14:18.729260",
-  "last_papers_check": "2026-08-16T18:14:19.292372",
-  "last_bugbounty_check": "2026-08-16T18:14:26.021804"
+  "last_exploitdb_check": "2026-08-16T18:47:25.726551",
+  "last_darkweb_check": "2026-08-16T18:47:27.464308",
+  "last_cisa_check": "2026-08-16T18:47:25.517737",
+  "last_osint_check": "2026-08-16T18:47:26.722283",
+  "last_redteam_check": "2026-08-16T18:47:26.608221",
+  "last_github_poc_check": "2026-08-16T18:47:26.936938",
+  "last_projectdiscovery_check": "2026-08-16T18:47:27.225528",
+  "last_telegram_check": "2026-08-16T18:47:27.450458",
+  "last_papers_check": "2026-08-16T18:47:28.532319",
+  "last_bugbounty_check": "2026-08-16T18:47:30.991166"
 }
