@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-16T09:50:01.356611",
+  "last_run": "2026-08-16T10:14:30.928061",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://wpreviewslider.com/",
     "https://www.nokia.com/we-are-nokia/security/product-security-advisory/cve-2025-9912/",
     "https://jvn.jp/en/jp/JVN79926428/",
     "https://plugins.trac.wordpress.org/browser/premmerce-dev-tools/tags/2.0/src/Admin/Admin.php#L107",
@@ -5001,10 +5000,10 @@
     "https://github.com/UnboundCompute/security-agent-skills",
     "https://github.com/d4w0d/WebShell-Compressor-Obfuscator",
     "https://huggingface.co/SoulInPsyAbstract/vuln-gate-05_supply_chain-lora",
-    "https://huggingface.co/SoulInPsyAbstract/vuln-gate-merged-qwen25-lora"
+    "https://huggingface.co/SoulInPsyAbstract/vuln-gate-merged-qwen25-lora",
+    "https://huggingface.co/SoulInPsyAbstract/vuln-gate-04_infra_misconfig-lora"
   ],
   "processed_hashes": [
-    "51c4e361a3dc9e72",
     "e02e11b2190da3e1",
     "14a7c56865952ae0",
     "7c494a7b578b89d1",
@@ -10003,16 +10002,17 @@
     "4a0a52e5a6a2b105",
     "187be8819c2a1b20",
     "1200e77d85f71bcd",
-    "f14a3a820a61fa52"
+    "f14a3a820a61fa52",
+    "00fea2ce5554ceca"
   ],
-  "last_cve_check": "2026-08-16T09:49:35.010553",
+  "last_cve_check": "2026-08-16T10:14:01.214132",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-16T09:49:36.075956",
-  "last_huggingface_check": "2026-08-16T09:49:36.969186",
-  "last_reddit_check": "2026-08-16T09:49:36.637170",
-  "last_rss_check": "2026-08-16T09:49:37.038756",
-  "last_ransomware_check": "2026-08-16T09:49:37.084295",
-  "last_leak_check": "2026-08-16T09:49:36.669391",
+  "last_github_check": "2026-08-16T10:14:02.798446",
+  "last_huggingface_check": "2026-08-16T10:14:07.455299",
+  "last_reddit_check": "2026-08-16T10:14:03.287833",
+  "last_rss_check": "2026-08-16T10:14:08.763847",
+  "last_ransomware_check": "2026-08-16T10:14:03.783844",
+  "last_leak_check": "2026-08-16T10:14:03.380774",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10090,21 +10090,21 @@
     "2026-08-13": 151,
     "2026-08-14": 155,
     "2026-08-15": 105,
-    "2026-08-16": 20
+    "2026-08-16": 21
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 16,
+  "runs_today": 17,
   "last_run_date": "2026-08-16",
-  "last_exploitdb_check": "2026-08-16T09:49:35.275723",
-  "last_darkweb_check": "2026-08-16T09:49:36.791724",
-  "last_cisa_check": "2026-08-16T09:49:35.112817",
-  "last_osint_check": "2026-08-16T09:49:35.749279",
-  "last_redteam_check": "2026-08-16T09:49:35.905319",
-  "last_github_poc_check": "2026-08-16T09:49:36.157489",
-  "last_projectdiscovery_check": "2026-08-16T09:49:36.563952",
-  "last_telegram_check": "2026-08-16T09:49:36.458670",
-  "last_papers_check": "2026-08-16T09:49:37.382745",
-  "last_bugbounty_check": "2026-08-16T09:49:39.904335"
+  "last_exploitdb_check": "2026-08-16T10:14:01.695143",
+  "last_darkweb_check": "2026-08-16T10:14:03.448072",
+  "last_cisa_check": "2026-08-16T10:14:01.379377",
+  "last_osint_check": "2026-08-16T10:14:02.343579",
+  "last_redteam_check": "2026-08-16T10:14:02.459141",
+  "last_github_poc_check": "2026-08-16T10:14:02.782508",
+  "last_projectdiscovery_check": "2026-08-16T10:14:03.209076",
+  "last_telegram_check": "2026-08-16T10:14:03.254513",
+  "last_papers_check": "2026-08-16T10:14:03.988871",
+  "last_bugbounty_check": "2026-08-16T10:14:06.780868"
 }
