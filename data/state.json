@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-16T07:09:22.084949",
+  "last_run": "2026-08-16T07:44:58.259539",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://devolutions.net/security/advisories/DEVO-2026-0018/",
     "https://cna.erlef.org/cves/CVE-2026-48853.html",
     "https://canon.jp/support/support-info/260615vulnerability-response",
     "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-stack-based-buffer-overflow-vulnerability-in-gs1900-series-switches-06-16-2026",
@@ -5001,10 +5000,10 @@
     "https://cwiki.apache.org/confluence/display/WW/S2-071",
     "https://cwiki.apache.org/confluence/display/WW/S2-073",
     "https://cwiki.apache.org/confluence/display/WW/S2-074",
-    "https://git.kernel.org/stable/c/07f8aaffee705e552c1f723ac8bf7eb137ad59c2"
+    "https://git.kernel.org/stable/c/07f8aaffee705e552c1f723ac8bf7eb137ad59c2",
+    "https://git.kernel.org/stable/c/0634d50e8b398c25bd07c96b048e484d22688c26"
   ],
   "processed_hashes": [
-    "6235cb7fa2da9603",
     "7f3a2eb6dc78e1dc",
     "2cc2c69a3d2943e4",
     "af76f8fb541dbb5f",
@@ -10003,16 +10002,17 @@
     "5d1bfeb6e324d78e",
     "50292bc47f018b90",
     "d480b7f5b7276f76",
-    "97a3f7466b19de7b"
+    "97a3f7466b19de7b",
+    "b4c8c30ec4742091"
   ],
-  "last_cve_check": "2026-08-16T07:08:56.429499",
+  "last_cve_check": "2026-08-16T07:44:38.506082",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-16T07:08:57.674050",
-  "last_huggingface_check": "2026-08-16T07:09:01.003345",
-  "last_reddit_check": "2026-08-16T07:08:58.192721",
-  "last_rss_check": "2026-08-16T07:08:57.940480",
-  "last_ransomware_check": "2026-08-16T07:08:58.782114",
-  "last_leak_check": "2026-08-16T07:08:58.130085",
+  "last_github_check": "2026-08-16T07:44:39.905349",
+  "last_huggingface_check": "2026-08-16T07:44:43.315089",
+  "last_reddit_check": "2026-08-16T07:44:40.464757",
+  "last_rss_check": "2026-08-16T07:44:40.367267",
+  "last_ransomware_check": "2026-08-16T07:44:40.961430",
+  "last_leak_check": "2026-08-16T07:44:40.518323",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10090,21 +10090,21 @@
     "2026-08-13": 151,
     "2026-08-14": 155,
     "2026-08-15": 105,
-    "2026-08-16": 15
+    "2026-08-16": 16
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 10,
+  "runs_today": 11,
   "last_run_date": "2026-08-16",
-  "last_exploitdb_check": "2026-08-16T07:08:56.762434",
-  "last_darkweb_check": "2026-08-16T07:08:58.265430",
-  "last_cisa_check": "2026-08-16T07:08:56.521556",
-  "last_osint_check": "2026-08-16T07:08:57.238141",
-  "last_redteam_check": "2026-08-16T07:08:57.161960",
-  "last_github_poc_check": "2026-08-16T07:08:57.706696",
-  "last_projectdiscovery_check": "2026-08-16T07:08:58.456811",
-  "last_telegram_check": "2026-08-16T07:08:58.131718",
-  "last_papers_check": "2026-08-16T07:08:58.911700",
-  "last_bugbounty_check": "2026-08-16T07:09:06.531152"
+  "last_exploitdb_check": "2026-08-16T07:44:38.878673",
+  "last_darkweb_check": "2026-08-16T07:44:40.614580",
+  "last_cisa_check": "2026-08-16T07:44:38.626411",
+  "last_osint_check": "2026-08-16T07:44:39.411862",
+  "last_redteam_check": "2026-08-16T07:44:39.342418",
+  "last_github_poc_check": "2026-08-16T07:44:39.921288",
+  "last_projectdiscovery_check": "2026-08-16T07:44:40.695229",
+  "last_telegram_check": "2026-08-16T07:44:40.337477",
+  "last_papers_check": "2026-08-16T07:44:40.826270",
+  "last_bugbounty_check": "2026-08-16T07:44:44.090918"
 }
