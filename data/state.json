@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-16T14:21:20.905191",
+  "last_run": "2026-08-16T14:47:13.014170",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://huggingface.co/enosislabs/aether-0.8b-cyber-gguf",
     "https://patchstack.com/database/wordpress/plugin/activitytime/vulnerability/wordpress-wp-sessions-time-monitoring-full-automatic-plugin-1-1-4-sql-injection-vulnerability?_s_id=cve",
     "https://patchstack.com/database/wordpress/plugin/woocommerce-pos/vulnerability/wordpress-woocommerce-pos-plugin-1-8-14-broken-access-control-vulnerability?_s_id=cve",
     "https://arxiv.org/abs/2606.18223v1",
@@ -5001,10 +5000,10 @@
     "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-gcm3-qcq3-72rv",
     "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-rj55-w3xr-gj62",
     "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-v362-968x-gp2v",
-    "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-v97v-gxxg-rhmq"
+    "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-v97v-gxxg-rhmq",
+    "https://github.com/bharani666-cloud/APT-Companion"
   ],
   "processed_hashes": [
-    "2cee309ab00ba30e",
     "faea31225c927058",
     "6425f179c4130444",
     "df3d83cda96711e1",
@@ -10003,16 +10002,17 @@
     "18ba036b056d4980",
     "604fdc35a70a3605",
     "b91e06ea7b0e15f9",
-    "dbcde73428d75558"
+    "dbcde73428d75558",
+    "11e70996a89ca1b6"
   ],
-  "last_cve_check": "2026-08-16T14:20:50.235030",
+  "last_cve_check": "2026-08-16T14:46:38.592346",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-16T14:20:52.036461",
-  "last_huggingface_check": "2026-08-16T14:20:56.086069",
-  "last_reddit_check": "2026-08-16T14:20:52.365546",
-  "last_rss_check": "2026-08-16T14:20:52.467934",
-  "last_ransomware_check": "2026-08-16T14:20:52.846818",
-  "last_leak_check": "2026-08-16T14:20:52.185963",
+  "last_github_check": "2026-08-16T14:46:39.965082",
+  "last_huggingface_check": "2026-08-16T14:46:43.632455",
+  "last_reddit_check": "2026-08-16T14:46:40.833642",
+  "last_rss_check": "2026-08-16T14:46:41.338865",
+  "last_ransomware_check": "2026-08-16T14:46:41.469617",
+  "last_leak_check": "2026-08-16T14:46:40.670300",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10090,21 +10090,21 @@
     "2026-08-13": 151,
     "2026-08-14": 155,
     "2026-08-15": 105,
-    "2026-08-16": 43
+    "2026-08-16": 44
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 27,
+  "runs_today": 28,
   "last_run_date": "2026-08-16",
-  "last_exploitdb_check": "2026-08-16T14:20:50.650297",
-  "last_darkweb_check": "2026-08-16T14:20:52.515814",
-  "last_cisa_check": "2026-08-16T14:20:50.370014",
-  "last_osint_check": "2026-08-16T14:20:51.517221",
-  "last_redteam_check": "2026-08-16T14:20:51.498788",
-  "last_github_poc_check": "2026-08-16T14:20:51.890924",
-  "last_projectdiscovery_check": "2026-08-16T14:20:51.967484",
-  "last_telegram_check": "2026-08-16T14:20:52.434244",
-  "last_papers_check": "2026-08-16T14:20:53.035990",
-  "last_bugbounty_check": "2026-08-16T14:20:55.319935"
+  "last_exploitdb_check": "2026-08-16T14:46:39.205496",
+  "last_darkweb_check": "2026-08-16T14:46:41.504547",
+  "last_cisa_check": "2026-08-16T14:46:38.822249",
+  "last_osint_check": "2026-08-16T14:46:39.731028",
+  "last_redteam_check": "2026-08-16T14:46:39.704877",
+  "last_github_poc_check": "2026-08-16T14:46:39.982949",
+  "last_projectdiscovery_check": "2026-08-16T14:46:41.442218",
+  "last_telegram_check": "2026-08-16T14:46:40.419314",
+  "last_papers_check": "2026-08-16T14:46:41.345718",
+  "last_bugbounty_check": "2026-08-16T14:46:44.194809"
 }
