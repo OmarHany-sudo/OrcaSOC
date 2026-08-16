@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-16T15:58:35.590285",
+  "last_run": "2026-08-16T16:17:38.444634",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://arxiv.org/abs/2606.18223v1",
-    "https://patchstack.com/database/wordpress/plugin/product-quantity-for-woocommerce/vulnerability/wordpress-min-max-step-quantity-limits-manager-for-woocommerce-plugin-5-2-2-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve",
     "https://github.com/AUSTIN-OMONDI/vuln-rag-001-ai-redteam-lab",
     "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
     "https://marketplace.atlassian.com/apps/1214491/secure-login-2fa-for-confluence",
@@ -5001,11 +4999,11 @@
     "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-v97v-gxxg-rhmq",
     "https://github.com/bharani666-cloud/APT-Companion",
     "https://hackerone.com/reports/3686259",
-    "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-m7cc-jh9q-wxg8"
+    "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-m7cc-jh9q-wxg8",
+    "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-g3jx-227v-x2x4",
+    "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-vx5w-qrvp-mmcq"
   ],
   "processed_hashes": [
-    "df3d83cda96711e1",
-    "3a28896a3a43768a",
     "6756bee8daee15d2",
     "88b6da56c076af76",
     "6f0092582e4eb34d",
@@ -10003,16 +10001,18 @@
     "dbcde73428d75558",
     "11e70996a89ca1b6",
     "05e027e63a35078b",
-    "1d8a47a696e7c4f2"
+    "1d8a47a696e7c4f2",
+    "ba2ebb6fcaf70717",
+    "679cf6831b92fcc4"
   ],
-  "last_cve_check": "2026-08-16T15:58:12.181382",
+  "last_cve_check": "2026-08-16T16:17:06.993647",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-16T15:58:13.342115",
-  "last_huggingface_check": "2026-08-16T15:58:14.283122",
-  "last_reddit_check": "2026-08-16T15:58:13.778775",
-  "last_rss_check": "2026-08-16T15:58:14.642413",
-  "last_ransomware_check": "2026-08-16T15:58:14.397938",
-  "last_leak_check": "2026-08-16T15:58:13.966241",
+  "last_github_check": "2026-08-16T16:17:08.647943",
+  "last_huggingface_check": "2026-08-16T16:17:12.827144",
+  "last_reddit_check": "2026-08-16T16:17:08.897659",
+  "last_rss_check": "2026-08-16T16:17:08.904904",
+  "last_ransomware_check": "2026-08-16T16:17:09.536615",
+  "last_leak_check": "2026-08-16T16:17:08.808372",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10090,21 +10090,21 @@
     "2026-08-13": 151,
     "2026-08-14": 155,
     "2026-08-15": 105,
-    "2026-08-16": 46
+    "2026-08-16": 48
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 32,
+  "runs_today": 33,
   "last_run_date": "2026-08-16",
-  "last_exploitdb_check": "2026-08-16T15:58:12.496880",
-  "last_darkweb_check": "2026-08-16T15:58:14.031314",
-  "last_cisa_check": "2026-08-16T15:58:12.322266",
-  "last_osint_check": "2026-08-16T15:58:13.192234",
-  "last_redteam_check": "2026-08-16T15:58:13.024605",
-  "last_github_poc_check": "2026-08-16T15:58:13.426863",
-  "last_projectdiscovery_check": "2026-08-16T15:58:13.944598",
-  "last_telegram_check": "2026-08-16T15:58:13.709452",
-  "last_papers_check": "2026-08-16T15:58:14.163613",
-  "last_bugbounty_check": "2026-08-16T15:58:16.835046"
+  "last_exploitdb_check": "2026-08-16T16:17:07.223547",
+  "last_darkweb_check": "2026-08-16T16:17:08.954319",
+  "last_cisa_check": "2026-08-16T16:17:07.148449",
+  "last_osint_check": "2026-08-16T16:17:08.175038",
+  "last_redteam_check": "2026-08-16T16:17:08.185457",
+  "last_github_poc_check": "2026-08-16T16:17:08.683558",
+  "last_projectdiscovery_check": "2026-08-16T16:17:08.507339",
+  "last_telegram_check": "2026-08-16T16:17:09.168809",
+  "last_papers_check": "2026-08-16T16:17:10.105366",
+  "last_bugbounty_check": "2026-08-16T16:17:12.074123"
 }
