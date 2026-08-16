@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-16T00:38:39.733791",
+  "last_run": "2026-08-16T02:11:35.069113",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/clsmight/CVE-2026-41940-PoC",
     "https://github.com/EaEa0001/security-advisories/blob/main/CVE-2026-30120.md",
     "https://github.com/EaEa0001/security-advisories/blob/main/CVE-2026-30121.md",
     "https://github.com/actuator/com.estmob.android.sendanywhere/blob/main/CVE-2025-68713",
@@ -5001,10 +5000,10 @@
     "https://plugins.trac.wordpress.org/browser/hydra-booking/trunk/admin/Controller/HostsController.php#L495",
     "https://plugins.trac.wordpress.org/browser/beaver-builder-lite-version/tags/2.10.1.5/classes/class-fl-builder-model.php#L4659",
     "https://plugins.trac.wordpress.org/browser/contest-gallery/tags/30.0.6/ajax/ajax-functions-backend.php#L135",
-    "https://plugins.trac.wordpress.org/browser/image-uploader-for-welcart/tags/1.4.6/image-uploader-for-welcart.php#L26"
+    "https://plugins.trac.wordpress.org/browser/image-uploader-for-welcart/tags/1.4.6/image-uploader-for-welcart.php#L26",
+    "https://huggingface.co/philbert440/Qwen3.8-27B-Uncensored-Cyber-W4A16-AWQ"
   ],
   "processed_hashes": [
-    "e9901f6350cf3bd2",
     "87919cb76848a316",
     "81ea62955ced05d8",
     "00ecc733850f5cd8",
@@ -10003,16 +10002,17 @@
     "a58ac4d181b530e8",
     "5812c49fbc6ad332",
     "874639192c4ee2ad",
-    "a721b266a4027803"
+    "a721b266a4027803",
+    "6d2ce789ce650647"
   ],
-  "last_cve_check": "2026-08-16T00:38:10.353220",
+  "last_cve_check": "2026-08-16T02:11:09.428519",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-16T00:38:11.636391",
-  "last_huggingface_check": "2026-08-16T00:38:13.933601",
-  "last_reddit_check": "2026-08-16T00:38:12.210587",
-  "last_rss_check": "2026-08-16T00:38:12.417939",
-  "last_ransomware_check": "2026-08-16T00:38:12.851546",
-  "last_leak_check": "2026-08-16T00:38:12.327808",
+  "last_github_check": "2026-08-16T02:11:10.475236",
+  "last_huggingface_check": "2026-08-16T02:11:12.562161",
+  "last_reddit_check": "2026-08-16T02:11:11.101842",
+  "last_rss_check": "2026-08-16T02:11:11.220018",
+  "last_ransomware_check": "2026-08-16T02:11:11.606851",
+  "last_leak_check": "2026-08-16T02:11:11.072223",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10089,21 +10089,22 @@
     "2026-08-12": 131,
     "2026-08-13": 151,
     "2026-08-14": 155,
-    "2026-08-15": 105
+    "2026-08-15": 105,
+    "2026-08-16": 1
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 1,
+  "runs_today": 2,
   "last_run_date": "2026-08-16",
-  "last_exploitdb_check": "2026-08-16T00:38:10.925780",
-  "last_darkweb_check": "2026-08-16T00:38:12.448078",
-  "last_cisa_check": "2026-08-16T00:38:10.722530",
-  "last_osint_check": "2026-08-16T00:38:11.133586",
-  "last_redteam_check": "2026-08-16T00:38:11.171985",
-  "last_github_poc_check": "2026-08-16T00:38:11.475856",
-  "last_projectdiscovery_check": "2026-08-16T00:38:12.314274",
-  "last_telegram_check": "2026-08-16T00:38:11.974893",
-  "last_papers_check": "2026-08-16T00:38:13.014642",
-  "last_bugbounty_check": "2026-08-16T00:38:18.020415"
+  "last_exploitdb_check": "2026-08-16T02:11:10.014449",
+  "last_darkweb_check": "2026-08-16T02:11:11.339425",
+  "last_cisa_check": "2026-08-16T02:11:09.626737",
+  "last_osint_check": "2026-08-16T02:11:10.107451",
+  "last_redteam_check": "2026-08-16T02:11:10.027933",
+  "last_github_poc_check": "2026-08-16T02:11:10.453013",
+  "last_projectdiscovery_check": "2026-08-16T02:11:11.307282",
+  "last_telegram_check": "2026-08-16T02:11:10.861831",
+  "last_papers_check": "2026-08-16T02:11:13.793632",
+  "last_bugbounty_check": "2026-08-16T02:11:14.562088"
 }
