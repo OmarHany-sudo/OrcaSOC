@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-17T16:21:51.062220",
+  "last_run": "2026-08-17T16:54:37.133302",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47647",
     "https://github.com/pgadmin-org/pgadmin4/commit/bf4792444446f0e7ab721d23cbd6bfe6afaa7a8b",
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54130",
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-32174",
@@ -5001,10 +5000,10 @@
     "https://github.com/assimp/assimp/issues/6632",
     "https://github.com/Vorlixx/subdomain-recon-tool",
     "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-    "https://github.com/gomarble-ai/facebook-ads-mcp-server/"
+    "https://github.com/gomarble-ai/facebook-ads-mcp-server/",
+    "https://huggingface.co/Krypto-Whitehat/qwen3.8-9b-cyber-exploit-agent"
   ],
   "processed_hashes": [
-    "e60a05801f968735",
     "1b1d506f37ff3bd4",
     "8fabae4759177edb",
     "a4744743ac27b55b",
@@ -10003,16 +10002,17 @@
     "0bc14bf2a2f28d39",
     "989546d296beca39",
     "a1208b7718894889",
-    "ee07bacd143574a6"
+    "ee07bacd143574a6",
+    "2a322792b07a9cec"
   ],
-  "last_cve_check": "2026-08-17T16:21:22.106055",
+  "last_cve_check": "2026-08-17T16:54:05.575779",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-17T16:21:23.677251",
-  "last_huggingface_check": "2026-08-17T16:21:26.312839",
-  "last_reddit_check": "2026-08-17T16:21:24.268230",
-  "last_rss_check": "2026-08-17T16:21:24.571884",
-  "last_ransomware_check": "2026-08-17T16:21:24.791302",
-  "last_leak_check": "2026-08-17T16:21:24.314621",
+  "last_github_check": "2026-08-17T16:54:07.061249",
+  "last_huggingface_check": "2026-08-17T16:54:10.976949",
+  "last_reddit_check": "2026-08-17T16:54:07.237605",
+  "last_rss_check": "2026-08-17T16:54:07.051905",
+  "last_ransomware_check": "2026-08-17T16:54:07.712710",
+  "last_leak_check": "2026-08-17T16:54:07.234554",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10091,21 +10091,21 @@
     "2026-08-14": 155,
     "2026-08-15": 105,
     "2026-08-16": 62,
-    "2026-08-17": 90
+    "2026-08-17": 91
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 25,
+  "runs_today": 26,
   "last_run_date": "2026-08-17",
-  "last_exploitdb_check": "2026-08-17T16:21:22.540567",
-  "last_darkweb_check": "2026-08-17T16:21:24.438741",
-  "last_cisa_check": "2026-08-17T16:21:22.313859",
-  "last_osint_check": "2026-08-17T16:21:23.273888",
-  "last_redteam_check": "2026-08-17T16:21:23.354171",
-  "last_github_poc_check": "2026-08-17T16:21:23.466565",
-  "last_projectdiscovery_check": "2026-08-17T16:21:24.075721",
-  "last_telegram_check": "2026-08-17T16:21:24.056735",
-  "last_papers_check": "2026-08-17T16:21:24.621825",
-  "last_bugbounty_check": "2026-08-17T16:21:27.342782"
+  "last_exploitdb_check": "2026-08-17T16:54:05.825554",
+  "last_darkweb_check": "2026-08-17T16:54:07.358327",
+  "last_cisa_check": "2026-08-17T16:54:05.746217",
+  "last_osint_check": "2026-08-17T16:54:06.485207",
+  "last_redteam_check": "2026-08-17T16:54:06.269507",
+  "last_github_poc_check": "2026-08-17T16:54:06.849876",
+  "last_projectdiscovery_check": "2026-08-17T16:54:07.312994",
+  "last_telegram_check": "2026-08-17T16:54:07.526944",
+  "last_papers_check": "2026-08-17T16:54:08.189068",
+  "last_bugbounty_check": "2026-08-17T16:54:13.166190"
 }
