@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-17T13:15:31.566644",
+  "last_run": "2026-08-17T13:54:20.748808",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/cometd/cometd/discussions/2116",
-    "https://github.com/geoserver/geoserver/releases/tag/2.27.0",
     "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
     "https://github.com/geoserver/geoserver/pull/8584",
     "https://github.com/geoserver/geoserver/pull/8622",
@@ -5001,11 +4999,11 @@
     "https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html",
     "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
     "https://huggingface.co/khoin68/Qwen2.5-Coder-7B-Vietnamese-Agent-FINAL-GGUF",
-    "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html"
+    "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+    "https://www.exploit-db.com/exploits/52642",
+    "https://github.com/scriban/scriban/security/advisories/GHSA-x6m9-38vm-2xhf"
   ],
   "processed_hashes": [
-    "141930d12c20a6db",
-    "17a895921cdb05d8",
     "2ada2ec6317c7a82",
     "94576ae41cdfc5cd",
     "cef1521049e030cc",
@@ -10003,16 +10001,18 @@
     "700b49d44004c2f9",
     "62a9891b2e077b3a",
     "1639b1bb107a966f",
-    "8d5b016608e65dc0"
+    "8d5b016608e65dc0",
+    "b024a7229705dca3",
+    "19a1d93ceb07f8bd"
   ],
-  "last_cve_check": "2026-08-17T13:15:08.558512",
+  "last_cve_check": "2026-08-17T13:53:54.920889",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-17T13:15:09.561905",
-  "last_huggingface_check": "2026-08-17T13:15:14.301554",
-  "last_reddit_check": "2026-08-17T13:15:09.852775",
-  "last_rss_check": "2026-08-17T13:15:09.763806",
-  "last_ransomware_check": "2026-08-17T13:15:10.567639",
-  "last_leak_check": "2026-08-17T13:15:09.968833",
+  "last_github_check": "2026-08-17T13:54:01.555587",
+  "last_huggingface_check": "2026-08-17T13:54:00.475995",
+  "last_reddit_check": "2026-08-17T13:53:59.579350",
+  "last_rss_check": "2026-08-17T13:53:56.661396",
+  "last_ransomware_check": "2026-08-17T13:54:00.717691",
+  "last_leak_check": "2026-08-17T13:53:59.990635",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10091,21 +10091,21 @@
     "2026-08-14": 155,
     "2026-08-15": 105,
     "2026-08-16": 62,
-    "2026-08-17": 63
+    "2026-08-17": 65
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 18,
+  "runs_today": 19,
   "last_run_date": "2026-08-17",
-  "last_exploitdb_check": "2026-08-17T13:15:09.020393",
-  "last_darkweb_check": "2026-08-17T13:15:10.067293",
-  "last_cisa_check": "2026-08-17T13:15:08.697883",
-  "last_osint_check": "2026-08-17T13:15:09.319393",
-  "last_redteam_check": "2026-08-17T13:15:09.352563",
-  "last_github_poc_check": "2026-08-17T13:15:09.586713",
-  "last_projectdiscovery_check": "2026-08-17T13:15:10.977066",
-  "last_telegram_check": "2026-08-17T13:15:10.018364",
-  "last_papers_check": "2026-08-17T13:15:14.084784",
-  "last_bugbounty_check": "2026-08-17T13:15:15.545503"
+  "last_exploitdb_check": "2026-08-17T13:53:55.348303",
+  "last_darkweb_check": "2026-08-17T13:54:00.062029",
+  "last_cisa_check": "2026-08-17T13:53:55.062448",
+  "last_osint_check": "2026-08-17T13:53:59.831960",
+  "last_redteam_check": "2026-08-17T13:53:59.726267",
+  "last_github_poc_check": "2026-08-17T13:54:01.398147",
+  "last_projectdiscovery_check": "2026-08-17T13:53:57.526767",
+  "last_telegram_check": "2026-08-17T13:54:00.011105",
+  "last_papers_check": "2026-08-17T13:53:59.248964",
+  "last_bugbounty_check": "2026-08-17T13:54:04.354751"
 }
