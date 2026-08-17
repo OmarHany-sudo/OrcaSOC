@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-17T08:25:01.688218",
+  "last_run": "2026-08-17T09:08:34.798243",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://huggingface.co/cyberagent/CAT-Translate-7b",
-    "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
     "https://huggingface.co/mwhyd2262/Saffah-DeepSeek-V5-Cyber",
     "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
     "https://huggingface.co/enosislabs/aether-0.8b-cyber-onnx",
@@ -5001,11 +4999,11 @@
     "https://github.com/scriban/scriban/security/advisories/GHSA-m2p3-hwv5-xpqw",
     "https://github.com/scriban/scriban/security/advisories/GHSA-6q7j-xr26-3h2c",
     "https://github.com/scriban/scriban/security/advisories/GHSA-xcx6-vp38-8hr5",
-    "https://github.com/scriban/scriban/security/advisories/GHSA-xw6w-9jjh-p9cr"
+    "https://github.com/scriban/scriban/security/advisories/GHSA-xw6w-9jjh-p9cr",
+    "https://huggingface.co/nbpedro315/Dolphin3-Cyber-8B-GGUF",
+    "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/"
   ],
   "processed_hashes": [
-    "c05dc03b9a7a86d9",
-    "b2bed74fd678e89c",
     "ae84bd2e7b550169",
     "72416f020d85c9f4",
     "cd014a2f0c4cfd6d",
@@ -10003,16 +10001,18 @@
     "f789df0849ea98c4",
     "8eafb9f23f4ef8a5",
     "71bcc908eef98f4d",
-    "bdc76dfbf602eb80"
+    "bdc76dfbf602eb80",
+    "524a5e7fd40887c6",
+    "76a41226a4437bb0"
   ],
-  "last_cve_check": "2026-08-17T08:24:24.134480",
+  "last_cve_check": "2026-08-17T09:07:58.267036",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-17T08:24:24.722520",
-  "last_huggingface_check": "2026-08-17T08:24:28.417380",
-  "last_reddit_check": "2026-08-17T08:24:25.693693",
-  "last_rss_check": "2026-08-17T08:24:25.446642",
-  "last_ransomware_check": "2026-08-17T08:24:25.959237",
-  "last_leak_check": "2026-08-17T08:24:25.476872",
+  "last_github_check": "2026-08-17T09:07:57.881063",
+  "last_huggingface_check": "2026-08-17T09:08:02.855674",
+  "last_reddit_check": "2026-08-17T09:07:58.632487",
+  "last_rss_check": "2026-08-17T09:07:58.908636",
+  "last_ransomware_check": "2026-08-17T09:07:59.525480",
+  "last_leak_check": "2026-08-17T09:07:58.923371",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10091,21 +10091,21 @@
     "2026-08-14": 155,
     "2026-08-15": 105,
     "2026-08-16": 62,
-    "2026-08-17": 45
+    "2026-08-17": 47
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 10,
+  "runs_today": 11,
   "last_run_date": "2026-08-17",
-  "last_exploitdb_check": "2026-08-17T08:24:24.793560",
-  "last_darkweb_check": "2026-08-17T08:24:25.820154",
-  "last_cisa_check": "2026-08-17T08:24:24.409190",
-  "last_osint_check": "2026-08-17T08:24:24.328699",
-  "last_redteam_check": "2026-08-17T08:24:24.352602",
-  "last_github_poc_check": "2026-08-17T08:24:24.674416",
-  "last_projectdiscovery_check": "2026-08-17T08:24:26.093061",
-  "last_telegram_check": "2026-08-17T08:24:25.195929",
-  "last_papers_check": "2026-08-17T08:24:26.408224",
-  "last_bugbounty_check": "2026-08-17T08:24:29.679638"
+  "last_exploitdb_check": "2026-08-17T09:07:57.843331",
+  "last_darkweb_check": "2026-08-17T09:07:59.034230",
+  "last_cisa_check": "2026-08-17T09:07:57.674034",
+  "last_osint_check": "2026-08-17T09:07:57.740100",
+  "last_redteam_check": "2026-08-17T09:07:57.541674",
+  "last_github_poc_check": "2026-08-17T09:07:57.996894",
+  "last_projectdiscovery_check": "2026-08-17T09:07:59.377210",
+  "last_telegram_check": "2026-08-17T09:07:58.704371",
+  "last_papers_check": "2026-08-17T09:07:59.802440",
+  "last_bugbounty_check": "2026-08-17T09:08:02.339953"
 }
