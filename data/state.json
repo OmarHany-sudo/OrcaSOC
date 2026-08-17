@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-17T22:00:13.909271",
+  "last_run": "2026-08-17T22:21:58.839207",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/thorsten/phpMyFAQ/commit/d5c195b1ecf5dc30fb825d7eb50d22481c24cb07",
     "https://github.com/open-webui/open-webui/security/advisories/GHSA-r2wg-2mcr-66rv",
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-47633",
     "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-169-01.json",
@@ -5001,10 +5000,10 @@
     "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
     "https://github.com/dev-joshua-py/NetWARRIOR",
     "https://github.com/1ChaoRen1/IOT/blob/main/CF-N1-S-V2.6.0.1%20.pdf",
-    "https://github.com/Kstriabintang/phishing-forensics"
+    "https://github.com/Kstriabintang/phishing-forensics",
+    "https://github.com/AdminSafe/CVE/issues/1"
   ],
   "processed_hashes": [
-    "c90a5237c69a6e11",
     "885df6ebd7f65750",
     "baf4dcebfc6925d2",
     "c067d4b8350d91de",
@@ -10003,16 +10002,17 @@
     "2ca8483598db719a",
     "ae2db52680554830",
     "10c9693d97bb2fe3",
-    "e42f91e0e8cf828c"
+    "e42f91e0e8cf828c",
+    "1c27a69313b7a789"
   ],
-  "last_cve_check": "2026-08-17T21:59:50.078626",
+  "last_cve_check": "2026-08-17T22:21:26.845122",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-17T21:59:51.358892",
-  "last_huggingface_check": "2026-08-17T21:59:53.351702",
-  "last_reddit_check": "2026-08-17T21:59:51.644294",
-  "last_rss_check": "2026-08-17T21:59:52.267648",
-  "last_ransomware_check": "2026-08-17T21:59:52.199326",
-  "last_leak_check": "2026-08-17T21:59:51.862451",
+  "last_github_check": "2026-08-17T22:21:28.487009",
+  "last_huggingface_check": "2026-08-17T22:21:32.151530",
+  "last_reddit_check": "2026-08-17T22:21:28.864305",
+  "last_rss_check": "2026-08-17T22:21:28.430264",
+  "last_ransomware_check": "2026-08-17T22:21:29.300422",
+  "last_leak_check": "2026-08-17T22:21:28.676769",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10091,21 +10091,21 @@
     "2026-08-14": 155,
     "2026-08-15": 105,
     "2026-08-16": 62,
-    "2026-08-17": 97
+    "2026-08-17": 98
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 37,
+  "runs_today": 38,
   "last_run_date": "2026-08-17",
-  "last_exploitdb_check": "2026-08-17T21:59:50.539247",
-  "last_darkweb_check": "2026-08-17T21:59:51.902547",
-  "last_cisa_check": "2026-08-17T21:59:50.278601",
-  "last_osint_check": "2026-08-17T21:59:51.371457",
-  "last_redteam_check": "2026-08-17T21:59:51.131657",
-  "last_github_poc_check": "2026-08-17T21:59:51.406085",
-  "last_projectdiscovery_check": "2026-08-17T21:59:51.743803",
-  "last_telegram_check": "2026-08-17T21:59:51.723737",
-  "last_papers_check": "2026-08-17T21:59:53.060344",
-  "last_bugbounty_check": "2026-08-17T21:59:55.580239"
+  "last_exploitdb_check": "2026-08-17T22:21:27.044243",
+  "last_darkweb_check": "2026-08-17T22:21:28.913667",
+  "last_cisa_check": "2026-08-17T22:21:26.980702",
+  "last_osint_check": "2026-08-17T22:21:28.430775",
+  "last_redteam_check": "2026-08-17T22:21:27.919006",
+  "last_github_poc_check": "2026-08-17T22:21:28.230828",
+  "last_projectdiscovery_check": "2026-08-17T22:21:28.659376",
+  "last_telegram_check": "2026-08-17T22:21:28.934084",
+  "last_papers_check": "2026-08-17T22:21:29.684593",
+  "last_bugbounty_check": "2026-08-17T22:21:32.226481"
 }
