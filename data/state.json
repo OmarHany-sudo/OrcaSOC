@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-18T20:40:03.098994",
+  "last_run": "2026-08-18T21:00:09.448138",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://arxiv.org/abs/2606.23679v1",
     "https://arxiv.org/abs/2606.23591v1",
     "https://hackerone.com/reports/3817602",
     "https://huggingface.co/Chunjiang-Intelligence/DeepSeek-v4-Fable",
@@ -5001,10 +5000,10 @@
     "https://github.com/deskflow/deskflow/commit/205a3c803e5298d56683660736ec1a41b671b56e",
     "https://github.com/jumpserver/jumpserver/commit/cc57ba0de5f6015746fae11cfc62402b11618e59",
     "https://github.com/jumpserver/jumpserver/commit/1803be11a410eb99cd171d47053b697a119c4a50",
-    "https://github.com/jumpserver/jumpserver/security/advisories/GHSA-x6rg-36j6-76vr"
+    "https://github.com/jumpserver/jumpserver/security/advisories/GHSA-x6rg-36j6-76vr",
+    "https://github.com/openemr/openemr/commit/2d8a69f0f343c8e8c6ee1b42d224c24a7a4ba415"
   ],
   "processed_hashes": [
-    "1f8f642eafc4ef03",
     "0c83335cdfce4cf0",
     "df89d291b0c88385",
     "67f8726cc4bb2527",
@@ -10003,16 +10002,17 @@
     "3cf0e76a4e00e7a9",
     "f2a083d63128369c",
     "ee94237e1411c86c",
-    "45502bc2db13fb75"
+    "45502bc2db13fb75",
+    "2ee74d97e8598041"
   ],
-  "last_cve_check": "2026-08-18T20:39:28.623829",
+  "last_cve_check": "2026-08-18T20:59:35.483455",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-18T20:39:30.236775",
-  "last_huggingface_check": "2026-08-18T20:39:34.324466",
-  "last_reddit_check": "2026-08-18T20:39:30.745338",
-  "last_rss_check": "2026-08-18T20:39:30.893018",
-  "last_ransomware_check": "2026-08-18T20:39:31.390465",
-  "last_leak_check": "2026-08-18T20:39:30.667846",
+  "last_github_check": "2026-08-18T20:59:36.681686",
+  "last_huggingface_check": "2026-08-18T20:59:41.527483",
+  "last_reddit_check": "2026-08-18T20:59:37.231976",
+  "last_rss_check": "2026-08-18T20:59:37.459577",
+  "last_ransomware_check": "2026-08-18T20:59:38.059426",
+  "last_leak_check": "2026-08-18T20:59:37.405651",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10092,21 +10092,21 @@
     "2026-08-15": 105,
     "2026-08-16": 62,
     "2026-08-17": 100,
-    "2026-08-18": 130
+    "2026-08-18": 131
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 35,
+  "runs_today": 36,
   "last_run_date": "2026-08-18",
-  "last_exploitdb_check": "2026-08-18T20:39:28.842439",
-  "last_darkweb_check": "2026-08-18T20:39:30.937547",
-  "last_cisa_check": "2026-08-18T20:39:28.769260",
-  "last_osint_check": "2026-08-18T20:39:30.293751",
-  "last_redteam_check": "2026-08-18T20:39:30.123525",
-  "last_github_poc_check": "2026-08-18T20:39:30.511873",
-  "last_projectdiscovery_check": "2026-08-18T20:39:30.508653",
-  "last_telegram_check": "2026-08-18T20:39:31.014812",
-  "last_papers_check": "2026-08-18T20:39:31.923205",
-  "last_bugbounty_check": "2026-08-18T20:39:34.340046"
+  "last_exploitdb_check": "2026-08-18T20:59:35.898449",
+  "last_darkweb_check": "2026-08-18T20:59:37.530113",
+  "last_cisa_check": "2026-08-18T20:59:35.703224",
+  "last_osint_check": "2026-08-18T20:59:36.461568",
+  "last_redteam_check": "2026-08-18T20:59:36.368346",
+  "last_github_poc_check": "2026-08-18T20:59:36.753104",
+  "last_projectdiscovery_check": "2026-08-18T20:59:37.735705",
+  "last_telegram_check": "2026-08-18T20:59:37.272538",
+  "last_papers_check": "2026-08-18T20:59:37.995025",
+  "last_bugbounty_check": "2026-08-18T20:59:40.723538"
 }
