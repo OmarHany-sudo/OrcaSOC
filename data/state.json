@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-18T11:39:06.555229",
+  "last_run": "2026-08-18T12:01:24.889265",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/strukturag/libheif/security/advisories/GHSA-r7qj-cg5r-r6vf",
     "https://github.com/KnpLabs/snappy/security/advisories/GHSA-c5fp-p67m-gq56",
     "https://www.exploit-db.com/exploits/47832",
     "https://plugins.trac.wordpress.org/browser/contact-form-entries/tags/1.5.1/contact-form-entries.php#L435",
@@ -5001,10 +5000,10 @@
     "https://github.com/roundcube/roundcubemail/releases/tag/1.6.18",
     "https://github.com/roundcube/roundcubemail/commit/1cebea03474305d9f75a9a33d30880d290b5591b",
     "https://github.com/roundcube/roundcubemail/commit/0893e192adf803c7a5a89fafc80278257e1bcf65",
-    "https://github.com/roundcube/roundcubemail/commit/65b8ea9d8304b10f1d3bda5bcc82f9c682cf804c"
+    "https://github.com/roundcube/roundcubemail/commit/65b8ea9d8304b10f1d3bda5bcc82f9c682cf804c",
+    "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html"
   ],
   "processed_hashes": [
-    "dccd4ad48c67a84e",
     "5401259a416b13ea",
     "b1470d9764c9eedd",
     "930194cd2bc407f0",
@@ -10003,16 +10002,17 @@
     "a913028cdac8f1d3",
     "f145f37e8955032d",
     "7614ba2d71496a1c",
-    "887303aa2961908e"
+    "887303aa2961908e",
+    "e37de0b2b0cf269f"
   ],
-  "last_cve_check": "2026-08-18T11:38:37.451670",
+  "last_cve_check": "2026-08-18T12:00:54.894365",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-18T11:38:38.654355",
-  "last_huggingface_check": "2026-08-18T11:38:42.638046",
-  "last_reddit_check": "2026-08-18T11:38:39.009099",
-  "last_rss_check": "2026-08-18T11:38:38.806430",
-  "last_ransomware_check": "2026-08-18T11:38:39.500461",
-  "last_leak_check": "2026-08-18T11:38:38.982266",
+  "last_github_check": "2026-08-18T12:00:56.363513",
+  "last_huggingface_check": "2026-08-18T12:01:00.463396",
+  "last_reddit_check": "2026-08-18T12:00:56.722966",
+  "last_rss_check": "2026-08-18T12:00:56.504376",
+  "last_ransomware_check": "2026-08-18T12:01:01.648588",
+  "last_leak_check": "2026-08-18T12:00:56.662080",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10092,21 +10092,21 @@
     "2026-08-15": 105,
     "2026-08-16": 62,
     "2026-08-17": 100,
-    "2026-08-18": 51
+    "2026-08-18": 52
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 18,
+  "runs_today": 19,
   "last_run_date": "2026-08-18",
-  "last_exploitdb_check": "2026-08-18T11:38:37.714097",
-  "last_darkweb_check": "2026-08-18T11:38:39.204482",
-  "last_cisa_check": "2026-08-18T11:38:37.614483",
-  "last_osint_check": "2026-08-18T11:38:38.372142",
-  "last_redteam_check": "2026-08-18T11:38:38.234920",
-  "last_github_poc_check": "2026-08-18T11:38:38.629061",
-  "last_projectdiscovery_check": "2026-08-18T11:38:39.332164",
-  "last_telegram_check": "2026-08-18T11:38:39.144429",
-  "last_papers_check": "2026-08-18T11:38:40.187074",
-  "last_bugbounty_check": "2026-08-18T11:38:42.353486"
+  "last_exploitdb_check": "2026-08-18T12:00:55.278594",
+  "last_darkweb_check": "2026-08-18T12:00:56.906180",
+  "last_cisa_check": "2026-08-18T12:00:55.037339",
+  "last_osint_check": "2026-08-18T12:00:55.975268",
+  "last_redteam_check": "2026-08-18T12:00:55.885056",
+  "last_github_poc_check": "2026-08-18T12:00:56.379727",
+  "last_projectdiscovery_check": "2026-08-18T12:00:57.030672",
+  "last_telegram_check": "2026-08-18T12:00:56.851697",
+  "last_papers_check": "2026-08-18T12:00:57.556997",
+  "last_bugbounty_check": "2026-08-18T12:01:00.255180"
 }
