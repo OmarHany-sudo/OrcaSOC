@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-19T19:26:32.046778",
+  "last_run": "2026-08-19T19:48:27.993911",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://plugins.trac.wordpress.org/browser/signup-signin/tags/1.0.0/lib/function.php#L222",
     "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
     "https://github.com/himanshuh4cker/AutoRecon-AI",
     "https://huggingface.co/HikmaAI/hikmaai-mdeberta-v3-base-malicious-url",
@@ -5001,10 +5000,10 @@
     "https://github.com/cisagov/Malcolm/security/advisories/GHSA-f2v6-8cj4-mhr6",
     "https://github.com/ZcashFoundation/zebra/commit/1440b43ca7df59aca948090d45117557b217a6cd",
     "https://github.com/frangoteam/FUXA/commit/3c945a03f9942fd45a793ab7e3c2d1f1b15b93bf",
-    "https://github.com/AshtonKopelevich/SJ-GPS-PRO-F11-Vulnerability"
+    "https://github.com/AshtonKopelevich/SJ-GPS-PRO-F11-Vulnerability",
+    "https://github.com/laflame0p/ThreatFox-Malicious-IP-Feed"
   ],
   "processed_hashes": [
-    "681da9c7cf9166f5",
     "1c859e80c5095cbb",
     "79eb7bfbaebeaa90",
     "316ff15849fec558",
@@ -10003,16 +10002,17 @@
     "00b870b1f1fd6258",
     "688af09a4add9a5c",
     "df15adb1b6b0224d",
-    "5b09daa0d629daf3"
+    "5b09daa0d629daf3",
+    "9b47157254bf1d66"
   ],
-  "last_cve_check": "2026-08-19T19:26:06.798119",
+  "last_cve_check": "2026-08-19T19:48:02.052829",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-19T19:26:08.320898",
-  "last_huggingface_check": "2026-08-19T19:26:13.300664",
-  "last_reddit_check": "2026-08-19T19:26:08.939333",
-  "last_rss_check": "2026-08-19T19:26:08.935513",
-  "last_ransomware_check": "2026-08-19T19:26:09.416244",
-  "last_leak_check": "2026-08-19T19:26:09.089467",
+  "last_github_check": "2026-08-19T19:48:03.253770",
+  "last_huggingface_check": "2026-08-19T19:48:05.821493",
+  "last_reddit_check": "2026-08-19T19:48:03.766815",
+  "last_rss_check": "2026-08-19T19:48:03.729522",
+  "last_ransomware_check": "2026-08-19T19:48:04.133495",
+  "last_leak_check": "2026-08-19T19:48:03.671136",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10093,21 +10093,21 @@
     "2026-08-16": 62,
     "2026-08-17": 100,
     "2026-08-18": 159,
-    "2026-08-19": 131
+    "2026-08-19": 132
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 31,
+  "runs_today": 32,
   "last_run_date": "2026-08-19",
-  "last_exploitdb_check": "2026-08-19T19:26:07.224521",
-  "last_darkweb_check": "2026-08-19T19:26:09.015811",
-  "last_cisa_check": "2026-08-19T19:26:06.938511",
-  "last_osint_check": "2026-08-19T19:26:08.188987",
-  "last_redteam_check": "2026-08-19T19:26:07.990787",
-  "last_github_poc_check": "2026-08-19T19:26:08.285166",
-  "last_projectdiscovery_check": "2026-08-19T19:26:08.890226",
-  "last_telegram_check": "2026-08-19T19:26:08.814273",
-  "last_papers_check": "2026-08-19T19:26:10.086174",
-  "last_bugbounty_check": "2026-08-19T19:26:12.464116"
+  "last_exploitdb_check": "2026-08-19T19:48:02.380713",
+  "last_darkweb_check": "2026-08-19T19:48:03.789877",
+  "last_cisa_check": "2026-08-19T19:48:02.181936",
+  "last_osint_check": "2026-08-19T19:48:03.231519",
+  "last_redteam_check": "2026-08-19T19:48:03.047983",
+  "last_github_poc_check": "2026-08-19T19:48:03.161236",
+  "last_projectdiscovery_check": "2026-08-19T19:48:03.441996",
+  "last_telegram_check": "2026-08-19T19:48:03.577674",
+  "last_papers_check": "2026-08-19T19:48:04.460477",
+  "last_bugbounty_check": "2026-08-19T19:48:06.994354"
 }
