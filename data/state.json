@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-19T00:37:59.021367",
+  "last_run": "2026-08-19T02:08:54.825922",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/mmaitre314/picklescan/security/advisories/GHSA-xp4f-hrf8-rxw7",
-    "https://github.com/mmaitre314/picklescan/security/advisories/GHSA-6556-fwc2-fg2p",
     "https://github.com/chimurai/http-proxy-middleware/security/advisories/GHSA-gcq2-9pq2-cxqm",
     "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
     "https://huggingface.co/ihugo911/Qwythos-9B-Claude-Mythos-5-1M",
@@ -5001,11 +4999,11 @@
     "https://github.com/projectdiscovery/nuclei-templates/releases/tag/v10.4.5",
     "https://gist.github.com/nedlir/744e55b267daab6f74b76bdc6f0d711d",
     "https://github.com/smicallef/spiderfoot",
-    "https://access.redhat.com/security/cve/CVE-2026-19608"
+    "https://access.redhat.com/security/cve/CVE-2026-19608",
+    "https://github.com/bastillion-io/Bastillion",
+    "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0851"
   ],
   "processed_hashes": [
-    "3f75a895cfcc6cef",
-    "094d9da39b118388",
     "0804d935c96fb527",
     "8858febde745db8e",
     "4952dc5a9e0ec759",
@@ -10003,16 +10001,18 @@
     "cad88278c2a38101",
     "19166a86881600b1",
     "c3acecc5e56e1656",
-    "b26d195a73ca0457"
+    "b26d195a73ca0457",
+    "cf266d20e242d850",
+    "1ebc992782c5151f"
   ],
-  "last_cve_check": "2026-08-19T00:37:35.927392",
+  "last_cve_check": "2026-08-19T02:07:59.943985",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-19T00:37:37.173240",
-  "last_huggingface_check": "2026-08-19T00:37:38.086213",
-  "last_reddit_check": "2026-08-19T00:37:37.718329",
-  "last_rss_check": "2026-08-19T00:37:37.650124",
-  "last_ransomware_check": "2026-08-19T00:37:38.198833",
-  "last_leak_check": "2026-08-19T00:37:37.667065",
+  "last_github_check": "2026-08-19T02:08:00.601007",
+  "last_huggingface_check": "2026-08-19T02:08:03.374478",
+  "last_reddit_check": "2026-08-19T02:08:01.346380",
+  "last_rss_check": "2026-08-19T02:08:01.275063",
+  "last_ransomware_check": "2026-08-19T02:08:01.703897",
+  "last_leak_check": "2026-08-19T02:08:01.223800",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10093,21 +10093,21 @@
     "2026-08-16": 62,
     "2026-08-17": 100,
     "2026-08-18": 159,
-    "2026-08-19": 3
+    "2026-08-19": 5
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 1,
+  "runs_today": 2,
   "last_run_date": "2026-08-19",
-  "last_exploitdb_check": "2026-08-19T00:37:36.244438",
-  "last_darkweb_check": "2026-08-19T00:37:37.721467",
-  "last_cisa_check": "2026-08-19T00:37:36.029435",
-  "last_osint_check": "2026-08-19T00:37:36.794505",
-  "last_redteam_check": "2026-08-19T00:37:36.671654",
-  "last_github_poc_check": "2026-08-19T00:37:37.098191",
-  "last_projectdiscovery_check": "2026-08-19T00:37:37.457063",
-  "last_telegram_check": "2026-08-19T00:37:37.458182",
-  "last_papers_check": "2026-08-19T00:37:37.897005",
-  "last_bugbounty_check": "2026-08-19T00:37:40.693801"
+  "last_exploitdb_check": "2026-08-19T02:08:00.352538",
+  "last_darkweb_check": "2026-08-19T02:08:01.455131",
+  "last_cisa_check": "2026-08-19T02:08:00.147143",
+  "last_osint_check": "2026-08-19T02:08:00.322731",
+  "last_redteam_check": "2026-08-19T02:08:00.297658",
+  "last_github_poc_check": "2026-08-19T02:08:00.591309",
+  "last_projectdiscovery_check": "2026-08-19T02:08:01.614471",
+  "last_telegram_check": "2026-08-19T02:08:00.980030",
+  "last_papers_check": "2026-08-19T02:08:31.516527",
+  "last_bugbounty_check": "2026-08-19T02:08:04.900170"
 }
