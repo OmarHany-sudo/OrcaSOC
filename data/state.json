@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-19T07:04:52.123757",
+  "last_run": "2026-08-19T07:53:41.498940",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/MessagePack-CSharp/MessagePack-CSharp/security/advisories/GHSA-382j-8mxh-c7x2",
     "https://github.com/filamentphp/filament/security/advisories/GHSA-mc5j-f6wx-h9qh",
     "https://github.com/MessagePack-CSharp/MessagePack-CSharp/security/advisories/GHSA-vh6j-jc39-fggf",
     "https://github.com/MessagePack-CSharp/MessagePack-CSharp/security/advisories/GHSA-2x83-8g95-xh59",
@@ -5001,10 +5000,10 @@
     "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-4vpg-gwqq-w44c",
     "https://github.com/sinyblack59-del/OpenC2-Framework",
     "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-qq8m-8p8v-x4xg",
-    "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-48p5-pffc-5r9p"
+    "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-48p5-pffc-5r9p",
+    "https://github.com/human2sec/COMPUTER-SCIENCE-4-MALWARE-OFFSEC-TOOLS-DEVELOPMENT"
   ],
   "processed_hashes": [
-    "55a1537c85a08bd6",
     "3c876fd410b3bc57",
     "adb304d8fd637700",
     "241636b2836a9700",
@@ -10003,16 +10002,17 @@
     "e33264c6d63c217b",
     "9d600131821a23eb",
     "66f71de7c5aac68e",
-    "a7bf5a78afb7f288"
+    "a7bf5a78afb7f288",
+    "3bf93d480c618635"
   ],
-  "last_cve_check": "2026-08-19T07:04:22.254900",
+  "last_cve_check": "2026-08-19T07:53:05.494766",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-19T07:04:23.467458",
-  "last_huggingface_check": "2026-08-19T07:04:24.160253",
-  "last_reddit_check": "2026-08-19T07:04:23.675123",
-  "last_rss_check": "2026-08-19T07:04:23.379705",
-  "last_ransomware_check": "2026-08-19T07:04:24.082191",
-  "last_leak_check": "2026-08-19T07:04:23.600338",
+  "last_github_check": "2026-08-19T07:53:06.700169",
+  "last_huggingface_check": "2026-08-19T07:53:09.386536",
+  "last_reddit_check": "2026-08-19T07:53:07.574924",
+  "last_rss_check": "2026-08-19T07:53:07.760584",
+  "last_ransomware_check": "2026-08-19T07:53:08.029143",
+  "last_leak_check": "2026-08-19T07:53:07.479842",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10093,21 +10093,21 @@
     "2026-08-16": 62,
     "2026-08-17": 100,
     "2026-08-18": 159,
-    "2026-08-19": 13
+    "2026-08-19": 14
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 9,
+  "runs_today": 10,
   "last_run_date": "2026-08-19",
-  "last_exploitdb_check": "2026-08-19T07:04:22.559017",
-  "last_darkweb_check": "2026-08-19T07:04:23.715627",
-  "last_cisa_check": "2026-08-19T07:04:22.367478",
-  "last_osint_check": "2026-08-19T07:04:22.986346",
-  "last_redteam_check": "2026-08-19T07:04:23.021586",
-  "last_github_poc_check": "2026-08-19T07:04:23.355843",
-  "last_projectdiscovery_check": "2026-08-19T07:04:24.079701",
-  "last_telegram_check": "2026-08-19T07:04:23.661073",
-  "last_papers_check": "2026-08-19T07:04:24.549237",
-  "last_bugbounty_check": "2026-08-19T07:04:33.856992"
+  "last_exploitdb_check": "2026-08-19T07:53:05.933556",
+  "last_darkweb_check": "2026-08-19T07:53:07.686949",
+  "last_cisa_check": "2026-08-19T07:53:05.715768",
+  "last_osint_check": "2026-08-19T07:53:06.444528",
+  "last_redteam_check": "2026-08-19T07:53:06.480658",
+  "last_github_poc_check": "2026-08-19T07:53:06.765060",
+  "last_projectdiscovery_check": "2026-08-19T07:53:07.290387",
+  "last_telegram_check": "2026-08-19T07:53:07.179804",
+  "last_papers_check": "2026-08-19T07:53:08.113253",
+  "last_bugbounty_check": "2026-08-19T07:53:18.682557"
 }
