@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-19T16:20:24.360189",
+  "last_run": "2026-08-19T16:55:18.425943",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/denoland/deno/pull/34391",
-    "https://github.com/denoland/deno/security/advisories/GHSA-v8fw-85r8-5m23",
     "https://bugs.ghostscript.com/show_bug.cgi?id=708840",
     "https://github.com/JazzTheRabbit/FreePBX-SQLi-RCE",
     "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
@@ -5001,11 +4999,11 @@
     "https://github.com/givanz/Vvveb/commit/3d5c15dcf4b50e4580161f05cb9e643d834d044a",
     "https://github.com/fbeta-GmbH/ePA3-Service-OpenSource/commit/85c4c516088c38b9cf2343f388ad67a6744e9814",
     "https://github.com/fbeta-GmbH/ePA3-Service-OpenSource/commit/b984d15d261423302de337adae25e84c54e9c2d1",
-    "https://github.com/goauthentik/authentik/commit/e638de23217480854ec5e48ca6fceae479321f99"
+    "https://github.com/goauthentik/authentik/commit/e638de23217480854ec5e48ca6fceae479321f99",
+    "https://huggingface.co/SoulInPsyAbstract/specialist-vuln-merged-hermes43-lora",
+    "https://github.com/givanz/Vvveb/commit/1f2b117c1460818c9306a78f22c12f0b713886df"
   ],
   "processed_hashes": [
-    "524b0b77ff27a5fa",
-    "b29b906ed12469d6",
     "bd72f5ddded275cf",
     "3bd00cc126c89770",
     "bba46d468de2995d",
@@ -10003,16 +10001,18 @@
     "b4764b799730af0c",
     "e192c53c9077ce5b",
     "7e4bb2294ecd7f7c",
-    "088a7320df98a37e"
+    "088a7320df98a37e",
+    "7a12fac5305d75e0",
+    "cb679bf7f1fe9d11"
   ],
-  "last_cve_check": "2026-08-19T16:19:52.911609",
+  "last_cve_check": "2026-08-19T16:54:55.529279",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-19T16:19:54.269274",
-  "last_huggingface_check": "2026-08-19T16:19:56.744549",
-  "last_reddit_check": "2026-08-19T16:19:55.089902",
-  "last_rss_check": "2026-08-19T16:19:55.011595",
-  "last_ransomware_check": "2026-08-19T16:19:55.489809",
-  "last_leak_check": "2026-08-19T16:19:54.957106",
+  "last_github_check": "2026-08-19T16:54:56.853849",
+  "last_huggingface_check": "2026-08-19T16:55:00.389203",
+  "last_reddit_check": "2026-08-19T16:54:57.426294",
+  "last_rss_check": "2026-08-19T16:54:57.622333",
+  "last_ransomware_check": "2026-08-19T16:54:58.100139",
+  "last_leak_check": "2026-08-19T16:54:57.688372",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10093,21 +10093,21 @@
     "2026-08-16": 62,
     "2026-08-17": 100,
     "2026-08-18": 159,
-    "2026-08-19": 88
+    "2026-08-19": 90
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 25,
+  "runs_today": 26,
   "last_run_date": "2026-08-19",
-  "last_exploitdb_check": "2026-08-19T16:19:53.356335",
-  "last_darkweb_check": "2026-08-19T16:19:55.118304",
-  "last_cisa_check": "2026-08-19T16:19:53.158125",
-  "last_osint_check": "2026-08-19T16:19:54.023425",
-  "last_redteam_check": "2026-08-19T16:19:54.091893",
-  "last_github_poc_check": "2026-08-19T16:19:54.248199",
-  "last_projectdiscovery_check": "2026-08-19T16:19:54.735312",
-  "last_telegram_check": "2026-08-19T16:19:54.630674",
-  "last_papers_check": "2026-08-19T16:19:55.740408",
-  "last_bugbounty_check": "2026-08-19T16:19:58.079541"
+  "last_exploitdb_check": "2026-08-19T16:54:55.923328",
+  "last_darkweb_check": "2026-08-19T16:54:57.765131",
+  "last_cisa_check": "2026-08-19T16:54:55.645929",
+  "last_osint_check": "2026-08-19T16:54:56.547117",
+  "last_redteam_check": "2026-08-19T16:54:56.635928",
+  "last_github_poc_check": "2026-08-19T16:54:57.086460",
+  "last_projectdiscovery_check": "2026-08-19T16:55:01.711056",
+  "last_telegram_check": "2026-08-19T16:54:57.540857",
+  "last_papers_check": "2026-08-19T16:54:58.145717",
+  "last_bugbounty_check": "2026-08-19T16:55:01.376016"
 }
