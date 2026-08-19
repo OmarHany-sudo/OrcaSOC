@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-19T15:22:43.484272",
+  "last_run": "2026-08-19T15:55:37.288067",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/nanocoai/nanoclaw/commit/6227bd1a5b016fb1eb76411bb6681b4c924a51a0",
-    "http://cboard.com",
     "https://github.com/nanocoai/nanoclaw/commit/ac37ecbfd6b9d14fdfa1598a6412a8ffdbeaef45",
     "https://github.com/nanocoai/nanoclaw/commit/0eef8fafdd7c475ab5fd8d37ea566a81e74cd834",
     "https://github.com/gpac/gpac/commit/027ce139dda498ee95df36db9f9f6f3cadce8ec9",
@@ -5001,11 +4999,11 @@
     "https://github.com/typedefabcd1234ntd/CVE-2026-19500-poc",
     "https://github.com/mybb/mybb/commit/c2ed54f9259b9ce05728a9e657169033fe4adffc",
     "https://github.com/mybb/mybb/commit/c077e6c29755187c4df78a1e674dd61bc55701b3",
-    "https://github.com/mybb/mybb/commit/5046c56b515d4593297a4f65b0c6ccb0b55baa01"
+    "https://github.com/mybb/mybb/commit/5046c56b515d4593297a4f65b0c6ccb0b55baa01",
+    "https://github.com/onkar531/red-team-learning",
+    "https://huggingface.co/Ishowbackup/Muse-Glimmer-30B-Abliterated-BF16"
   ],
   "processed_hashes": [
-    "ff5c83c67ab0311b",
-    "c5fc1b2ece226d55",
     "5180f312307cd966",
     "3e817dc29d7771a2",
     "0db7b1735ae41762",
@@ -10003,16 +10001,18 @@
     "b410e1de935cc39a",
     "cc5736f093ee422d",
     "b6f5a5971ad1ec90",
-    "685647882c0ac4d3"
+    "685647882c0ac4d3",
+    "6ebb587f8626962a",
+    "7ed16c7d2e7864cc"
   ],
-  "last_cve_check": "2026-08-19T15:22:12.154935",
+  "last_cve_check": "2026-08-19T15:55:09.661297",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-19T15:22:14.003285",
-  "last_huggingface_check": "2026-08-19T15:22:18.010557",
-  "last_reddit_check": "2026-08-19T15:22:14.392559",
-  "last_rss_check": "2026-08-19T15:22:14.282123",
-  "last_ransomware_check": "2026-08-19T15:22:14.972624",
-  "last_leak_check": "2026-08-19T15:22:14.404194",
+  "last_github_check": "2026-08-19T15:55:11.066020",
+  "last_huggingface_check": "2026-08-19T15:55:12.454523",
+  "last_reddit_check": "2026-08-19T15:55:11.743770",
+  "last_rss_check": "2026-08-19T15:55:11.124155",
+  "last_ransomware_check": "2026-08-19T15:55:11.910017",
+  "last_leak_check": "2026-08-19T15:55:11.483720",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10093,21 +10093,21 @@
     "2026-08-16": 62,
     "2026-08-17": 100,
     "2026-08-18": 159,
-    "2026-08-19": 73
+    "2026-08-19": 75
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 23,
+  "runs_today": 24,
   "last_run_date": "2026-08-19",
-  "last_exploitdb_check": "2026-08-19T15:22:12.497518",
-  "last_darkweb_check": "2026-08-19T15:22:14.454066",
-  "last_cisa_check": "2026-08-19T15:22:12.281216",
-  "last_osint_check": "2026-08-19T15:22:13.651308",
-  "last_redteam_check": "2026-08-19T15:22:13.574548",
-  "last_github_poc_check": "2026-08-19T15:22:13.902705",
-  "last_projectdiscovery_check": "2026-08-19T15:22:14.248545",
-  "last_telegram_check": "2026-08-19T15:22:14.509859",
-  "last_papers_check": "2026-08-19T15:22:14.904414",
-  "last_bugbounty_check": "2026-08-19T15:22:18.253728"
+  "last_exploitdb_check": "2026-08-19T15:55:09.944674",
+  "last_darkweb_check": "2026-08-19T15:55:11.583961",
+  "last_cisa_check": "2026-08-19T15:55:09.844719",
+  "last_osint_check": "2026-08-19T15:55:10.955124",
+  "last_redteam_check": "2026-08-19T15:55:10.976257",
+  "last_github_poc_check": "2026-08-19T15:55:11.263284",
+  "last_projectdiscovery_check": "2026-08-19T15:55:11.262034",
+  "last_telegram_check": "2026-08-19T15:55:11.437314",
+  "last_papers_check": "2026-08-19T15:55:12.472117",
+  "last_bugbounty_check": "2026-08-19T15:55:15.576986"
 }
