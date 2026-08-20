@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-20T16:23:26.997482",
+  "last_run": "2026-08-20T17:00:21.051484",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/houseabsolute/List-SomeUtils-XS/commit/22549f78669b780d6aa338a2d2e49a3dedfffaa6.patch",
     "https://github.com/MHSanaei/3x-ui/security/advisories/GHSA-jm48-m3rr-9hgg",
     "https://github.com/vim/vim/commit/b3faeecc976d3031d7c0675623516ec60c30f949",
     "http://www.dest-unreach.org/socat/CHANGES",
@@ -5001,10 +5000,10 @@
     "https://github.com/wazuh/wazuh/commit/1a38d11574c6d35a4272e1e7145d55d293e7dda4",
     "https://github.com/klsecservices/Advisories/blob/master/KLSA-00230-Rockchip-RK3588s-Secure-BootROM-TOCTOU-vulnerability.md",
     "https://github.com/wazuh/wazuh/commit/5ecea7b38b998407cb0d205467dd247140a0f981",
-    "https://github.com/wazuh/wazuh/commit/cddf3fd16b0f945b28eb9c27714de3cc344e0926"
+    "https://github.com/wazuh/wazuh/commit/cddf3fd16b0f945b28eb9c27714de3cc344e0926",
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh"
   ],
   "processed_hashes": [
-    "44f2fc82ef106b9d",
     "8426bdffed414f12",
     "d3ba4746d16f8905",
     "e68c0d817aa4b0fa",
@@ -10003,16 +10002,17 @@
     "bf36de0e2375e13a",
     "92d43336695d7d6c",
     "e0c0d099a5d22d8d",
-    "0ae380adf982e058"
+    "0ae380adf982e058",
+    "a011fea16d55160d"
   ],
-  "last_cve_check": "2026-08-20T16:22:51.789029",
+  "last_cve_check": "2026-08-20T16:59:57.096838",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-20T16:22:53.397919",
-  "last_huggingface_check": "2026-08-20T16:22:57.371648",
-  "last_reddit_check": "2026-08-20T16:22:53.791314",
-  "last_rss_check": "2026-08-20T16:22:53.440228",
-  "last_ransomware_check": "2026-08-20T16:22:54.228440",
-  "last_leak_check": "2026-08-20T16:22:53.752792",
+  "last_github_check": "2026-08-20T16:59:58.569548",
+  "last_huggingface_check": "2026-08-20T17:00:03.622336",
+  "last_reddit_check": "2026-08-20T16:59:59.242012",
+  "last_rss_check": "2026-08-20T16:59:59.018224",
+  "last_ransomware_check": "2026-08-20T16:59:59.865220",
+  "last_leak_check": "2026-08-20T16:59:59.305197",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10094,21 +10094,21 @@
     "2026-08-17": 100,
     "2026-08-18": 159,
     "2026-08-19": 171,
-    "2026-08-20": 94
+    "2026-08-20": 95
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 24,
+  "runs_today": 25,
   "last_run_date": "2026-08-20",
-  "last_exploitdb_check": "2026-08-20T16:22:52.250304",
-  "last_darkweb_check": "2026-08-20T16:22:53.845660",
-  "last_cisa_check": "2026-08-20T16:22:51.980984",
-  "last_osint_check": "2026-08-20T16:22:53.331273",
-  "last_redteam_check": "2026-08-20T16:22:52.971601",
-  "last_github_poc_check": "2026-08-20T16:22:53.550115",
-  "last_projectdiscovery_check": "2026-08-20T16:22:53.675187",
-  "last_telegram_check": "2026-08-20T16:22:53.941011",
-  "last_papers_check": "2026-08-20T16:22:54.866189",
-  "last_bugbounty_check": "2026-08-20T16:22:57.858289"
+  "last_exploitdb_check": "2026-08-20T16:59:57.428484",
+  "last_darkweb_check": "2026-08-20T16:59:59.325750",
+  "last_cisa_check": "2026-08-20T16:59:57.292970",
+  "last_osint_check": "2026-08-20T16:59:58.464964",
+  "last_redteam_check": "2026-08-20T16:59:58.151122",
+  "last_github_poc_check": "2026-08-20T16:59:58.561246",
+  "last_projectdiscovery_check": "2026-08-20T16:59:59.126414",
+  "last_telegram_check": "2026-08-20T16:59:59.018030",
+  "last_papers_check": "2026-08-20T17:00:00.084503",
+  "last_bugbounty_check": "2026-08-20T17:00:03.997007"
 }
