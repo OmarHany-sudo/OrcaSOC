@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-20T22:27:40.541032",
+  "last_run": "2026-08-20T22:53:13.038382",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-6933-jpx5-q87q",
     "https://github.com/myth-tools/orion",
     "https://www.darkreading.com/application-security/initiative-tackles-security-end-of-life-open-source",
     "https://access.redhat.com/errata/RHSA-2026:30083",
@@ -5001,10 +5000,10 @@
     "https://www.ibm.com/support/pages/node/7284322",
     "https://github.com/tinacms/tinacms/commit/211997cdb53cbd43638bdee999faa65375cfc260",
     "https://github.com/chenhg5/cc-connect/",
-    "https://gitlab.com/wireshark/wireshark/-/work_items/21478"
+    "https://gitlab.com/wireshark/wireshark/-/work_items/21478",
+    "https://gitlab.com/wireshark/wireshark/-/work_items/21439"
   ],
   "processed_hashes": [
-    "3f18aa82a754b85f",
     "f9c0af04b90dda41",
     "62230ad7fd696dff",
     "1568ff3c1532ac11",
@@ -10003,16 +10002,17 @@
     "2ae866bc690c6fe9",
     "3c50bc84959a6692",
     "fe4eb48837d8cb16",
-    "df448a32efb72253"
+    "df448a32efb72253",
+    "5db52593eebef5e3"
   ],
-  "last_cve_check": "2026-08-20T22:27:06.685642",
+  "last_cve_check": "2026-08-20T22:52:45.748310",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-20T22:27:08.640877",
-  "last_huggingface_check": "2026-08-20T22:27:12.196878",
-  "last_reddit_check": "2026-08-20T22:27:08.683496",
-  "last_rss_check": "2026-08-20T22:27:08.504915",
-  "last_ransomware_check": "2026-08-20T22:27:09.340882",
-  "last_leak_check": "2026-08-20T22:27:08.725755",
+  "last_github_check": "2026-08-20T22:52:47.078071",
+  "last_huggingface_check": "2026-08-20T22:52:49.285756",
+  "last_reddit_check": "2026-08-20T22:52:47.530219",
+  "last_rss_check": "2026-08-20T22:52:47.621056",
+  "last_ransomware_check": "2026-08-20T22:52:47.990181",
+  "last_leak_check": "2026-08-20T22:52:47.576039",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10094,21 +10094,21 @@
     "2026-08-17": 100,
     "2026-08-18": 159,
     "2026-08-19": 171,
-    "2026-08-20": 157
+    "2026-08-20": 158
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 36,
+  "runs_today": 37,
   "last_run_date": "2026-08-20",
-  "last_exploitdb_check": "2026-08-20T22:27:07.073937",
-  "last_darkweb_check": "2026-08-20T22:27:08.780847",
-  "last_cisa_check": "2026-08-20T22:27:06.825854",
-  "last_osint_check": "2026-08-20T22:27:08.196492",
-  "last_redteam_check": "2026-08-20T22:27:08.405244",
-  "last_github_poc_check": "2026-08-20T22:27:08.576424",
-  "last_projectdiscovery_check": "2026-08-20T22:27:08.403437",
-  "last_telegram_check": "2026-08-20T22:27:08.957579",
-  "last_papers_check": "2026-08-20T22:27:09.693139",
-  "last_bugbounty_check": "2026-08-20T22:27:11.933924"
+  "last_exploitdb_check": "2026-08-20T22:52:46.201327",
+  "last_darkweb_check": "2026-08-20T22:52:47.654279",
+  "last_cisa_check": "2026-08-20T22:52:45.958841",
+  "last_osint_check": "2026-08-20T22:52:47.104428",
+  "last_redteam_check": "2026-08-20T22:52:46.911609",
+  "last_github_poc_check": "2026-08-20T22:52:47.099834",
+  "last_projectdiscovery_check": "2026-08-20T22:52:47.371261",
+  "last_telegram_check": "2026-08-20T22:52:47.457228",
+  "last_papers_check": "2026-08-20T22:52:47.982999",
+  "last_bugbounty_check": "2026-08-20T22:52:50.968532"
 }
