@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-20T13:26:28.307235",
+  "last_run": "2026-08-20T14:07:59.610986",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://wpscan.com/vulnerability/bf59610b-98ba-4c05-b2fc-85c163e9a389/",
     "https://plugins.trac.wordpress.org/browser/tourfic/tags/2.22.7/inc/Classes/Helper.php#L1164",
     "https://www.nlnetlabs.nl/downloads/nsd/CVE-2026-12246.txt",
     "https://www.nlnetlabs.nl/downloads/nsd/CVE-2026-12245.txt",
@@ -5001,10 +5000,10 @@
     "https://github.com/renovatebot/renovate/security/advisories/GHSA-36rh-ggpr-j3gj",
     "https://github.com/renovatebot/renovate/security/advisories/GHSA-rqgv-292v-5qgr",
     "https://access.redhat.com/security/cve/CVE-2026-43961",
-    "https://github.com/renovatebot/renovate/security/advisories/GHSA-v7x3-7hw7-pcjg"
+    "https://github.com/renovatebot/renovate/security/advisories/GHSA-v7x3-7hw7-pcjg",
+    "https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign"
   ],
   "processed_hashes": [
-    "96964cde232fcb1e",
     "e31f1b61a109ca53",
     "f87e65e1d46236fd",
     "e2ea2a8d14551800",
@@ -10003,16 +10002,17 @@
     "702d39a1957b01e2",
     "092f85acca025c89",
     "9d4546d2179da9a4",
-    "c2c0c32d626edf7f"
+    "c2c0c32d626edf7f",
+    "8919bbb4def3fbb9"
   ],
-  "last_cve_check": "2026-08-20T13:25:58.574277",
+  "last_cve_check": "2026-08-20T14:07:26.885004",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-20T13:25:59.920195",
-  "last_huggingface_check": "2026-08-20T13:26:00.844590",
-  "last_reddit_check": "2026-08-20T13:26:00.260865",
-  "last_rss_check": "2026-08-20T13:26:00.977535",
-  "last_ransomware_check": "2026-08-20T13:26:00.507427",
-  "last_leak_check": "2026-08-20T13:26:00.102409",
+  "last_github_check": "2026-08-20T14:07:28.225085",
+  "last_huggingface_check": "2026-08-20T14:07:29.369869",
+  "last_reddit_check": "2026-08-20T14:07:28.626833",
+  "last_rss_check": "2026-08-20T14:07:28.249561",
+  "last_ransomware_check": "2026-08-20T14:07:28.962800",
+  "last_leak_check": "2026-08-20T14:07:28.462271",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10094,21 +10094,21 @@
     "2026-08-17": 100,
     "2026-08-18": 159,
     "2026-08-19": 171,
-    "2026-08-20": 59
+    "2026-08-20": 60
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 19,
+  "runs_today": 20,
   "last_run_date": "2026-08-20",
-  "last_exploitdb_check": "2026-08-20T13:25:58.901564",
-  "last_darkweb_check": "2026-08-20T13:26:00.309557",
-  "last_cisa_check": "2026-08-20T13:25:58.666204",
-  "last_osint_check": "2026-08-20T13:25:59.735960",
-  "last_redteam_check": "2026-08-20T13:25:59.533466",
-  "last_github_poc_check": "2026-08-20T13:25:59.871775",
-  "last_projectdiscovery_check": "2026-08-20T13:25:59.910321",
-  "last_telegram_check": "2026-08-20T13:26:00.206189",
-  "last_papers_check": "2026-08-20T13:26:01.198419",
-  "last_bugbounty_check": "2026-08-20T13:26:05.641331"
+  "last_exploitdb_check": "2026-08-20T14:07:27.189275",
+  "last_darkweb_check": "2026-08-20T14:07:28.620138",
+  "last_cisa_check": "2026-08-20T14:07:27.025711",
+  "last_osint_check": "2026-08-20T14:07:28.192190",
+  "last_redteam_check": "2026-08-20T14:07:27.966836",
+  "last_github_poc_check": "2026-08-20T14:07:28.171635",
+  "last_projectdiscovery_check": "2026-08-20T14:07:28.302666",
+  "last_telegram_check": "2026-08-20T14:07:28.526273",
+  "last_papers_check": "2026-08-20T14:07:29.288424",
+  "last_bugbounty_check": "2026-08-20T14:07:37.649171"
 }
