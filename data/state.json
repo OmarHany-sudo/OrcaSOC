@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-20T10:20:50.994818",
+  "last_run": "2026-08-20T10:56:19.869361",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/alkaserGG/Alkaser-Recon-Pipeline",
     "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-1-1-released/",
     "https://www.nlnetlabs.nl/downloads/nsd/CVE-2026-12244.txt",
     "https://dokan.co/",
@@ -5001,10 +5000,10 @@
     "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
     "https://huggingface.co/Weilin0/BackdoorDM",
     "https://patchstack.com/database/wordpress/plugin/ecab-taxi-booking-manager/vulnerability/wordpress-taxi-booking-manager-for-woocommerce-plugin-2-0-8-broken-access-control-vulnerability?_s_id=cve",
-    "https://patchstack.com/database/wordpress/plugin/flexible-subscriptions/vulnerability/wordpress-flexible-subscriptions-plugin-1-8-1-php-object-injection-vulnerability?_s_id=cve"
+    "https://patchstack.com/database/wordpress/plugin/flexible-subscriptions/vulnerability/wordpress-flexible-subscriptions-plugin-1-8-1-php-object-injection-vulnerability?_s_id=cve",
+    "https://github.com/harshitp1971/subsense"
   ],
   "processed_hashes": [
-    "d6e758287c7f4919",
     "7af652524cc155ee",
     "fa41606543f5b0b6",
     "e14f6ab75411d372",
@@ -10003,16 +10002,17 @@
     "e66baf66c251963c",
     "c616debda9ce54f1",
     "774948905d078e58",
-    "6b78b0ecba437cc6"
+    "6b78b0ecba437cc6",
+    "516aa8f4be5de3fa"
   ],
-  "last_cve_check": "2026-08-20T10:20:18.243218",
+  "last_cve_check": "2026-08-20T10:55:46.590858",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-20T10:20:19.090526",
-  "last_huggingface_check": "2026-08-20T10:20:21.612320",
-  "last_reddit_check": "2026-08-20T10:20:19.748955",
-  "last_rss_check": "2026-08-20T10:20:20.297408",
-  "last_ransomware_check": "2026-08-20T10:20:20.224974",
-  "last_leak_check": "2026-08-20T10:20:19.778355",
+  "last_github_check": "2026-08-20T10:55:48.481159",
+  "last_huggingface_check": "2026-08-20T10:55:52.793958",
+  "last_reddit_check": "2026-08-20T10:55:48.725772",
+  "last_rss_check": "2026-08-20T10:55:49.021972",
+  "last_ransomware_check": "2026-08-20T10:55:49.434601",
+  "last_leak_check": "2026-08-20T10:55:48.669661",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10094,21 +10094,21 @@
     "2026-08-17": 100,
     "2026-08-18": 159,
     "2026-08-19": 171,
-    "2026-08-20": 44
+    "2026-08-20": 45
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 14,
+  "runs_today": 15,
   "last_run_date": "2026-08-20",
-  "last_exploitdb_check": "2026-08-20T10:20:18.909207",
-  "last_darkweb_check": "2026-08-20T10:20:20.186905",
-  "last_cisa_check": "2026-08-20T10:20:18.515370",
-  "last_osint_check": "2026-08-20T10:20:18.912444",
-  "last_redteam_check": "2026-08-20T10:20:18.794665",
-  "last_github_poc_check": "2026-08-20T10:20:19.158795",
-  "last_projectdiscovery_check": "2026-08-20T10:20:20.145016",
-  "last_telegram_check": "2026-08-20T10:20:19.521949",
-  "last_papers_check": "2026-08-20T10:20:20.073165",
-  "last_bugbounty_check": "2026-08-20T10:20:24.777420"
+  "last_exploitdb_check": "2026-08-20T10:55:46.941269",
+  "last_darkweb_check": "2026-08-20T10:55:48.868792",
+  "last_cisa_check": "2026-08-20T10:55:46.750641",
+  "last_osint_check": "2026-08-20T10:55:48.070902",
+  "last_redteam_check": "2026-08-20T10:55:47.816929",
+  "last_github_poc_check": "2026-08-20T10:55:48.225473",
+  "last_projectdiscovery_check": "2026-08-20T10:55:48.340824",
+  "last_telegram_check": "2026-08-20T10:55:48.809202",
+  "last_papers_check": "2026-08-20T10:55:50.063897",
+  "last_bugbounty_check": "2026-08-20T10:55:56.401118"
 }
