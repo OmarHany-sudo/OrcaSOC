@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-20T19:44:22.501847",
+  "last_run": "2026-08-20T20:02:59.972352",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/parse-community/parse-server/security/advisories/GHSA-593v-wcqx-hq2w",
     "https://www.darkreading.com/identity-access-management-security/cisco-adds-nhi-security-stack-with-astrix-widefield",
     "https://github.com/FlowiseAI/Flowise/commit/8bd3de41533de78e4ef6c980e5704a1f9cb7ae6f",
     "https://huggingface.co/developerjeremylive/Qwythos-9B-Claude-Mythos-5-1M-etheroi",
@@ -5001,10 +5000,10 @@
     "https://www.ibm.com/support/pages/node/7283893",
     "https://www.ibm.com/support/pages/node/7283217",
     "https://www.ibm.com/support/pages/node/7283237",
-    "https://www.ibm.com/support/pages/node/7283235"
+    "https://www.ibm.com/support/pages/node/7283235",
+    "https://hackerone.com/reports/3852135"
   ],
   "processed_hashes": [
-    "6f8fc60a1df610e3",
     "b7eb0ae643a36959",
     "5043e0c462eec9d0",
     "7d39d66ca04f8581",
@@ -10003,16 +10002,17 @@
     "01c96beff9092984",
     "07021cd8707003df",
     "592c787165d824f9",
-    "b3eb690a6a1a6ff0"
+    "b3eb690a6a1a6ff0",
+    "dde208611872f39b"
   ],
-  "last_cve_check": "2026-08-20T19:43:59.583790",
+  "last_cve_check": "2026-08-20T20:02:31.955183",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-20T19:44:00.789593",
-  "last_huggingface_check": "2026-08-20T19:44:04.223465",
-  "last_reddit_check": "2026-08-20T19:44:01.454555",
-  "last_rss_check": "2026-08-20T19:44:01.315234",
-  "last_ransomware_check": "2026-08-20T19:44:01.953783",
-  "last_leak_check": "2026-08-20T19:44:01.594989",
+  "last_github_check": "2026-08-20T20:02:33.019771",
+  "last_huggingface_check": "2026-08-20T20:02:34.271824",
+  "last_reddit_check": "2026-08-20T20:02:33.406430",
+  "last_rss_check": "2026-08-20T20:02:34.122311",
+  "last_ransomware_check": "2026-08-20T20:02:34.060858",
+  "last_leak_check": "2026-08-20T20:02:33.578974",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10094,21 +10094,21 @@
     "2026-08-17": 100,
     "2026-08-18": 159,
     "2026-08-19": 171,
-    "2026-08-20": 126
+    "2026-08-20": 127
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 30,
+  "runs_today": 31,
   "last_run_date": "2026-08-20",
-  "last_exploitdb_check": "2026-08-20T19:43:59.912381",
-  "last_darkweb_check": "2026-08-20T19:44:01.682409",
-  "last_cisa_check": "2026-08-20T19:43:59.786971",
-  "last_osint_check": "2026-08-20T19:44:00.711981",
-  "last_redteam_check": "2026-08-20T19:44:00.573373",
-  "last_github_poc_check": "2026-08-20T19:44:00.863537",
-  "last_projectdiscovery_check": "2026-08-20T19:44:01.778967",
-  "last_telegram_check": "2026-08-20T19:44:01.325827",
-  "last_papers_check": "2026-08-20T19:44:02.131208",
-  "last_bugbounty_check": "2026-08-20T19:44:05.234870"
+  "last_exploitdb_check": "2026-08-20T20:02:32.296389",
+  "last_darkweb_check": "2026-08-20T20:02:33.649478",
+  "last_cisa_check": "2026-08-20T20:02:32.159847",
+  "last_osint_check": "2026-08-20T20:02:33.018705",
+  "last_redteam_check": "2026-08-20T20:02:32.959497",
+  "last_github_poc_check": "2026-08-20T20:02:33.081576",
+  "last_projectdiscovery_check": "2026-08-20T20:02:33.559489",
+  "last_telegram_check": "2026-08-20T20:02:33.379393",
+  "last_papers_check": "2026-08-20T20:02:34.008288",
+  "last_bugbounty_check": "2026-08-20T20:02:37.391439"
 }
