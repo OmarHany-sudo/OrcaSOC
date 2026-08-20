@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-20T07:05:55.942006",
+  "last_run": "2026-08-20T07:56:20.388128",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/Significant-Gravitas/AutoGPT/releases/tag/autogpt-platform-beta-v0.6.52",
     "https://aclara.my.site.com/AclaraConnect/s/",
     "https://hackerone.com/reports/3781492",
     "https://github.com/motioneye-project/motioneye/releases/tag/0.44.0",
@@ -5001,10 +5000,10 @@
     "https://plugins.trac.wordpress.org/browser/translatepress-multilingual/tags/3.2.5/includes/class-translation-render.php#L538",
     "https://security.freebsd.org/advisories/FreeBSD-SA-26:50.kqueue.asc",
     "https://security.freebsd.org/advisories/FreeBSD-SA-26:54.sysvsem.asc",
-    "https://security.freebsd.org/advisories/FreeBSD-SA-26:55.elf.asc"
+    "https://security.freebsd.org/advisories/FreeBSD-SA-26:55.elf.asc",
+    "https://github.com/mazenhamada3/Threat-Hunting-Stuxbot-Campaign-Elastic-SIEM"
   ],
   "processed_hashes": [
-    "3afd1cbde203af1a",
     "9505b24d26c6fc80",
     "7fa7564bffddac54",
     "20ebc0ccebcee493",
@@ -10003,16 +10002,17 @@
     "8d763c0760959c04",
     "03a0b92fdcc4f3b9",
     "fa9e1076646e9c24",
-    "fbdaab62fc760197"
+    "fbdaab62fc760197",
+    "4352409487994ae6"
   ],
-  "last_cve_check": "2026-08-20T07:05:32.552556",
+  "last_cve_check": "2026-08-20T07:55:49.910532",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-20T07:05:33.756155",
-  "last_huggingface_check": "2026-08-20T07:05:37.426798",
-  "last_reddit_check": "2026-08-20T07:05:34.164454",
-  "last_rss_check": "2026-08-20T07:05:34.903629",
-  "last_ransomware_check": "2026-08-20T07:05:39.612556",
-  "last_leak_check": "2026-08-20T07:05:34.409411",
+  "last_github_check": "2026-08-20T07:55:51.438005",
+  "last_huggingface_check": "2026-08-20T07:55:55.453149",
+  "last_reddit_check": "2026-08-20T07:55:51.716218",
+  "last_rss_check": "2026-08-20T07:55:51.964496",
+  "last_ransomware_check": "2026-08-20T07:55:52.542150",
+  "last_leak_check": "2026-08-20T07:55:51.920344",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10094,21 +10094,21 @@
     "2026-08-17": 100,
     "2026-08-18": 159,
     "2026-08-19": 171,
-    "2026-08-20": 26
+    "2026-08-20": 27
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 9,
+  "runs_today": 10,
   "last_run_date": "2026-08-20",
-  "last_exploitdb_check": "2026-08-20T07:05:32.832621",
-  "last_darkweb_check": "2026-08-20T07:05:34.665858",
-  "last_cisa_check": "2026-08-20T07:05:32.676875",
-  "last_osint_check": "2026-08-20T07:05:33.370213",
-  "last_redteam_check": "2026-08-20T07:05:33.270023",
-  "last_github_poc_check": "2026-08-20T07:05:33.856222",
-  "last_projectdiscovery_check": "2026-08-20T07:05:34.566548",
-  "last_telegram_check": "2026-08-20T07:05:34.326217",
-  "last_papers_check": "2026-08-20T07:05:35.735428",
-  "last_bugbounty_check": "2026-08-20T07:05:38.530932"
+  "last_exploitdb_check": "2026-08-20T07:55:50.385686",
+  "last_darkweb_check": "2026-08-20T07:55:52.030940",
+  "last_cisa_check": "2026-08-20T07:55:50.172407",
+  "last_osint_check": "2026-08-20T07:55:50.769694",
+  "last_redteam_check": "2026-08-20T07:55:50.652143",
+  "last_github_poc_check": "2026-08-20T07:55:51.206658",
+  "last_projectdiscovery_check": "2026-08-20T07:55:52.194084",
+  "last_telegram_check": "2026-08-20T07:55:51.918056",
+  "last_papers_check": "2026-08-20T07:55:52.446544",
+  "last_bugbounty_check": "2026-08-20T07:55:57.486717"
 }
