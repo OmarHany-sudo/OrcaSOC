@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-21T16:21:21.908506",
+  "last_run": "2026-08-21T17:00:11.151825",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/opf/openproject/security/advisories/GHSA-f2rx-x2qj-2hgj",
-    "https://github.com/opf/openproject/security/advisories/GHSA-c767-34gh-gh2h",
     "https://github.com/opf/openproject/security/advisories/GHSA-cfg3-f34w-9xx5",
     "https://github.com/opf/openproject/security/advisories/GHSA-p9gq-hrgh-2645",
     "https://devolutions.net/security/advisories/DEVO-2026-0021/",
@@ -5001,11 +4999,11 @@
     "https://www.kenwood.com/cs/ce/mm/firmware/2020/2020f/eng.html",
     "https://www.sony.com/electronics/support/mobile-cd-players-digital-media-players-xav-series/xav-9500es/software/00274922",
     "https://www.zerodayinitiative.com/advisories/ZDI-26-554/",
-    "https://www.zerodayinitiative.com/advisories/ZDI-26-479/"
+    "https://www.zerodayinitiative.com/advisories/ZDI-26-479/",
+    "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
+    "https://kb.nomachine.com/TR06X11869"
   ],
   "processed_hashes": [
-    "47484d08b07b1d22",
-    "51577593f8960e12",
     "12e6b7c85e1fbf97",
     "305ee463fd9875c2",
     "72fc3d3969f7a5f5",
@@ -10003,16 +10001,18 @@
     "fd310ade64c0a020",
     "83b08dee15065b3c",
     "7c6b1fcddadfb996",
-    "84b6bb061ff8f32c"
+    "84b6bb061ff8f32c",
+    "568a8dc490cec3f9",
+    "0a4ced21a03fc74c"
   ],
-  "last_cve_check": "2026-08-21T16:20:48.132107",
+  "last_cve_check": "2026-08-21T16:59:36.043185",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-21T16:20:49.115757",
-  "last_huggingface_check": "2026-08-21T16:20:52.246037",
-  "last_reddit_check": "2026-08-21T16:20:49.491254",
-  "last_rss_check": "2026-08-21T16:20:49.265215",
-  "last_ransomware_check": "2026-08-21T16:20:50.126824",
-  "last_leak_check": "2026-08-21T16:20:49.455660",
+  "last_github_check": "2026-08-21T16:59:37.639071",
+  "last_huggingface_check": "2026-08-21T16:59:40.917959",
+  "last_reddit_check": "2026-08-21T16:59:38.018819",
+  "last_rss_check": "2026-08-21T16:59:38.604069",
+  "last_ransomware_check": "2026-08-21T16:59:38.527661",
+  "last_leak_check": "2026-08-21T16:59:38.008120",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10095,21 +10095,21 @@
     "2026-08-18": 159,
     "2026-08-19": 171,
     "2026-08-20": 166,
-    "2026-08-21": 84
+    "2026-08-21": 86
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 24,
+  "runs_today": 25,
   "last_run_date": "2026-08-21",
-  "last_exploitdb_check": "2026-08-21T16:20:48.649726",
-  "last_darkweb_check": "2026-08-21T16:20:49.667473",
-  "last_cisa_check": "2026-08-21T16:20:48.333108",
-  "last_osint_check": "2026-08-21T16:20:48.964526",
-  "last_redteam_check": "2026-08-21T16:20:48.652119",
-  "last_github_poc_check": "2026-08-21T16:20:49.087763",
-  "last_projectdiscovery_check": "2026-08-21T16:20:50.189062",
-  "last_telegram_check": "2026-08-21T16:20:49.600701",
-  "last_papers_check": "2026-08-21T16:20:50.416999",
-  "last_bugbounty_check": "2026-08-21T16:20:53.044654"
+  "last_exploitdb_check": "2026-08-21T16:59:36.375889",
+  "last_darkweb_check": "2026-08-21T16:59:38.254239",
+  "last_cisa_check": "2026-08-21T16:59:36.251676",
+  "last_osint_check": "2026-08-21T16:59:37.400949",
+  "last_redteam_check": "2026-08-21T16:59:37.314127",
+  "last_github_poc_check": "2026-08-21T16:59:37.695969",
+  "last_projectdiscovery_check": "2026-08-21T16:59:37.833806",
+  "last_telegram_check": "2026-08-21T16:59:38.179759",
+  "last_papers_check": "2026-08-21T16:59:39.122170",
+  "last_bugbounty_check": "2026-08-21T16:59:41.793659"
 }
