@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-21T09:59:14.190826",
+  "last_run": "2026-08-21T10:25:11.034901",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://lists.apache.org/thread/w98h2q8wz0bq97vhz4vf55hqomcb2j1m",
     "https://drive.google.com/file/d/1MoZn73YkDGGpqOgaQbRU1hWVygr8VaxY/view",
     "https://patchstack.com/database/wordpress/plugin/exclusive-addons-for-elementor/vulnerability/wordpress-exclusive-addons-elementor-plugin-2-7-9-8-cross-site-scripting-xss-vulnerability?_s_id=cve",
     "https://lists.apache.org/thread/lk08wlxq9sp64mo8hw6wvjxd3bh3lpqg",
@@ -5001,10 +5000,10 @@
     "https://patchstack.com/database/wordpress/plugin/wpcafe-pro/vulnerability/wordpress-wp-cafe-pro-plugin-3-0-15-local-file-inclusion-vulnerability?_s_id=cve",
     "https://patchstack.com/database/wordpress/theme/altair/vulnerability/wordpress-altair-theme-5-2-2-broken-access-control-vulnerability?_s_id=cve",
     "https://patchstack.com/database/wordpress/theme/capella/vulnerability/wordpress-capella-theme-2-5-5-sql-injection-vulnerability?_s_id=cve",
-    "https://patchstack.com/database/wordpress/plugin/jet-engine/vulnerability/wordpress-jetengine-plugin-3-8-14-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
+    "https://patchstack.com/database/wordpress/plugin/jet-engine/vulnerability/wordpress-jetengine-plugin-3-8-14-1-cross-site-scripting-xss-vulnerability?_s_id=cve",
+    "https://patchstack.com/database/wordpress/plugin/tagembed-widget/vulnerability/wordpress-tagembed-plugin-7-4-cross-site-scripting-xss-vulnerability?_s_id=cve"
   ],
   "processed_hashes": [
-    "fae5ffc2d1f9ce9f",
     "56fc6862d17e578f",
     "832a78a9688d224e",
     "f9e48c7d7fc2cf6a",
@@ -10003,16 +10002,17 @@
     "5b46d1e4fcb7eee2",
     "c5a9c275fcdd65eb",
     "6f02be5055c03c59",
-    "ecfd524b86d133b6"
+    "ecfd524b86d133b6",
+    "d068d0103fae3568"
   ],
-  "last_cve_check": "2026-08-21T09:58:50.801790",
+  "last_cve_check": "2026-08-21T10:24:46.576026",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-21T09:58:52.088594",
-  "last_huggingface_check": "2026-08-21T09:58:52.866959",
-  "last_reddit_check": "2026-08-21T09:58:52.491810",
-  "last_rss_check": "2026-08-21T09:58:52.473296",
-  "last_ransomware_check": "2026-08-21T09:58:52.852200",
-  "last_leak_check": "2026-08-21T09:58:52.582606",
+  "last_github_check": "2026-08-21T10:24:47.716204",
+  "last_huggingface_check": "2026-08-21T10:24:49.121881",
+  "last_reddit_check": "2026-08-21T10:24:48.174520",
+  "last_rss_check": "2026-08-21T10:24:48.362491",
+  "last_ransomware_check": "2026-08-21T10:24:51.762058",
+  "last_leak_check": "2026-08-21T10:24:48.297096",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10095,21 +10095,21 @@
     "2026-08-18": 159,
     "2026-08-19": 171,
     "2026-08-20": 166,
-    "2026-08-21": 28
+    "2026-08-21": 29
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 13,
+  "runs_today": 14,
   "last_run_date": "2026-08-21",
-  "last_exploitdb_check": "2026-08-21T09:58:51.093087",
-  "last_darkweb_check": "2026-08-21T09:58:52.543178",
-  "last_cisa_check": "2026-08-21T09:58:50.910284",
-  "last_osint_check": "2026-08-21T09:58:51.704893",
-  "last_redteam_check": "2026-08-21T09:58:51.632835",
-  "last_github_poc_check": "2026-08-21T09:58:51.970892",
-  "last_projectdiscovery_check": "2026-08-21T09:58:52.410877",
-  "last_telegram_check": "2026-08-21T09:58:52.409255",
-  "last_papers_check": "2026-08-21T09:58:52.992368",
-  "last_bugbounty_check": "2026-08-21T09:58:55.740300"
+  "last_exploitdb_check": "2026-08-21T10:24:46.998701",
+  "last_darkweb_check": "2026-08-21T10:24:48.368182",
+  "last_cisa_check": "2026-08-21T10:24:46.774723",
+  "last_osint_check": "2026-08-21T10:24:47.481238",
+  "last_redteam_check": "2026-08-21T10:24:47.489037",
+  "last_github_poc_check": "2026-08-21T10:24:47.788246",
+  "last_projectdiscovery_check": "2026-08-21T10:24:48.154255",
+  "last_telegram_check": "2026-08-21T10:24:48.156158",
+  "last_papers_check": "2026-08-21T10:24:48.757592",
+  "last_bugbounty_check": "2026-08-21T10:24:51.703497"
 }
