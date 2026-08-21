@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-21T20:42:12.162050",
+  "last_run": "2026-08-21T21:00:25.387676",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/Budibase/budibase/security/advisories/GHSA-jj36-r9w3-3pfh",
     "https://github.com/notepad-plus-plus/notepad-plus-plus/commit/24c7b5c63cece76dbc8c4f2607a27ebfe22fa614",
     "https://github.com/notepad-plus-plus/notepad-plus-plus/commit/6b3dc52a9245c6d8c6287a8d6d93a30981c05feb",
     "https://github.com/notepad-plus-plus/notepad-plus-plus/commit/ea1508855e9c4528f6198ce9d345f13cb759ebf4",
@@ -5001,10 +5000,10 @@
     "https://h00die-gr3y.github.io/research/cve-2026-53804/",
     "https://github.com/axllent/mailpit/commit/993bed95b3c74d95231af93bd0e0d4c3d5b4db4d",
     "https://access.redhat.com/security/cve/CVE-2026-73137",
-    "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_0404570826.html"
+    "https://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_0404570826.html",
+    "https://github.com/Colleen-Roberts8/vulnerability-scanner"
   ],
   "processed_hashes": [
-    "732bad42c3541f4c",
     "8b0e25e19f10f31b",
     "c87dc111884786d8",
     "1cb5982d9766b427",
@@ -10003,16 +10002,17 @@
     "0316dadd79b72fb9",
     "5c0ca07de4b93e5a",
     "7a8256faf1f6eb99",
-    "dc786b4676119660"
+    "dc786b4676119660",
+    "437b44c1f4d5eb23"
   ],
-  "last_cve_check": "2026-08-21T20:41:37.412342",
+  "last_cve_check": "2026-08-21T20:59:58.636112",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-21T20:41:38.947427",
-  "last_huggingface_check": "2026-08-21T20:41:44.269470",
-  "last_reddit_check": "2026-08-21T20:41:39.340690",
-  "last_rss_check": "2026-08-21T20:41:38.989495",
-  "last_ransomware_check": "2026-08-21T20:41:39.988239",
-  "last_leak_check": "2026-08-21T20:41:39.225813",
+  "last_github_check": "2026-08-21T20:59:59.937778",
+  "last_huggingface_check": "2026-08-21T21:00:03.679295",
+  "last_reddit_check": "2026-08-21T21:00:00.507469",
+  "last_rss_check": "2026-08-21T21:00:00.503455",
+  "last_ransomware_check": "2026-08-21T21:00:00.873432",
+  "last_leak_check": "2026-08-21T21:00:00.569476",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10095,21 +10095,21 @@
     "2026-08-18": 159,
     "2026-08-19": 171,
     "2026-08-20": 166,
-    "2026-08-21": 105
+    "2026-08-21": 106
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 33,
+  "runs_today": 34,
   "last_run_date": "2026-08-21",
-  "last_exploitdb_check": "2026-08-21T20:41:37.663001",
-  "last_darkweb_check": "2026-08-21T20:41:39.533286",
-  "last_cisa_check": "2026-08-21T20:41:37.590067",
-  "last_osint_check": "2026-08-21T20:41:38.557320",
-  "last_redteam_check": "2026-08-21T20:41:38.571152",
-  "last_github_poc_check": "2026-08-21T20:41:39.046555",
-  "last_projectdiscovery_check": "2026-08-21T20:41:39.602958",
-  "last_telegram_check": "2026-08-21T20:41:39.483308",
-  "last_papers_check": "2026-08-21T20:41:40.478522",
-  "last_bugbounty_check": "2026-08-21T20:41:42.770543"
+  "last_exploitdb_check": "2026-08-21T20:59:59.152440",
+  "last_darkweb_check": "2026-08-21T21:00:00.574687",
+  "last_cisa_check": "2026-08-21T20:59:58.890767",
+  "last_osint_check": "2026-08-21T20:59:59.754218",
+  "last_redteam_check": "2026-08-21T20:59:59.658393",
+  "last_github_poc_check": "2026-08-21T20:59:59.946661",
+  "last_projectdiscovery_check": "2026-08-21T21:00:00.475581",
+  "last_telegram_check": "2026-08-21T21:00:00.282825",
+  "last_papers_check": "2026-08-21T21:00:00.885203",
+  "last_bugbounty_check": "2026-08-21T21:00:04.705825"
 }
