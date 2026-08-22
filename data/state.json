@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-22T15:57:30.767968",
+  "last_run": "2026-08-22T16:12:57.866027",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://huggingface.co/eadx/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-    "https://huggingface.co/igorvibes/Qwythos-9B-Claude-Mythos-5-1M-oQ8",
     "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
     "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
     "https://github.com/rootkiTED/graylog-cve-2024-24824-exploit",
@@ -5001,11 +4999,11 @@
     "https://github.com/volcengine/OpenViking/commit/41e345896d247e43ab78bbcb38b4a5b1b38ef62c",
     "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/IT/white/2026/va-26-232-02.json",
     "https://github.com/onnx/onnx/security/advisories/GHSA-q56x-g2fj-4rj6",
-    "https://github.com/pratikraman-dev/awesome-ethical-hacking-tools-prohacker"
+    "https://github.com/pratikraman-dev/awesome-ethical-hacking-tools-prohacker",
+    "https://github.com/K3ysTr0K3R/CVE-2026-9198",
+    "https://huggingface.co/deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF"
   ],
   "processed_hashes": [
-    "2e05ef1ebaad8c00",
-    "42cb3650041817e4",
     "65f44972b59c89b3",
     "412f16a342d7e5bb",
     "f2bcae915ab05dca",
@@ -10003,16 +10001,18 @@
     "a65e5eb005485853",
     "2adb6ba3e3258342",
     "57590884df6aa91b",
-    "184f1cd8134359c9"
+    "184f1cd8134359c9",
+    "a1c467447082ac9d",
+    "c13a3b166022c370"
   ],
-  "last_cve_check": "2026-08-22T15:57:02.892405",
+  "last_cve_check": "2026-08-22T16:12:31.154733",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-22T15:57:03.976813",
-  "last_huggingface_check": "2026-08-22T15:57:06.143688",
-  "last_reddit_check": "2026-08-22T15:57:04.299496",
-  "last_rss_check": "2026-08-22T15:57:05.003132",
-  "last_ransomware_check": "2026-08-22T15:57:05.003937",
-  "last_leak_check": "2026-08-22T15:57:04.534664",
+  "last_github_check": "2026-08-22T16:12:32.378499",
+  "last_huggingface_check": "2026-08-22T16:12:33.278016",
+  "last_reddit_check": "2026-08-22T16:12:32.888554",
+  "last_rss_check": "2026-08-22T16:12:32.958023",
+  "last_ransomware_check": "2026-08-22T16:12:33.233859",
+  "last_leak_check": "2026-08-22T16:12:32.734570",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10096,21 +10096,21 @@
     "2026-08-19": 171,
     "2026-08-20": 166,
     "2026-08-21": 112,
-    "2026-08-22": 66
+    "2026-08-22": 68
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 32,
+  "runs_today": 33,
   "last_run_date": "2026-08-22",
-  "last_exploitdb_check": "2026-08-22T15:57:03.286381",
-  "last_darkweb_check": "2026-08-22T15:57:04.584339",
-  "last_cisa_check": "2026-08-22T15:57:03.023574",
-  "last_osint_check": "2026-08-22T15:57:03.838267",
-  "last_redteam_check": "2026-08-22T15:57:03.755485",
-  "last_github_poc_check": "2026-08-22T15:57:03.994328",
-  "last_projectdiscovery_check": "2026-08-22T15:57:04.512145",
-  "last_telegram_check": "2026-08-22T15:57:04.315028",
-  "last_papers_check": "2026-08-22T15:57:04.929171",
-  "last_bugbounty_check": "2026-08-22T15:57:07.672789"
+  "last_exploitdb_check": "2026-08-22T16:12:31.478957",
+  "last_darkweb_check": "2026-08-22T16:12:32.961005",
+  "last_cisa_check": "2026-08-22T16:12:31.283093",
+  "last_osint_check": "2026-08-22T16:12:32.366062",
+  "last_redteam_check": "2026-08-22T16:12:32.044943",
+  "last_github_poc_check": "2026-08-22T16:12:32.434218",
+  "last_projectdiscovery_check": "2026-08-22T16:12:32.519637",
+  "last_telegram_check": "2026-08-22T16:12:32.720327",
+  "last_papers_check": "2026-08-22T16:12:33.251275",
+  "last_bugbounty_check": "2026-08-22T16:12:36.193205"
 }
