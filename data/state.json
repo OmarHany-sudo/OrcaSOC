@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-22T14:18:07.359152",
+  "last_run": "2026-08-22T14:45:54.929926",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/ltranquility/vuln_submit/issues/18",
     "https://github.com/ltranquility/vuln_submit/issues/19",
     "https://github.com/yashpokharna2555/restaurent-management-system/",
     "https://github.com/wooyun123/wooyun/issues/4",
@@ -5001,10 +5000,10 @@
     "https://github.com/Husnainch157/OSINT-RECON",
     "https://github.com/lxc/incus/security/advisories/GHSA-64f3-v33m-w89f",
     "https://github.com/lxc/incus/security/advisories/GHSA-fmjx-5j3g-997p",
-    "https://github.com/lxc/incus/security/advisories/GHSA-6rqx-22hc-qm36"
+    "https://github.com/lxc/incus/security/advisories/GHSA-6rqx-22hc-qm36",
+    "https://huggingface.co/QuaduxIT/Qwen3.8-27B-Whitehat-GGUF"
   ],
   "processed_hashes": [
-    "effe0b8e84a80c30",
     "5ca6319824acf0d1",
     "660f836b85f9f8b1",
     "9bb4abe6e6cb362e",
@@ -10003,16 +10002,17 @@
     "08ce95f198d49093",
     "158418bb38c4983e",
     "034db4e8b2583758",
-    "0c1e1ea1087ed612"
+    "0c1e1ea1087ed612",
+    "29100c0eeb946d27"
   ],
-  "last_cve_check": "2026-08-22T14:17:43.886871",
+  "last_cve_check": "2026-08-22T14:45:30.768369",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-22T14:17:45.080073",
-  "last_huggingface_check": "2026-08-22T14:17:46.091849",
-  "last_reddit_check": "2026-08-22T14:17:45.484796",
-  "last_rss_check": "2026-08-22T14:17:45.074468",
-  "last_ransomware_check": "2026-08-22T14:17:45.914395",
-  "last_leak_check": "2026-08-22T14:17:45.219196",
+  "last_github_check": "2026-08-22T14:45:32.022729",
+  "last_huggingface_check": "2026-08-22T14:45:33.810543",
+  "last_reddit_check": "2026-08-22T14:45:32.238154",
+  "last_rss_check": "2026-08-22T14:45:32.672711",
+  "last_ransomware_check": "2026-08-22T14:45:32.842111",
+  "last_leak_check": "2026-08-22T14:45:32.503140",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10096,21 +10096,21 @@
     "2026-08-19": 171,
     "2026-08-20": 166,
     "2026-08-21": 112,
-    "2026-08-22": 57
+    "2026-08-22": 58
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 27,
+  "runs_today": 28,
   "last_run_date": "2026-08-22",
-  "last_exploitdb_check": "2026-08-22T14:17:44.290695",
-  "last_darkweb_check": "2026-08-22T14:17:45.489814",
-  "last_cisa_check": "2026-08-22T14:17:44.080828",
-  "last_osint_check": "2026-08-22T14:17:44.992680",
-  "last_redteam_check": "2026-08-22T14:17:45.057188",
-  "last_github_poc_check": "2026-08-22T14:17:45.034304",
-  "last_projectdiscovery_check": "2026-08-22T14:17:45.428739",
-  "last_telegram_check": "2026-08-22T14:17:45.355672",
-  "last_papers_check": "2026-08-22T14:17:48.442055",
-  "last_bugbounty_check": "2026-08-22T14:17:48.634551"
+  "last_exploitdb_check": "2026-08-22T14:45:31.166008",
+  "last_darkweb_check": "2026-08-22T14:45:32.560124",
+  "last_cisa_check": "2026-08-22T14:45:30.896643",
+  "last_osint_check": "2026-08-22T14:45:31.762831",
+  "last_redteam_check": "2026-08-22T14:45:31.702504",
+  "last_github_poc_check": "2026-08-22T14:45:31.891855",
+  "last_projectdiscovery_check": "2026-08-22T14:45:32.233727",
+  "last_telegram_check": "2026-08-22T14:45:32.339464",
+  "last_papers_check": "2026-08-22T14:45:32.880666",
+  "last_bugbounty_check": "2026-08-22T14:45:35.481455"
 }
