@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-22T06:21:43.789964",
+  "last_run": "2026-08-22T07:09:01.859450",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/zephyrproject-rtos/zephyr/commit/01fe77b2ec3885583f709a17c5203ce02bd77012",
     "https://github.com/Kimdir01/phpmixbill-unauth-rce-cve",
     "https://github.com/Kimdir01/ubilling-multi-vuln-cve",
     "https://github.com/Kimdir01/redaxo-cms-multi-vuln-cve",
@@ -5001,10 +5000,10 @@
     "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0883",
     "https://github.com/GTCcraft/c2-framework",
     "https://github.com/hypnguyen1209/CVE-2026-62911",
-    "https://huggingface.co/deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-MLX"
+    "https://huggingface.co/deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-MLX",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/"
   ],
   "processed_hashes": [
-    "9a357b265412ff12",
     "c072e32676661284",
     "6c1085d48ce24f93",
     "ac69b8800d573f70",
@@ -10003,16 +10002,17 @@
     "0af3f7cf027d398a",
     "2bee346d6cd605a5",
     "0fd4e0e7cfffc888",
-    "db13a312afb438a6"
+    "db13a312afb438a6",
+    "d001ba138a2711ee"
   ],
-  "last_cve_check": "2026-08-22T06:21:19.553498",
+  "last_cve_check": "2026-08-22T07:08:41.520880",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-22T06:21:21.030913",
-  "last_huggingface_check": "2026-08-22T06:21:23.993164",
-  "last_reddit_check": "2026-08-22T06:21:21.557867",
-  "last_rss_check": "2026-08-22T06:21:22.048580",
-  "last_ransomware_check": "2026-08-22T06:21:22.525278",
-  "last_leak_check": "2026-08-22T06:21:22.763531",
+  "last_github_check": "2026-08-22T07:08:42.749326",
+  "last_huggingface_check": "2026-08-22T07:08:45.992013",
+  "last_reddit_check": "2026-08-22T07:08:43.312307",
+  "last_rss_check": "2026-08-22T07:08:44.036157",
+  "last_ransomware_check": "2026-08-22T07:08:44.080919",
+  "last_leak_check": "2026-08-22T07:08:43.463787",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10096,21 +10096,21 @@
     "2026-08-19": 171,
     "2026-08-20": 166,
     "2026-08-21": 112,
-    "2026-08-22": 18
+    "2026-08-22": 19
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 9,
+  "runs_today": 10,
   "last_run_date": "2026-08-22",
-  "last_exploitdb_check": "2026-08-22T06:21:20.195021",
-  "last_darkweb_check": "2026-08-22T06:21:22.135059",
-  "last_cisa_check": "2026-08-22T06:21:19.698715",
-  "last_osint_check": "2026-08-22T06:21:20.545072",
-  "last_redteam_check": "2026-08-22T06:21:20.725757",
-  "last_github_poc_check": "2026-08-22T06:21:21.084864",
-  "last_projectdiscovery_check": "2026-08-22T06:21:21.928827",
-  "last_telegram_check": "2026-08-22T06:21:21.508223",
-  "last_papers_check": "2026-08-22T06:21:22.578269",
-  "last_bugbounty_check": "2026-08-22T06:21:27.471285"
+  "last_exploitdb_check": "2026-08-22T07:08:42.636720",
+  "last_darkweb_check": "2026-08-22T07:08:44.133238",
+  "last_cisa_check": "2026-08-22T07:08:42.658550",
+  "last_osint_check": "2026-08-22T07:08:42.447302",
+  "last_redteam_check": "2026-08-22T07:08:42.352291",
+  "last_github_poc_check": "2026-08-22T07:08:42.803408",
+  "last_projectdiscovery_check": "2026-08-22T07:08:44.241209",
+  "last_telegram_check": "2026-08-22T07:08:43.230979",
+  "last_papers_check": "2026-08-22T07:08:44.138074",
+  "last_bugbounty_check": "2026-08-22T07:08:46.761373"
 }
