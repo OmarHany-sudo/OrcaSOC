@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-22T16:40:09.829812",
+  "last_run": "2026-08-22T16:59:44.633241",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/rootkiTED/graylog-cve-2024-24824-exploit",
     "https://github.com/piyushchavan002-ctrl/Syntecxhub_Vulnerability_CVE_Scanner",
     "https://huggingface.co/hackoffice/Claude-Mythos-5-1M-GGUF",
     "https://github.com/cve-a/Vampirensa/issues/1",
@@ -5001,10 +5000,10 @@
     "https://github.com/K3ysTr0K3R/CVE-2026-9198",
     "https://huggingface.co/deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF",
     "https://huggingface.co/QuaduxIT/Qwen3.8-27B-Whitehat-NVFP4",
-    "https://github.com/ggml-org/llama.cpp/commit/389c7d4955ba55c7418afaebf7c23d9ed64ef707"
+    "https://github.com/ggml-org/llama.cpp/commit/389c7d4955ba55c7418afaebf7c23d9ed64ef707",
+    "https://huggingface.co/QuaduxIT/Qwen3.8-27B-Whitehat-FP8"
   ],
   "processed_hashes": [
-    "f2bcae915ab05dca",
     "028dafffbeb04675",
     "8e539a2cf1b05038",
     "c36a8891ba6b56e6",
@@ -10003,16 +10002,17 @@
     "a1c467447082ac9d",
     "c13a3b166022c370",
     "631e763cba7bd11a",
-    "4843462e28534bf3"
+    "4843462e28534bf3",
+    "cb917afcfdd9187d"
   ],
-  "last_cve_check": "2026-08-22T16:39:37.320982",
+  "last_cve_check": "2026-08-22T16:59:05.403283",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-22T16:39:39.278919",
-  "last_huggingface_check": "2026-08-22T16:39:43.297743",
-  "last_reddit_check": "2026-08-22T16:39:39.399311",
-  "last_rss_check": "2026-08-22T16:39:40.527635",
-  "last_ransomware_check": "2026-08-22T16:39:40.336049",
-  "last_leak_check": "2026-08-22T16:39:39.496768",
+  "last_github_check": "2026-08-22T16:59:06.758560",
+  "last_huggingface_check": "2026-08-22T16:59:09.827529",
+  "last_reddit_check": "2026-08-22T16:59:07.710109",
+  "last_rss_check": "2026-08-22T16:59:07.572886",
+  "last_ransomware_check": "2026-08-22T16:59:08.302867",
+  "last_leak_check": "2026-08-22T16:59:07.721917",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10096,21 +10096,21 @@
     "2026-08-19": 171,
     "2026-08-20": 166,
     "2026-08-21": 112,
-    "2026-08-22": 70
+    "2026-08-22": 71
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 34,
+  "runs_today": 35,
   "last_run_date": "2026-08-22",
-  "last_exploitdb_check": "2026-08-22T16:39:37.686944",
-  "last_darkweb_check": "2026-08-22T16:39:39.671000",
-  "last_cisa_check": "2026-08-22T16:39:37.532733",
-  "last_osint_check": "2026-08-22T16:39:38.887009",
-  "last_redteam_check": "2026-08-22T16:39:38.672062",
-  "last_github_poc_check": "2026-08-22T16:39:39.153498",
-  "last_projectdiscovery_check": "2026-08-22T16:39:38.969725",
-  "last_telegram_check": "2026-08-22T16:39:39.601923",
-  "last_papers_check": "2026-08-22T16:39:41.017152",
-  "last_bugbounty_check": "2026-08-22T16:39:42.845894"
+  "last_exploitdb_check": "2026-08-22T16:59:06.069913",
+  "last_darkweb_check": "2026-08-22T16:59:07.873374",
+  "last_cisa_check": "2026-08-22T16:59:05.688780",
+  "last_osint_check": "2026-08-22T16:59:06.536499",
+  "last_redteam_check": "2026-08-22T16:59:06.308556",
+  "last_github_poc_check": "2026-08-22T16:59:06.823951",
+  "last_projectdiscovery_check": "2026-08-22T16:59:08.149020",
+  "last_telegram_check": "2026-08-22T16:59:07.251155",
+  "last_papers_check": "2026-08-22T16:59:08.169070",
+  "last_bugbounty_check": "2026-08-22T16:59:11.526217"
 }
