@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-22T08:31:22.604812",
+  "last_run": "2026-08-22T08:59:20.875043",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/Kimdir01/getsimpcms-rce-xss-cve",
     "https://github.com/Kimdir01/notrinos-erp-multi-vuln-cve",
     "https://github.com/Kimdir01/freeitsm-multi-vuln-cve",
     "https://github.com/Kimdir01/e107-multi-vuln-cve",
@@ -5001,10 +5000,10 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
     "https://lists.apache.org/thread/2pgz70rz9ozfm7vm5c33po3yyspq846y",
     "https://github.com/RaqibSecOps/git-exposure",
-    "https://github.com/shariqkhan256/WhatsMyName"
+    "https://github.com/shariqkhan256/WhatsMyName",
+    "https://huggingface.co/V12nm/Dolphin3-Cyber-8B-GGUF"
   ],
   "processed_hashes": [
-    "cd0322f07b44181b",
     "a628d3a6e452bf7a",
     "deafb6b5a21add63",
     "f358dac18fa45d90",
@@ -10003,16 +10002,17 @@
     "d001ba138a2711ee",
     "56ebd03f62d70298",
     "31a939c6f4b72b19",
-    "2440e2d139882c5f"
+    "2440e2d139882c5f",
+    "a437943ff9f079c7"
   ],
-  "last_cve_check": "2026-08-22T08:30:52.594300",
+  "last_cve_check": "2026-08-22T08:58:51.603494",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-22T08:30:53.885587",
-  "last_huggingface_check": "2026-08-22T08:30:54.361993",
-  "last_reddit_check": "2026-08-22T08:30:54.294703",
-  "last_rss_check": "2026-08-22T08:30:54.471392",
-  "last_ransomware_check": "2026-08-22T08:30:54.575874",
-  "last_leak_check": "2026-08-22T08:30:54.181450",
+  "last_github_check": "2026-08-22T08:58:53.171118",
+  "last_huggingface_check": "2026-08-22T08:58:54.861646",
+  "last_reddit_check": "2026-08-22T08:58:53.635179",
+  "last_rss_check": "2026-08-22T08:58:54.200274",
+  "last_ransomware_check": "2026-08-22T08:58:54.288732",
+  "last_leak_check": "2026-08-22T08:58:53.664305",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10096,21 +10096,21 @@
     "2026-08-19": 171,
     "2026-08-20": 166,
     "2026-08-21": 112,
-    "2026-08-22": 22
+    "2026-08-22": 23
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 13,
+  "runs_today": 14,
   "last_run_date": "2026-08-22",
-  "last_exploitdb_check": "2026-08-22T08:30:52.872472",
-  "last_darkweb_check": "2026-08-22T08:30:54.355170",
-  "last_cisa_check": "2026-08-22T08:30:52.701280",
-  "last_osint_check": "2026-08-22T08:30:53.618009",
-  "last_redteam_check": "2026-08-22T08:30:53.399808",
-  "last_github_poc_check": "2026-08-22T08:30:53.796352",
-  "last_projectdiscovery_check": "2026-08-22T08:30:54.007509",
-  "last_telegram_check": "2026-08-22T08:30:54.187685",
-  "last_papers_check": "2026-08-22T08:30:54.786676",
-  "last_bugbounty_check": "2026-08-22T08:31:03.715032"
+  "last_exploitdb_check": "2026-08-22T08:58:52.108674",
+  "last_darkweb_check": "2026-08-22T08:58:53.774294",
+  "last_cisa_check": "2026-08-22T08:58:51.808544",
+  "last_osint_check": "2026-08-22T08:58:52.656289",
+  "last_redteam_check": "2026-08-22T08:58:52.662313",
+  "last_github_poc_check": "2026-08-22T08:58:52.899238",
+  "last_projectdiscovery_check": "2026-08-22T08:58:53.513736",
+  "last_telegram_check": "2026-08-22T08:58:53.537233",
+  "last_papers_check": "2026-08-22T08:58:54.072328",
+  "last_bugbounty_check": "2026-08-22T08:58:57.398362"
 }
