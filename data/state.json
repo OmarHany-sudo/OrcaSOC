@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-22T17:17:29.067724",
+  "last_run": "2026-08-22T17:38:40.390420",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/databendlabs/databend/issues/19930",
     "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
     "https://www.joomcoder.com/",
     "https://github.com/syedghulamm50/Web-Application-Penetration-Testing-",
@@ -5001,10 +5000,10 @@
     "https://huggingface.co/QuaduxIT/Qwen3.8-27B-Whitehat",
     "https://github.com/bluewave-labs/Checkmate/commit/091c36cbf338b673110b0806d76df26d52516468",
     "https://github.com/bluewave-labs/Checkmate/commit/cc1814f507041bb0f64845bed5d5442c21e920f2",
-    "https://aws.amazon.com/security/security-bulletins/2026-086-aws/"
+    "https://aws.amazon.com/security/security-bulletins/2026-086-aws/",
+    "https://huggingface.co/QuaduxIT/Qwen3.8-27B-Whitehat-W8A16"
   ],
   "processed_hashes": [
-    "16d1c6f72c0d5ce2",
     "de93d6e0d7579877",
     "cfbec6dee6d7f8ee",
     "20c1ba7e846f5c1d",
@@ -10003,16 +10002,17 @@
     "90c82aa967a4de36",
     "5148b40ed6fd2016",
     "4097b09d02f7ac3f",
-    "550de8bf6bb851ba"
+    "550de8bf6bb851ba",
+    "587e07f2fc34992c"
   ],
-  "last_cve_check": "2026-08-22T17:16:56.206565",
+  "last_cve_check": "2026-08-22T17:38:08.662770",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-22T17:16:57.543039",
-  "last_huggingface_check": "2026-08-22T17:17:01.205856",
-  "last_reddit_check": "2026-08-22T17:16:57.948951",
-  "last_rss_check": "2026-08-22T17:16:57.946463",
-  "last_ransomware_check": "2026-08-22T17:16:58.699362",
-  "last_leak_check": "2026-08-22T17:16:58.068473",
+  "last_github_check": "2026-08-22T17:38:10.381550",
+  "last_huggingface_check": "2026-08-22T17:38:14.313940",
+  "last_reddit_check": "2026-08-22T17:38:10.876159",
+  "last_rss_check": "2026-08-22T17:38:10.905672",
+  "last_ransomware_check": "2026-08-22T17:38:11.382854",
+  "last_leak_check": "2026-08-22T17:38:10.600245",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10096,21 +10096,21 @@
     "2026-08-19": 171,
     "2026-08-20": 166,
     "2026-08-21": 112,
-    "2026-08-22": 84
+    "2026-08-22": 85
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 36,
+  "runs_today": 37,
   "last_run_date": "2026-08-22",
-  "last_exploitdb_check": "2026-08-22T17:16:56.511055",
-  "last_darkweb_check": "2026-08-22T17:16:58.195013",
-  "last_cisa_check": "2026-08-22T17:16:56.385752",
-  "last_osint_check": "2026-08-22T17:16:57.393066",
-  "last_redteam_check": "2026-08-22T17:16:57.328888",
-  "last_github_poc_check": "2026-08-22T17:16:57.689379",
-  "last_projectdiscovery_check": "2026-08-22T17:16:58.146303",
-  "last_telegram_check": "2026-08-22T17:16:58.197915",
-  "last_papers_check": "2026-08-22T17:16:58.751114",
-  "last_bugbounty_check": "2026-08-22T17:17:01.972975"
+  "last_exploitdb_check": "2026-08-22T17:38:08.999269",
+  "last_darkweb_check": "2026-08-22T17:38:10.971391",
+  "last_cisa_check": "2026-08-22T17:38:08.834747",
+  "last_osint_check": "2026-08-22T17:38:10.253851",
+  "last_redteam_check": "2026-08-22T17:38:09.925555",
+  "last_github_poc_check": "2026-08-22T17:38:10.347913",
+  "last_projectdiscovery_check": "2026-08-22T17:38:10.403794",
+  "last_telegram_check": "2026-08-22T17:38:10.933480",
+  "last_papers_check": "2026-08-22T17:38:11.787799",
+  "last_bugbounty_check": "2026-08-22T17:38:14.784171"
 }
