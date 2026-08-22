@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-22T10:13:42.922259",
+  "last_run": "2026-08-22T10:39:48.229868",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/bikini/exploitarium/tree/main/rustdesk-session-permission-pocs",
-    "https://huggingface.co/oN8WeJbq5Jo7Pk/CVE-Heretic-Fable5-27B-GGUF",
     "https://github.com/lffaker/cybersec/issues/6",
     "https://github.com/lffaker/cybersec/issues/5",
     "https://github.com/mubashir1837/OSINT-1600-Pakistani-Government-Domains-Enumeration",
@@ -5001,11 +4999,11 @@
     "https://spring.io/security/cve-2026-59323",
     "https://github.com/Dungsocool/CVE-2020-13671-old",
     "https://github.com/mdsakeen/OSINT-Passive-Reconnaissance",
-    "https://github.com/Dungsocool/CVE-2020-13671"
+    "https://github.com/Dungsocool/CVE-2020-13671",
+    "https://wpscan.com/vulnerability/362f4ed7-9637-4786-a72b-a48e9a12b9ff/",
+    "https://spring.io/security/cve-2026-59279"
   ],
   "processed_hashes": [
-    "27ba8ed39a062f5f",
-    "d3a1952d7cf1d39b",
     "1d7167efd83a3a57",
     "6ffd57c0870a84e3",
     "5c3e97d639e22a5f",
@@ -10003,16 +10001,18 @@
     "352fadebded87207",
     "d0d845f854f503cb",
     "4e9e5275e6072d0c",
-    "ec5157dbb299c172"
+    "ec5157dbb299c172",
+    "c954d57bbd3a9315",
+    "7fb35a676364c00a"
   ],
-  "last_cve_check": "2026-08-22T10:13:18.336296",
+  "last_cve_check": "2026-08-22T10:39:22.858407",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-22T10:13:19.432396",
-  "last_huggingface_check": "2026-08-22T10:13:20.166508",
-  "last_reddit_check": "2026-08-22T10:13:19.894572",
-  "last_rss_check": "2026-08-22T10:13:20.092380",
-  "last_ransomware_check": "2026-08-22T10:13:20.293712",
-  "last_leak_check": "2026-08-22T10:13:19.883232",
+  "last_github_check": "2026-08-22T10:39:23.841570",
+  "last_huggingface_check": "2026-08-22T10:39:24.550419",
+  "last_reddit_check": "2026-08-22T10:39:24.323437",
+  "last_rss_check": "2026-08-22T10:39:24.273006",
+  "last_ransomware_check": "2026-08-22T10:39:24.657366",
+  "last_leak_check": "2026-08-22T10:39:24.291048",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10096,21 +10096,21 @@
     "2026-08-19": 171,
     "2026-08-20": 166,
     "2026-08-21": 112,
-    "2026-08-22": 34
+    "2026-08-22": 36
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 17,
+  "runs_today": 18,
   "last_run_date": "2026-08-22",
-  "last_exploitdb_check": "2026-08-22T10:13:18.549222",
-  "last_darkweb_check": "2026-08-22T10:13:19.963915",
-  "last_cisa_check": "2026-08-22T10:13:18.465743",
-  "last_osint_check": "2026-08-22T10:13:19.252104",
-  "last_redteam_check": "2026-08-22T10:13:19.101106",
-  "last_github_poc_check": "2026-08-22T10:13:19.470125",
-  "last_projectdiscovery_check": "2026-08-22T10:13:19.712631",
-  "last_telegram_check": "2026-08-22T10:13:19.779962",
-  "last_papers_check": "2026-08-22T10:13:20.530025",
-  "last_bugbounty_check": "2026-08-22T10:13:23.089675"
+  "last_exploitdb_check": "2026-08-22T10:39:23.189550",
+  "last_darkweb_check": "2026-08-22T10:39:24.339425",
+  "last_cisa_check": "2026-08-22T10:39:22.965852",
+  "last_osint_check": "2026-08-22T10:39:23.712831",
+  "last_redteam_check": "2026-08-22T10:39:23.554385",
+  "last_github_poc_check": "2026-08-22T10:39:23.763845",
+  "last_projectdiscovery_check": "2026-08-22T10:39:24.163347",
+  "last_telegram_check": "2026-08-22T10:39:24.190898",
+  "last_papers_check": "2026-08-22T10:39:24.831224",
+  "last_bugbounty_check": "2026-08-22T10:39:27.701105"
 }
