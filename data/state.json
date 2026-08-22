@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-22T18:18:01.832160",
+  "last_run": "2026-08-22T18:56:18.265646",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://huggingface.co/hacnho/openvino-pad-allocation-dos-poc",
     "https://huggingface.co/eadx/Qwythos-9B-Claude-Mythos-5-1M",
     "https://github.com/BiiTts/CVE-2026-53753-Crawl4AI-RCE",
     "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
@@ -5001,10 +5000,10 @@
     "https://github.com/Combodo/iTop/commit/458a996c29db73b9ce2d374f6ce8b90c36351159",
     "https://github.com/Combodo/iTop/commit/104dd1970f3ad828896a5092b125edb4bc1340b6",
     "https://github.com/veracrypt/VeraCrypt/commit/39f93910075e1cf492fcf4a9f99a53c7d0b96b87",
-    "https://github.com/SunRisexyz/Vul-of-Ruoyi/issues/1"
+    "https://github.com/SunRisexyz/Vul-of-Ruoyi/issues/1",
+    "https://github.com/capivara-research/Pentest-Tools"
   ],
   "processed_hashes": [
-    "99ef2f8f8330f18f",
     "bf4b66c6a9e53907",
     "5e3df79ebba2b561",
     "7d24747bcb6578d0",
@@ -10003,16 +10002,17 @@
     "c9e4527140ffaf36",
     "a83d1e7b30c6b42b",
     "5b91fd340147fcfb",
-    "a482c5ef1fc69603"
+    "a482c5ef1fc69603",
+    "3ed13e2a95c15180"
   ],
-  "last_cve_check": "2026-08-22T18:17:17.322866",
+  "last_cve_check": "2026-08-22T18:55:55.980257",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-22T18:17:18.592059",
-  "last_huggingface_check": "2026-08-22T18:17:20.699881",
-  "last_reddit_check": "2026-08-22T18:17:19.344174",
-  "last_rss_check": "2026-08-22T18:17:19.417900",
-  "last_ransomware_check": "2026-08-22T18:17:19.854603",
-  "last_leak_check": "2026-08-22T18:17:19.374271",
+  "last_github_check": "2026-08-22T18:55:57.064773",
+  "last_huggingface_check": "2026-08-22T18:56:00.220071",
+  "last_reddit_check": "2026-08-22T18:55:57.627526",
+  "last_rss_check": "2026-08-22T18:55:57.672408",
+  "last_ransomware_check": "2026-08-22T18:55:58.502697",
+  "last_leak_check": "2026-08-22T18:55:57.742734",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10096,21 +10096,21 @@
     "2026-08-19": 171,
     "2026-08-20": 166,
     "2026-08-21": 112,
-    "2026-08-22": 96
+    "2026-08-22": 97
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 39,
+  "runs_today": 40,
   "last_run_date": "2026-08-22",
-  "last_exploitdb_check": "2026-08-22T18:17:17.830956",
-  "last_darkweb_check": "2026-08-22T18:17:19.471953",
-  "last_cisa_check": "2026-08-22T18:17:17.604032",
-  "last_osint_check": "2026-08-22T18:17:18.409526",
-  "last_redteam_check": "2026-08-22T18:17:18.225459",
-  "last_github_poc_check": "2026-08-22T18:17:18.644825",
-  "last_projectdiscovery_check": "2026-08-22T18:17:19.260108",
-  "last_telegram_check": "2026-08-22T18:17:19.062665",
-  "last_papers_check": "2026-08-22T18:17:34.920482",
-  "last_bugbounty_check": "2026-08-22T18:17:23.091830"
+  "last_exploitdb_check": "2026-08-22T18:55:56.383771",
+  "last_darkweb_check": "2026-08-22T18:55:57.822757",
+  "last_cisa_check": "2026-08-22T18:55:56.100883",
+  "last_osint_check": "2026-08-22T18:55:56.833174",
+  "last_redteam_check": "2026-08-22T18:55:56.824643",
+  "last_github_poc_check": "2026-08-22T18:55:57.104786",
+  "last_projectdiscovery_check": "2026-08-22T18:55:58.276743",
+  "last_telegram_check": "2026-08-22T18:55:57.555737",
+  "last_papers_check": "2026-08-22T18:55:58.589354",
+  "last_bugbounty_check": "2026-08-22T18:56:01.532805"
 }
