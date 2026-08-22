@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-22T20:39:11.038723",
+  "last_run": "2026-08-22T20:59:12.835665",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
     "https://arxiv.org/abs/2606.30628v1",
     "https://github.com/Real-Simplicity/cve-database/tree/main/CVE_Report_DLink_DCS935L_Command_Injection",
     "https://huggingface.co/referve/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
@@ -5001,10 +5000,10 @@
     "https://github.com/YOURLS/YOURLS/commit/e1e93476655107e6caab34e52259eb1c91079ec7",
     "https://github.com/Combodo/iTop/commit/7bfa14a8744cc599caf0ed347022f8267793d6d9",
     "https://github.com/voxel51/fiftyone/commit/6c4fa1b27bf53e4ba567742ffd20d033af7b9e64",
-    "https://github.com/runtipi/runtipi/commit/df529a211b05f3a0007b209b6c337f8c1942619c"
+    "https://github.com/runtipi/runtipi/commit/df529a211b05f3a0007b209b6c337f8c1942619c",
+    "https://github.com/Combodo/iTop/commit/61e5536b500dbf6be3574c5517eaafea27cbfec7"
   ],
   "processed_hashes": [
-    "ec13eb868fb05cba",
     "957addeb7c4f0d45",
     "8bac25e5a366483a",
     "05932419116ac4e0",
@@ -10003,16 +10002,17 @@
     "bd73ff0618117c09",
     "f25f0a4af6a4c956",
     "8aad2f85fae3af6f",
-    "04f7e232d680be47"
+    "04f7e232d680be47",
+    "a2cf0319b5bab881"
   ],
-  "last_cve_check": "2026-08-22T20:38:29.028655",
+  "last_cve_check": "2026-08-22T20:58:43.365068",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-22T20:38:30.223551",
-  "last_huggingface_check": "2026-08-22T20:38:33.489928",
-  "last_reddit_check": "2026-08-22T20:38:31.195065",
-  "last_rss_check": "2026-08-22T20:38:31.026831",
-  "last_ransomware_check": "2026-08-22T20:38:31.613581",
-  "last_leak_check": "2026-08-22T20:38:30.966120",
+  "last_github_check": "2026-08-22T20:58:44.645946",
+  "last_huggingface_check": "2026-08-22T20:58:45.677034",
+  "last_reddit_check": "2026-08-22T20:58:45.176935",
+  "last_rss_check": "2026-08-22T20:58:45.286477",
+  "last_ransomware_check": "2026-08-22T20:58:45.564009",
+  "last_leak_check": "2026-08-22T20:58:45.134748",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10096,21 +10096,21 @@
     "2026-08-19": 171,
     "2026-08-20": 166,
     "2026-08-21": 112,
-    "2026-08-22": 116
+    "2026-08-22": 117
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 45,
+  "runs_today": 46,
   "last_run_date": "2026-08-22",
-  "last_exploitdb_check": "2026-08-22T20:38:29.557896",
-  "last_darkweb_check": "2026-08-22T20:38:31.287344",
-  "last_cisa_check": "2026-08-22T20:38:29.292887",
-  "last_osint_check": "2026-08-22T20:38:30.239828",
-  "last_redteam_check": "2026-08-22T20:38:30.024834",
-  "last_github_poc_check": "2026-08-22T20:38:30.314448",
-  "last_projectdiscovery_check": "2026-08-22T20:38:31.159379",
-  "last_telegram_check": "2026-08-22T20:38:30.699959",
-  "last_papers_check": "2026-08-22T20:38:31.734271",
-  "last_bugbounty_check": "2026-08-22T20:38:36.839425"
+  "last_exploitdb_check": "2026-08-22T20:58:43.775887",
+  "last_darkweb_check": "2026-08-22T20:58:45.361032",
+  "last_cisa_check": "2026-08-22T20:58:43.527300",
+  "last_osint_check": "2026-08-22T20:58:44.505477",
+  "last_redteam_check": "2026-08-22T20:58:44.354361",
+  "last_github_poc_check": "2026-08-22T20:58:44.643670",
+  "last_projectdiscovery_check": "2026-08-22T20:58:46.855436",
+  "last_telegram_check": "2026-08-22T20:58:44.976219",
+  "last_papers_check": "2026-08-22T20:58:45.470459",
+  "last_bugbounty_check": "2026-08-22T20:58:48.435836"
 }
