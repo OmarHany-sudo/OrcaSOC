@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-23T21:15:41.919715",
+  "last_run": "2026-08-23T21:36:56.441835",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/Muhammad-a11-crypto/-SubReconX",
     "https://github.com/zedeus/nitter/commit/44b2f096f67da2cc257a0e262a94a7ae79e95d47",
     "https://github.com/pinpoint-apm/pinpoint/issues/13857",
     "https://github.com/calligraf0/CVE-2026-36848",
@@ -5001,10 +5000,10 @@
     "https://github.com/cduram/CHIRP-CodeExecution_via_Malicious_ImageFile",
     "https://github.com/strongswan/strongswan/releases/tag/6.0.7",
     "https://github.com/vas3k/TaxHacker/",
-    "https://huggingface.co/beau-warren/blueteam-lilHybrid-cyber-LM-v0.5"
+    "https://huggingface.co/beau-warren/blueteam-lilHybrid-cyber-LM-v0.5",
+    "https://candle-throne-f75.notion.site/Tenda-CH22-formeditFileName-396df0aa1185804c9dcff01778515d32"
   ],
   "processed_hashes": [
-    "0d763476d1dbd42e",
     "45e5c95c57d87b10",
     "ec41b721d8653a22",
     "e4bc70d7be0cd86f",
@@ -10003,16 +10002,17 @@
     "4f2ea506ec689faf",
     "0667032694466957",
     "4099d7a4d6b58bba",
-    "62499c3cc264eb6d"
+    "62499c3cc264eb6d",
+    "3528ef4b34790ff8"
   ],
-  "last_cve_check": "2026-08-23T21:15:08.272465",
+  "last_cve_check": "2026-08-23T21:36:27.006222",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-23T21:15:10.022431",
-  "last_huggingface_check": "2026-08-23T21:15:13.363041",
-  "last_reddit_check": "2026-08-23T21:15:10.384438",
-  "last_rss_check": "2026-08-23T21:15:10.378680",
-  "last_ransomware_check": "2026-08-23T21:15:11.340583",
-  "last_leak_check": "2026-08-23T21:15:10.509009",
+  "last_github_check": "2026-08-23T21:36:28.199754",
+  "last_huggingface_check": "2026-08-23T21:36:29.340562",
+  "last_reddit_check": "2026-08-23T21:36:28.900877",
+  "last_rss_check": "2026-08-23T21:36:29.044340",
+  "last_ransomware_check": "2026-08-23T21:36:29.304687",
+  "last_leak_check": "2026-08-23T21:36:28.897877",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10097,21 +10097,21 @@
     "2026-08-20": 166,
     "2026-08-21": 112,
     "2026-08-22": 135,
-    "2026-08-23": 50
+    "2026-08-23": 51
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 44,
+  "runs_today": 45,
   "last_run_date": "2026-08-23",
-  "last_exploitdb_check": "2026-08-23T21:15:08.884718",
-  "last_darkweb_check": "2026-08-23T21:15:10.562156",
-  "last_cisa_check": "2026-08-23T21:15:08.455037",
-  "last_osint_check": "2026-08-23T21:15:09.852767",
-  "last_redteam_check": "2026-08-23T21:15:09.828342",
-  "last_github_poc_check": "2026-08-23T21:15:09.966787",
-  "last_projectdiscovery_check": "2026-08-23T21:15:10.678718",
-  "last_telegram_check": "2026-08-23T21:15:10.510100",
-  "last_papers_check": "2026-08-23T21:15:11.258228",
-  "last_bugbounty_check": "2026-08-23T21:15:13.721824"
+  "last_exploitdb_check": "2026-08-23T21:36:27.297092",
+  "last_darkweb_check": "2026-08-23T21:36:28.985670",
+  "last_cisa_check": "2026-08-23T21:36:27.145941",
+  "last_osint_check": "2026-08-23T21:36:28.276566",
+  "last_redteam_check": "2026-08-23T21:36:28.041987",
+  "last_github_poc_check": "2026-08-23T21:36:28.253788",
+  "last_projectdiscovery_check": "2026-08-23T21:36:28.753180",
+  "last_telegram_check": "2026-08-23T21:36:28.579433",
+  "last_papers_check": "2026-08-23T21:36:29.253788",
+  "last_bugbounty_check": "2026-08-23T21:36:32.328838"
 }
