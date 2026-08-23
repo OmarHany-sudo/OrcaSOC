@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-23T12:19:51.171658",
+  "last_run": "2026-08-23T13:10:19.877821",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://arxiv.org/abs/2606.30595v1",
     "https://hackerone.com/reports/3400140",
     "https://arxiv.org/abs/2606.30572v1",
     "https://hackerone.com/reports/3826843",
@@ -5001,10 +5000,10 @@
     "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-rpx2-p6hp-x5gj",
     "https://github.com/openwrt/luci/security/advisories/GHSA-jgc3-4q3p-g6xh",
     "https://plugins.trac.wordpress.org/browser/advanced-product-fields-for-woocommerce/trunk/includes/controllers/class-product-controller.php#L130",
-    "https://github.com/netty/netty/security/advisories/GHSA-p85m-gvr3-788c"
+    "https://github.com/netty/netty/security/advisories/GHSA-p85m-gvr3-788c",
+    "https://github.com/NeiveZ/Swiss-Army-knife"
   ],
   "processed_hashes": [
-    "dca4e45d52ac9158",
     "43ffb4a30353d28c",
     "c67a76cb8f31be32",
     "aebfc0adc4a8337a",
@@ -10003,16 +10002,17 @@
     "fb42b9f910f114e4",
     "f06a4b54ec18480e",
     "1d106df4a8a71834",
-    "df7dc937a14d96a5"
+    "df7dc937a14d96a5",
+    "b5447821f354895b"
   ],
-  "last_cve_check": "2026-08-23T12:19:25.230708",
+  "last_cve_check": "2026-08-23T13:09:56.987598",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-23T12:19:26.226249",
-  "last_huggingface_check": "2026-08-23T12:19:27.152562",
-  "last_reddit_check": "2026-08-23T12:19:26.754340",
-  "last_rss_check": "2026-08-23T12:19:26.910160",
-  "last_ransomware_check": "2026-08-23T12:19:27.323510",
-  "last_leak_check": "2026-08-23T12:19:26.765201",
+  "last_github_check": "2026-08-23T13:09:58.131871",
+  "last_huggingface_check": "2026-08-23T13:10:03.905636",
+  "last_reddit_check": "2026-08-23T13:09:58.673993",
+  "last_rss_check": "2026-08-23T13:09:58.669555",
+  "last_ransomware_check": "2026-08-23T13:09:59.288554",
+  "last_leak_check": "2026-08-23T13:09:58.841388",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10097,21 +10097,21 @@
     "2026-08-20": 166,
     "2026-08-21": 112,
     "2026-08-22": 135,
-    "2026-08-23": 19
+    "2026-08-23": 20
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 22,
+  "runs_today": 23,
   "last_run_date": "2026-08-23",
-  "last_exploitdb_check": "2026-08-23T12:19:25.497933",
-  "last_darkweb_check": "2026-08-23T12:19:26.829462",
-  "last_cisa_check": "2026-08-23T12:19:25.361936",
-  "last_osint_check": "2026-08-23T12:19:26.262837",
-  "last_redteam_check": "2026-08-23T12:19:26.001554",
-  "last_github_poc_check": "2026-08-23T12:19:26.296120",
-  "last_projectdiscovery_check": "2026-08-23T12:19:26.552072",
-  "last_telegram_check": "2026-08-23T12:19:26.600659",
-  "last_papers_check": "2026-08-23T12:19:27.539357",
-  "last_bugbounty_check": "2026-08-23T12:19:30.192529"
+  "last_exploitdb_check": "2026-08-23T13:09:57.396543",
+  "last_darkweb_check": "2026-08-23T13:09:58.911439",
+  "last_cisa_check": "2026-08-23T13:09:57.101170",
+  "last_osint_check": "2026-08-23T13:09:57.841027",
+  "last_redteam_check": "2026-08-23T13:09:57.988348",
+  "last_github_poc_check": "2026-08-23T13:09:58.168729",
+  "last_projectdiscovery_check": "2026-08-23T13:09:59.234394",
+  "last_telegram_check": "2026-08-23T13:09:58.615956",
+  "last_papers_check": "2026-08-23T13:10:00.010239",
+  "last_bugbounty_check": "2026-08-23T13:10:02.400170"
 }
