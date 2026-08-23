@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-22T23:57:17.080357",
+  "last_run": "2026-08-23T00:39:39.561221",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/Hh-176/CVE/issues/6",
     "https://ucn9h68n9289.feishu.cn/wiki/SrO0wcxd9i6ByukOizGcIgpBnRd",
     "https://github.com/Hh-176/CVE/issues/4",
     "https://github.com/ltranquility/submit/issues/19",
@@ -5001,10 +5000,10 @@
     "https://github.com/Combodo/iTop/security/advisories/GHSA-2xh3-r27f-3pr5",
     "https://github.com/weechat/weechat/security/advisories/GHSA-v2v4-45wm-5cr3",
     "https://plugins.trac.wordpress.org/browser/mailgun/tags/2.1.10/mailgun.php#L259",
-    "https://plugins.trac.wordpress.org/browser/themify-builder/tags/7.7.6/classes/class-themify-builder-stylesheet.php#L69"
+    "https://plugins.trac.wordpress.org/browser/themify-builder/tags/7.7.6/classes/class-themify-builder-stylesheet.php#L69",
+    "https://github.com/dxz0069/WAVLINK-WN530H4-Command-Injection-in-set_add_routing/blob/main/TEW-821DAP_ssi_Arbitrary_File_Command_Injection.md"
   ],
   "processed_hashes": [
-    "d52c3c526d1ff7f6",
     "1b2eae003d478344",
     "4e3ddc77362cac46",
     "eefb4c0180c0fcd3",
@@ -10003,16 +10002,17 @@
     "53e2c77d074bd8fe",
     "4785b749c82069f2",
     "389a9d762597a90a",
-    "7fe9f66ff6db1f8f"
+    "7fe9f66ff6db1f8f",
+    "0e5e66015fb1421b"
   ],
-  "last_cve_check": "2026-08-22T23:56:53.882324",
+  "last_cve_check": "2026-08-23T00:39:09.853571",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-22T23:56:55.314670",
-  "last_huggingface_check": "2026-08-22T23:56:59.724274",
-  "last_reddit_check": "2026-08-22T23:56:55.926572",
-  "last_rss_check": "2026-08-22T23:56:56.053994",
-  "last_ransomware_check": "2026-08-22T23:56:56.527895",
-  "last_leak_check": "2026-08-22T23:56:55.987807",
+  "last_github_check": "2026-08-23T00:39:11.357903",
+  "last_huggingface_check": "2026-08-23T00:39:15.283301",
+  "last_reddit_check": "2026-08-23T00:39:11.718551",
+  "last_rss_check": "2026-08-23T00:39:11.548290",
+  "last_ransomware_check": "2026-08-23T00:39:12.392096",
+  "last_leak_check": "2026-08-23T00:39:11.775127",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10096,21 +10096,22 @@
     "2026-08-19": 171,
     "2026-08-20": 166,
     "2026-08-21": 112,
-    "2026-08-22": 135
+    "2026-08-22": 135,
+    "2026-08-23": 1
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 55,
-  "last_run_date": "2026-08-22",
-  "last_exploitdb_check": "2026-08-22T23:56:54.296702",
-  "last_darkweb_check": "2026-08-22T23:56:56.083817",
-  "last_cisa_check": "2026-08-22T23:56:54.010342",
-  "last_osint_check": "2026-08-22T23:56:55.127226",
-  "last_redteam_check": "2026-08-22T23:56:55.067056",
-  "last_github_poc_check": "2026-08-22T23:56:55.289518",
-  "last_projectdiscovery_check": "2026-08-22T23:56:55.923847",
-  "last_telegram_check": "2026-08-22T23:56:55.753949",
-  "last_papers_check": "2026-08-22T23:56:57.279851",
-  "last_bugbounty_check": "2026-08-22T23:56:59.338104"
+  "runs_today": 1,
+  "last_run_date": "2026-08-23",
+  "last_exploitdb_check": "2026-08-23T00:39:10.223569",
+  "last_darkweb_check": "2026-08-23T00:39:11.907449",
+  "last_cisa_check": "2026-08-23T00:39:10.000418",
+  "last_osint_check": "2026-08-23T00:39:10.777616",
+  "last_redteam_check": "2026-08-23T00:39:10.875279",
+  "last_github_poc_check": "2026-08-23T00:39:11.316895",
+  "last_projectdiscovery_check": "2026-08-23T00:39:11.853866",
+  "last_telegram_check": "2026-08-23T00:39:11.853667",
+  "last_papers_check": "2026-08-23T00:39:12.563693",
+  "last_bugbounty_check": "2026-08-23T00:39:16.339657"
 }
