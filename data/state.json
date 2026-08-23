@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-23T11:16:01.678518",
+  "last_run": "2026-08-23T11:36:39.651021",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/Pluto2362/CVE-2026/issues/2",
-    "https://vuldb.com/cve/CVE-2026-13568",
     "https://lavender-bicycle-a5a.notion.site/EDIMAX-EW-7478APC-formiNICbasic-34b53a41781f8052bc69c85481124dff",
     "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
     "https://access.redhat.com/security/cve/CVE-2026-12856",
@@ -5001,11 +4999,11 @@
     "https://github.com/WWBN/AVideo/security/advisories/GHSA-rg7g-cgjq-4wx8",
     "https://github.com/RikshitJoshi/ApexHawk-AI",
     "https://github.com/whisperBrocade/RedHawk",
-    "https://github.com/Tanmayananda-Sahoo/NetVulnSc"
+    "https://github.com/Tanmayananda-Sahoo/NetVulnSc",
+    "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-w938-w7m4-qrj8",
+    "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-rpx2-p6hp-x5gj"
   ],
   "processed_hashes": [
-    "291de297947c2266",
-    "910282a0960d362e",
     "838d70dfa2a4206a",
     "35c3158130ab3c83",
     "bcaf90177de3905e",
@@ -10003,16 +10001,18 @@
     "0a2934fac09d65ad",
     "0d7e4659788bcafb",
     "925ba349701ecfad",
-    "0c20ebd558f82e3a"
+    "0c20ebd558f82e3a",
+    "499cf1c1bea4ad43",
+    "fb42b9f910f114e4"
   ],
-  "last_cve_check": "2026-08-23T11:15:35.073517",
+  "last_cve_check": "2026-08-23T11:36:07.212439",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-23T11:15:36.243348",
-  "last_huggingface_check": "2026-08-23T11:15:37.718521",
-  "last_reddit_check": "2026-08-23T11:15:36.785695",
-  "last_rss_check": "2026-08-23T11:15:36.701348",
-  "last_ransomware_check": "2026-08-23T11:15:39.097520",
-  "last_leak_check": "2026-08-23T11:15:36.502359",
+  "last_github_check": "2026-08-23T11:36:08.767708",
+  "last_huggingface_check": "2026-08-23T11:36:12.728472",
+  "last_reddit_check": "2026-08-23T11:36:08.990560",
+  "last_rss_check": "2026-08-23T11:36:09.769351",
+  "last_ransomware_check": "2026-08-23T11:36:09.616381",
+  "last_leak_check": "2026-08-23T11:36:08.902441",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10097,21 +10097,21 @@
     "2026-08-20": 166,
     "2026-08-21": 112,
     "2026-08-22": 135,
-    "2026-08-23": 14
+    "2026-08-23": 16
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 19,
+  "runs_today": 20,
   "last_run_date": "2026-08-23",
-  "last_exploitdb_check": "2026-08-23T11:15:35.286956",
-  "last_darkweb_check": "2026-08-23T11:15:36.770506",
-  "last_cisa_check": "2026-08-23T11:15:35.211755",
-  "last_osint_check": "2026-08-23T11:15:36.128921",
-  "last_redteam_check": "2026-08-23T11:15:36.101248",
-  "last_github_poc_check": "2026-08-23T11:15:36.327532",
-  "last_projectdiscovery_check": "2026-08-23T11:15:36.321652",
-  "last_telegram_check": "2026-08-23T11:15:36.641252",
-  "last_papers_check": "2026-08-23T11:15:37.476587",
-  "last_bugbounty_check": "2026-08-23T11:15:39.867767"
+  "last_exploitdb_check": "2026-08-23T11:36:07.485562",
+  "last_darkweb_check": "2026-08-23T11:36:09.247505",
+  "last_cisa_check": "2026-08-23T11:36:07.403742",
+  "last_osint_check": "2026-08-23T11:36:08.374287",
+  "last_redteam_check": "2026-08-23T11:36:08.275842",
+  "last_github_poc_check": "2026-08-23T11:36:08.621454",
+  "last_projectdiscovery_check": "2026-08-23T11:36:08.725135",
+  "last_telegram_check": "2026-08-23T11:36:09.200106",
+  "last_papers_check": "2026-08-23T11:36:09.604917",
+  "last_bugbounty_check": "2026-08-23T11:36:13.251381"
 }
