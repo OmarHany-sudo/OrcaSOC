@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-23T05:08:05.986695",
+  "last_run": "2026-08-23T05:44:21.143726",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/liufee/cms/issues/87",
     "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
     "https://huggingface.co/tareq052/cybersoc-gemma4-adapter",
     "https://huggingface.co/iselabvn/Tini-Cybersec-8B-A1B",
@@ -5001,10 +5000,10 @@
     "https://github.com/dxz0069/WAVLINK-WN530H4-Command-Injection-in-set_add_routing/blob/main/TEW-821DAP_ssi_Arbitrary_File_Command_Injection.md",
     "https://github.com/chanchaldas71/GlobalCyberSecurity",
     "https://github.com/Longdated-genusplumbago6035/Script-CMS",
-    "https://github.com/dxz0069/WAVLINK-WN530H4-Command-Injection-in-set_add_routing/blob/main/TEW-821DAP_ssi_NTP_Timezone_Config_Stack_Overflow.md"
+    "https://github.com/dxz0069/WAVLINK-WN530H4-Command-Injection-in-set_add_routing/blob/main/TEW-821DAP_ssi_NTP_Timezone_Config_Stack_Overflow.md",
+    "https://github.com/Grantgazvoda-alt/redforge"
   ],
   "processed_hashes": [
-    "f1aeeeeafaa06d1e",
     "b63b9ef9e99cc11c",
     "a66c27cf5be4be03",
     "38aec358e8ab8683",
@@ -10003,16 +10002,17 @@
     "0e5e66015fb1421b",
     "b2ba86213086d9d5",
     "3eaf510f3a9e625d",
-    "e9e9ea72b57b0c1b"
+    "e9e9ea72b57b0c1b",
+    "675df76a855d34ba"
   ],
-  "last_cve_check": "2026-08-23T05:07:42.617790",
+  "last_cve_check": "2026-08-23T05:43:50.074658",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-23T05:07:43.804123",
-  "last_huggingface_check": "2026-08-23T05:07:44.536003",
-  "last_reddit_check": "2026-08-23T05:07:44.128885",
-  "last_rss_check": "2026-08-23T05:07:45.015643",
-  "last_ransomware_check": "2026-08-23T05:07:44.517555",
-  "last_leak_check": "2026-08-23T05:07:44.299102",
+  "last_github_check": "2026-08-23T05:43:51.794878",
+  "last_huggingface_check": "2026-08-23T05:43:55.851093",
+  "last_reddit_check": "2026-08-23T05:43:52.244911",
+  "last_rss_check": "2026-08-23T05:43:52.327995",
+  "last_ransomware_check": "2026-08-23T05:43:52.891226",
+  "last_leak_check": "2026-08-23T05:43:51.981517",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10097,21 +10097,21 @@
     "2026-08-20": 166,
     "2026-08-21": 112,
     "2026-08-22": 135,
-    "2026-08-23": 4
+    "2026-08-23": 5
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 6,
+  "runs_today": 7,
   "last_run_date": "2026-08-23",
-  "last_exploitdb_check": "2026-08-23T05:07:43.141423",
-  "last_darkweb_check": "2026-08-23T05:07:44.359165",
-  "last_cisa_check": "2026-08-23T05:07:42.900850",
-  "last_osint_check": "2026-08-23T05:07:43.417207",
-  "last_redteam_check": "2026-08-23T05:07:43.289286",
-  "last_github_poc_check": "2026-08-23T05:07:43.692463",
-  "last_projectdiscovery_check": "2026-08-23T05:07:44.120874",
-  "last_telegram_check": "2026-08-23T05:07:44.104459",
-  "last_papers_check": "2026-08-23T05:07:44.548704",
-  "last_bugbounty_check": "2026-08-23T05:07:47.252927"
+  "last_exploitdb_check": "2026-08-23T05:43:50.338859",
+  "last_darkweb_check": "2026-08-23T05:43:52.366134",
+  "last_cisa_check": "2026-08-23T05:43:50.250355",
+  "last_osint_check": "2026-08-23T05:43:51.352365",
+  "last_redteam_check": "2026-08-23T05:43:51.318427",
+  "last_github_poc_check": "2026-08-23T05:43:51.800570",
+  "last_projectdiscovery_check": "2026-08-23T05:43:51.793154",
+  "last_telegram_check": "2026-08-23T05:43:52.286846",
+  "last_papers_check": "2026-08-23T05:43:53.175537",
+  "last_bugbounty_check": "2026-08-23T05:43:56.951009"
 }
