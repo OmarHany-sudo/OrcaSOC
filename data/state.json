@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-24T04:07:09.304456",
+  "last_run": "2026-08-24T05:00:12.477818",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://huggingface.co/SeanJIE250/olmo3-7b-think-csf",
-    "https://lists.apache.org/thread/jy09xjlzn6r2qwvqoph8vcmf959yq68v",
     "https://lists.apache.org/thread/x510lbq0sfrd1qyo7q3r1mpllgpdcosk",
     "https://lists.apache.org/thread/7fk339o5jvd4mcgsf0chbrn4o525ccjh",
     "https://lists.apache.org/thread/g4p5sf45p3f9r011pwqs9r54yd64s106",
@@ -5001,11 +4999,11 @@
     "https://github.com/EmilStenstrom/justhtml/security/advisories/GHSA-r8cj-3554-33mr",
     "https://arxiv.org/abs/2608.21259v1",
     "https://github.com/EmilStenstrom/justhtml/security/advisories/GHSA-c9vm-hv86-f23r",
-    "https://github.com/EmilStenstrom/justhtml/security/advisories/GHSA-vrx2-77f2-ww34"
+    "https://github.com/EmilStenstrom/justhtml/security/advisories/GHSA-vrx2-77f2-ww34",
+    "https://github.com/EmilStenstrom/justhtml/security/advisories/GHSA-4p64-v8f5-r2gx",
+    "https://github.com/EmilStenstrom/justhtml/security/advisories/GHSA-3rcm-vjrc-p45j"
   ],
   "processed_hashes": [
-    "4519a736e34f730d",
-    "ecc9a8f9cda8ccd0",
     "3731360124f527cf",
     "8764396723721a0a",
     "26f30b59ec84c0b5",
@@ -10003,16 +10001,18 @@
     "2e8c81ba3862893e",
     "12e27a9b9343afb7",
     "e83eb6e18fc82728",
-    "59b127ff86358ec9"
+    "59b127ff86358ec9",
+    "07b9449d22aeddb3",
+    "e1804ce3a0f306d2"
   ],
-  "last_cve_check": "2026-08-24T04:06:47.656629",
+  "last_cve_check": "2026-08-24T04:59:49.068608",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-24T04:06:47.753062",
-  "last_huggingface_check": "2026-08-24T04:06:49.274707",
-  "last_reddit_check": "2026-08-24T04:06:48.088404",
-  "last_rss_check": "2026-08-24T04:06:48.622149",
-  "last_ransomware_check": "2026-08-24T04:06:48.713044",
-  "last_leak_check": "2026-08-24T04:06:48.238474",
+  "last_github_check": "2026-08-24T04:59:50.139839",
+  "last_huggingface_check": "2026-08-24T04:59:50.640554",
+  "last_reddit_check": "2026-08-24T04:59:50.509058",
+  "last_rss_check": "2026-08-24T04:59:51.555479",
+  "last_ransomware_check": "2026-08-24T04:59:51.062014",
+  "last_leak_check": "2026-08-24T04:59:50.540359",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10098,21 +10098,21 @@
     "2026-08-21": 112,
     "2026-08-22": 135,
     "2026-08-23": 52,
-    "2026-08-24": 8
+    "2026-08-24": 10
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 4,
+  "runs_today": 5,
   "last_run_date": "2026-08-24",
-  "last_exploitdb_check": "2026-08-24T04:06:47.654067",
-  "last_darkweb_check": "2026-08-24T04:06:48.674862",
-  "last_cisa_check": "2026-08-24T04:06:47.432121",
-  "last_osint_check": "2026-08-24T04:06:47.330707",
-  "last_redteam_check": "2026-08-24T04:06:47.392089",
-  "last_github_poc_check": "2026-08-24T04:06:47.602903",
-  "last_projectdiscovery_check": "2026-08-24T04:06:48.597573",
-  "last_telegram_check": "2026-08-24T04:06:48.074860",
-  "last_papers_check": "2026-08-24T04:06:48.792677",
-  "last_bugbounty_check": "2026-08-24T04:06:51.597648"
+  "last_exploitdb_check": "2026-08-24T04:59:49.417845",
+  "last_darkweb_check": "2026-08-24T04:59:50.636811",
+  "last_cisa_check": "2026-08-24T04:59:49.188136",
+  "last_osint_check": "2026-08-24T04:59:49.815425",
+  "last_redteam_check": "2026-08-24T04:59:49.901226",
+  "last_github_poc_check": "2026-08-24T04:59:50.251862",
+  "last_projectdiscovery_check": "2026-08-24T04:59:50.324302",
+  "last_telegram_check": "2026-08-24T04:59:50.548795",
+  "last_papers_check": "2026-08-24T04:59:51.239809",
+  "last_bugbounty_check": "2026-08-24T04:59:54.078285"
 }
