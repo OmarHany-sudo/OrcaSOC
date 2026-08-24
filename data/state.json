@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-24T00:38:38.459351",
+  "last_run": "2026-08-24T02:12:49.003842",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/BiiTts/CVE-2026-58138-Conductor-Unauth-RCE",
-    "https://huggingface.co/dazeb2/Gemma-4-12B-redteam-v4.1",
     "https://huggingface.co/hacnho/jax-export-unordered-effects-fanout-dos-poc",
     "https://huggingface.co/SeanJIE250/olmo3-7b-think-csf",
     "https://lists.apache.org/thread/jy09xjlzn6r2qwvqoph8vcmf959yq68v",
@@ -5001,11 +4999,11 @@
     "https://github.com/Greejith-k/SourceCodester-Class-and-Exam-Timetabling-System-1.0-CVE-2026-/tree/main",
     "https://gitlab.com/ongresinc/stackgres/-/work_items/3177",
     "https://gitlab.com/gitlab-org/gitlab/-/work_items/601596",
-    "https://github.com/EmilStenstrom/justhtml/security/advisories/GHSA-r8cj-3554-33mr"
+    "https://github.com/EmilStenstrom/justhtml/security/advisories/GHSA-r8cj-3554-33mr",
+    "https://arxiv.org/abs/2608.21259v1",
+    "https://github.com/EmilStenstrom/justhtml/security/advisories/GHSA-c9vm-hv86-f23r"
   ],
   "processed_hashes": [
-    "3e1141b29f45b3a5",
-    "4053e1c0a0a589b2",
     "16c69254c85068e0",
     "4519a736e34f730d",
     "ecc9a8f9cda8ccd0",
@@ -10003,16 +10001,18 @@
     "1d6ee903ad5f4ada",
     "0640f37efbdc8093",
     "95fbd53a4e8595c3",
-    "2e8c81ba3862893e"
+    "2e8c81ba3862893e",
+    "12e27a9b9343afb7",
+    "e83eb6e18fc82728"
   ],
-  "last_cve_check": "2026-08-24T00:38:16.978078",
+  "last_cve_check": "2026-08-24T02:12:23.519490",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-24T00:38:18.458980",
-  "last_huggingface_check": "2026-08-24T00:38:20.704106",
-  "last_reddit_check": "2026-08-24T00:38:18.802940",
-  "last_rss_check": "2026-08-24T00:38:19.718330",
-  "last_ransomware_check": "2026-08-24T00:38:19.620963",
-  "last_leak_check": "2026-08-24T00:38:19.080616",
+  "last_github_check": "2026-08-24T02:12:24.687302",
+  "last_huggingface_check": "2026-08-24T02:12:25.409897",
+  "last_reddit_check": "2026-08-24T02:12:25.212874",
+  "last_rss_check": "2026-08-24T02:12:25.488144",
+  "last_ransomware_check": "2026-08-24T02:12:25.516651",
+  "last_leak_check": "2026-08-24T02:12:25.236084",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10098,21 +10098,21 @@
     "2026-08-21": 112,
     "2026-08-22": 135,
     "2026-08-23": 52,
-    "2026-08-24": 5
+    "2026-08-24": 7
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 1,
+  "runs_today": 2,
   "last_run_date": "2026-08-24",
-  "last_exploitdb_check": "2026-08-24T00:38:17.416476",
-  "last_darkweb_check": "2026-08-24T00:38:19.148390",
-  "last_cisa_check": "2026-08-24T00:38:17.129410",
-  "last_osint_check": "2026-08-24T00:38:17.948354",
-  "last_redteam_check": "2026-08-24T00:38:17.923797",
-  "last_github_poc_check": "2026-08-24T00:38:18.389181",
-  "last_projectdiscovery_check": "2026-08-24T00:38:18.945585",
-  "last_telegram_check": "2026-08-24T00:38:18.879723",
-  "last_papers_check": "2026-08-24T00:38:19.382171",
-  "last_bugbounty_check": "2026-08-24T00:38:22.630108"
+  "last_exploitdb_check": "2026-08-24T02:12:23.862646",
+  "last_darkweb_check": "2026-08-24T02:12:25.287979",
+  "last_cisa_check": "2026-08-24T02:12:23.633945",
+  "last_osint_check": "2026-08-24T02:12:24.393600",
+  "last_redteam_check": "2026-08-24T02:12:24.460714",
+  "last_github_poc_check": "2026-08-24T02:12:24.792096",
+  "last_projectdiscovery_check": "2026-08-24T02:12:25.071220",
+  "last_telegram_check": "2026-08-24T02:12:25.109068",
+  "last_papers_check": "2026-08-24T02:12:25.770444",
+  "last_bugbounty_check": "2026-08-24T02:12:28.664076"
 }
