@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-24T10:40:30.368770",
+  "last_run": "2026-08-24T11:07:47.258558",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://lists.apache.org/thread/wlt2no8bw45zl1w8byop4zfqphldf5j0",
     "https://github.com/coollabsio/coolify/security/advisories/GHSA-9pp4-wcmj-rq73",
     "https://github.com/coollabsio/coolify/security/advisories/GHSA-qfcc-2fm3-9q42",
     "https://huggingface.co/dazeb2/Qwen3.5-4B-redteam-v4.1",
@@ -5001,10 +5000,10 @@
     "https://metacpan.org/release/PAULDOOM/Apache-AppSamurai-1.01/source/lib/Apache/AppSamurai.pm#L1446-1533",
     "https://github.com/Upforce/OSINT-Automation-Tool",
     "https://huggingface.co/knakul242/agent-context-guardrail-primary",
-    "https://huggingface.co/knakul242/agent-context-guardrail-primary-retrain-experimental"
+    "https://huggingface.co/knakul242/agent-context-guardrail-primary-retrain-experimental",
+    "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/"
   ],
   "processed_hashes": [
-    "fe586eda2ed697b7",
     "e9a7e8433854fb14",
     "7d31d3db51cde0b7",
     "7281de6161de1dd1",
@@ -10003,16 +10002,17 @@
     "154aa04ef64e2431",
     "3ae678e3c4a0201a",
     "6a3e25c4f9052a53",
-    "e24d83f31028be7c"
+    "e24d83f31028be7c",
+    "a13d964215b7d651"
   ],
-  "last_cve_check": "2026-08-24T10:40:07.794039",
+  "last_cve_check": "2026-08-24T11:07:23.830916",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-24T10:40:08.792471",
-  "last_huggingface_check": "2026-08-24T10:40:10.406372",
-  "last_reddit_check": "2026-08-24T10:40:09.135910",
-  "last_rss_check": "2026-08-24T10:40:09.468683",
-  "last_ransomware_check": "2026-08-24T10:40:09.763702",
-  "last_leak_check": "2026-08-24T10:40:09.304431",
+  "last_github_check": "2026-08-24T11:07:24.916920",
+  "last_huggingface_check": "2026-08-24T11:07:26.604847",
+  "last_reddit_check": "2026-08-24T11:07:25.192798",
+  "last_rss_check": "2026-08-24T11:07:25.611659",
+  "last_ransomware_check": "2026-08-24T11:07:25.863925",
+  "last_leak_check": "2026-08-24T11:07:25.424063",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10098,21 +10098,21 @@
     "2026-08-21": 112,
     "2026-08-22": 135,
     "2026-08-23": 52,
-    "2026-08-24": 17
+    "2026-08-24": 18
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 12,
+  "runs_today": 13,
   "last_run_date": "2026-08-24",
-  "last_exploitdb_check": "2026-08-24T10:40:08.331768",
-  "last_darkweb_check": "2026-08-24T10:40:09.520375",
-  "last_cisa_check": "2026-08-24T10:40:07.994810",
-  "last_osint_check": "2026-08-24T10:40:08.523543",
-  "last_redteam_check": "2026-08-24T10:40:08.460642",
-  "last_github_poc_check": "2026-08-24T10:40:08.852639",
-  "last_projectdiscovery_check": "2026-08-24T10:40:09.762585",
-  "last_telegram_check": "2026-08-24T10:40:09.209914",
-  "last_papers_check": "2026-08-24T10:40:10.009142",
-  "last_bugbounty_check": "2026-08-24T10:40:12.733813"
+  "last_exploitdb_check": "2026-08-24T11:07:24.170596",
+  "last_darkweb_check": "2026-08-24T11:07:25.470453",
+  "last_cisa_check": "2026-08-24T11:07:23.942179",
+  "last_osint_check": "2026-08-24T11:07:24.577305",
+  "last_redteam_check": "2026-08-24T11:07:24.573490",
+  "last_github_poc_check": "2026-08-24T11:07:24.865443",
+  "last_projectdiscovery_check": "2026-08-24T11:07:25.401180",
+  "last_telegram_check": "2026-08-24T11:07:25.252110",
+  "last_papers_check": "2026-08-24T11:07:25.874401",
+  "last_bugbounty_check": "2026-08-24T11:07:28.692349"
 }
