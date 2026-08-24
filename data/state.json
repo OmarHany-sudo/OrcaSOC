@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-24T20:56:58.798827",
+  "last_run": "2026-08-24T21:20:21.126754",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://plugins.trac.wordpress.org/browser/export-user-data/tags/2.2.6/library/core/helper.php#L171",
     "https://wpscan.com/vulnerability/117853ca-0fd3-4bfa-ad60-799eb5c77bdf/",
     "https://huggingface.co/Kingman007/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
     "https://access.redhat.com/errata/RHSA-2026:30333",
@@ -5001,10 +5000,10 @@
     "https://huggingface.co/RedHatAI/deberta-v3-base-prompt-injection-v2",
     "https://github.com/iwcyberops/IW-Arsenal",
     "https://github.com/exceljs/exceljs",
-    "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/"
+    "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
+    "https://github.com/OlivierLaflamme/UniBLEed"
   ],
   "processed_hashes": [
-    "6990ea6e0491b557",
     "6c4074b4c3e52337",
     "7bedf1286002af73",
     "bd199e5fb3fc3168",
@@ -10003,16 +10002,17 @@
     "9c28ea2acb999313",
     "59a7d08e409869c1",
     "fa28484e1494d496",
-    "eb85ce1e8f3d1c23"
+    "eb85ce1e8f3d1c23",
+    "bfb9ffd51db0b7d9"
   ],
-  "last_cve_check": "2026-08-24T20:56:33.053577",
+  "last_cve_check": "2026-08-24T21:19:48.501225",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-24T20:56:34.294939",
-  "last_huggingface_check": "2026-08-24T20:56:35.189073",
-  "last_reddit_check": "2026-08-24T20:56:34.752806",
-  "last_rss_check": "2026-08-24T20:56:34.748705",
-  "last_ransomware_check": "2026-08-24T20:56:35.039146",
-  "last_leak_check": "2026-08-24T20:56:34.627948",
+  "last_github_check": "2026-08-24T21:19:49.594053",
+  "last_huggingface_check": "2026-08-24T21:19:51.140133",
+  "last_reddit_check": "2026-08-24T21:19:50.142182",
+  "last_rss_check": "2026-08-24T21:19:50.041247",
+  "last_ransomware_check": "2026-08-24T21:19:50.485962",
+  "last_leak_check": "2026-08-24T21:19:50.079049",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10098,21 +10098,21 @@
     "2026-08-21": 112,
     "2026-08-22": 135,
     "2026-08-23": 52,
-    "2026-08-24": 33
+    "2026-08-24": 34
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 29,
+  "runs_today": 30,
   "last_run_date": "2026-08-24",
-  "last_exploitdb_check": "2026-08-24T20:56:33.321254",
-  "last_darkweb_check": "2026-08-24T20:56:34.800286",
-  "last_cisa_check": "2026-08-24T20:56:33.179510",
-  "last_osint_check": "2026-08-24T20:56:34.012698",
-  "last_redteam_check": "2026-08-24T20:56:34.119364",
-  "last_github_poc_check": "2026-08-24T20:56:34.230810",
-  "last_projectdiscovery_check": "2026-08-24T20:56:34.384407",
-  "last_telegram_check": "2026-08-24T20:56:34.611354",
-  "last_papers_check": "2026-08-24T20:56:35.257964",
-  "last_bugbounty_check": "2026-08-24T20:56:37.994971"
+  "last_exploitdb_check": "2026-08-24T21:19:48.917548",
+  "last_darkweb_check": "2026-08-24T21:19:50.215250",
+  "last_cisa_check": "2026-08-24T21:19:48.746059",
+  "last_osint_check": "2026-08-24T21:19:49.596679",
+  "last_redteam_check": "2026-08-24T21:19:49.441184",
+  "last_github_poc_check": "2026-08-24T21:19:49.622078",
+  "last_projectdiscovery_check": "2026-08-24T21:19:50.395427",
+  "last_telegram_check": "2026-08-24T21:19:49.915124",
+  "last_papers_check": "2026-08-24T21:19:50.944836",
+  "last_bugbounty_check": "2026-08-24T21:19:55.439142"
 }
