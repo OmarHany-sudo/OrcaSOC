@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-24T08:11:53.872784",
+  "last_run": "2026-08-24T09:03:24.677871",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/coollabsio/coolify/security/advisories/GHSA-w8wm-r924-f65v",
     "https://github.com/coollabsio/coolify/security/advisories/GHSA-mf8p-rj62-9f9m",
     "https://lists.apache.org/thread/dcjdcnnnww9hhdm016hr0l7hpw1bzjfp",
     "https://lists.apache.org/thread/wlt2no8bw45zl1w8byop4zfqphldf5j0",
@@ -5001,10 +5000,10 @@
     "https://github.com/EmilStenstrom/justhtml/security/advisories/GHSA-v7cf-c9rm-wm3j",
     "https://github.com/shivanshsahajpal22-dev/Red_Team_Toolkit",
     "https://candle-throne-f75.notion.site/Tenda-CH22-formexeCommand-396df0aa11858036b0cdf7a7562d4a67",
-    "https://metacpan.org/release/PAULDOOM/Apache-AppSamurai-1.01/source/lib/Apache/AppSamurai.pm#L1446-1533"
+    "https://metacpan.org/release/PAULDOOM/Apache-AppSamurai-1.01/source/lib/Apache/AppSamurai.pm#L1446-1533",
+    "https://github.com/Upforce/OSINT-Automation-Tool"
   ],
   "processed_hashes": [
-    "636ec312210db970",
     "62839c5937489118",
     "01c8133e6c517ecd",
     "fe586eda2ed697b7",
@@ -10003,16 +10002,17 @@
     "0f1ad7270bca40b1",
     "831a25b83e50003a",
     "ca34ed7a78ee924e",
-    "154aa04ef64e2431"
+    "154aa04ef64e2431",
+    "3ae678e3c4a0201a"
   ],
-  "last_cve_check": "2026-08-24T08:11:14.526611",
+  "last_cve_check": "2026-08-24T09:02:56.522859",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-24T08:11:15.649506",
-  "last_huggingface_check": "2026-08-24T08:11:18.680300",
-  "last_reddit_check": "2026-08-24T08:11:15.773184",
-  "last_rss_check": "2026-08-24T08:11:17.164410",
-  "last_ransomware_check": "2026-08-24T08:11:16.757868",
-  "last_leak_check": "2026-08-24T08:11:16.101362",
+  "last_github_check": "2026-08-24T09:02:56.922897",
+  "last_huggingface_check": "2026-08-24T09:03:00.245574",
+  "last_reddit_check": "2026-08-24T09:02:57.258285",
+  "last_rss_check": "2026-08-24T09:02:57.123881",
+  "last_ransomware_check": "2026-08-24T09:02:58.099205",
+  "last_leak_check": "2026-08-24T09:02:57.382535",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10098,21 +10098,21 @@
     "2026-08-21": 112,
     "2026-08-22": 135,
     "2026-08-23": 52,
-    "2026-08-24": 14
+    "2026-08-24": 15
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 9,
+  "runs_today": 10,
   "last_run_date": "2026-08-24",
-  "last_exploitdb_check": "2026-08-24T08:11:15.136983",
-  "last_darkweb_check": "2026-08-24T08:11:16.780034",
-  "last_cisa_check": "2026-08-24T08:11:14.744413",
-  "last_osint_check": "2026-08-24T08:11:15.406300",
-  "last_redteam_check": "2026-08-24T08:11:15.257849",
-  "last_github_poc_check": "2026-08-24T08:11:15.488856",
-  "last_projectdiscovery_check": "2026-08-24T08:11:16.720268",
-  "last_telegram_check": "2026-08-24T08:11:16.091607",
-  "last_papers_check": "2026-08-24T08:11:17.297337",
-  "last_bugbounty_check": "2026-08-24T08:11:22.725389"
+  "last_exploitdb_check": "2026-08-24T09:02:56.616551",
+  "last_darkweb_check": "2026-08-24T09:02:58.077440",
+  "last_cisa_check": "2026-08-24T09:02:56.563188",
+  "last_osint_check": "2026-08-24T09:02:56.375219",
+  "last_redteam_check": "2026-08-24T09:02:56.628160",
+  "last_github_poc_check": "2026-08-24T09:02:58.029396",
+  "last_projectdiscovery_check": "2026-08-24T09:02:58.249730",
+  "last_telegram_check": "2026-08-24T09:02:57.622060",
+  "last_papers_check": "2026-08-24T09:02:58.333753",
+  "last_bugbounty_check": "2026-08-24T09:03:01.010117"
 }
