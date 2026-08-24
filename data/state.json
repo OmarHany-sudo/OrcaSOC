@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-24T14:26:20.957830",
+  "last_run": "2026-08-24T15:08:56.357941",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/EIPStackGroup/OpENer",
-    "https://github.com/Samsung/escargot/commit/9e8084ecc2f68e8584d389414c3f37fda12dab7d",
     "https://github.com/davenardella/snap7",
     "https://github.com/mz-automation/lib60870",
     "https://github.com/zephyrproject-rtos/zephyr/commit/6f363ec6f7fd6ae9ed7ca2ae66fd9c82dce31c59",
@@ -5001,11 +4999,11 @@
     "https://github.com/biniamf/pocs/blob/main/libwebsockets-lecp-lecp_parse-cbor_pos_oob_write/poc_lecp_cbor_pos_oob.c",
     "https://github.com/GhostManager/Ghostwriter",
     "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
-    "https://github.com/Dolibarr/dolibarr/commit/9b5229ef3a9b58d00252d327936b022fb739f149"
+    "https://github.com/Dolibarr/dolibarr/commit/9b5229ef3a9b58d00252d327936b022fb739f149",
+    "https://github.com/Cyber-VulNova/vulnova-observatory",
+    "https://huggingface.co/RedHatAI/deberta-v3-base-prompt-injection-v2"
   ],
   "processed_hashes": [
-    "238673e69076c3b9",
-    "ae0c0e88af982a9b",
     "c57ad06ec5057edb",
     "98b373df64b10095",
     "77194580272e90f3",
@@ -10003,16 +10001,18 @@
     "42ed2fb06882b0b2",
     "09b74d55d11e4bac",
     "29ae222fbb2f5a98",
-    "4fb9b6df1713c722"
+    "4fb9b6df1713c722",
+    "a1c32d9a0e5e98e1",
+    "9c28ea2acb999313"
   ],
-  "last_cve_check": "2026-08-24T14:25:55.542570",
+  "last_cve_check": "2026-08-24T15:08:31.719508",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-24T14:25:56.729244",
-  "last_huggingface_check": "2026-08-24T14:25:58.467973",
-  "last_reddit_check": "2026-08-24T14:25:57.143500",
-  "last_rss_check": "2026-08-24T14:25:57.712455",
-  "last_ransomware_check": "2026-08-24T14:25:57.627018",
-  "last_leak_check": "2026-08-24T14:25:57.317614",
+  "last_github_check": "2026-08-24T15:08:32.827514",
+  "last_huggingface_check": "2026-08-24T15:08:33.812912",
+  "last_reddit_check": "2026-08-24T15:08:33.224647",
+  "last_rss_check": "2026-08-24T15:08:33.397110",
+  "last_ransomware_check": "2026-08-24T15:08:33.762863",
+  "last_leak_check": "2026-08-24T15:08:33.365936",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10098,21 +10098,21 @@
     "2026-08-21": 112,
     "2026-08-22": 135,
     "2026-08-23": 52,
-    "2026-08-24": 28
+    "2026-08-24": 30
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 18,
+  "runs_today": 19,
   "last_run_date": "2026-08-24",
-  "last_exploitdb_check": "2026-08-24T14:25:55.806080",
-  "last_darkweb_check": "2026-08-24T14:25:57.365121",
-  "last_cisa_check": "2026-08-24T14:25:55.664552",
-  "last_osint_check": "2026-08-24T14:25:56.630621",
-  "last_redteam_check": "2026-08-24T14:25:56.731272",
-  "last_github_poc_check": "2026-08-24T14:25:56.902239",
-  "last_projectdiscovery_check": "2026-08-24T14:25:57.034076",
-  "last_telegram_check": "2026-08-24T14:25:57.270104",
-  "last_papers_check": "2026-08-24T14:25:57.970228",
-  "last_bugbounty_check": "2026-08-24T14:26:00.685144"
+  "last_exploitdb_check": "2026-08-24T15:08:32.183528",
+  "last_darkweb_check": "2026-08-24T15:08:33.456943",
+  "last_cisa_check": "2026-08-24T15:08:31.949789",
+  "last_osint_check": "2026-08-24T15:08:32.783965",
+  "last_redteam_check": "2026-08-24T15:08:32.730054",
+  "last_github_poc_check": "2026-08-24T15:08:32.697532",
+  "last_projectdiscovery_check": "2026-08-24T15:08:35.529758",
+  "last_telegram_check": "2026-08-24T15:08:33.146226",
+  "last_papers_check": "2026-08-24T15:08:34.164395",
+  "last_bugbounty_check": "2026-08-24T15:08:36.441733"
 }
