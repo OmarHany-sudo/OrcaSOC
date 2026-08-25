@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-25T14:27:50.061989",
+  "last_run": "2026-08-25T15:13:48.598755",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://docs.github.com/en/enterprise-server@3.17/admin/release-notes#3.17.17-features",
-    "https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-181-02.json",
     "https://www.ibm.com/support/pages/node/7277546",
     "https://www.ibm.com/support/pages/node/7277970",
     "https://www.ibm.com/support/pages/node/7277801",
@@ -5001,11 +4999,11 @@
     "https://access.redhat.com/errata/RHSA-2026:59135",
     "https://github.com/zephyrproject-rtos/zephyr/commit/fe47dbca080957c425383cc1d5bdc7d48a41d4a5",
     "https://tim-doc.atlassian.net/wiki/spaces/eng/pages/230981636/Release+Notes",
-    "https://github.com/zephyrproject-rtos/zephyr/commit/ab35eaccec5976f05c196f176d0c32885754496f"
+    "https://github.com/zephyrproject-rtos/zephyr/commit/ab35eaccec5976f05c196f176d0c32885754496f",
+    "https://github.com/verm-collab/Networkwalks-B082-week-2-project-on-reconnaissance-footprinting-and-vulnerability-assessment-",
+    "https://huggingface.co/C0d3Mast3r/honeySwarm_log_analyzer"
   ],
   "processed_hashes": [
-    "4e3f70f5286547ef",
-    "0656f1b6a2e55be5",
     "c98c99d8c5d3a8af",
     "e4254afcdd1bf5f7",
     "e27d49ebc69c0ae0",
@@ -10003,16 +10001,18 @@
     "52e31c59ffe76cca",
     "bc16dfcb87a39a23",
     "403ed02bd7e33f31",
-    "17c1375f77d2d6b3"
+    "17c1375f77d2d6b3",
+    "47f4e163b4dd38c4",
+    "86bd4084dd241cd5"
   ],
-  "last_cve_check": "2026-08-25T14:27:11.251824",
+  "last_cve_check": "2026-08-25T15:13:07.985182",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-25T14:27:12.829941",
-  "last_huggingface_check": "2026-08-25T14:27:15.497283",
-  "last_reddit_check": "2026-08-25T14:27:13.667397",
-  "last_rss_check": "2026-08-25T14:27:13.541555",
-  "last_ransomware_check": "2026-08-25T14:27:14.139986",
-  "last_leak_check": "2026-08-25T14:27:13.520480",
+  "last_github_check": "2026-08-25T15:13:09.203708",
+  "last_huggingface_check": "2026-08-25T15:13:10.947254",
+  "last_reddit_check": "2026-08-25T15:13:09.575183",
+  "last_rss_check": "2026-08-25T15:13:09.414327",
+  "last_ransomware_check": "2026-08-25T15:13:09.989665",
+  "last_leak_check": "2026-08-25T15:13:09.744778",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10099,21 +10099,21 @@
     "2026-08-22": 135,
     "2026-08-23": 52,
     "2026-08-24": 40,
-    "2026-08-25": 75
+    "2026-08-25": 77
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 20,
+  "runs_today": 21,
   "last_run_date": "2026-08-25",
-  "last_exploitdb_check": "2026-08-25T14:27:11.922418",
-  "last_darkweb_check": "2026-08-25T14:27:13.811608",
-  "last_cisa_check": "2026-08-25T14:27:11.524079",
-  "last_osint_check": "2026-08-25T14:27:12.498437",
-  "last_redteam_check": "2026-08-25T14:27:12.461948",
-  "last_github_poc_check": "2026-08-25T14:27:12.808865",
-  "last_projectdiscovery_check": "2026-08-25T14:27:14.336482",
-  "last_telegram_check": "2026-08-25T14:27:13.238595",
-  "last_papers_check": "2026-08-25T14:27:14.756463",
-  "last_bugbounty_check": "2026-08-25T14:27:16.963803"
+  "last_exploitdb_check": "2026-08-25T15:13:08.456656",
+  "last_darkweb_check": "2026-08-25T15:13:09.688260",
+  "last_cisa_check": "2026-08-25T15:13:08.198858",
+  "last_osint_check": "2026-08-25T15:13:09.052130",
+  "last_redteam_check": "2026-08-25T15:13:09.001591",
+  "last_github_poc_check": "2026-08-25T15:13:09.278440",
+  "last_projectdiscovery_check": "2026-08-25T15:13:09.633323",
+  "last_telegram_check": "2026-08-25T15:13:09.632978",
+  "last_papers_check": "2026-08-25T15:13:10.478908",
+  "last_bugbounty_check": "2026-08-25T15:13:15.584676"
 }
