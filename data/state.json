@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-25T05:56:07.620166",
+  "last_run": "2026-08-25T06:27:38.554411",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://lists.apache.org/thread/nhkmbdym61yp6wwy0dny8w1p46sm87kr",
-    "https://ajaxloadmore.com/add-ons/filters/",
     "https://access.redhat.com/security/cve/CVE-2026-4629",
     "https://access.redhat.com/security/cve/CVE-2026-12388",
     "https://github.com/ebrunet001/osint-researcher-claude",
@@ -5001,11 +4999,11 @@
     "https://github.com/microwaveabi/vul/issues/89",
     "https://github.com/microwaveabi/vul/issues/12",
     "https://github.com/canonical/lxd/security/advisories/GHSA-q39m-8fx9-42fv",
-    "https://filecenter.deltaww.com/news/download/doc/Delta-PCSA-2026-00015_DIAEnergie%20SQL%20Injection%20Vulberabilities_v1.0.pdf"
+    "https://filecenter.deltaww.com/news/download/doc/Delta-PCSA-2026-00015_DIAEnergie%20SQL%20Injection%20Vulberabilities_v1.0.pdf",
+    "https://github.com/spring-projects/security-advisories/security/advisories/GHSA-747c-jhq3-w433",
+    "https://github.com/gohugoio/hugo"
   ],
   "processed_hashes": [
-    "4b7344945cdf7aa2",
-    "996d7048c89ce666",
     "83f1c6df5ef2da43",
     "d08dbd47dd78964f",
     "d54ef307cda65068",
@@ -10003,16 +10001,18 @@
     "e8a0423decc22546",
     "995283afc85be629",
     "9122bdb3ca56ee67",
-    "cf3b529fa0c71747"
+    "cf3b529fa0c71747",
+    "1810a28d20708609",
+    "ca0910be4d19e6ee"
   ],
-  "last_cve_check": "2026-08-25T05:55:48.086236",
+  "last_cve_check": "2026-08-25T06:27:07.690959",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-25T05:55:48.954663",
-  "last_huggingface_check": "2026-08-25T05:55:52.197288",
-  "last_reddit_check": "2026-08-25T05:55:49.348922",
-  "last_rss_check": "2026-08-25T05:55:50.705282",
-  "last_ransomware_check": "2026-08-25T05:55:50.269371",
-  "last_leak_check": "2026-08-25T05:55:49.572397",
+  "last_github_check": "2026-08-25T06:27:08.867011",
+  "last_huggingface_check": "2026-08-25T06:27:11.534771",
+  "last_reddit_check": "2026-08-25T06:27:09.612466",
+  "last_rss_check": "2026-08-25T06:27:10.143092",
+  "last_ransomware_check": "2026-08-25T06:27:10.193119",
+  "last_leak_check": "2026-08-25T06:27:09.458493",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10099,21 +10099,21 @@
     "2026-08-22": 135,
     "2026-08-23": 52,
     "2026-08-24": 40,
-    "2026-08-25": 21
+    "2026-08-25": 23
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 7,
+  "runs_today": 8,
   "last_run_date": "2026-08-25",
-  "last_exploitdb_check": "2026-08-25T05:55:48.431529",
-  "last_darkweb_check": "2026-08-25T05:55:50.295332",
-  "last_cisa_check": "2026-08-25T05:55:48.270328",
-  "last_osint_check": "2026-08-25T05:55:48.627057",
-  "last_redteam_check": "2026-08-25T05:55:48.512935",
-  "last_github_poc_check": "2026-08-25T05:55:48.930525",
-  "last_projectdiscovery_check": "2026-08-25T05:55:50.243053",
-  "last_telegram_check": "2026-08-25T05:55:49.376909",
-  "last_papers_check": "2026-08-25T05:55:50.728921",
-  "last_bugbounty_check": "2026-08-25T05:55:52.806862"
+  "last_exploitdb_check": "2026-08-25T06:27:08.167589",
+  "last_darkweb_check": "2026-08-25T06:27:10.030597",
+  "last_cisa_check": "2026-08-25T06:27:07.971258",
+  "last_osint_check": "2026-08-25T06:27:08.397033",
+  "last_redteam_check": "2026-08-25T06:27:08.461935",
+  "last_github_poc_check": "2026-08-25T06:27:08.909136",
+  "last_projectdiscovery_check": "2026-08-25T06:27:09.871459",
+  "last_telegram_check": "2026-08-25T06:27:09.270428",
+  "last_papers_check": "2026-08-25T06:27:11.349221",
+  "last_bugbounty_check": "2026-08-25T06:27:13.485586"
 }
