@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-25T08:06:59.539238",
+  "last_run": "2026-08-25T08:58:41.953192",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0467",
     "https://www.twcert.org.tw/en/cp-139-11012-63761-2.html",
     "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
     "https://github.com/sanko/Net-BitTorrent.pm/security/advisories/GHSA-mv44-v82p-89xv",
@@ -5001,10 +5000,10 @@
     "https://github.com/microwaveabi/vul/issues/5",
     "https://github.com/microwaveabi/vul/issues/47",
     "https://github.com/Ashmmmmmmmmmmmmmmmmmmmmmmmmm/crockTail",
-    "https://huggingface.co/ApolloRaines/Sharona_Q27B-R_CodeSecurity"
+    "https://huggingface.co/ApolloRaines/Sharona_Q27B-R_CodeSecurity",
+    "https://patchstack.com/database/wordpress/theme/tonda/vulnerability/wordpress-tonda-theme-2-6-local-file-inclusion-vulnerability?_s_id=cve"
   ],
   "processed_hashes": [
-    "f026635e01b22e17",
     "a99ff53dad0c1b74",
     "a51dfa1b9247a2b0",
     "719cae4eb1e47ce4",
@@ -10003,16 +10002,17 @@
     "f67e7c0dd2ca82b6",
     "cdaec1112d1f5da4",
     "504e8f10473422f8",
-    "229b77fd0e32810b"
+    "229b77fd0e32810b",
+    "f4055c48bfa5043d"
   ],
-  "last_cve_check": "2026-08-25T08:06:29.150535",
+  "last_cve_check": "2026-08-25T08:58:14.009060",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-25T08:06:29.840214",
-  "last_huggingface_check": "2026-08-25T08:06:33.589913",
-  "last_reddit_check": "2026-08-25T08:06:30.184859",
-  "last_rss_check": "2026-08-25T08:06:30.016391",
-  "last_ransomware_check": "2026-08-25T08:06:30.676470",
-  "last_leak_check": "2026-08-25T08:06:30.146365",
+  "last_github_check": "2026-08-25T08:58:15.264677",
+  "last_huggingface_check": "2026-08-25T08:58:16.113847",
+  "last_reddit_check": "2026-08-25T08:58:15.792373",
+  "last_rss_check": "2026-08-25T08:58:15.672531",
+  "last_ransomware_check": "2026-08-25T08:58:15.989802",
+  "last_leak_check": "2026-08-25T08:58:15.697439",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10099,21 +10099,21 @@
     "2026-08-22": 135,
     "2026-08-23": 52,
     "2026-08-24": 40,
-    "2026-08-25": 28
+    "2026-08-25": 29
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 10,
+  "runs_today": 11,
   "last_run_date": "2026-08-25",
-  "last_exploitdb_check": "2026-08-25T08:06:29.331749",
-  "last_darkweb_check": "2026-08-25T08:06:30.444857",
-  "last_cisa_check": "2026-08-25T08:06:29.254483",
-  "last_osint_check": "2026-08-25T08:06:29.401816",
-  "last_redteam_check": "2026-08-25T08:06:29.376379",
-  "last_github_poc_check": "2026-08-25T08:06:29.841836",
-  "last_projectdiscovery_check": "2026-08-25T08:06:30.639652",
-  "last_telegram_check": "2026-08-25T08:06:30.393072",
-  "last_papers_check": "2026-08-25T08:06:30.889698",
-  "last_bugbounty_check": "2026-08-25T08:06:34.955420"
+  "last_exploitdb_check": "2026-08-25T08:58:14.249294",
+  "last_darkweb_check": "2026-08-25T08:58:15.781649",
+  "last_cisa_check": "2026-08-25T08:58:14.160180",
+  "last_osint_check": "2026-08-25T08:58:14.889640",
+  "last_redteam_check": "2026-08-25T08:58:14.756226",
+  "last_github_poc_check": "2026-08-25T08:58:15.278664",
+  "last_projectdiscovery_check": "2026-08-25T08:58:15.500920",
+  "last_telegram_check": "2026-08-25T08:58:15.610082",
+  "last_papers_check": "2026-08-25T08:58:16.315473",
+  "last_bugbounty_check": "2026-08-25T08:58:18.740368"
 }
