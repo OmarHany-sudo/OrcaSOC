@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-24T23:57:19.408652",
+  "last_run": "2026-08-25T00:38:12.033706",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
-    "https://github.com/dfirdeferred/LDAP-Extended-Control-Tools",
     "https://huggingface.co/Kiliver/RavenX-CyberAgent-Qwen3.6-35B-A3B-Opus-4.7-OpenMythos-Pentester-BugHunter-RATH-GGUF",
     "https://www.nokia.com/we-are-nokia/security/product-security-advisory/cve-2025-24815/",
     "https://www.nokia.com/we-are-nokia/security/product-security-advisory/cve-2025-24816/",
@@ -5001,11 +4999,11 @@
     "https://github.com/provectus/kafka-ui/",
     "https://github.com/7wkajk/CVE-VUL/blob/main/107.md",
     "https://github.com/AdminSafe/CVE/issues/10",
-    "https://github.com/7wkajk/CVE-VUL/blob/main/108.md"
+    "https://github.com/7wkajk/CVE-VUL/blob/main/108.md",
+    "https://github.com/jqwidgets/jQWidgets/",
+    "http://docs.velociraptor.app/announcements/advisories/cve-2026-19200/"
   ],
   "processed_hashes": [
-    "67d6e118e3be528e",
-    "a65617021b129262",
     "933fb7123a5af926",
     "cc98ad94ad7695d2",
     "3772e9040bf3e9fb",
@@ -10003,16 +10001,18 @@
     "2109b1902c9ac1cb",
     "7bb6fbbb6bf5eb45",
     "41bc83078a07ac42",
-    "8254fa065ee5b87c"
+    "8254fa065ee5b87c",
+    "a0da70c000c9edc4",
+    "26cc3e87eea3f574"
   ],
-  "last_cve_check": "2026-08-24T23:56:49.152389",
+  "last_cve_check": "2026-08-25T00:37:39.958818",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-24T23:56:50.271969",
-  "last_huggingface_check": "2026-08-24T23:56:51.370350",
-  "last_reddit_check": "2026-08-24T23:56:50.617693",
-  "last_rss_check": "2026-08-24T23:56:50.867438",
-  "last_ransomware_check": "2026-08-24T23:56:51.323078",
-  "last_leak_check": "2026-08-24T23:56:50.604014",
+  "last_github_check": "2026-08-25T00:37:41.150494",
+  "last_huggingface_check": "2026-08-25T00:37:45.635825",
+  "last_reddit_check": "2026-08-25T00:37:41.670712",
+  "last_rss_check": "2026-08-25T00:37:41.556619",
+  "last_ransomware_check": "2026-08-25T00:37:42.248653",
+  "last_leak_check": "2026-08-25T00:37:41.767702",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10098,21 +10098,22 @@
     "2026-08-21": 112,
     "2026-08-22": 135,
     "2026-08-23": 52,
-    "2026-08-24": 40
+    "2026-08-24": 40,
+    "2026-08-25": 2
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 36,
-  "last_run_date": "2026-08-24",
-  "last_exploitdb_check": "2026-08-24T23:56:49.548193",
-  "last_darkweb_check": "2026-08-24T23:56:50.664418",
-  "last_cisa_check": "2026-08-24T23:56:49.340254",
-  "last_osint_check": "2026-08-24T23:56:50.191557",
-  "last_redteam_check": "2026-08-24T23:56:50.121472",
-  "last_github_poc_check": "2026-08-24T23:56:50.200961",
-  "last_projectdiscovery_check": "2026-08-24T23:56:50.419226",
-  "last_telegram_check": "2026-08-24T23:56:50.551752",
-  "last_papers_check": "2026-08-24T23:56:51.489658",
-  "last_bugbounty_check": "2026-08-24T23:56:59.168336"
+  "runs_today": 1,
+  "last_run_date": "2026-08-25",
+  "last_exploitdb_check": "2026-08-25T00:37:40.400666",
+  "last_darkweb_check": "2026-08-25T00:37:41.851491",
+  "last_cisa_check": "2026-08-25T00:37:40.096515",
+  "last_osint_check": "2026-08-25T00:37:40.771813",
+  "last_redteam_check": "2026-08-25T00:37:40.694372",
+  "last_github_poc_check": "2026-08-25T00:37:41.229071",
+  "last_projectdiscovery_check": "2026-08-25T00:37:42.098574",
+  "last_telegram_check": "2026-08-25T00:37:41.773962",
+  "last_papers_check": "2026-08-25T00:37:42.141074",
+  "last_bugbounty_check": "2026-08-25T00:37:45.068545"
 }
