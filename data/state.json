@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-25T10:33:41.541957",
+  "last_run": "2026-08-25T11:05:21.903328",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://huggingface.co/XMB480/OmniPhish-Ensemble",
-    "https://github.com/HKUDS/Vibe-Trading/pull/241",
     "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
     "https://github.com/woodpecker-ci/woodpecker/commit/98faae778c953678944996c89ed99307d2f16a3d",
     "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
@@ -5001,11 +4999,11 @@
     "https://patchstack.com/database/wordpress/plugin/super-forms/vulnerability/wordpress-super-forms-plugin-6-3-315-arbitrary-file-download-vulnerability?_s_id=cve",
     "https://patchstack.com/database/wordpress/plugin/bravepopup-pro/vulnerability/wordpress-brave-conversion-engine-pro-plugin-0-8-6-cross-site-scripting-xss-vulnerability?_s_id=cve",
     "https://patchstack.com/database/wordpress/plugin/tourmaster/vulnerability/wordpress-tourmaster-plugin-5-4-9-cross-site-scripting-xss-vulnerability?_s_id=cve",
-    "https://patchstack.com/database/wordpress/plugin/prolancer-element/vulnerability/wordpress-prolancer-element-plugin-1-4-8-broken-access-control-vulnerability?_s_id=cve"
+    "https://patchstack.com/database/wordpress/plugin/prolancer-element/vulnerability/wordpress-prolancer-element-plugin-1-4-8-broken-access-control-vulnerability?_s_id=cve",
+    "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
+    "https://patchstack.com/database/wordpress/plugin/events-made-easy/vulnerability/wordpress-events-made-easy-plugin-3-2-5-cross-site-scripting-xss-vulnerability?_s_id=cve"
   ],
   "processed_hashes": [
-    "12d79f8319255de3",
-    "c37bcc0804c377f2",
     "24a067084909b6c5",
     "85bc361491f0f5db",
     "f3d2d31cec65b215",
@@ -10003,16 +10001,18 @@
     "e80e6e1421143d29",
     "3d3d76b9ae7c971c",
     "ee70cbe130d7290c",
-    "7ccaaaf8a6ac863e"
+    "7ccaaaf8a6ac863e",
+    "df91d72fd43a0824",
+    "01909b0223aba09a"
   ],
-  "last_cve_check": "2026-08-25T10:33:07.779740",
+  "last_cve_check": "2026-08-25T11:04:40.182849",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-25T10:33:09.417224",
-  "last_huggingface_check": "2026-08-25T10:33:14.811905",
-  "last_reddit_check": "2026-08-25T10:33:09.636440",
-  "last_rss_check": "2026-08-25T10:33:09.566597",
-  "last_ransomware_check": "2026-08-25T10:33:10.081897",
-  "last_leak_check": "2026-08-25T10:33:09.605510",
+  "last_github_check": "2026-08-25T11:04:41.321673",
+  "last_huggingface_check": "2026-08-25T11:04:42.206388",
+  "last_reddit_check": "2026-08-25T11:04:41.634248",
+  "last_rss_check": "2026-08-25T11:04:42.127169",
+  "last_ransomware_check": "2026-08-25T11:04:44.231887",
+  "last_leak_check": "2026-08-25T11:04:41.842747",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10099,21 +10099,21 @@
     "2026-08-22": 135,
     "2026-08-23": 52,
     "2026-08-24": 40,
-    "2026-08-25": 40
+    "2026-08-25": 42
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 14,
+  "runs_today": 15,
   "last_run_date": "2026-08-25",
-  "last_exploitdb_check": "2026-08-25T10:33:08.030570",
-  "last_darkweb_check": "2026-08-25T10:33:09.691023",
-  "last_cisa_check": "2026-08-25T10:33:07.905834",
-  "last_osint_check": "2026-08-25T10:33:08.747042",
-  "last_redteam_check": "2026-08-25T10:33:08.755928",
-  "last_github_poc_check": "2026-08-25T10:33:09.220585",
-  "last_projectdiscovery_check": "2026-08-25T10:33:09.464796",
-  "last_telegram_check": "2026-08-25T10:33:09.919474",
-  "last_papers_check": "2026-08-25T10:33:10.137290",
-  "last_bugbounty_check": "2026-08-25T10:33:15.625213"
+  "last_exploitdb_check": "2026-08-25T11:04:40.473278",
+  "last_darkweb_check": "2026-08-25T11:04:41.891142",
+  "last_cisa_check": "2026-08-25T11:04:40.284040",
+  "last_osint_check": "2026-08-25T11:04:40.980743",
+  "last_redteam_check": "2026-08-25T11:04:41.031406",
+  "last_github_poc_check": "2026-08-25T11:04:41.235430",
+  "last_projectdiscovery_check": "2026-08-25T11:04:41.767549",
+  "last_telegram_check": "2026-08-25T11:04:41.611206",
+  "last_papers_check": "2026-08-25T11:05:01.032013",
+  "last_bugbounty_check": "2026-08-25T11:04:45.417000"
 }
