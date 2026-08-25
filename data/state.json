@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-25T21:19:07.918609",
+  "last_run": "2026-08-25T21:52:27.978878",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://huggingface.co/hacnho/protobuf-monitoredresourcemetadata-user-labels-dos-poc",
-    "https://elm-chan.org/fsw/ff/",
     "https://huggingface.co/yangmail2002/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
     "https://www.darkreading.com/vulnerabilities-threats/anthropic-s-ai-finds-bugs-ibm-bets-5b-it-can-fix-them-",
     "https://access.redhat.com/security/cve/CVE-2026-23537",
@@ -5001,11 +4999,11 @@
     "https://patchstack.com/database/wordpress/plugin/wplegalpages/vulnerability/wordpress-wplegalpages-plugin-3-7-0-broken-authentication-vulnerability?_s_id=cve",
     "https://patchstack.com/database/wordpress/plugin/toolset-blocks/vulnerability/wordpress-toolset-blocks-plugin-1-6-26-cross-site-scripting-xss-vulnerability?_s_id=cve",
     "https://patchstack.com/database/wordpress/plugin/event-tickets/vulnerability/wordpress-event-tickets-plugin-5-29-2-1-cross-site-scripting-xss-vulnerability?_s_id=cve",
-    "https://github.com/AcademySoftwareFoundation/openexr/commit/45521f92104373b5c850f27f2d4659ab6759e848"
+    "https://github.com/AcademySoftwareFoundation/openexr/commit/45521f92104373b5c850f27f2d4659ab6759e848",
+    "https://patchstack.com/database/wordpress/plugin/boost/vulnerability/wordpress-boost-plugin-2-0-4-cross-site-scripting-xss-vulnerability?_s_id=cve",
+    "https://patchstack.com/database/wordpress/plugin/automatorwp/vulnerability/wordpress-automatorwp-plugin-5-8-3-broken-access-control-vulnerability?_s_id=cve"
   ],
   "processed_hashes": [
-    "22ec4d274c744196",
-    "34e2f7ee53fd53ef",
     "f2a6e9b01563e631",
     "b121842f1bd9e34d",
     "e13fe40d48315022",
@@ -10003,16 +10001,18 @@
     "9360a6a95d588c23",
     "a1e7b26ab8ce5643",
     "90ae306ce27ca0de",
-    "6e2f43aad61e6c1b"
+    "6e2f43aad61e6c1b",
+    "88d47d4313c6ffb4",
+    "f25cff91fd1c9301"
   ],
-  "last_cve_check": "2026-08-25T21:18:32.744209",
+  "last_cve_check": "2026-08-25T21:51:53.019066",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-25T21:18:34.212672",
-  "last_huggingface_check": "2026-08-25T21:18:36.453393",
-  "last_reddit_check": "2026-08-25T21:18:34.805027",
-  "last_rss_check": "2026-08-25T21:18:34.729591",
-  "last_ransomware_check": "2026-08-25T21:18:35.278031",
-  "last_leak_check": "2026-08-25T21:18:34.742911",
+  "last_github_check": "2026-08-25T21:51:54.954908",
+  "last_huggingface_check": "2026-08-25T21:51:59.152309",
+  "last_reddit_check": "2026-08-25T21:51:55.136990",
+  "last_rss_check": "2026-08-25T21:51:54.633398",
+  "last_ransomware_check": "2026-08-25T21:51:55.737119",
+  "last_leak_check": "2026-08-25T21:51:55.121617",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10099,21 +10099,21 @@
     "2026-08-22": 135,
     "2026-08-23": 52,
     "2026-08-24": 40,
-    "2026-08-25": 143
+    "2026-08-25": 145
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 32,
+  "runs_today": 33,
   "last_run_date": "2026-08-25",
-  "last_exploitdb_check": "2026-08-25T21:18:33.215892",
-  "last_darkweb_check": "2026-08-25T21:18:34.931642",
-  "last_cisa_check": "2026-08-25T21:18:32.930160",
-  "last_osint_check": "2026-08-25T21:18:33.967413",
-  "last_redteam_check": "2026-08-25T21:18:33.907849",
-  "last_github_poc_check": "2026-08-25T21:18:34.080872",
-  "last_projectdiscovery_check": "2026-08-25T21:18:34.861053",
-  "last_telegram_check": "2026-08-25T21:18:34.544732",
-  "last_papers_check": "2026-08-25T21:18:35.587009",
-  "last_bugbounty_check": "2026-08-25T21:18:38.680916"
+  "last_exploitdb_check": "2026-08-25T21:51:53.367237",
+  "last_darkweb_check": "2026-08-25T21:51:55.204269",
+  "last_cisa_check": "2026-08-25T21:51:53.191768",
+  "last_osint_check": "2026-08-25T21:51:54.429854",
+  "last_redteam_check": "2026-08-25T21:51:54.454773",
+  "last_github_poc_check": "2026-08-25T21:51:54.748435",
+  "last_projectdiscovery_check": "2026-08-25T21:51:54.922455",
+  "last_telegram_check": "2026-08-25T21:51:55.271692",
+  "last_papers_check": "2026-08-25T21:51:56.077932",
+  "last_bugbounty_check": "2026-08-25T21:51:58.668257"
 }
