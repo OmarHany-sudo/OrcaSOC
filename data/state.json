@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-25T23:05:18.996623",
+  "last_run": "2026-08-25T23:39:33.487630",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://huggingface.co/falakme/Falak-Orion-1-32B",
     "https://gist.github.com/cyberinforepo/d5b2771d82e1b31b8fc1c33052e08dad",
     "https://hackerone.com/reports/3766455",
     "https://www.dell.com/support/kbdoc/en-us/000473690/dsa-2026-258",
@@ -5001,10 +5000,10 @@
     "https://plugins.trac.wordpress.org/browser/events-manager/tags/7.2.3.1/classes/em-event.php#L1720",
     "https://github.com/vrana/adminer/security/advisories/GHSA-gmx3-g29w-77wf",
     "https://github.com/vrana/adminer/security/advisories/GHSA-6pg3-chwq-wgqc",
-    "https://github.com/AcademySoftwareFoundation/openexr/security/advisories/GHSA-mff9-68x3-h8rh"
+    "https://github.com/AcademySoftwareFoundation/openexr/security/advisories/GHSA-mff9-68x3-h8rh",
+    "https://github.com/getgrav/grav/security/advisories/GHSA-x929-528m-vx2m"
   ],
   "processed_hashes": [
-    "27dba056764e3930",
     "154ef3b94f0ae81e",
     "d338b74b7e82c088",
     "598e0f02207afa5f",
@@ -10003,16 +10002,17 @@
     "b739ecc32ddfa0ec",
     "64fd3a17469ec488",
     "26c5429bab0e74e8",
-    "9038fd8a2fd794a9"
+    "9038fd8a2fd794a9",
+    "889729cf54fc72a4"
   ],
-  "last_cve_check": "2026-08-25T23:04:48.934751",
+  "last_cve_check": "2026-08-25T23:36:50.118223",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-25T23:04:50.224194",
-  "last_huggingface_check": "2026-08-25T23:04:51.027114",
-  "last_reddit_check": "2026-08-25T23:04:50.657234",
-  "last_rss_check": "2026-08-25T23:04:50.726793",
-  "last_ransomware_check": "2026-08-25T23:04:50.929306",
-  "last_leak_check": "2026-08-25T23:04:50.538356",
+  "last_github_check": "2026-08-25T23:36:51.562855",
+  "last_huggingface_check": "2026-08-25T23:36:55.249530",
+  "last_reddit_check": "2026-08-25T23:36:51.918926",
+  "last_rss_check": "2026-08-25T23:36:51.725751",
+  "last_ransomware_check": "2026-08-25T23:36:52.812519",
+  "last_leak_check": "2026-08-25T23:36:52.085084",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10099,21 +10099,21 @@
     "2026-08-22": 135,
     "2026-08-23": 52,
     "2026-08-24": 40,
-    "2026-08-25": 152
+    "2026-08-25": 153
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 36,
+  "runs_today": 37,
   "last_run_date": "2026-08-25",
-  "last_exploitdb_check": "2026-08-25T23:04:49.203595",
-  "last_darkweb_check": "2026-08-25T23:04:50.729645",
-  "last_cisa_check": "2026-08-25T23:04:49.037758",
-  "last_osint_check": "2026-08-25T23:04:50.094585",
-  "last_redteam_check": "2026-08-25T23:04:49.832520",
-  "last_github_poc_check": "2026-08-25T23:04:50.113157",
-  "last_projectdiscovery_check": "2026-08-25T23:04:50.351243",
-  "last_telegram_check": "2026-08-25T23:04:50.543553",
-  "last_papers_check": "2026-08-25T23:04:51.009112",
-  "last_bugbounty_check": "2026-08-25T23:04:56.351787"
+  "last_exploitdb_check": "2026-08-25T23:39:06.272477",
+  "last_darkweb_check": "2026-08-25T23:36:52.846975",
+  "last_cisa_check": "2026-08-25T23:36:50.290654",
+  "last_osint_check": "2026-08-25T23:36:51.407276",
+  "last_redteam_check": "2026-08-25T23:36:51.379424",
+  "last_github_poc_check": "2026-08-25T23:36:51.516635",
+  "last_projectdiscovery_check": "2026-08-25T23:36:52.913726",
+  "last_telegram_check": "2026-08-25T23:36:52.191201",
+  "last_papers_check": "2026-08-25T23:36:52.796639",
+  "last_bugbounty_check": "2026-08-25T23:36:55.590827"
 }
