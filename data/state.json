@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-08-25T16:32:45.777275",
+  "last_run": "2026-08-25T17:07:30.594154",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/akuma-QAQ/CVEreport/tree/main/518G/FUN_00416f28",
     "https://github.com/msgpack/msgpack-python/commit/2c56ddb5d0025ed481d962c0f5d62d19dec7476d",
     "https://github.com/iv-org/invidious/commit/77ad41678b45c4f6815940123f1796fc51259f45",
     "https://github.com/YunaiV/yudao-cloud/issues/315",
@@ -5001,10 +5000,10 @@
     "https://camel.apache.org/security/CVE-2026-66907.html",
     "https://camel.apache.org/security/CVE-2026-66908.html",
     "https://access.redhat.com/security/cve/CVE-2026-78465",
-    "https://github.com/rconfig/rconfig/releases/tag/core-8.2.13"
+    "https://github.com/rconfig/rconfig/releases/tag/core-8.2.13",
+    "https://github.com/pyshawon/CVE-Exploit-POC"
   ],
   "processed_hashes": [
-    "3a012ed0c73134a0",
     "b316821d934be152",
     "bb99a13bddf75ffb",
     "32aeca5a4ad97bd0",
@@ -10003,16 +10002,17 @@
     "993c14283995add4",
     "49cd2bb1bcadd890",
     "1b4ab65792b759cd",
-    "ce6544ae9585e2c6"
+    "ce6544ae9585e2c6",
+    "23c2b2a33fa40bd9"
   ],
-  "last_cve_check": "2026-08-25T16:32:04.189933",
+  "last_cve_check": "2026-08-25T17:07:00.880137",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-25T16:32:05.784174",
-  "last_huggingface_check": "2026-08-25T16:32:09.334854",
-  "last_reddit_check": "2026-08-25T16:32:06.664062",
-  "last_rss_check": "2026-08-25T16:32:06.541188",
-  "last_ransomware_check": "2026-08-25T16:32:07.373605",
-  "last_leak_check": "2026-08-25T16:32:06.553976",
+  "last_github_check": "2026-08-25T17:07:03.333636",
+  "last_huggingface_check": "2026-08-25T17:07:04.299022",
+  "last_reddit_check": "2026-08-25T17:07:03.375209",
+  "last_rss_check": "2026-08-25T17:07:06.175331",
+  "last_ransomware_check": "2026-08-25T17:07:03.775496",
+  "last_leak_check": "2026-08-25T17:07:03.647558",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10099,21 +10099,21 @@
     "2026-08-22": 135,
     "2026-08-23": 52,
     "2026-08-24": 40,
-    "2026-08-25": 91
+    "2026-08-25": 92
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 23,
+  "runs_today": 24,
   "last_run_date": "2026-08-25",
-  "last_exploitdb_check": "2026-08-25T16:32:04.948235",
-  "last_darkweb_check": "2026-08-25T16:32:06.831829",
-  "last_cisa_check": "2026-08-25T16:32:04.499571",
-  "last_osint_check": "2026-08-25T16:32:05.474446",
-  "last_redteam_check": "2026-08-25T16:32:05.489972",
-  "last_github_poc_check": "2026-08-25T16:32:05.695900",
-  "last_projectdiscovery_check": "2026-08-25T16:32:06.980290",
-  "last_telegram_check": "2026-08-25T16:32:06.202383",
-  "last_papers_check": "2026-08-25T16:32:07.314981",
-  "last_bugbounty_check": "2026-08-25T16:32:11.252334"
+  "last_exploitdb_check": "2026-08-25T17:07:01.397936",
+  "last_darkweb_check": "2026-08-25T17:07:03.702269",
+  "last_cisa_check": "2026-08-25T17:07:01.140980",
+  "last_osint_check": "2026-08-25T17:07:03.022690",
+  "last_redteam_check": "2026-08-25T17:07:01.937629",
+  "last_github_poc_check": "2026-08-25T17:07:02.335641",
+  "last_projectdiscovery_check": "2026-08-25T17:07:03.083061",
+  "last_telegram_check": "2026-08-25T17:07:03.411135",
+  "last_papers_check": "2026-08-25T17:07:03.899879",
+  "last_bugbounty_check": "2026-08-25T17:07:07.678307"
 }
