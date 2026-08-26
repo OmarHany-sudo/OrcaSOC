@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-26T05:24:32.106839",
+  "last_run": "2026-08-26T05:58:49.895153",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/api-platform/core/security/advisories/GHSA-9rjg-x2p2-h68h",
-    "https://aws.amazon.com/security/security-bulletins/2026-051-aws/",
     "https://github.com/NodeBB/NodeBB/blob/v4.13.2/src/activitypub/mocks.js",
     "https://github.com/xdan/jodit/security/advisories/GHSA-rxcw-mc6f-6hr3",
     "https://github.com/akuma-QAQ/CVEreport/blob/main/518G/FUN_00463bbc/README.md",
@@ -5001,11 +4999,11 @@
     "https://huggingface.co/joshuapenman/semantic-overlays-adapters",
     "https://plugins.trac.wordpress.org/browser/forminator/tags/1.56.0/assets/js/front/front.stripe.js#L1539",
     "https://plugins.trac.wordpress.org/browser/translatepress-multilingual/tags/3.2.6/assets/src/js/editor.vue#L909",
-    "https://www.3ds.com/trust-center/security/security-advisories/cve-2026-19851"
+    "https://www.3ds.com/trust-center/security/security-advisories/cve-2026-19851",
+    "https://plugins.trac.wordpress.org/browser/forminator/tags/1.55.1/admin/views/custom-form/entries/content-details.php#L232",
+    "https://github.com/maankatiktok53-collab/HAKIMIX"
   ],
   "processed_hashes": [
-    "8e57b42e448740a0",
-    "109b0fe8c49704e7",
     "914f6445ab7192aa",
     "03486179cbd68986",
     "f7f66525027d1ea3",
@@ -10003,16 +10001,18 @@
     "d3ec03536541e161",
     "b939da94465ec5a5",
     "fec595d61e275938",
-    "d89f380ad253faaa"
+    "d89f380ad253faaa",
+    "0c35859e4ed016de",
+    "3479c157b12af018"
   ],
-  "last_cve_check": "2026-08-26T05:24:07.291026",
+  "last_cve_check": "2026-08-26T05:58:15.902154",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-26T05:24:08.608194",
-  "last_huggingface_check": "2026-08-26T05:24:09.535242",
-  "last_reddit_check": "2026-08-26T05:24:09.056429",
-  "last_rss_check": "2026-08-26T05:24:09.220998",
-  "last_ransomware_check": "2026-08-26T05:24:09.443287",
-  "last_leak_check": "2026-08-26T05:24:09.081769",
+  "last_github_check": "2026-08-26T05:58:17.310958",
+  "last_huggingface_check": "2026-08-26T05:58:20.670058",
+  "last_reddit_check": "2026-08-26T05:58:18.168062",
+  "last_rss_check": "2026-08-26T05:58:18.143897",
+  "last_ransomware_check": "2026-08-26T05:58:18.726768",
+  "last_leak_check": "2026-08-26T05:58:18.010638",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10100,21 +10100,21 @@
     "2026-08-23": 52,
     "2026-08-24": 40,
     "2026-08-25": 153,
-    "2026-08-26": 27
+    "2026-08-26": 29
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 7,
+  "runs_today": 8,
   "last_run_date": "2026-08-26",
-  "last_exploitdb_check": "2026-08-26T05:24:07.611832",
-  "last_darkweb_check": "2026-08-26T05:24:09.130232",
-  "last_cisa_check": "2026-08-26T05:24:07.381921",
-  "last_osint_check": "2026-08-26T05:24:08.240673",
-  "last_redteam_check": "2026-08-26T05:24:08.137416",
-  "last_github_poc_check": "2026-08-26T05:24:08.590251",
-  "last_projectdiscovery_check": "2026-08-26T05:24:08.998048",
-  "last_telegram_check": "2026-08-26T05:24:08.925117",
-  "last_papers_check": "2026-08-26T05:24:09.169150",
-  "last_bugbounty_check": "2026-08-26T05:24:12.837422"
+  "last_exploitdb_check": "2026-08-26T05:58:16.608514",
+  "last_darkweb_check": "2026-08-26T05:58:18.310563",
+  "last_cisa_check": "2026-08-26T05:58:16.166560",
+  "last_osint_check": "2026-08-26T05:58:16.954770",
+  "last_redteam_check": "2026-08-26T05:58:16.983790",
+  "last_github_poc_check": "2026-08-26T05:58:17.269804",
+  "last_projectdiscovery_check": "2026-08-26T05:58:18.274497",
+  "last_telegram_check": "2026-08-26T05:58:17.699518",
+  "last_papers_check": "2026-08-26T05:58:18.927606",
+  "last_bugbounty_check": "2026-08-26T05:58:21.694746"
 }
