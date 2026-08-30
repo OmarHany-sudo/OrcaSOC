@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-08-30T19:35:33.998720",
+  "last_run": "2026-08-30T22:05:27.252308",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
-    "https://www.ciena.com/product-security",
     "https://huggingface.co/Nour-Fayed/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
     "https://github.com/owncloud/security-advisories/security/advisories/GHSA-4439-4wxm-c9px",
     "https://huggingface.co/CIRCL/vulnerability-severity-classification-chinese-macbert-base",
@@ -5001,11 +4999,11 @@
     "https://huggingface.co/entrick/Security-SLM-Gemma-4-E2B-it-GGUF",
     "https://app.notion.com/p/Stack-based-Buffer-Overflow-in-NASA-Trick-JSONVariableServer-via-Unbounded-sscanf-on-Network-Receive-39cbd773e51180e1917cd717b90b8bc8?source=copy_link",
     "https://vuldb.com/cve/CVE-2026-82480",
-    "https://vuldb.com/cve/CVE-2026-82479"
+    "https://vuldb.com/cve/CVE-2026-82479",
+    "https://github.com/InfoSec-DB/CVE-2026-60004-Gitea-RCE-PoC",
+    "https://github.com/Black-G7/OSINT-X"
   ],
   "processed_hashes": [
-    "b98fab75d28d39dc",
-    "98c8b0d3a4cabab5",
     "bd43020950f22e95",
     "34cc61b46e71490a",
     "d7175cd9d5c80706",
@@ -10003,16 +10001,18 @@
     "36b1dbcb0a826bae",
     "f35fa4f1f106443a",
     "d7ca858170cb269a",
-    "81fc3d2c06a38b19"
+    "81fc3d2c06a38b19",
+    "97bbe924b15dc079",
+    "70eb377c94f427d2"
   ],
-  "last_cve_check": "2026-08-30T19:35:11.475054",
+  "last_cve_check": "2026-08-30T22:05:01.036179",
   "last_exploit_check": null,
-  "last_github_check": "2026-08-30T19:35:12.942129",
-  "last_huggingface_check": "2026-08-30T19:35:16.332543",
-  "last_reddit_check": "2026-08-30T19:35:13.405817",
-  "last_rss_check": "2026-08-30T19:35:13.289673",
-  "last_ransomware_check": "2026-08-30T19:35:14.010784",
-  "last_leak_check": "2026-08-30T19:35:13.538917",
+  "last_github_check": "2026-08-30T22:05:02.253401",
+  "last_huggingface_check": "2026-08-30T22:05:03.284012",
+  "last_reddit_check": "2026-08-30T22:05:02.693252",
+  "last_rss_check": "2026-08-30T22:05:02.797349",
+  "last_ransomware_check": "2026-08-30T22:05:03.126940",
+  "last_leak_check": "2026-08-30T22:05:02.598743",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10104,21 +10104,21 @@
     "2026-08-27": 29,
     "2026-08-28": 45,
     "2026-08-29": 67,
-    "2026-08-30": 47
+    "2026-08-30": 49
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 5,
+  "runs_today": 6,
   "last_run_date": "2026-08-30",
-  "last_exploitdb_check": "2026-08-30T19:35:11.980958",
-  "last_darkweb_check": "2026-08-30T19:35:13.627661",
-  "last_cisa_check": "2026-08-30T19:35:11.694040",
-  "last_osint_check": "2026-08-30T19:35:12.696600",
-  "last_redteam_check": "2026-08-30T19:35:12.547954",
-  "last_github_poc_check": "2026-08-30T19:35:12.789801",
-  "last_projectdiscovery_check": "2026-08-30T19:35:13.882358",
-  "last_telegram_check": "2026-08-30T19:35:13.375867",
-  "last_papers_check": "2026-08-30T19:35:15.309547",
-  "last_bugbounty_check": "2026-08-30T19:35:16.910723"
+  "last_exploitdb_check": "2026-08-30T22:05:01.326166",
+  "last_darkweb_check": "2026-08-30T22:05:02.757778",
+  "last_cisa_check": "2026-08-30T22:05:01.166428",
+  "last_osint_check": "2026-08-30T22:05:02.159868",
+  "last_redteam_check": "2026-08-30T22:05:02.021744",
+  "last_github_poc_check": "2026-08-30T22:05:02.382104",
+  "last_projectdiscovery_check": "2026-08-30T22:05:02.274711",
+  "last_telegram_check": "2026-08-30T22:05:02.562364",
+  "last_papers_check": "2026-08-30T22:05:03.535145",
+  "last_bugbounty_check": "2026-08-30T22:05:05.885834"
 }
