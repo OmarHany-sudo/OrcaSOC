@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-09-13T20:48:09.204704",
+  "last_run": "2026-09-13T22:40:24.197280",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/directus/directus/commit/7ba4efb97525d3af33570537c76e44baea767f13",
     "https://github.com/cloudreve/cloudreve/commit/ed20843dc3df20a25fcaf6b538647e11c4d68d87",
     "https://github.com/cloudreve/cloudreve/security/advisories/GHSA-w5fv-7x5q-g8qp",
     "https://github.com/cloudreve/cloudreve/commit/aaebf317a78f2413d74afd66c21a1f3143711312",
@@ -5001,10 +5000,10 @@
     "http://git.haproxy.org/?p=haproxy.git;a=commit;h=86a4ebc761a278838e8cb06f3a292282ba704c65",
     "https://wpscan.com/vulnerability/a4fbdeea-0d3b-466b-b4b6-4c4db277cd1d/",
     "https://huggingface.co/CobrIX/CobrIX-1.5-preview-Coder-Full-72B-A18B-GGUF",
-    "https://huggingface.co/CobrIX/CobrIX-1.5-preview-Coder-Full-72B-A18B"
+    "https://huggingface.co/CobrIX/CobrIX-1.5-preview-Coder-Full-72B-A18B",
+    "https://github.com/m4n14ck/Maldev-C"
   ],
   "processed_hashes": [
-    "c420ab4cb366a5ca",
     "ec1dce495c0a64eb",
     "acaff6416235a930",
     "b5c9d462d67939b1",
@@ -10003,16 +10002,17 @@
     "a240c3141264aa7d",
     "e532b0df775fc274",
     "943584bd9e884b24",
-    "ce5a2c7e05e15dd8"
+    "ce5a2c7e05e15dd8",
+    "511826129d4e4c7c"
   ],
-  "last_cve_check": "2026-09-13T20:47:22.349987",
+  "last_cve_check": "2026-09-13T22:39:47.766142",
   "last_exploit_check": null,
-  "last_github_check": "2026-09-13T20:47:23.745122",
-  "last_huggingface_check": "2026-09-13T20:47:29.055445",
-  "last_reddit_check": "2026-09-13T20:47:24.194253",
-  "last_rss_check": "2026-09-13T20:47:25.680859",
-  "last_ransomware_check": "2026-09-13T20:47:24.964789",
-  "last_leak_check": "2026-09-13T20:47:24.469357",
+  "last_github_check": "2026-09-13T22:39:48.712891",
+  "last_huggingface_check": "2026-09-13T22:39:50.200233",
+  "last_reddit_check": "2026-09-13T22:39:49.186768",
+  "last_rss_check": "2026-09-13T22:39:49.340490",
+  "last_ransomware_check": "2026-09-13T22:39:49.687884",
+  "last_leak_check": "2026-09-13T22:39:49.380753",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10118,21 +10118,21 @@
     "2026-09-10": 53,
     "2026-09-11": 99,
     "2026-09-12": 78,
-    "2026-09-13": 37
+    "2026-09-13": 38
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 6,
+  "runs_today": 7,
   "last_run_date": "2026-09-13",
-  "last_exploitdb_check": "2026-09-13T20:47:22.692747",
-  "last_darkweb_check": "2026-09-13T20:47:24.540735",
-  "last_cisa_check": "2026-09-13T20:47:22.538645",
-  "last_osint_check": "2026-09-13T20:47:23.558239",
-  "last_redteam_check": "2026-09-13T20:47:23.399092",
-  "last_github_poc_check": "2026-09-13T20:47:23.767002",
-  "last_projectdiscovery_check": "2026-09-13T20:47:24.451038",
-  "last_telegram_check": "2026-09-13T20:47:24.270659",
-  "last_papers_check": "2026-09-13T20:47:40.551985",
-  "last_bugbounty_check": "2026-09-13T20:47:28.014153"
+  "last_exploitdb_check": "2026-09-13T22:39:48.097015",
+  "last_darkweb_check": "2026-09-13T22:39:49.403090",
+  "last_cisa_check": "2026-09-13T22:39:47.881149",
+  "last_osint_check": "2026-09-13T22:39:48.790406",
+  "last_redteam_check": "2026-09-13T22:39:48.606886",
+  "last_github_poc_check": "2026-09-13T22:39:48.716375",
+  "last_projectdiscovery_check": "2026-09-13T22:39:49.286484",
+  "last_telegram_check": "2026-09-13T22:39:49.137709",
+  "last_papers_check": "2026-09-13T22:40:04.777916",
+  "last_bugbounty_check": "2026-09-13T22:39:52.628051"
 }
