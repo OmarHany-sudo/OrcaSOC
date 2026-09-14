@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-09-13T22:40:24.197280",
+  "last_run": "2026-09-14T00:27:53.917790",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/cloudreve/cloudreve/commit/ed20843dc3df20a25fcaf6b538647e11c4d68d87",
-    "https://github.com/cloudreve/cloudreve/security/advisories/GHSA-w5fv-7x5q-g8qp",
     "https://github.com/cloudreve/cloudreve/commit/aaebf317a78f2413d74afd66c21a1f3143711312",
     "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
     "https://github.com/metabase/metabase/security/advisories/GHSA-r6x2-rchx-q9g9",
@@ -5001,11 +4999,11 @@
     "https://wpscan.com/vulnerability/a4fbdeea-0d3b-466b-b4b6-4c4db277cd1d/",
     "https://huggingface.co/CobrIX/CobrIX-1.5-preview-Coder-Full-72B-A18B-GGUF",
     "https://huggingface.co/CobrIX/CobrIX-1.5-preview-Coder-Full-72B-A18B",
-    "https://github.com/m4n14ck/Maldev-C"
+    "https://github.com/m4n14ck/Maldev-C",
+    "https://wpscan.com/vulnerability/0fb4ec40-3f92-4c7e-8877-8898b355d78d/",
+    "https://wpscan.com/vulnerability/49546064-5663-40f8-be7c-4f3faa31fa9a/"
   ],
   "processed_hashes": [
-    "ec1dce495c0a64eb",
-    "acaff6416235a930",
     "b5c9d462d67939b1",
     "4d48efd9160ce0fa",
     "73c67d3952ab3105",
@@ -10003,16 +10001,18 @@
     "e532b0df775fc274",
     "943584bd9e884b24",
     "ce5a2c7e05e15dd8",
-    "511826129d4e4c7c"
+    "511826129d4e4c7c",
+    "404119b0c9bddbde",
+    "f29c228c40a49598"
   ],
-  "last_cve_check": "2026-09-13T22:39:47.766142",
+  "last_cve_check": "2026-09-14T00:27:24.889356",
   "last_exploit_check": null,
-  "last_github_check": "2026-09-13T22:39:48.712891",
-  "last_huggingface_check": "2026-09-13T22:39:50.200233",
-  "last_reddit_check": "2026-09-13T22:39:49.186768",
-  "last_rss_check": "2026-09-13T22:39:49.340490",
-  "last_ransomware_check": "2026-09-13T22:39:49.687884",
-  "last_leak_check": "2026-09-13T22:39:49.380753",
+  "last_github_check": "2026-09-14T00:27:26.275850",
+  "last_huggingface_check": "2026-09-14T00:27:29.918119",
+  "last_reddit_check": "2026-09-14T00:27:26.665643",
+  "last_rss_check": "2026-09-14T00:27:27.775820",
+  "last_ransomware_check": "2026-09-14T00:27:28.375713",
+  "last_leak_check": "2026-09-14T00:27:27.623142",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10118,21 +10118,22 @@
     "2026-09-10": 53,
     "2026-09-11": 99,
     "2026-09-12": 78,
-    "2026-09-13": 38
+    "2026-09-13": 38,
+    "2026-09-14": 2
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 7,
-  "last_run_date": "2026-09-13",
-  "last_exploitdb_check": "2026-09-13T22:39:48.097015",
-  "last_darkweb_check": "2026-09-13T22:39:49.403090",
-  "last_cisa_check": "2026-09-13T22:39:47.881149",
-  "last_osint_check": "2026-09-13T22:39:48.790406",
-  "last_redteam_check": "2026-09-13T22:39:48.606886",
-  "last_github_poc_check": "2026-09-13T22:39:48.716375",
-  "last_projectdiscovery_check": "2026-09-13T22:39:49.286484",
-  "last_telegram_check": "2026-09-13T22:39:49.137709",
-  "last_papers_check": "2026-09-13T22:40:04.777916",
-  "last_bugbounty_check": "2026-09-13T22:39:52.628051"
+  "runs_today": 1,
+  "last_run_date": "2026-09-14",
+  "last_exploitdb_check": "2026-09-14T00:27:25.215287",
+  "last_darkweb_check": "2026-09-14T00:27:27.187783",
+  "last_cisa_check": "2026-09-14T00:27:24.993016",
+  "last_osint_check": "2026-09-14T00:27:25.798379",
+  "last_redteam_check": "2026-09-14T00:27:25.643070",
+  "last_github_poc_check": "2026-09-14T00:27:26.390911",
+  "last_projectdiscovery_check": "2026-09-14T00:27:26.829783",
+  "last_telegram_check": "2026-09-14T00:27:26.835705",
+  "last_papers_check": "2026-09-14T00:27:27.140347",
+  "last_bugbounty_check": "2026-09-14T00:27:30.321750"
 }
