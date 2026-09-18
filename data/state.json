@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-09-17T22:58:44.518621",
+  "last_run": "2026-09-18T00:57:02.699336",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://github.com/geo-chen/oss/blob/main/dendrite.md#finding-1-idor-in-post-account3piddelete-allows-any-authenticated-user-to-remove-any-other-users-third-party-identifier",
-    "https://cursor.com/",
     "https://access.redhat.com/security/cve/CVE-2026-16089",
     "https://docs.github.com/en/enterprise-server@3.17/admin/release-notes#3.17.18",
     "https://github.com/SigNoz/signoz/issues/11746",
@@ -5001,11 +4999,11 @@
     "https://github.com/djust-org/djust/releases/tag/v1.0.7",
     "https://docs.qualcomm.com/product/publicresources/securitybulletin/september-2026-bulletin.html",
     "https://trust.canva.com?tcuUid=43596908-8a36-4a18-b2e7-5c99b67ab38a",
-    "https://github.com/apple/containerization/security/advisories/GHSA-mx96-5vvg-x2mg"
+    "https://github.com/apple/containerization/security/advisories/GHSA-mx96-5vvg-x2mg",
+    "https://huggingface.co/LinHekaka/RedSage-Qwen3-8B-Ins",
+    "https://huggingface.co/cyberviser/hancock-pentest-v4"
   ],
   "processed_hashes": [
-    "54b6803f847b777e",
-    "8c02a66f7db2b984",
     "5a557472f51013f6",
     "3073223382e3f434",
     "6da37ce519b324d5",
@@ -10003,16 +10001,18 @@
     "037cb29d54a0f999",
     "6fc1c53dbdef7944",
     "2d88cc2388159187",
-    "732b72808da1c6c8"
+    "732b72808da1c6c8",
+    "2fa6d7af1dce5ec4",
+    "0716f49f0fd7382e"
   ],
-  "last_cve_check": "2026-09-17T22:58:05.121831",
+  "last_cve_check": "2026-09-18T00:56:37.502638",
   "last_exploit_check": null,
-  "last_github_check": "2026-09-17T22:58:06.400202",
-  "last_huggingface_check": "2026-09-17T22:58:07.494440",
-  "last_reddit_check": "2026-09-17T22:58:07.059554",
-  "last_rss_check": "2026-09-17T22:58:07.179424",
-  "last_ransomware_check": "2026-09-17T22:58:07.388174",
-  "last_leak_check": "2026-09-17T22:58:06.976193",
+  "last_github_check": "2026-09-18T00:56:38.815519",
+  "last_huggingface_check": "2026-09-18T00:56:42.243531",
+  "last_reddit_check": "2026-09-18T00:56:39.339406",
+  "last_rss_check": "2026-09-18T00:56:39.121788",
+  "last_ransomware_check": "2026-09-18T00:56:39.939870",
+  "last_leak_check": "2026-09-18T00:56:40.427099",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10122,21 +10122,22 @@
     "2026-09-14": 56,
     "2026-09-15": 64,
     "2026-09-16": 89,
-    "2026-09-17": 69
+    "2026-09-17": 69,
+    "2026-09-18": 2
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 6,
-  "last_run_date": "2026-09-17",
-  "last_exploitdb_check": "2026-09-17T22:58:05.510317",
-  "last_darkweb_check": "2026-09-17T22:58:07.128359",
-  "last_cisa_check": "2026-09-17T22:58:05.285114",
-  "last_osint_check": "2026-09-17T22:58:06.444708",
-  "last_redteam_check": "2026-09-17T22:58:05.930451",
-  "last_github_poc_check": "2026-09-17T22:58:06.410047",
-  "last_projectdiscovery_check": "2026-09-17T22:58:06.737947",
-  "last_telegram_check": "2026-09-17T22:58:06.831890",
-  "last_papers_check": "2026-09-17T22:58:07.961042",
-  "last_bugbounty_check": "2026-09-17T22:58:17.852625"
+  "runs_today": 1,
+  "last_run_date": "2026-09-18",
+  "last_exploitdb_check": "2026-09-18T00:56:37.926787",
+  "last_darkweb_check": "2026-09-18T00:56:39.823796",
+  "last_cisa_check": "2026-09-18T00:56:37.657770",
+  "last_osint_check": "2026-09-18T00:56:38.356000",
+  "last_redteam_check": "2026-09-18T00:56:38.357237",
+  "last_github_poc_check": "2026-09-18T00:56:38.930335",
+  "last_projectdiscovery_check": "2026-09-18T00:56:39.739754",
+  "last_telegram_check": "2026-09-18T00:56:39.342086",
+  "last_papers_check": "2026-09-18T00:56:40.508530",
+  "last_bugbounty_check": "2026-09-18T00:56:43.785246"
 }
