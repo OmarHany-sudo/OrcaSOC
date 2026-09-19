@@ -1,10 +1,10 @@
 {
   "total_subscribers": 0,
-  "alerts_24h": 7,
+  "alerts_24h": 15,
   "total_alerts": 100,
   "sources_count": 17,
-  "last_run": "2026-09-19T16:27:54.460106",
-  "cves_24h": 7,
+  "last_run": "2026-09-19T18:42:44.219387",
+  "cves_24h": 12,
   "exploits_24h": 0,
   "breaches_24h": 0,
   "ransomware_24h": 0,
