@@ -1,8 +1,7 @@
 {
-  "last_run": "2026-09-20T19:27:27.955203",
+  "last_run": "2026-09-20T21:43:21.860878",
   "last_update_id": 753263073,
   "processed_urls": [
-    "https://access.redhat.com/security/cve/CVE-2026-12080",
     "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
     "https://lists.apache.org/thread/nmzvz6gb2ldm30wvyk613r8dfrb6r8yx",
     "https://github.com/ci4-cms-erp/ci4ms/releases/tag/0.31.9.0",
@@ -5001,10 +5000,10 @@
     "https://github.com/Rudra-choudhary/SOAR-LITE",
     "https://forum.suricata.io/t/suricata-8-0-7-released/6467",
     "https://huggingface.co/maurorisonho/smol-autonomous-agent",
-    "https://github.com/zliang512/cve/issues/1"
+    "https://github.com/zliang512/cve/issues/1",
+    "https://github.com/akash0x00/zoneminder-1.29-1.30-rce-exploit"
   ],
   "processed_hashes": [
-    "21a1d2e041998b0f",
     "b17eead45e5016b6",
     "84e1adf396e1e761",
     "6b4561279a648cc7",
@@ -10003,16 +10002,17 @@
     "b4e8f37dc287938f",
     "7c0946acb012dc94",
     "942e808126545548",
-    "eeca0d381a1bef70"
+    "eeca0d381a1bef70",
+    "12fb35c5708bf808"
   ],
-  "last_cve_check": "2026-09-20T19:27:01.807764",
+  "last_cve_check": "2026-09-20T21:42:43.373095",
   "last_exploit_check": null,
-  "last_github_check": "2026-09-20T19:27:03.091915",
-  "last_huggingface_check": "2026-09-20T19:27:04.399950",
-  "last_reddit_check": "2026-09-20T19:27:03.565605",
-  "last_rss_check": "2026-09-20T19:27:03.938994",
-  "last_ransomware_check": "2026-09-20T19:27:03.967821",
-  "last_leak_check": "2026-09-20T19:27:03.870677",
+  "last_github_check": "2026-09-20T21:42:44.681536",
+  "last_huggingface_check": "2026-09-20T21:42:45.992146",
+  "last_reddit_check": "2026-09-20T21:42:45.141375",
+  "last_rss_check": "2026-09-20T21:42:45.197377",
+  "last_ransomware_check": "2026-09-20T21:42:45.405788",
+  "last_leak_check": "2026-09-20T21:42:44.913212",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10125,21 +10125,21 @@
     "2026-09-17": 69,
     "2026-09-18": 79,
     "2026-09-19": 92,
-    "2026-09-20": 33
+    "2026-09-20": 34
   },
   "total_alerts_sent": 100,
   "total_users_ever": 5,
   "version": "1.0.0",
-  "runs_today": 6,
+  "runs_today": 7,
   "last_run_date": "2026-09-20",
-  "last_exploitdb_check": "2026-09-20T19:27:02.150307",
-  "last_darkweb_check": "2026-09-20T19:27:03.945771",
-  "last_cisa_check": "2026-09-20T19:27:01.929915",
-  "last_osint_check": "2026-09-20T19:27:02.916195",
-  "last_redteam_check": "2026-09-20T19:27:02.945046",
-  "last_github_poc_check": "2026-09-20T19:27:03.215597",
-  "last_projectdiscovery_check": "2026-09-20T19:27:03.216928",
-  "last_telegram_check": "2026-09-20T19:27:03.523061",
-  "last_papers_check": "2026-09-20T19:27:04.680587",
-  "last_bugbounty_check": "2026-09-20T19:27:06.918248"
+  "last_exploitdb_check": "2026-09-20T21:42:43.615190",
+  "last_darkweb_check": "2026-09-20T21:42:45.225863",
+  "last_cisa_check": "2026-09-20T21:42:43.466722",
+  "last_osint_check": "2026-09-20T21:42:44.531839",
+  "last_redteam_check": "2026-09-20T21:42:44.510718",
+  "last_github_poc_check": "2026-09-20T21:42:44.623532",
+  "last_projectdiscovery_check": "2026-09-20T21:42:44.683075",
+  "last_telegram_check": "2026-09-20T21:42:44.995654",
+  "last_papers_check": "2026-09-20T21:43:01.352403",
+  "last_bugbounty_check": "2026-09-20T21:42:49.196052"
 }
