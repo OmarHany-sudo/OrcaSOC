@@ -1,9 +1,7 @@
 {
-  "last_run": "2026-10-09T23:33:35.138287",
+  "last_run": "2026-10-10T02:46:51.711590",
   "last_update_id": 753263075,
   "processed_urls": [
-    "https://github.com/perl-net-saml2/perl-Net-SAML2/commit/d916468586404518b8cf3c78dbd001cc1f1046a7.patch",
-    "https://karmainsecurity.com/KIS-2026-14",
     "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-0729",
     "https://karmainsecurity.com/KIS-2026-15",
     "https://github.com/perl-net-saml2/perl-Net-SAML2/commit/201fead7f42b83f40c84bf4a311a25b09acd18f9.patch",
@@ -5001,11 +4999,11 @@
     "https://github.com/FalkorDB/FalkorDB/commit/55d986f45ecd5d80f7a9e5e138e8b0f96535b48c",
     "https://wpscan.com/vulnerability/f5206366-2e9c-42d5-90b9-ddfaf39aa02f/",
     "https://github.com/FalkorDB/FalkorDB/commit/7d15431aadf37588fadc2578b90c3afb5e8daa94",
-    "https://backdropcms.org/security/backdrop-sa-core-2026-006"
+    "https://backdropcms.org/security/backdrop-sa-core-2026-006",
+    "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+    "https://huggingface.co/Bigchilli1978/reggie-v1-7b"
   ],
   "processed_hashes": [
-    "1f72f18c5c8f40c5",
-    "59bfc95ce591b402",
     "ef90581b804f6f62",
     "c40cc1493b91f98f",
     "6f78ae1a26f6aa5f",
@@ -10003,16 +10001,18 @@
     "3e0bcf99ba0248c8",
     "d81246f32f12e048",
     "a1bd341c3e5a4d22",
-    "42d100c48fc01401"
+    "42d100c48fc01401",
+    "517ef78999955b12",
+    "35cf3320b278c6bd"
   ],
-  "last_cve_check": "2026-10-09T23:33:00.212871",
+  "last_cve_check": "2026-10-10T02:46:20.652584",
   "last_exploit_check": null,
-  "last_github_check": "2026-10-09T23:33:01.631619",
-  "last_huggingface_check": "2026-10-09T23:33:04.670880",
-  "last_reddit_check": "2026-10-09T23:33:02.239322",
-  "last_rss_check": "2026-10-09T23:33:02.129501",
-  "last_ransomware_check": "2026-10-09T23:33:02.780661",
-  "last_leak_check": "2026-10-09T23:33:02.414614",
+  "last_github_check": "2026-10-10T02:46:21.938148",
+  "last_huggingface_check": "2026-10-10T02:46:27.039360",
+  "last_reddit_check": "2026-10-10T02:46:22.518851",
+  "last_rss_check": "2026-10-10T02:46:23.109980",
+  "last_ransomware_check": "2026-10-10T02:46:23.150276",
+  "last_leak_check": "2026-10-10T02:46:22.588007",
   "daily_counts": {
     "2026-06-01": 98,
     "2026-06-02": 76,
@@ -10144,21 +10144,22 @@
     "2026-10-06": 54,
     "2026-10-07": 69,
     "2026-10-08": 55,
-    "2026-10-09": 66
+    "2026-10-09": 66,
+    "2026-10-10": 2
   },
   "total_alerts_sent": 115,
   "total_users_ever": 6,
   "version": "1.0.0",
-  "runs_today": 5,
-  "last_run_date": "2026-10-09",
-  "last_exploitdb_check": "2026-10-09T23:33:00.686606",
-  "last_darkweb_check": "2026-10-09T23:33:02.340597",
-  "last_cisa_check": "2026-10-09T23:33:00.370704",
-  "last_osint_check": "2026-10-09T23:33:01.292489",
-  "last_redteam_check": "2026-10-09T23:33:01.381066",
-  "last_github_poc_check": "2026-10-09T23:33:01.590109",
-  "last_projectdiscovery_check": "2026-10-09T23:33:02.224271",
-  "last_telegram_check": "2026-10-09T23:33:01.984325",
-  "last_papers_check": "2026-10-09T23:33:03.101667",
-  "last_bugbounty_check": "2026-10-09T23:33:05.981845"
+  "runs_today": 1,
+  "last_run_date": "2026-10-10",
+  "last_exploitdb_check": "2026-10-10T02:46:21.169053",
+  "last_darkweb_check": "2026-10-10T02:46:22.736566",
+  "last_cisa_check": "2026-10-10T02:46:20.853364",
+  "last_osint_check": "2026-10-10T02:46:21.598442",
+  "last_redteam_check": "2026-10-10T02:46:20.950653",
+  "last_github_poc_check": "2026-10-10T02:46:22.013812",
+  "last_projectdiscovery_check": "2026-10-10T02:46:22.318020",
+  "last_telegram_check": "2026-10-10T02:46:22.523395",
+  "last_papers_check": "2026-10-10T02:46:23.483766",
+  "last_bugbounty_check": "2026-10-10T02:46:26.054580"
 }
